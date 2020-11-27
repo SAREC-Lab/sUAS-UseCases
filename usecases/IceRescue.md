@@ -44,7 +44,7 @@ The Drone Commander activates the delivery.
 
 ## Main Success Scenario
 
-1. Emergency responders [initiate area search](usecases/supporting/InitiateAreaSearch.md)
+1. Emergency responders [initiate area search](supporting/InitiateAreaSearch.md)
 2. The DroneResponse commander issues a command to start the mission.
 3. The UAV(s) **synchronized Takeoff [SPLC-1003].**
 4. The UAVs **perform\_search** **[SPLC-1002]**
