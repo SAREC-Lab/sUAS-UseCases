@@ -19,5 +19,5 @@ Please note: We are in the process of porting our use cases from dropbox to Gith
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
-|   SC1         | Initiate Area Search           | Coming soon |
+|   SC1         | Initiate Area Search           | [InitiateAreaSearch.md](usecases/supporting/InitiateAreaSearch.md) |
 |   SC2         | Candidate Victim Detected  | Coming soon|

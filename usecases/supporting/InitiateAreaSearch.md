@@ -8,6 +8,9 @@
 
 Define search area and allocate routes to UAV(s)
 
+**Invoked by**
+[IceRescue](../IceRescue.md)
+
 **Primary Actor**
 
 Drone Commander
