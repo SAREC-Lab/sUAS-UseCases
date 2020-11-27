@@ -57,9 +57,8 @@ The Drone Commander activates the delivery.
 
 ## Specific Exceptions
 1. In step 3, one of the UAVs fails to take-off.
-
-1.1 If a replacement UAV is flight-ready, it is dispatched in place of the failed UAV.
-1.2 If no replacement is available DroneResponse re-executes **initiate\_area\_search** [SPLC-1001] for the available UAVs and previously defined search area.
+    1.1 If a replacement UAV is flight-ready, it is dispatched in place of the failed UAV.
+    1.2 If no replacement is available DroneResponse re-executes **initiate\_area\_search** [SPLC-1001] for the available UAVs and previously defined search area.
 
 2. In step 4, the UAV detects a possible victim at a confidence level below _candidate\_victim\_detected_ threshold but above the lowest `ignore&#39; level.
 2.1 The UAV logs the alert including saved imagery
