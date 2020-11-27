@@ -56,27 +56,19 @@ The Drone Commander activates the delivery.
 10. The Drone Commander **ends\_mission**** [SPLC-1008]**.
 
 ## Specific Exceptions
-
 1. In step 3, one of the UAVs fails to take-off.
-
 1.1 If a replacement UAV is flight-ready, it is dispatched in place of the failed UAV.
-
 1.2 If no replacement is available DroneResponse re-executes **initiate\_area\_search** [SPLC-1001] for the available UAVs and previously defined search area.
 
-1. In step 4, the UAV detects a possible victim at a confidence level below _candidate\_victim\_detected_ threshold but above the lowest `ignore&#39; level.
+2. In step 4, the UAV detects a possible victim at a confidence level below _candidate\_victim\_detected_ threshold but above the lowest `ignore&#39; level.
+2.1 The UAV logs the alert including saved imagery
+2.2 DroneResponse saves the GPS coordinates of the sighting
+2.3 The UAV continues its currently assigned route.
+2.4 The back-up operator reviews the streamed imagery
+2.5 The back-up operator confirms that the sighting is not a victim.
 
-3.1 The UAV logs the alert including saved imagery
-
-3.2 DroneResponse saves the GPS coordinates of the sighting
-
-3.3 The UAV continues its currently assigned route.
-
-3.4 The back-up operator reviews the streamed imagery
-
-3.5 The back-up operator confirms that the sighting is not a victim.
-
-1. 5. In step 8, a communication failure occurs between DroneResponse and the Rescuers mobile device. (Now what?)
-2.
+3. In step 8, a communication failure occurs between DroneResponse and the Rescuers mobile device. (Now what?)
+tbd
 
 ## General Exceptions
 
@@ -84,21 +76,15 @@ The Drone Commander activates the delivery.
 2. At any time, a malfunction error is raised by a UAV in flight, DroneResponse executes the **Drone-in-flight Malfunction** (SPLC-2002) exception case.
 
 3. In step 5, the UAV detects a possible victim at a confidence level below victim\_detected threshold but above the lowest `ignore&#39; level.
-
 3.1 The UAV logs the alert including saved imagery
-
 3.2 DroneResponse saves the GPS coordinates of the sighting
-
 3.3 The UAV continues its currently assigned route.
-
 3.4 The back-up operator reviews the streamed imagery
-
 3.5 The back-up operator confirms that the sighting is not a victim.
 
-5. In step 8, a communication failure occurs between DroneResponse and the Rescuers mobile device. (Now what?)
+4. In step 8, a communication failure occurs between DroneResponse and the Rescuers mobile device. (Now what?)
 
 ![](RackMultipart20201127-4-1ifr7fe_html_1bd1a36d0e411cfb.gif)
 
 **Resources Used:**
 
-1.
