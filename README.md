@@ -1,7 +1,11 @@
 # Requirements-Driven Configuration of Emergency Response Missions with Small Aerial Vehicles
 Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
 
-Please note: We are in the process of porting our use cases from dropbox to Github.
+If you would like to use these use-cases we ask you to reference our paper: 
+Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Speybroeck, Michael Vierhauser:
+Requirements-driven configuration of emergency response missions with small aerial vehicles. SPLC (A) 2020: 26:1-26:12
+[bib.tex](SPLC2020.txt)
+
 
 *Main Use Cases*
 
@@ -17,7 +21,11 @@ Please note: We are in the process of porting our use cases from dropbox to Gith
 
 *Supporting Use Cases*
 
+Please note we are in the process of importing all supporting use cases.
+
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
 |   SC1         | Initiate Area Search           | [InitiateAreaSearch.md](usecases/supporting/InitiateAreaSearch.md) |
 |   SC2         | Candidate Victim Detected  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
+
+
