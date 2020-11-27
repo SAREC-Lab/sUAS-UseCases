@@ -1,6 +1,6 @@
 **DroneResponse Use Cases**
 
-**Use Case:** Fly to targeted location to sample water
+**Use Case:** Collect water samples
 
 **ID** : SLPC-15
 
