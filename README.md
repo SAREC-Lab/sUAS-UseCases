@@ -7,7 +7,7 @@ Please note: We are in the process of porting our use cases from dropbox to Gith
 
 | Use Case      | Description                 | Contrib. Stakeholders              | Main Use Case  |
 | ------------- |-------------                    | -----                              |            -----|    
-| UC1           | River Search & Rescue           | South Bend Firefighters |
+| UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/RiverRescue.md ) 
 | UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/IceRescue.md ) 
 | UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science |
 | UC4           |Traffic Accidents                |    South Bend Firefighters |
