@@ -57,6 +57,7 @@ The Drone Commander activates the delivery.
 
 ## Specific Exceptions
 1. In step 3, one of the UAVs fails to take-off.
+
 1.1 If a replacement UAV is flight-ready, it is dispatched in place of the failed UAV.
 1.2 If no replacement is available DroneResponse re-executes **initiate\_area\_search** [SPLC-1001] for the available UAVs and previously defined search area.
 
