@@ -16,7 +16,8 @@ Please note: We are in the process of porting our use cases from dropbox to Gith
 | UC7           | Air Sampling                    |    Environmental Scientists |
 
 *Supporting Use Cases*
-| Use Case      | Description                 |      | Link  |
+
+| Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
 |   SC1         | Initiate Area Search           | Coming soon |
 |   SC2         | Candidate Victim Detected  | Coming soon|
