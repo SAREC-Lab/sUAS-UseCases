@@ -10,7 +10,7 @@ Please note: We are in the process of porting our use cases from dropbox to Gith
 | UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/RiverRescue.md ) 
 | UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/IceRescue.md ) 
 | UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/DefibrillatorDelivery.md)
-| UC4           |Traffic Accidents                |    South Bend Firefighters |
+| UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/AccidentSurveillance.md)
 | UC5           | Structural Fires                |    South Bend Firefighters |
 | UC6           | Water Sampling                  |    Environmental Scientists |
 | UC7           | Air Sampling                    |    Environmental Scientists |
