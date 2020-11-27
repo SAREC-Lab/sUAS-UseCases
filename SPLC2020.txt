@@ -1,0 +1,21 @@
+@inproceedings{DBLP:conf/splc/Cleland-HuangAI20,
+  author    = {Jane Cleland{-}Huang and
+               Ankit Agrawal and
+               Md Nafee Al Islam and
+               Eric Tsai and
+               Maxime Van Speybroeck and
+               Michael Vierhauser},
+  title     = {Requirements-driven configuration of emergency response missions with
+               small aerial vehicles},
+  booktitle = {{SPLC} '20: 24th {ACM} International Systems and Software Product
+               Line Conference, Montreal, Quebec, Canada, October 19-23, 2020, Volume
+               {A}},
+  pages     = {26:1--26:12},
+  year      = {2020},
+  crossref  = {DBLP:conf/splc/2020a},
+  url       = {https://doi.org/10.1145/3382025.3414950},
+  doi       = {10.1145/3382025.3414950},
+  timestamp = {Thu, 29 Oct 2020 11:14:57 +0100},
+  biburl    = {https://dblp.org/rec/conf/splc/Cleland-HuangAI20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
