@@ -9,7 +9,7 @@
 UAV requests and receives victim confirmation or refutation from a human operator
 
 **Invoked by**
-[IceRescue.md](../usecases/IceRescue.md)
+[IceRescue](../IceRescue.md)
 
 **Rationale**
 The UAV has identified a victim at some degree of confidence and seeks confirmation from a human operator.
