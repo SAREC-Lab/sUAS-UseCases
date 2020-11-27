@@ -13,7 +13,7 @@ Please note: We are in the process of porting our use cases from dropbox to Gith
 | UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/AccidentSurveillance.md)
 | UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/StructuralFire.md)
 | UC6           | Water Sampling                  |    Environmental Scientists | [WaterSampling.md](usecases/WaterSampling.md)
-| UC7           | Air Sampling                    |    Environmental Scientists |
+| UC7           | Air Sampling                    |    Environmental Scientists | [AirSampling.md](usecases/AirSampling.md)
 
 *Supporting Use Cases*
 
