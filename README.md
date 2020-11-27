@@ -3,7 +3,7 @@ Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
 
 If you would like to use these use-cases we ask you to reference our paper: 
 Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Speybroeck, Michael Vierhauser:
-Requirements-driven configuration of emergency response missions with small aerial vehicles. SPLC (A) 2020: 26:1-26:12
+Requirements-driven configuration of emergency response missions with small aerial vehicles. Software Product Line Conference (SPLC) 2020: 26:1-26:12
 ([bib available here](SPLC2020.txt))
 
 
