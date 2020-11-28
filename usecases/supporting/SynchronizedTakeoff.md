@@ -8,7 +8,7 @@ A cohort of UAVs takeoff and fly to initial waypoints using coordinated flight p
 
 **Invoked by**
 
-[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md)
+[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md), [AccidentSurveillance](../main/AccidentSurveillance.md),[AirSampling](../main/AirSampling.md),[WaterSampling](../main/WaterSampling.md),[DefibrillatorDelivery](../main/DefibrillatorDelivery.md),[StructuralFire](../main/StructuralFire.md)
 
 **Rationale**
 Synchronized takeoff is needed so that UAVs don&#39;t collide when they take off and potentially cross paths on their way to their initial waypoints.
