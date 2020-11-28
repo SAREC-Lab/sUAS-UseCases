@@ -6,6 +6,8 @@ Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Spey
 ``Requirements-driven configuration of emergency response missions with small aerial vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12
 ([bib available here](SPLC2020.txt))
 
+Special thanks to the South Bend Fire Fighters for all of their input.
+
 Please note: The import and inter-linking of these uses cases is in progress.
 
 *Main Use Cases*
