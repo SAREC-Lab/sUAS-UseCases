@@ -7,6 +7,7 @@
 A cohort of UAVs takeoff and fly to initial waypoints using coordinated flight paths
 
 **Invoked by**
+
 [IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md)
 
 **Rationale**
