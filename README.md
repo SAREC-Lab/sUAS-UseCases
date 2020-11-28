@@ -1,10 +1,11 @@
-# Requirements-Driven Configuration of Emergency Response Missions with Small Aerial Vehicles
-Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
+# Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
 
-If you would like to use these use-cases we ask you to reference our paper: 
-Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Speybroeck, Michael Vierhauser:
-``Requirements-driven configuration of emergency response missions with small aerial vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12
+If you would like to use these use-cases we ask you to reference our paper: <br><br>
+**Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Speybroeck, Michael Vierhauser:
+``Requirements-driven configuration of emergency response missions with small aerial vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12**
 ([bib available here](SPLC2020.txt))
+
+Special thanks to the South Bend Fire Fighters for all of their input.
 
 Please note: The import and inter-linking of these uses cases is in progress.
 
@@ -32,6 +33,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 |   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
 |   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 |   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
+|  SC9 | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
 
 *Ubiquitous Exception Cases*
 
