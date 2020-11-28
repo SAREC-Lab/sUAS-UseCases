@@ -26,6 +26,11 @@ Please note we are in the process of importing all supporting use cases.
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
 |   SC1         | Initiate Area Search           | [InitiateAreaSearch.md](usecases/supporting/InitiateAreaSearch.md) |
-|   SC2         | Candidate Victim Detected  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
+|   SC2         | Victim Confirmation  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
+|   SC3         | Active Tracking  | [ActiveTracking.md](usecases/supporting/ActiveTracking.md)|
+|   SC4         | Perform Search | [PerformSearch.md](usecases/supporting/PerformSearch.md)|
+|   SC5        | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
+|   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
+|   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 
 
