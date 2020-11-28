@@ -34,6 +34,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 |   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 |   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
 |  SC9 | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
+|  SC10 | Reserved Airspace |[SafePassage.md](usecases/supporting/SafePassage.md)|
 
 *Ubiquitous Exception Cases*
 
