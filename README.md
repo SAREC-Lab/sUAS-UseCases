@@ -33,8 +33,10 @@ Please note: The import and inter-linking of these uses cases is in progress.
 |   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 |   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
 
-*Exception Cases*
+*Ubiquitous Exception Cases*
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
 |   EC1         | Loss of signal         |  |
+
+
