@@ -31,6 +31,6 @@ Please note we are in the process of importing all supporting use cases.
 |   SC4         | Perform Search | [PerformSearch.md](usecases/supporting/PerformSearch.md)|
 |   SC5        | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
 |   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
-|   SC7        | End Mission  | |
+|   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 
 
