@@ -2,11 +2,12 @@
 
 **Use Case:** Synchronized Takeoff
 
-**ID** : SPLC-1003
-
 **Description**
 
 A cohort of UAVs takeoff and fly to initial waypoints using coordinated flight paths
+
+**Invoked by**
+[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md)
 
 **Rationale**
 Synchronized takeoff is needed so that UAVs don&#39;t collide when they take off and potentially cross paths on their way to their initial waypoints.
