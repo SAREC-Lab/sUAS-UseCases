@@ -4,7 +4,7 @@
 
 **Description**
 
-All UAVs must receive airspace authorization prior to commencing flight to a waypoint
+All UAVs must receive airspace authorization prior to commencing flight to a waypoint. Collisions are prevented through a multi-faceted approach of collision avvoidance for unplanned violations of minimum separation distance, and just-in-time airspace reservations from the UAVs current coordinates to a target coordinate.
 
 **Primary Actor**
 
