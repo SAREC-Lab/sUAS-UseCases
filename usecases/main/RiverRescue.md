@@ -48,9 +48,9 @@ The Drone Commander activates the search.
 
 1. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 2. The DroneResponse commander issues a command to start the mission.
-3. The UAVs **synchronized Takeoff [SPLC-1003]**.
-4. The UAVs **perform\_search [SPLC-1002]**
-5. When a potential victim is detected by a UAV, that UAV immediately switches to **active\_tracking** [SPLC-1004] mode.
+3. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
+4. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
+5. When a potential victim is detected by a UAV, that UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
 6. The UAV requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
 7. The UAV receives confirmation from the human operator that the victim sighting is valid.
 8. DroneResponse automatically sends the GPS coordinates to the mobile\_rescue system.
@@ -67,7 +67,7 @@ The Drone Commander activates the search.
 
       * 1.2.1 The search\_route\_planner is notified that only a subset of UAVs have been dispatched.
 
-      * 1.2.2 The search\_route\_planner executes [**$**** adjusts route plans$]** for currently available UAVs in flight.
+      * 1.2.2 The search\_route\_planner executes [initiate area search](../supporting/InitiateAreaSearch.md) for currently available UAVs in flight.
 
 ## General Exceptions
 
