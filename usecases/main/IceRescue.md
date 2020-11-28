@@ -46,8 +46,8 @@ The Drone Commander activates the delivery.
 
 1. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 2. The DroneResponse commander issues a command to start the mission.
-3. The UAV(s) **synchronized Takeoff [SPLC-1003].**
-4. The UAVs **perform\_search** **[SPLC-1002]**
+3. The UAV(s) conduct a [synchronized takeoff](../supporting/SynchronizedTakeoff.md)
+4. The UAVs [perform an aerial search](../supporting/PerformSearch.md)
 5. The UAV requests [victim confirmation](../supporting/VictimConfirmation.md) from the human operator.
 6. The UAV receives confirmation from the human operator that the victim sighting is valid.
 7. DroneResponse automatically sends the GPS coordinates to the mobile\_rescue system.
@@ -58,9 +58,9 @@ The Drone Commander activates the delivery.
 ## Specific Exceptions
 1. In step 3, one of the UAVs fails to take-off.
    * 1.1 If a replacement UAV is flight-ready, it is dispatched in place of the failed UAV.
-   * 1.2 If no replacement is available DroneResponse re-executes **initiate\_area\_search** [SPLC-1001] for the available UAVs and previously defined search area.
+   * 1.2 If no replacement is available DroneResponse re-executes [initiate area search](../supporting/InitiateAreaSearch.md) for the available UAVs and previously defined search area.
 
-2. In step 4, the UAV detects a possible victim at a confidence level below _candidate\_victim\_detected_ threshold but above the lowest `ignore&#39; level.
+2. In step 4, the UAV detects a possible victim at a confidence level below _candidate\_victim\_detected_ threshold but above the lowest `ignore level.
    * 2.1 The UAV logs the alert including saved imagery
    * 2.2 DroneResponse saves the GPS coordinates of the sighting
    * 2.3 The UAV continues its currently assigned route.
