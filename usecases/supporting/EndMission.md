@@ -2,11 +2,13 @@
 
 **Use Case:** End mission
 
-**ID** : SPLC-1008
-
 **Description**
 
 Recall UAV(s) back to individually base
+
+**Invoked by**
+
+[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md), [AccidentSurveillance](../main/AccidentSurveillance.md), [AirSampling](../main/AirSampling.md), [WaterSampling](../main/WaterSampling.md), [DefibrillatorDelivery](../main/DefibrillatorDelivery.md), [StructuralFire](../main/StructuralFire.md)
 
 **Primary Actor**
 
