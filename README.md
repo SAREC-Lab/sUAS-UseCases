@@ -11,13 +11,13 @@ Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Spey
 
 | Use Case      | Description                 | Contrib. Stakeholders              | Main Use Case  |
 | ------------- |-------------                    | -----                              |            -----|    
-| UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/RiverRescue.md ) 
-| UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/IceRescue.md ) 
-| UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/DefibrillatorDelivery.md)
-| UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/AccidentSurveillance.md)
-| UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/StructuralFire.md)
-| UC6           | Water Sampling                  |    Environmental Scientists | [WaterSampling.md](usecases/WaterSampling.md)
-| UC7           | Air Sampling                    |    Environmental Scientists | [AirSampling.md](usecases/AirSampling.md)
+| UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/main/RiverRescue.md ) 
+| UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/main/IceRescue.md ) 
+| UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/main/DefibrillatorDelivery.md)
+| UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/main/AccidentSurveillance.md)
+| UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/main/StructuralFire.md)
+| UC6           | Water Sampling                  |    Environmental Scientists | [WaterSampling.md](usecases/main/WaterSampling.md)
+| UC7           | Air Sampling                    |    Environmental Scientists | [AirSampling.md](usecases/main/AirSampling.md)
 
 *Supporting Use Cases*
 
