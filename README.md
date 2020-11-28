@@ -37,4 +37,4 @@ Please note: The import and inter-linking of these uses cases is in progress.
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
-|   EC1         | Lost Communication          |  |
+|   EC1         | Loss of signal         |  |
