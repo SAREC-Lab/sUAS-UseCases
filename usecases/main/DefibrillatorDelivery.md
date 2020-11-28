@@ -46,9 +46,9 @@ Or, A patient requested for emergency defibrillator delivery
 
 1. Medical device delivery is requested due to an emergency situation.
 2. The operator uses the map to identify GPS coordinates for the delivery.
-3. DroneResponse plans the route and requests [flight authorization] (../supporting/FlightAuthorization.md)
+3. DroneResponse plans the route and requests [flight authorization](../supporting/FlightAuthorization.md)
 4. Flight permissions are confirmed.
-4. One or more UAV executes a [synchronized takeoff] (../supporting/SynchronizedTakeoff.md)
+4. One or more UAV executes a [synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAV navigates to the target destination.
 6. The UAV [delivers the item](../supporting/DropItem.md)
 7. The UAV returns home. 
