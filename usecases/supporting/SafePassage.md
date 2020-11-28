@@ -1,4 +1,4 @@
-##**Use Case:<br>*** Safe Passage**
+## Use Case: Safe Passage
 
 **Description**
 
