@@ -44,11 +44,11 @@ The Drone Commander activates the delivery.
 
 ## Main Success Scenario
 
-1. Emergency responders [initiate area search](supporting/InitiateAreaSearch.md)
+1. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 2. The DroneResponse commander issues a command to start the mission.
 3. The UAV(s) **synchronized Takeoff [SPLC-1003].**
 4. The UAVs **perform\_search** **[SPLC-1002]**
-5. The UAV requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
+5. The UAV requests [victim confirmation](../supporting/VictimConfirmation.md) from the human operator.
 6. The UAV receives confirmation from the human operator that the victim sighting is valid.
 7. DroneResponse automatically sends the GPS coordinates to the mobile\_rescue system.
 8. The UAV switches to flotation **device\_delivery** **[SPLC-1011]** mode.
