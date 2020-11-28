@@ -1,10 +1,10 @@
-**Use Case:** Deliver defibrillator to a specific location
+**Use Case:** Deliver medical device to a specific location
 
 **ID** : SPLC-12
 
 **Description**
 
-UAV(s) are dispatched to deliver defibrillators to cardiac patients in a quick time in emergency situations.
+UAV(s) are dispatched to deliver defibrillators or other medical devices in an emergency situation.
 
 **Primary Actor**
 
@@ -44,47 +44,24 @@ Or, A patient requested for emergency defibrillator delivery
 
 ## **Main Success Scenario**
 
-1. A user calls 911 to report a medical emergency.
-2. The operator identifies the location and uses Google maps to identify GPS coordinates for the delivery.
-3. A ready-to-fly UAVwith a pre-attached defibrillator downloads current NOTAMs and**plans\_route [SPLC-1010]** to the patient&#39;s location.
-4. Dronology notifies the medic crews and sends them the GPS coordinates of the patient&#39;s location.
-5. The UAV(s) **synchronized Takeoff [SPLC-1003]**
-6. The delivery drone navigates the terrain autonomously, changing altitude to avoid hills etc.
-7. The delivery drone arrives at the specified location.
-8. Drones turn on their on-board cameras
-9. The delivery drone uses **[$VISION\_MODEL$]** to identify a place to drop the package.
-10. The drone **Request\_for\_permission[SPCL-1009]** to\_drop\_package from the operator.
-11. The UAV receives confirmation from the human operator to drop the package.
-12. The UAVdrops the package.
-13. The receivers collect the needed package.
-14. The Drone Commander **ends\_mission [SPLC-1008].**
+1. Medical device delivery is requested due to an emergency situation.
+2. The operator uses the map to identify GPS coordinates for the delivery.
+3. DroneResponse plans the route and requests [flight authorization] (../supporting/FlightAuthorization.md)
+4. Flight permissions are confirmed.
+4. One or more UAV executes a [synchronized takeoff] (../supporting/SynchronizedTakeoff.md)
+5. The UAV navigates to the target destination.
+6. The UAV [delivers the item](../supporting/DropItem.md)
+7. The UAV returns home. 
 
 **Specific Exceptions**** :**
 
-1. In step 2, coordinate identification using Google maps is failed
-   * 1.1 Another mapping software is used to identify exact coordinates from the address
-2. In step 5, the UAV fails to take off
-   * 2.1 DroneResponse assigns the current drone configuration to a new drone that has a pre-attached defibrillator
-  *  2.2 The new drone takes off to replace the one that failed
-3. For some reason, the delivery location has changed.
-  * 3.1 DroneResponse identify the coordinates of the new location using Google maps
-  * 3.2 DroneResponse transmits the new coordinates to the Drone
-  * 3.3 The drone adapts its route and flies toward the new location
-4. The Drone Commander denies permission for the drop because the spot is not safe
-  * 4.1 The Drone Commander uses the images from the drone camera displayed on DroneResponse to mark a safe spot for the drop on the map
-  * 4.2 DroneResponse identify the coordinates for the spot marked on the map
-  * 4.3 DroneResponse transmits the new coordinates to the drone
-  * 4.4 The drones reaches the new location and drops the package
+- See exceptions in supporting use cases
 
 ## **General Exceptions:**
 
-1. **At any time** , communication is lost between the Ground Control Station and a UAV.
-*  See **Lost Drone-to-GCS Communication** (SPLC-2001)
+1. All ubiquitous exceptions are handled
 
-2. At any time, a malfunction error is raised by a UAV in flight.
-   * See **Drone-in-flight Malfunction Alert** (SPLC-XXXX)
-
-**Resources Used: (just links for now, not final)**
+**Resources Used:
 
 **1.** [**https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/)
 
