@@ -37,7 +37,7 @@ The UAV needs to fly to a waypoint.
 
 ## Main Success Scenario
 
-1. The UAV requests permission from ATC to fly to the waypoint.
+1. The UAV requests permission from ATC to fly its target waypoint.
 2. ATC calculates the airspace needed for the flight.
 3. ATC determines that the airspace can be reserved.
 4. ATC reserves the airspace for a given time interval.
