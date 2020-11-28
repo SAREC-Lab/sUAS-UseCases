@@ -4,7 +4,11 @@
 
 **Description**
 
-Request flight authorization from FAA
+Request flight authorization
+
+**Invoked by**
+
+[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md), [AccidentSurveillance](../main/AccidentSurveillance.md), [AirSampling](../main/AirSampling.md), [WaterSampling](../main/WaterSampling.md), [DefibrillatorDelivery](../main/DefibrillatorDelivery.md), [StructuralFire](../main/StructuralFire.md)
 
 **Primary Actor**
 
@@ -68,3 +72,5 @@ Failure end condition:
 	  * 4.1.2 If permission is received verbally, then the RPIC records this note in the DroneResponse system and the flight proceeds as authorized.
 	  * 4.1.3 If permission is not granted by ATC or AirMap, then the flight is aborted.
 
+5. In steps 3-5 the RPIC has a waiver to fly without prior authorization typically due to an emergency response authorization.
+   * 5.1 Steps 3-6 are executed in parallel to launching the mission.

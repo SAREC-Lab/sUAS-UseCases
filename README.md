@@ -6,6 +6,7 @@ Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Spey
 ``Requirements-driven configuration of emergency response missions with small aerial vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12
 ([bib available here](SPLC2020.txt))
 
+Please note: The import and inter-linking of these uses cases is in progress.
 
 *Main Use Cases*
 
@@ -21,8 +22,6 @@ Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Spey
 
 *Supporting Use Cases*
 
-Please note we are in the process of importing all supporting use cases.
-
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
 |   SC1         | Initiate Area Search           | [InitiateAreaSearch.md](usecases/supporting/InitiateAreaSearch.md) |
@@ -32,5 +31,12 @@ Please note we are in the process of importing all supporting use cases.
 |   SC5        | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
 |   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
 |   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
+|   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
+
+*Ubiquitous Exception Cases*
+
+| Use Case      | Description                  | Link  |
+| ------------- |-------------                    | -----     |
+|   EC1         | Loss of signal         |  |
 
 
