@@ -50,8 +50,8 @@ Failure end condition:
 
 ## Exceptions
 
-1. The scenario is triggered when the mission commander manually ends the mission and recalls all UAVs back to their base.
-   * Steps 2-5 are executed.
+1. Step 1 is replaced by an alternate trigger in which the mission commander manually ends the mission and recalls all UAVs back to their base.
+   * Steps 2-6 are executed as specified.
 
 2. In step 1, whilst a UAV is returning to base, the mission-commander assigns it a new task.
    * 2.1 The END_MISSION command is cancelled for this UAV.
