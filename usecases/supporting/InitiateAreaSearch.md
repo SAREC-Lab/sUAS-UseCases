@@ -9,7 +9,7 @@
 Define search area and allocate routes to UAV(s)
 
 **Invoked by**
-[IceRescue](../IceRescue.md)
+[IceRescue](../IceRescue.md), [RiverRescue](../RiverRescue.md)
 
 **Primary Actor**
 
