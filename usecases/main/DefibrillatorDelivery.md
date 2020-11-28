@@ -1,4 +1,4 @@
-**Use Case:** Deliver medical device to a specific location
+## **Use Case:** Deliver medical device to a specific location
 
 **ID** : SPLC-12
 
