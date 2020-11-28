@@ -19,7 +19,7 @@ Air Traffic Control
 
 **Pre-Conditions**
 
-- UAV is armed and ready to fly or already in the air
+- UAV is either armed and ready-to-fly or already in the air
 
 **Post Conditions**
 
