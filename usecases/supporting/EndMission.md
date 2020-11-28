@@ -4,7 +4,7 @@
 
 **Description**
 
-Recall UAV(s) back to individually base
+Recall UAV(s) back to their home-bases
 
 **Invoked by**
 
