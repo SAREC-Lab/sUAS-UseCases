@@ -32,5 +32,6 @@ Please note we are in the process of importing all supporting use cases.
 |   SC5        | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
 |   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
 |   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
+|   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
 
 
