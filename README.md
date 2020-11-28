@@ -32,6 +32,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 |   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
 |   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 |   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
+|  SC9 | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
 
 *Ubiquitous Exception Cases*
 
