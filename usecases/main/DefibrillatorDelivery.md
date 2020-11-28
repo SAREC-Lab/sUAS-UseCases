@@ -50,7 +50,7 @@ Or, A patient requested for emergency defibrillator delivery
 4. Flight permissions are confirmed.
 4. One or more UAV executes a [synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAV navigates to the target destination.
-6. The UAV [delivers the item](../supporting/DropItem.md)
+6. The UAV [delivers the item](../supporting/ItemDrop.md)
 7. The UAV returns home. 
 
 **Specific Exceptions**** :**
