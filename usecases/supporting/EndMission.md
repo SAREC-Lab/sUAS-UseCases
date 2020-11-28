@@ -32,7 +32,7 @@ Success end condition
 - All UAVs safely returned to launch and deactivated
 
 Failure end condition:
-- One or more UAV does not arrive at its launch pad
+- One or more UAV does fails to return to a safe landing base
 
 **Trigger**
 
