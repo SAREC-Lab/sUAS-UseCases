@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:**** Safe Passage**
+##**Use Case:<br>*** Safe Passage**
 
 **Description**
 
