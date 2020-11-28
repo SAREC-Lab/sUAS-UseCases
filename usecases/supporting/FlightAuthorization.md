@@ -73,4 +73,4 @@ Failure end condition:
 	  * 4.1.3 If permission is not granted by ATC or AirMap, then the flight is aborted.
 
 5. In steps 3-5 the RPIC has a waiver to fly without prior authorization typically due to an emergency response authorization.
-   * Steps 3-6 are executed in parallel to launching the mission.
+   * 5.1 Steps 3-6 are executed in parallel to launching the mission.
