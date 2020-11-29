@@ -1,4 +1,4 @@
-## Use Case: Safe Passage
+## Use Case: Reserved Airspace
 
 **Description**
 
