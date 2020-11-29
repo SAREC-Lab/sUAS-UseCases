@@ -42,11 +42,10 @@ A 911 call operator receives a call reporting an accident
 
 ## **Main Success Scenario**
 
-1. A 911 call happens, the operator asks for the location, evaluates the situation and assigns a specific number of drones for the mission.
-2. Emergency responders **initiate\_area\_search [SPLC-1001]**
-3. DroneResponse **plans\_route [SPLC-1010]**for the drones to reach the targeted search area.
-4. The DroneResponse commander issues a command to start the mission.
-5. The UAVs **synchronized Takeoff [SPLC-1003]**.
+1. An accident report is received.
+2. The route is planned and [flight authorization](../supporting/FlightAuthorization.md) is obtained.
+3. The DroneResponse commander issues a command to start the mission.
+5. The UAV(s) perform a [synchronized takeoff](../supporting/SynchronizedTakeoff.md).
 6. The drones fly to the location of the accident.
 7. The UAVs reach the target area and **perform\_search [SPLC-1002]**.
 8. Once one of the UAVs detects the exact accident location.
