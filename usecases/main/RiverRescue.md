@@ -1,8 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** River Search and Rescue
-
-**ID** : SPLC-10
+## Use Case: River Search and Rescue
 
 **Description**
 
@@ -18,14 +14,14 @@ Semi-autonomous UAV
 
 **Stakeholders and Interests**
 
-Fire department engaged in river rescue
- FAA concerned with flight regulations
- General public
+- Fire department engaged in river rescue
+- FAA concerned with flight regulations
+- General public
 
 **Pre-Conditions**
 
 - Dronology system is active
-- Multiple UAVs are equipped with cameras and are placed on the grund and are activated
+- Multiple UAVs are equipped with cameras
 - Firefighters have marked area of river to be searched
 - DroneResponse is running and all available UAVs are displayed on map
 - Monitoring system is tracking the location and status of each available UAV.
@@ -46,18 +42,20 @@ The Drone Commander activates the search.
 
 ## Main Success Scenario
 
-1. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
-2. The DroneResponse commander issues a command to start the mission.
-3. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
-4. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
-5. When a potential victim is detected by a UAV, that UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
-6. The UAV requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
-7. The UAV receives confirmation from the human operator that the victim sighting is valid.
-8. DroneResponse automatically sends the GPS coordinates to the mobile\_rescue system.
-9. Human responders arrive at the scene.
-10. The Drone Commander **ends\_mission [SPLC-1008].**
+1. UAVs are [activated and armed]()
+2. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
+3. The DroneResponse commander issues a command to start the mission.
+4. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
+5. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
+6. When a potential victim is detected by a UAV, that UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
+7. The UAV requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
+8. The UAV receives confirmation from the human operator that the victim sighting is valid.
+9. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system.
+10. Human responders arrive at the scene.
+11. The Drone Commander [ends mission](supporting/EndMission.md).
 
 ## Specific Exceptions
+(Move to arming case)
 
 1. In step 3, one of the UAVs fails to takeoff.
 
