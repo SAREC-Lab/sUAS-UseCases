@@ -6,6 +6,12 @@ Without an onboard pilot, there is a significant reliance on the command and con
 This exception case occurs when such a loss of signal occurs.  Most UAVs have some degree of onboard autonomy - varying between the ability to continue flight to the currently assigned
 waypoint, execute failsafe mechanisms, and/or complete an entire mission autonomously.
 
+**Assumptions**
+
+UAVs are operating in the USA with two available radio frequencies. 2.4Ghz is used for communication over the hand-held GCS (i.e., for manual control), while the 
+900Mhz frequency is used for computer-managed communication from DroneResponse to the UAV.  Actual frequencies differ in different countries and so we refer to these
+as [MANUAL_FREQUENCY] and [MISSION_FREQUENCY].
+
 **Primary Actor**
 
 Ground Control System
@@ -24,6 +30,7 @@ Air Traffic Control
 **Pre-Conditions**
 
 - The UAV is in the air and has a command and control link to one or more ground control stations
+- A [failsafe] action has been established prior to flight to automatically activate RTL (Return to Launch) at a predefined altitude when loss-of-signal occurs.
 
 **Post Conditions**
 
@@ -42,44 +49,38 @@ Failure end condition:
 
 The UAV is in flight and loss-of-signal occurs for greater than [loss_of_signal_threshold_seconds].
 
-## Main Exception Scenario
+## Main Scenario
 
-1. The runtime monitoring system detects a loss of signal event for a UAV
-2. The runtime monitoring system raises an alert
-3. The UI displays the alert in order to notify the RPIC of the loss-of-signal event
-4. The operator makes a decision to assume 
+Steps 1 and 2 occur simultaneously
 
-DroneResponse decomposes the entire flight path into a series of flight_legs, each one with its own target waypoint.
-2. DroneResponse establishes an initial altitude of the flight [starting_altitude] and assigns it as the starting altitude of each individual leg.
-3. DroneResponse checks the starting flight_leg to ensure that it does not pass through any prohibited airspace whilst maintaining its [starting_altitude].
-4. DroneResponse a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains [minimum_terrain_separation] whilst maintaining the [starting_altitude] of the current leg.
-5. Steps 3-4 are repeated for each flight_leg. 
-6. Given the flight plan, the UAV checks that it has sufficient battery power to reach its destination.  It determines that it has sufficient power to continue.
-7. The UAV ascends or descends to the target altitude of the current flight leg.
-8. The UAV flies to the destination waypoint of the current flight leg.
-9. The UAV reports its arrival at the flight leg's destination waypoint.
-10. Steps 6-8 are repeated until the UAV reaches its final destination.
-11. The use cases finishes when the UAV assumes the task assigned for it to do at its final destination.
+1. The UAV detects and responds to loss-of-signal
+   * 1.1 The UAV detects that it has lost communication with the ground control station.
+   * 1.2 The failsafe mechanism is activated and the RTL autonomously returns home at its uniquely assigned RTL altitude.
+
+2. DroneResponse responds to the loss-of-signal
+   * 1.1 The runtime monitoring system detects a loss of signal event for a UAV
+   * 1.2 The runtime monitoring system raises an alert
+   * 1.3 The alert is displayed in the UI in order to notify the RPIC of the loss-of-signal event
+   
+3. The RPIC maintains visual line of sight with the UAV and observes that it has transitioned to RTL state.
+4. If necessary, the UAV suspends the remainder of the mission or manually moves other UAVs out of the way of the returning UAV.
 
 ## Exceptions
 
 1. All ubiquitous exceptions are handled.
 
-2. In step 6, the UAV determines that it lacks sufficient battery power to complete the mission.
-   * 2.1 The UAV notifies the human operator and awaits further instructions.
+2. In step 1, no failsafe mechanism has been established onboard the UAV.
+   * 1.1 If the UAV flies outside of an established Geofence then the Geofence_failsafe is activated.
 
-3. In steps 2 or 3 it is determined that the UAV will pass through prohibited airspace.
-   * 3.1 An alternate flight path is planned around the prohibited airspace and/or at a new altitude
-   * 3.2 If necessary, the flight path is divided into a series of waypoints representing multiple flight_legs
-   * 3.3 Steps 2 and 3 are repeated until a viable flight path is found.
-      * 3.3.1 If no viable flight path can be found the operator is notified and the flight is cancelled.
-	  * 3.3.1 If a viable flight path is found, then original series of flight_legs is updated with the modified legs
+3. In step 2, multiple UAVs experience simultaneous loss of signal and their RTLs are simultaneously activated. Each UAV has a unique RTL altitude. <br> One of the following sub-cases occurs:
+   * 3.1 Each UAV has a unique altitude assigned and returns home safely (luckily) avoiding collision with other UAVs upon ascending and descending. (Note: Currently all UAV failsafes operate on a single UAV and are optimized for that UAV without considering multi-UAV collisions).
+   * 3.2 Each UAV has not been assigned a unique altitude, thereby increasing the risk of collisions during simultaneous RTL events.
+   
+4. In step 1.2, signal is restablished during RTL. 
+   * 4.1 ATC runs a diagnostic of each UAVs flight path and attempts to [Reserve Airspace](ReservedAirspace.md) for the entire RTL flight. 
+   * 4.2 When airspace cannot be reserved for the entire route the UAV [Reserves Airspace](ReservedAirspace.md) for as much of the route as available. The UAVs mode is reset to FLYING.
+   * 4.3 When the UAV reaches its intermediate waypoint, it attempts to [Reserve Airspace](ReservedAirspace.md) for the remainder of the flight.
+   * 4.4 Steps 4.2 and 4.3 are repeated until the UAV receives clearance to return home.
 
-4. In step 6, has been assigned a task that requires additional battery power (e.g., return to home coordinates, survey the landscape). 
-   * 4.1 The UAV estimates power requirements for completing the entire task.
-   * 4.2 If a return home is required, the UAV estimates power requirements for returning home.
-   * 4.3 The UAV estimates total battery requirements required and determines whether it can complete the entire mission.
-      * 4.3.1 The UAV determines that it has sufficient power to complete the entire mission and the use case continues with steps 7-11.
-	  * 4.3.2 The UAV determines that it lacks sufficient power to complete the entire mission and Exception Use-Case #2 is executed.
 
    
