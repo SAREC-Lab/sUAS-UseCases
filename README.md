@@ -37,7 +37,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 |  SC10 | Reserved Airspace |[SafePassage.md](usecases/supporting/SafePassage.md)|
 | SC11 | Fly to destination ||
 
-*Ubiquitous Exception Cases*
+*Ubiquitous Exception Cases apply across all other use cases*
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
