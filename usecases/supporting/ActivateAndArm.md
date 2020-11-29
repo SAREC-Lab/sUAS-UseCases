@@ -1,4 +1,4 @@
-##Use Case: Activate and Arm
+## Use Case: Activate and Arm
 
 **Description**
 
