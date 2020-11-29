@@ -20,13 +20,9 @@ Semi-autonomous UAV
 
 **Pre-Conditions**
 
-- Dronology system is active
+- DroneResponse is running
 - Multiple UAVs are equipped with cameras
-- Firefighters have marked area of river to be searched
-- DroneResponse is running and all available UAVs are displayed on map
-- Monitoring system is tracking the location and status of each available UAV.
-- A victim is in the search area
-- All UAVs are equipped with collision avoidance technology
+- A victim is in the river
 
 **Post Conditions**
 
