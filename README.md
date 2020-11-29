@@ -36,6 +36,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 |  SC9 | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
 |  SC10 | Reserved Airspace |[ReservedAirspace.md](usecases/supporting/ReservedAirspace.md)|
 | SC11 | Fly to destination |[FlyToDestination.md](usecases/supporting/FlyToDestination.md)|
+| SC12 | Activate and Arm | [ActivateAndArm.md](usecases/supporting/ActivateAndArm.md)|
 
 *Ubiquitous Exception Cases apply across all other use cases*
 
