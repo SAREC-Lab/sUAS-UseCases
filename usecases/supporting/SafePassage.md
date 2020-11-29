@@ -1,10 +1,8 @@
-**DroneResponse Use Cases**
-
-**Use Case:**** Safe Passage**
+## Use Case: Safe Passage
 
 **Description**
 
-All UAVs must receive airspace authorization prior to commencing flight to a waypoint
+All UAVs must receive airspace authorization prior to commencing flight to a waypoint. Collisions are prevented through a multi-faceted approach of collision avvoidance for unplanned violations of minimum separation distance, and just-in-time airspace reservations from the UAVs current coordinates to a target coordinate.
 
 **Primary Actor**
 
@@ -21,7 +19,7 @@ Air Traffic Control
 
 **Pre-Conditions**
 
-- UAV is armed and ready to fly or already in the air
+- UAV is either armed and ready-to-fly or already in the air
 
 **Post Conditions**
 
@@ -39,7 +37,7 @@ The UAV needs to fly to a waypoint.
 
 ## Main Success Scenario
 
-1. The UAV requests permission from ATC to fly to the waypoint.
+1. The UAV requests permission from ATC to fly its target waypoint.
 2. ATC calculates the airspace needed for the flight.
 3. ATC determines that the airspace can be reserved.
 4. ATC reserves the airspace for a given time interval.
