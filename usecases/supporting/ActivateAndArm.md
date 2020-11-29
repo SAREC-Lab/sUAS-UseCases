@@ -49,4 +49,4 @@ An arming command is issued
 ## General Exceptions
 
 
-3. At all times, every UAV in flight scans its surroundings for obstacles to avoid. See **Collision\_Avoidance (SPLC-EX-XXXX)**
+
