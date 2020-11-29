@@ -1,4 +1,4 @@
-## Use Case: Reserved Airspace
+## Use Case: Reserved Airspace for Planned Flight Path
 
 **Description**
 
