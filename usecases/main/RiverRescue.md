@@ -38,7 +38,7 @@ The Drone Commander activates the search.
 
 ## Main Success Scenario
 
-1. UAVs are [activated and armed]()
+1. UAVs are [activated and armed](../supporting/ActivatedAndArmed.md)
 2. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 3. The DroneResponse commander issues a command to start the mission.
 4. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
