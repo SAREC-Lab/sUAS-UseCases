@@ -1,4 +1,4 @@
-## Use Case: River Search and Rescue [home](../../README.md)
+## Use Case: River Search and Rescue (Return to [use case list](../../README.md)
 
 **Description**
 
