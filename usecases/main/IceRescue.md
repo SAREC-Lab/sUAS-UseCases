@@ -75,4 +75,6 @@ The Drone Commander activates the search.
 5. At any time after a victim has been detected 
    * 4.2 The human operator reassigns a new UAV to perform the tracking task
    * 4.3 The current UAV waits to be assigned a new task (e.g., rejoin the search, return home)
+   
+(Return to [use case list](../../README.md)
 
