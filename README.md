@@ -42,7 +42,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
-|   EC1         | Loss of signal         | [LossOfSignal.md](usecases/ubiquitous_exceptions/LossOfSignal.md) |
+|   EC1         | Loss of signal         | [LossOfSignal.md](usecases/general_exceptions/LossOfSignal.md) |
 |  EC2   | Geofence vicinity breach ||
 |  EC3   | Mechanical failure ||
 |  EC4   | Low Battery ||
