@@ -1,3 +1,5 @@
+(Needs fixing still)
+
 ## Use Case: Structural fire fighting
 
 **Description**
@@ -41,8 +43,6 @@ Failure end condition:
 The Drone Commander activates the search.
 
 ## Main Success Scenario
-
-(Needs fixing still)
 
 1. Emergency responders**initiate\_area\_search [SPLC-1001]**
 2. The DroneResponse commander issues a command to start the mission.
