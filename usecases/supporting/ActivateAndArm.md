@@ -59,9 +59,9 @@ An arming command is issued
 3. In step 4, the UAV fails to pass its prearming tests
    * 3.1 The system reports specific reasons for prearming failure.
    * 3.2 The RPIC reactivates the UAV's safety switch.
-   * 3.3 A technician attempts to fix the error (e.g., recalibrating the UAV)
-      * 3.3.1 If the technician fixes the error, the use case restarts from Step 1.
-      * 3.3.2 If the technicia fails to fix the error, the UAV is removed from service.
+   * 3.3 A technician attempts to fix the root cause of the prearming failure (e.g., recalibrating the UAV)
+      * 3.3.1 If the technician fixes the problem, the use case restarts from Step 1.
+      * 3.3.2 If the technicia fails to fix the problem, the UAV is removed from service.
 
 
 
