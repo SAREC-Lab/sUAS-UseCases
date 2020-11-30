@@ -38,7 +38,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | SC11 | Fly to destination |[FlyToDestination.md](usecases/supporting/FlyToDestination.md)|
 | SC12 | Activate and Arm | [ActivateAndArm.md](usecases/supporting/ActivateAndArm.md)|
 
-*Ubiquitous Exception Cases apply across all other use cases*
+*<a name="GeneralExceptions">General Exception Cases</a> apply across all other use cases*
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
