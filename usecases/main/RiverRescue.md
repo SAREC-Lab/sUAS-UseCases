@@ -44,50 +44,36 @@ The Drone Commander activates the search.
 3. The DroneResponse commander issues a command to start the mission.
 4. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
-6. When a potential victim is detected by a UAV, that UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
-7. The UAV requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
-8. The UAV receives confirmation from the human operator that the victim sighting is valid.
-9. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system.
-10. Human responders arrive at the scene.
-11. The Drone Commander [ends mission](supporting/EndMission.md).
+6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
+7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
+8. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
+9. DroneResponse requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
+10. The UAV receives confirmation from the human operator that the victim sighting is valid.
+11. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system.
+12. Human responders arrive at the scene.
+13. The Drone Commander [ends mission](supporting/EndMission.md).
 
-## Specific Exceptions
-(Move to arming case)
+## Exceptions
 
-1. In step 3, one of the UAVs fails to takeoff.
+1. All [general exceptions](../../README.md#GeneralExceptions) apply, except for those with [in_air] preconditions.
 
-   * 1.1 When an alternate UAV is prepped for flight, that UAV is dispatched in place of the failed UAV.
+2. In step 7, the UAV detects a possible victim at a confidence level below [victim_detected] threshold but above the lowest [ignore_level]
+   * 2.1 The UAV raises a notification including saved imagery
+   * 2.2 DroneResponse saves the GPS coordinates of the sighting
+   * 2.3 The UAV continues its currently assigned route.
+   * 2.4 The back-up operator reviews the streamed imagery
+   * 2.5 The back-up operator confirms that the sighting is not a victim.
 
-   * 1.2 When no alternate UAV is prepped for flight:
-
-      * 1.2.1 The search\_route\_planner is notified that only a subset of UAVs have been dispatched.
-
-      * 1.2.2 The search\_route\_planner executes [initiate area search](../supporting/InitiateAreaSearch.md) for currently available UAVs in flight.
-
-## General Exceptions
-
-1. **At any time** , communication is lost between the Ground Control Station and a UAV.
-
-   * See **Lost Drone-to-GCS Communication** (SPLC-2001)
-
-2. At any time, a malfunction error is raised by a UAV in flight.
-
-   * See **Drone-in-flight Malfunction Alert** (SPLC-XXXX)
-
-3. In step 5, the UAV detects a possible victim at a confidence level below victim\_detected threshold but above the lowest `ignore&#39; level.
-
-   * 3.1 The UAV logs the alert including saved imagery
-
-   * 3.2 DroneResponse saves the GPS coordinates of the sighting
-
-   * 3.3 The UAV continues its currently assigned route.
-
-   * 3.4 The back-up operator reviews the streamed imagery
-
-   * 3.5 The back-up operator confirms that the sighting is not a victim.
-
-4. In step 8, a communication failure occurs between DroneResponse and the Rescuers mobile device. (Now what?)
-   * tbd
+3. In step 10 the human operator refutes the validity of the sighting.
+   * 3.1 The UAV resumes its previous search activity in Step 5
+   
+4. In step 8, the UAV does not have permission to start automatic tracking when it detects a candidate victim 
+   * 4.1 The UAV continues its search as described in step 5 without switching to tracking mode.
+   * 4.2 If the human operator confirms the victim sighting, the original UAV immediately attempt to relocate the victim and start tracking.
+   
+5. At any time after a victim has been detected 
+   * 4.2 The human operator reassigns a new UAV to perform the tracking task
+   * 4.3 The current UAV waits to be assigned a new task (e.g., rejoin the search, return home)
 
 
 **Resources Used:**

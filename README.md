@@ -15,7 +15,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | ------------- |-------------                    | -----                              |            -----|    
 | UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/main/RiverRescue.md ) 
 | UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/main/IceRescue.md ) 
-| UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/main/DefibrillatorDelivery.md)
+| UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/main/ItemDelivery.md)
 | UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/main/AccidentSurveillance.md)
 | UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/main/StructuralFire.md)
 | UC6           | Water Sampling                  |    Environmental Scientists | [WaterSampling.md](usecases/main/WaterSampling.md)
@@ -38,11 +38,11 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | SC11 | Fly to destination |[FlyToDestination.md](usecases/supporting/FlyToDestination.md)|
 | SC12 | Activate and Arm | [ActivateAndArm.md](usecases/supporting/ActivateAndArm.md)|
 
-*Ubiquitous Exception Cases apply across all other use cases*
+*<a name="GeneralExceptions">General Exception Cases</a> apply across all other use cases*
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
-|   EC1         | Loss of signal         | [LossOfSignal.md](usecases/supporting/LossOfSignal.md) |
+|   EC1         | Loss of signal         | [LossOfSignal.md](usecases/general_exceptions/LossOfSignal.md) |
 |  EC2   | Geofence vicinity breach ||
 |  EC3   | Mechanical failure ||
 |  EC4   | Low Battery ||
