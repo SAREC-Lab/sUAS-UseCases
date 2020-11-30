@@ -20,19 +20,16 @@ Semi-autonomous UAV
 
 **Pre-Conditions**
 
-- Dronology system is active
+- DroneResponse is running
 - Multiple UAVs are equipped with cameras
-- Firefighters have marked area of river to be searched
-- DroneResponse is running and all available UAVs are displayed on map
-- Monitoring system is tracking the location and status of each available UAV.
-- A victim is in the search area
-- All UAVs are equipped with collision avoidance technology
+- A victim is in the river
 
 **Post Conditions**
 
 Success end condition
 
 The victim is found by a UAV and actively tracked until a first responder takes over the rescue operation
+
 Failure end condition:
  The victim is not found or the victim is found but not actively tracked.
 
@@ -42,7 +39,7 @@ The Drone Commander activates the search.
 
 ## Main Success Scenario
 
-1. UAVs are [activated and armed]()
+1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
 2. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 3. The DroneResponse commander issues a command to start the mission.
 4. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)

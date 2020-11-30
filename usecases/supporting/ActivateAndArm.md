@@ -1,4 +1,4 @@
-**Use Case:** Activate and Arm
+## Use Case: Activate and Arm
 
 **Description**
 
@@ -40,13 +40,32 @@ An arming command is issued
 
 ## Main Success Scenario
 
-1. Steps go here.
-2. More steps here. (coming soon)
+1. The RPIC deactivates the UAV's safety switch.
+2. DroneResponse issues an arming command.
+3. The UAV executes all prearming tests.
+4. The UAV passes prearming tests.
+5. The UAV arms.
+6. The UAV's status is set to MISSION mode (PX4=MISSION, Ardupilot=GUIDED/STABILIZED)
+7. The UAV's automated pilot notifies DroneResponse that the UAV is armed for flight.
 
-## Specific Exceptions
+## Exceptions
+
+1. All ubiquitous exceptions apply.
+
+2. In step 1, the RPIC fails to deactivate the safety switch
+   * 2.1 In step 2, the UAV issues a warning sound and raises an error when the arming command is attempted.
+   * 2.2 The use case continues from Step 1.
+   
+3. In step 4, the UAV fails to pass its prearming tests
+   * 3.1 The system reports specific reasons for prearming failure.
+   * 3.2 The RPIC reactivates the UAV's safety switch.
+   * 3.3 A technician attempts to fix the root cause of the prearming failure (e.g., recalibrating the UAV)
+      * 3.3.1 If the technician fixes the problem, the use case restarts from Step 1.
+      * 3.3.2 If the technicia fails to fix the problem, the UAV is removed from service.
 
 
-## General Exceptions
 
 
-3. At all times, every UAV in flight scans its surroundings for obstacles to avoid. See **Collision\_Avoidance (SPLC-EX-XXXX)**
+
+
+
