@@ -54,6 +54,8 @@ The Drone Commander activates the search.
 12. The Drone Commander [ends mission](supporting/EndMission.md).
 
 
+## Exceptions
+
 1. All [general exceptions](../../README.md#GeneralExceptions) apply, except for those with [in_air] preconditions.
 
 2. In step 6, the UAV detects a possible victim at a confidence level below [victim_detected] threshold but above the lowest [ignore_level]
