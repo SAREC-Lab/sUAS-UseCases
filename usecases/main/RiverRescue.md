@@ -1,5 +1,4 @@
-## Use Case: River Search and Rescue
-[home](../../README.md)
+## Use Case: River Search and Rescue [home](../../README.md)
 
 **Description**
 
