@@ -43,7 +43,7 @@ The Drone Commander activates the search.
 1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
 2. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 3. The DroneResponse commander issues a command to start the mission.
-4. UAVs assigned the searching task[perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
+4. UAVs assigned the searching task [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
 6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
 7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
