@@ -31,7 +31,8 @@ Success end condition
 The victim is found by a UAV and actively tracked until a first responder takes over the rescue operation
 
 Failure end condition:
- The victim is not found or the victim is found but not actively tracked.
+
+The victim is not found or the victim is found but not actively tracked.
 
 **Trigger**
 
@@ -42,7 +43,7 @@ The Drone Commander activates the search.
 1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
 2. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
 3. The DroneResponse commander issues a command to start the mission.
-4. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
+4. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
 6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
 7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
@@ -50,6 +51,7 @@ The Drone Commander activates the search.
 9. DroneResponse requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
 10. The UAV receives confirmation from the human operator that the victim sighting is valid.
 11. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system.
+12. A UAV tasked with delivering a flotation device  [performs item delivery](ItemDelivery.md)
 12. Human responders arrive at the scene.
 13. The Drone Commander [ends mission](supporting/EndMission.md).
 
