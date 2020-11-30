@@ -1,8 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** Air Sampling
-
-**ID** : SPLC-15
+## Use Case: Air Sampling
 
 **Description**
 
