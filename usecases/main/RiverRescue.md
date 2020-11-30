@@ -29,6 +29,7 @@ Semi-autonomous UAV
 Success end condition
 
 The victim is found by a UAV and actively tracked until a first responder takes over the rescue operation
+
 Failure end condition:
  The victim is not found or the victim is found but not actively tracked.
 
