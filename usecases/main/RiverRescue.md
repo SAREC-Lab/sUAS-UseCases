@@ -64,11 +64,15 @@ The Drone Commander activates the search.
    * 2.4 The back-up operator reviews the streamed imagery
    * 2.5 The back-up operator confirms that the sighting is not a victim.
 
-3. In step 8 the human operator refutes the validity of the sighting.
+3. In step 10 the human operator refutes the validity of the sighting.
    * 3.1 The UAV resumes its previous search activity in Step 5
    
-4. In step 6, the UAV does not have permission to start automatic tracking when it detects a candidate victim 
+4. In step 8, the UAV does not have permission to start automatic tracking when it detects a candidate victim 
    * 4.1 The UAV continues its search as described in step 5 without switching to tracking mode.
+   * 4.2 If the human operator confirms the victim sighting, the original UAV immediately attempt to relocate the victim and start tracking.
+   
+5. At any time after a victim has been detected
+   * 4.2 The human operator reassigns a new UAV to perform the tracking task
 
 
 **Resources Used:**
