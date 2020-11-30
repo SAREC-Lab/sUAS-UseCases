@@ -1,4 +1,4 @@
-[home](../../README.md)
+<div style="text-align: right"> [home](../../README.md)</div>
 
 ## Use Case: River Search and Rescue
 
