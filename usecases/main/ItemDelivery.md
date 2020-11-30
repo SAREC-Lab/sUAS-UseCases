@@ -1,6 +1,4 @@
-## **Use Case:** Deliver medical device to a specific location
-
-**ID** : SPLC-12
+## Use Case: Deliver item to a specific location
 
 **Description**
 
@@ -20,27 +18,25 @@ Medical professions engaged in first rescue materials
 
 **Pre-Conditions**
 
-- Dronology system is active
+- DroneResponse system is active
 - Multiple UAVs are equipped with cameras and are placed on the ground and are activated
-- Drones are able to carry limited weight
-- There are enough drones to take care of the delivery process
-- DroneResponse is running and UAVs are displayed on map
-- All UAVs are equipped with collision avoidance technology
+- Drones are able to carry required payload
 
 **Post Conditions**
 
 Success end condition
 
-The medical package has been successfully collected by the target.
+The item is successfully delivered to the intended target
 
 Failure end condition:
- The medical package has not been collected by the target.
+
+The UAV delivers the item to the wrong location
+or The UAV fails to deliver the item
 
 **Trigger**
 
-The Drone Commander activates the delivery.
+The UAV receives a delivery command
 
-Or, A patient requested for emergency defibrillator delivery
 
 ## **Main Success Scenario**
 
