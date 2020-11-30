@@ -15,7 +15,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | ------------- |-------------                    | -----                              |            -----|    
 | UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/main/RiverRescue.md ) 
 | UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/main/IceRescue.md ) 
-| UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/main/DefibrillatorDelivery.md)
+| UC3           |Defibrillator Delivery         |    DeLive, Cardiac Science | [DefibrillatorDelivery.md](usecases/main/ItemDelivery.md)
 | UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/main/AccidentSurveillance.md)
 | UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/main/StructuralFire.md)
 | UC6           | Water Sampling                  |    Environmental Scientists | [WaterSampling.md](usecases/main/WaterSampling.md)
