@@ -2,24 +2,25 @@
 
 **Description**
 
-UAV(s) are dispatched to deliver defibrillators or other medical devices in an emergency situation.
+UAV(s) are dispatched to deliver an item to a target location.
 
 **Primary Actor**
 
-Receivers/UAV
+Mission commander
+Dispatcher 
 
 **Supporting Actors**
 
-Medic crew
+Emergency Responders
 
 **Stakeholders and Interests**
 
-Medical professions engaged in first rescue materials
+Recipient of the delivered item e.g., victim in a river receiving a flotation device, heart-attack victim receiving a defibrillator
 
 **Pre-Conditions**
 
 - DroneResponse system is active
-- Multiple UAVs are equipped with cameras and are placed on the ground and are activated
+- UAVs equipped with carry mechanism
 - Drones are able to carry required payload
 
 **Post Conditions**
@@ -30,32 +31,28 @@ The item is successfully delivered to the intended target
 
 Failure end condition:
 
-The UAV delivers the item to the wrong location
-or The UAV fails to deliver the item
+The UAV fails to reach the target coordinates
+The UAV reaches the target coordinates but drops the item incorrectly (e.g., on top of a victim, in an unreachable location)
 
 **Trigger**
 
-The UAV receives a delivery command
+The UAV receives a command to deliver an item
 
 
-## **Main Success Scenario**
+## Main Success Scenario
 
-1. Medical device delivery is requested due to an emergency situation.
-2. The operator uses the map to identify GPS coordinates for the delivery.
-3. DroneResponse plans the route and requests [flight authorization](../supporting/FlightAuthorization.md)
-4. Flight permissions are confirmed.
-4. One or more UAV executes a [synchronized takeoff](../supporting/SynchronizedTakeoff.md)
-5. The UAV navigates to the target destination.
-6. The UAV [delivers the item](../supporting/ItemDrop.md)
+1. The delivery UAVs are [activated and armed](../supporting/ActivateAndArm.md)
+2. The UAV is assigned target GPS coordinates.
+3. The UAV requests [flight authorization](../supporting/FlightAuthorization.md).
+4. The DroneResponse commander issues a command to start the delivery mission.
+5. The UAV [performs synchronized takeoff](../supporting/SynchronizedTakeoff.md).
+6. The UAV [flies to the target destination](../supporting/FlyToDestination.md).
+7. The UAV [delivers the item](../supporting/ItemDrop.md)
 7. The UAV returns home. 
 
-**Specific Exceptions**** :**
+## Exceptions
 
-- See exceptions in supporting use cases
-
-## **General Exceptions:**
-
-1. All ubiquitous exceptions are handled
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
 **Resources Used:
 
