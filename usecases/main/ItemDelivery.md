@@ -54,7 +54,7 @@ The UAV receives a command to deliver an item
 
 1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
-**Resources Used:
+## Resources Used
 
 **1.** [**https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/)
 
