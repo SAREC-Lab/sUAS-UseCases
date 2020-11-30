@@ -1,8 +1,6 @@
-**DroneResponse Use Cases**
+(Needs fixing still)
 
-**Use Case:** Collect water samples
-
-**ID** : SLPC-15
+Use Case: Collect water samples
 
 **Description**
 
