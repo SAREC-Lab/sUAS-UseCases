@@ -1,6 +1,6 @@
-**DroneResponse Use Cases**
+(Needs fixing)
 
-**Use Case:** Initiate Area Search
+## Use Case: Initiate Area Search
 
 **ID** : SPLC-1001
 
