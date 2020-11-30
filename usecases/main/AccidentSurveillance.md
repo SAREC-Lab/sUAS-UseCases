@@ -1,6 +1,4 @@
-**Use Case:** Provide surveillance and information about a traffic accident
-
-**ID** : SPCL-13
+## Use Case: Provide surveillance and information about a traffic accident
 
 **Description**
 
