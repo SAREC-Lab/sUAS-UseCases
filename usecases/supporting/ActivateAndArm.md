@@ -50,7 +50,7 @@ An arming command is issued
 
 ## Exceptions
 
-1. All [general exceptions](../general_exceptions) except for those with [in_air] preconditions apply. [TEST](../../README.md)
+1. All [general exceptions](../general_exceptions) except for those with [in_air] preconditions apply. [TEST](../../README.md#GeneralExceptions) 
 
 2. In step 1, the RPIC fails to deactivate the safety switch
    * 2.1 In step 2, the UAV issues a warning sound and raises an error when the arming command is attempted.
