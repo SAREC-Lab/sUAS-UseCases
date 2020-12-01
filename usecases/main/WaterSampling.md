@@ -40,7 +40,7 @@ The UAV operator activates the water sampling mission
 
 1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
 2. Operators [dynamically generate flight routes including sample collection points for the targeted area](../supporting/AreaFlightRouteCoverage.md)
-3. DroneResponse requests and receives [flight authorization](../FlightAuthorization.md)
+3. DroneResponse requests and receives [flight authorization](../supporting/FlightAuthorization.md)
 3. The oeprator issues a command to start the mission.
 4. UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAVs [perform the search](../supporting/PerformSearch.md)
