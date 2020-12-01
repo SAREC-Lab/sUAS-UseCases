@@ -2,7 +2,7 @@
 
 **Description**
 
-Define search area and allocate routes to UAV(s)
+Define a coverage area and allocate routes to UAV(s)
 
 **Invoked by**
 [IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md)
