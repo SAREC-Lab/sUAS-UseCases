@@ -25,18 +25,19 @@ Please note: The import and inter-linking of these uses cases is in progress.
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
-|   SC1         | Initiate Area Search           | [InitiateAreaSearch.md](usecases/supporting/InitiateAreaSearch.md) |
-|   SC2         | Victim Confirmation  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
-|   SC3         | Active Tracking  | [ActiveTracking.md](usecases/supporting/ActiveTracking.md)|
-|   SC4         | Perform Search | [PerformSearch.md](usecases/supporting/PerformSearch.md)|
-|   SC5        | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
-|   SC6         | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
-|   SC7        | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
-|   SC8        | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
-|  SC9 | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
-|  SC10 | Reserved Airspace |[ReservedAirspace.md](usecases/supporting/ReservedAirspace.md)|
-| SC11 | Fly to destination |[FlyToDestination.md](usecases/supporting/FlyToDestination.md)|
-| SC12 | Activate and Arm | [ActivateAndArm.md](usecases/supporting/ActivateAndArm.md)|
+| SC1           | Activate and Arm | [ActivateAndArm.md](usecases/supporting/ActivateAndArm.md)|
+| SC2           | Active Tracking  | [ActiveTracking.md](usecases/supporting/ActiveTracking.md)|
+| SC3           | Area Flight Route Coverage | [AreaFlightRouteCoverage.md](usecases/supporting/AreaFlightRouteCoverage.md]|
+| SC4           | Collect and Analyze Sample | [CollectAndAnalyseSample.md](usecases/supportingCollectAndAnalyseSample.md]|
+| SC5           | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
+| SC6           | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
+| SC7           | Fly to destination |[FlyToDestination.md](usecases/supporting/FlyToDestination.md)|
+| SC8           | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
+| SC9           | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
+| SC10          | Reserved Airspace |[ReservedAirspace.md](usecases/supporting/ReservedAirspace.md)|
+| SC11          | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
+| SC12          | Victim Confirmation  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
+
 
 *<a name="GeneralExceptions">General Exception Cases</a> apply across all other use cases*
 
