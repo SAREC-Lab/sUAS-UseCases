@@ -1,4 +1,4 @@
-## Use Case: Reserved Airspace for Planned Flight Path
+## Use Case: Leasing Airspace for Planned Flight Path
 
 **Description**
 
@@ -49,36 +49,25 @@ The UAV needs to fly to a waypoint or needs some space to perform an action.
 
 1. All ubiquitous exceptions are handled.
 
-2. (Note: If we support this then we must check for and break deadlocks) In step 3, ATC determines that the airspace is not currently available and notifies the UAV.  
-   * 2.1 The UAV requests notification from ATC as soon as the airspace becomes available.
-   * 2.2 The UAV hovers in place awaiting notification.
-   * 2.3 The airspace becomes available.
-   * 2.4 The use case continues with steps 4 to 7.
-   
-3. (Alternately instead of #2) In step 3, ATC determines that the airspace is not currently available.
-   * 3.1 ATC denies the request for airspace.
-   * 3.2 The UAV waits for a random time interval (< 5 seconds) and repeats its request for airspace.
-   * 3.3 The UAV repeats step 3.2 until it receives airspace authorization at which point the use case continues with steps 4-7.
+2. In step 3, ATC determines that the airspace is not currently available.
+   * 2.1 ATC finds all reservations held by other UAVs that share some altitude with the requested airspace.
+   * 2.2 ATC finds all restricted airspace that shares some altitude and is less than 1000 meters from the requested airspace.
+   * 2.2 ATC denies the request for airspace and attaches both the list of other reservations and the list of restricted airspaces.
+   * 2.3 The UAV analyzes the attached lists and selects an alternative action among:
+      * 2.3.0 If the action is impossible because of restricted airspace
+         * 2.3.0.1 TBD
+      * 2.3.1 If the next action is to fly to a waypoint, and the UAV determines that meaningful progress is possible then
+         * 2.3.1.1 The UAV picks a new waypoint that moves it closer to the target.
+         * 2.3.1.2 The use case continues at step 1.
+      * 2.3.2 If progress on the next action is possible, then
+         * 2.3.2.1 The UAV decides on a new next action.
+         * 2.3.2.2 The use case continues at step 1.
+      * 2.3.3 If progress is not possible, and the UAV is in the air, then
+         * 2.3.3.1 The UAV requests a small amount of airspace to wait within. This new airspace must fit inside the airspace that the UAV has already reserved. The UAV is guaranteed to get a lease on the new airspace in case it fits within its current airspace.
+         * 2.3.3.2 The UAV waits for a random time interval (< 5 seconds) and repeats its request for airspace.
+         * 2.3.3.3 The use case continues at step 3.
+      * 2.3.4 If the UAV is on the ground, awaiting takeoff, and progress is not possible, then
+         * 2.3.4.1 The UAV waits for a random time interval (< 5 seconds) and repeats its request for airspace.
+         * 2.3.4.2 The use case continues at step 3.
 
-4. (Alternatively instead of #2 or #3) In step 3, ATC determines that the airspace is not currently available.
-   * 4.1 ATC finds all reservations held by other UAVs that share some altitude with the requested airspace.
-   * 4.2 ATC finds all restricted airspace that shares some altitude and is less than 1000 meters from the requested airspace.
-   * 4.2 ATC denies the request for airspace and attaches both the list of other reservations and the list of restricted airspaces.
-   * 4.3 The UAV analyzes the attached lists and selects an alternative action among:
-      * 4.3.0 If the action is impossible because of restricted airspace
-         * 4.3.0.1 TBD
-      * 4.3.1 If the next action is to fly to a waypoint, and the UAV determines that meaningful progress is possible then
-         * 4.3.1.1 The UAV picks a new waypoint that moves it closer to the target.
-         * 4.3.1.2 The use case continues at step 1.
-      * 4.3.2 If progress on the next action is possible, then
-         * 4.3.2.1 The UAV decides on a new next action.
-         * 4.3.2.2 The use case continues at step 1.
-      * 4.3.3 If progress is not possible, and the UAV is in the air, then
-         * 4.3.3.1 The UAV requests a small amount of airspace to wait within. This new airspace must fit inside the airspace that the UAV has already reserved. The UAV is guaranteed to get a lease on the new airspace in case it fits within its current airspace.
-         * 4.3.3.2 The UAV waits for a random time interval (< 5 seconds) and repeats its request for airspace.
-         * 4.3.3.3 The use case continues at step 3.
-      * 4.3.4 If the UAV is on the ground, awaiting takeoff, and progress is not possible, then
-         * 4.3.4.1 The UAV waits for a random time interval (< 5 seconds) and repeats its request for airspace.
-         * 4.3.4.2 The use case continues at step 3.
-
-   
+[Return to use case list](../../README.md)
