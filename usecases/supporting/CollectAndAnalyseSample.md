@@ -53,7 +53,7 @@ The UAV reaches the GPS coordinates of the first sample collection waypoint
 
 ## Exceptions
 
-1. All [general exceptions](../../README.md#GeneralExceptions) apply
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
 2. In step 2 the UAV is unable to find an unobstructed route to the water in the vicinity of the target waypoints and requests advice from the user. Either:
    * 2.1 The user directs the UAV to skip the current waypoint.
