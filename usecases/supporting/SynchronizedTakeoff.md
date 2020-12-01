@@ -65,5 +65,9 @@ The UAVs receive the start mission command.
    * 4.3 All UAVs activate high-alert collision avoidance tactics
    * 4.4 The RPIC decides whether to abort the entire mission by sending a global hover_in_place command
    * 4.5 If the mission is aborted, the RPIC issue RTL commands or manually assumes control over each UAV one-by-one.
+   
+5. In steps 1-4 only one UAV is involved in the synchronized takeoff.
+   * 5.1 The UAV is assigned the takeoff altitude of its first target waypoint.
+   * 5.2 No synchronization is required with other UAVs.
 
 [Return to use case list](../../README.md)
