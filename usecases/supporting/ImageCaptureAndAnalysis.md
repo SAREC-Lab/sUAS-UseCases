@@ -40,7 +40,7 @@ The UAV receives a command to collect and analyze imagery
 ## Main Success Scenario
 
 1. If the camera is not activated, the UAV activates it.
-2. The UAV streams imagery to its onboard companion computer.
+2. Whilst in flight, the UAV streams imagery to its onboard companion computer.
 3. Onboard compute processes streamed imagery and annotates objects of interest to depict their bounding boxes and confidence scores.
 4. When an object is detected with confidence greater than the current [VisionDetection_Threshold] value, an event is raised and forwarded to the DroneResponse Event Manager.
 5. All collected image streams (with and without annotations) are transmitted to the videostream server.
