@@ -1,44 +1,40 @@
-(Needs fixing still)
-
-Use Case: Collect water samples
+## Use Case: Collect water samples
 
 **Description**
 
-Multiple UAVs head to a specific area to sample water
+UAVs collect and analyze water samples from an open body of water
 
 **Primary Actor**
 
-Drone Commander
+Environmental Scientist
+RPIC
 
 **Supporting Actors**
 
-Semi-autonomous UAV, Incident Commander
+
 
 **Stakeholders and Interests**
 
-firefighters, chemical researchers
+Environmentalists, farmers, public
 
 **Pre-Conditions**
 
-- Dronology system is active
-- Multiple UAVs are equipped with cameras. Sampling systems are placed on the active drones
-- Firefighters/researchers have marked specific area to be sampled of the water quality
-- Sample route has been generated
-- DroneResponse is running and UAVs are displayed on map
-- Each drone is able to carry multiple sampled containers
-- All UAVs are equipped with collision avoidance technology
+- DroneResponse is running
+- Multiple UAVs are equipped with water sampling mechanisms (and onboard analytics capabilities if needed)
 
 **Post Conditions**
 
 Success end condition
 
-The samples are collected successfully by each UAV with its assigned water area.
+The samples are collected successfully from the targeted coordinates
+
 Failure end condition:
- Drones fails to collect samples back to home base
+
+UAVs fail to collect and/or analyze water samples
 
 **Trigger**
 
-The Drone Commander activates the search.
+The UAV operator activates the water sampling mission
 
 ## Main Success Scenario
 
