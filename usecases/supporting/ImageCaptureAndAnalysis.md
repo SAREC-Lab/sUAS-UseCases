@@ -39,19 +39,13 @@ The UAV receives a command to collect and analyze imagery
 
 ## Main Success Scenario
 
-1. The UAV receives a command to activate its thermal/RGB camera. 
-2. If the camera is not activated, the UAV activates it.
-3. The UAV commences to fly its designated routes at the specified velocity.
-4. The UAV streams imagery to its onboard companion computer.
-5. Onboard compute processes streamed imagery and annotates objects of interest to depict their bounding boxes and confidence scores.
-6. When an object is detected with confidence greater than the current [VisionDetection_Threshold] value, an event is raised and forwarded to the DroneResponse Event Manager.
-7. All collected image streams (with and without annotations) are transmitted to the videostream server.
-8. Steps 2-6 are continually repeated until the UAV is commanded to stop collecting imagery.
+1. If the camera is not activated, the UAV activates it.
+2. The UAV streams imagery to its onboard companion computer.
+3. Onboard compute processes streamed imagery and annotates objects of interest to depict their bounding boxes and confidence scores.
+4. When an object is detected with confidence greater than the current [VisionDetection_Threshold] value, an event is raised and forwarded to the DroneResponse Event Manager.
+5. All collected image streams (with and without annotations) are transmitted to the videostream server.
+6. Steps 2-5 are continually repeated until the UAV is commanded to stop collecting imagery.
 
-##
 ## Exceptions
 
-1. **At any time** , communication is lost between the Ground Control Station and a UAV.
-   * See **Lost Drone-to-GCS Communication** (SPLC-2001)
-2. At any time, a malfunction error is raised by a UAV in flight.
-   * See **Drone-in-flight Malfunction Alert** (SPLC-XXXX)
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
