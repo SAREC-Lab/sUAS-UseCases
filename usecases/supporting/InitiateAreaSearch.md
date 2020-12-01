@@ -45,7 +45,7 @@ An emergency responder chooses to define a search
 2. The system checks the validity of the search area and retrieves current NOTAMs.
 3. Mission commander selects one, several, or all available UAVs to participate in the search.
 4. DroneResponse generates an efficient search plan for the selected UAVs to cover the marked area.
-5. Dronology assigns search routes to each selected UAV.
+5. DroneResponse assigns search routes to each selected UAV.
 
 ## Exceptions
 
