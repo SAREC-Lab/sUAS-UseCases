@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** Image Capture and Analysis
+# Use Case: Image Capture and Analysis
 
 **Description**
 
