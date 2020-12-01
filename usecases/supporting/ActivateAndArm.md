@@ -63,8 +63,7 @@ An arming command is issued
       * 3.3.1 If the technician fixes the problem, the use case restarts from Step 1.
       * 3.3.2 If the technicia fails to fix the problem, the UAV is removed from service.
 
-
-
+[Return to use case list](../../README.md) 
 
 
 
