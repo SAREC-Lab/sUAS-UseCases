@@ -67,4 +67,4 @@ The Drone Commander activates the fire support mission.
 ## Resources Used
 
 1. [https://www.semanticscholar.org/paper/Unmanned-Aerial-Systems-in-the-Fire-Service%3A-and-Griffith-Wakeham/a34e38307a88fda699da7d1aa6d64231ff717d55](https://www.semanticscholar.org/paper/Unmanned-Aerial-Systems-in-the-Fire-Service%3A-and-Griffith-Wakeham/a34e38307a88fda699da7d1aa6d64231ff717d55)
-2.
+
