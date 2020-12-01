@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** Flight authorization
+## Use Case: Flight authorization from Aviation Regulators
 
 **Description**
 
@@ -74,3 +72,5 @@ Failure end condition:
 
 5. In steps 3-5 the RPIC has a waiver to fly without prior authorization typically due to an emergency response authorization.
    * 5.1 Steps 3-6 are executed in parallel to launching the mission.
+   
+[Return to use case list](../../README.md)
