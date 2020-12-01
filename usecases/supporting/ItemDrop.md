@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:**** Item drop**
+## Use Case:  Item drop
 
 **Description**
 
@@ -67,3 +65,4 @@ The UAV receives a command to deliver the item
    * 4.1 Suggests an alternate drop position
    * 4.2 or aborts the drop
 
+[Return to use case list](../../README.md)
