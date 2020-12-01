@@ -62,4 +62,8 @@ User selects the option to mark a region and generate routes dynamically
    * 4.1 The user reduces the number of designated UAVs to a number for which viable UAVs are available
    * 4.2 or a technician activates and arms additional UAVs for inclusion in the mission.
    
+5. In step 5, instead of optimizing for area coverage, the algorithm optimizes the routes for a sampling mission
+   * 5.1 The user specifies the number of samples (S) to be collected by each UAV
+   * 5.2 The algorithm optimizes the flight paths such that S sampling locations are as equally dispersed over the marked area as possible, locations are clustered into N flight paths, and each UAVs flight path is optimized to reduce power consumption.
+   
 [Return to use case list](../../README.md)
