@@ -1,46 +1,57 @@
-(Needs fixing still)
-
-Use Case: Collect water samples
+## Use Case: Water Sampling and Analysis
 
 **Description**
 
-Multiple UAVs head to a specific area to sample water
+UAVs collect and analyze water samples from an open body of water
 
 **Primary Actor**
 
-Drone Commander
+Environmental Scientist
+RPIC
 
 **Supporting Actors**
 
-Semi-autonomous UAV, Incident Commander
+
 
 **Stakeholders and Interests**
 
-firefighters, chemical researchers
+Environmentalists, farmers, public
 
 **Pre-Conditions**
 
-- Dronology system is active
-- Multiple UAVs are equipped with cameras. Sampling systems are placed on the active drones
-- Firefighters/researchers have marked specific area to be sampled of the water quality
-- Sample route has been generated
-- DroneResponse is running and UAVs are displayed on map
-- Each drone is able to carry multiple sampled containers
-- All UAVs are equipped with collision avoidance technology
+- DroneResponse is running
+- Multiple UAVs are equipped with water sampling mechanisms (and onboard analytics capabilities if needed)
 
 **Post Conditions**
 
 Success end condition
 
-The samples are collected successfully by each UAV with its assigned water area.
+The samples are collected successfully from the targeted coordinates
+
 Failure end condition:
- Drones fails to collect samples back to home base
+
+UAVs fail to collect and/or analyze water samples
 
 **Trigger**
 
-The Drone Commander activates the search.
+The UAV operator activates the water sampling mission
 
 ## Main Success Scenario
+
+1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
+2. Operators [dynamically generate flight routes including sample collection points for the targeted area](../supporting/AreaFlightRouteCoverage.md)
+3. DroneResponse requests and receives [flight authorization](../supporting/FlightAuthorization.md)
+3. The oeprator issues a command to start the mission.
+4. UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
+5. The UAVs [perform the search](../supporting/PerformSearch.md)
+6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
+7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
+8. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
+9. DroneResponse requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
+10. The UAV receives confirmation from the human operator that the victim sighting is valid.
+11. Human responders arrive at the scene with their own flotation devices. They attempt a rescue.
+12. The Drone Commander [ends mission](supporting/EndMission.md).
+
 
 1. Drone commander marks each area to search and **initiate\_area\_search [SPLC-1001]**
 2. DroneResponse **plans\_route [SPLC-1010]** for the drones to reach the targeted search area.

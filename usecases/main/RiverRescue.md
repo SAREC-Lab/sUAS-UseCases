@@ -41,10 +41,10 @@ The Drone Commander activates the search.
 ## Main Success Scenario
 
 1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
-2. Emergency responders [initiate area search](../supporting/InitiateAreaSearch.md)
+2. Emergency responders  [dynamically generate flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
 3. The DroneResponse commander issues a command to start the mission.
-4. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
-5. The UAVs [perform area search](../supporting/PerformAreaSearch.md)
+4. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md).
+5. The UAVs fly their assigned flight routes whilst performing [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md).
 6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
 7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
 8. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
@@ -83,4 +83,4 @@ The Drone Commander activates the search.
 1. Ankit Agrawal, Sophia Abraham, Benjamin Burger, Chichi Christine, Luke Fraser, John Hoeksema, Sara Hwang, Elizabeth Travnik, Shreya Kumar, Walter Scheirer, Jane Cleland-Huang, Michael Vierhauser, Ryan Bauer, Steve Cox: The Next Generation of Human-Drone Partnerships: Co-Designing an Emergency Response System, CHI 2020.
 2. Jane Cleland-Huang, Michael Vierhauser: Discovering, Analyzing, and Managing Safety Stories in Agile Projects. RE 2018: 262-273
 
-[Return to use case list](../../README.md)
+[Return to use case list](../../README.md) 
