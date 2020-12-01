@@ -68,4 +68,4 @@ The UAV reaches the GPS coordinates of the first sample collection waypoint
 	  * 4.2.2 The use case resumes at Step 1 using the dynamically planned collection points instead of preplanned ones.
    * 4.3 If no pollutants are identified in the sample, then the use case continues with Step 1 using the preplanned collection points.
 
-
+[Return to use case list](../../README.md)
