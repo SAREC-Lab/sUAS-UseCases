@@ -45,7 +45,7 @@ The UAV operator activates the water sampling mission
 4. UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAVs fly their assigned routes and [collect and analyze samples](../supporting/CollectAndAnalyzeSamples.md) at their assigned collection points.
 6. When each UAV has completed its collection assignment it returns home.
-7. The operator replaces collection resources.
+7. The operator removes samples and replaces and/or replenishes onboard sampling supplies.
 8. Steps 4-7 are completed until all needed samples have been collected.
 9. The Drone Commander [ends mission](supporting/EndMission.md).
 
