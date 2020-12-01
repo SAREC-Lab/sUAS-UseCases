@@ -21,7 +21,7 @@ Semi-autonomous UAV
 
 **Pre-Conditions**
 
-- UAVs active and registered with Dronology
+- UAVs are active and armed
 - DroneResponse is active
 
 **Post Conditions**
@@ -31,28 +31,37 @@ Success end condition
 Search routes planned and allocated to UAVs for an efficient search.
 
 Failure end condition:
+
  Ineffective search routes provide low coverage or inefficient search
 
 **Trigger**
 
-An emergency responder chooses to define a search
+User selects the option to mark a region and generate routes dynamically
 
 ## Main Success Scenario
 
-1. Mission commander marks the search area on the map.
-2. The system checks the validity of the search area and retrieves current NOTAMs.
-3. Mission commander selects one, several, or all available UAVs to participate in the search.
-4. DroneResponse generates an efficient search plan for the selected UAVs to cover the marked area.
-5. DroneResponse assigns search routes to each selected UAV.
+1. A user selects the feature to mark a region on the currently displayed map.
+2. The user marks a polygon shape on the map.
+3. DroneResponse analyzes the shape and size of the drawn polygon for feasibility of generating routes and the polygon is accepted as viable for route generation.
+4. The user specifies the number of UAVs (N) that will participate in the mission.
+5. DroneResponse dynamically generates an efficent set of N flight routes that optimize coverage of the marked area whilst minimizing flight times.
+6. DroneResponse assigns the flight times to N available UAVs.
+7. The use case ends once flight routes have been generated and assigned.
 
 ## Exceptions
 
-1. In step 2, the search area includes no-fly zones.
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
-   * 1.1 The system adds no-fly areas to the marked search area.
+2. In step 1, the user wishes to mark a search area that is not entirely covered by the currently displayed map view.
+   * 2.1 If the search area is in the vicinity of the currently displayed map view, the user pans and rescales the map until the planned search area is encompassed by the view.
+   * 2.2 If the search area is not in the vicinity of the currently displayed map view, the user recenters the map by entering GPS coordinates.
 
-2. In step 3, insufficient UAVs are available with correct equipment for the search.
+3. In step 3, the polygon is deemed infeasible for route generation.
+   * 3.1 If the polygon has insufficient width or height it is rejected.
+   * 3.2 If the polygon includes unsupportable indentations or appendages these will be ignored during the flight route generation and an alert will be raised.
 
-   * 2.1 The mission commander requests additional UAVS and/or additional equipment be added to the drone fleet.
-
-   * 2.2 The Drone technician adds requested drones and/or equipment if available.
+4. In step 4, there are less than N UAVs available for assignment to the designated flight plans. Either
+   * 4.1 The user reduces the number of designated UAVs to a number for which viable UAVs are available
+   * 4.2 or a technician activates and arms additional UAVs for inclusion in the mission.
+   
+[Return to use case list](../../README.md)
