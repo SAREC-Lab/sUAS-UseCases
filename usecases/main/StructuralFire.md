@@ -58,18 +58,11 @@ The Drone Commander activates the fire support mission.
 1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
 2. In step 6, the UAV detects a possible victim at a confidence level below [victim_detected] threshold but above the lowest [ignore_level]
-   * 2.1 The UAV raises a notification including saved imagery
-   * 2.2 DroneResponse saves the GPS coordinates of the sighting
-   * 2.3 The UAV continues its currently assigned route.
-   * 2.4 The back-up operator reviews the streamed imagery
-   * 2.5 The back-up operator confirms that the sighting is not a victim.
-
-## Specific Exceptions
-
-1. In step 6, the UAV detects a victim in a window or on the roof
-
-   * 1.1 The UAV raises an alert and requests [victim_confirmation](../supporting/VictimConfirmation.md) from the human operator.
-   * 1.2 If the human operator confirms that a victim has been found, firefighters plan and execute a rescue mission.
+   * 2.1 The UAV raises an alert and requests [victim_confirmation](../supporting/VictimConfirmation.md) from the human operator.
+   * 2.2 The UAV continues to stream imagery
+   * 2.2 The human operator inspects the video stream
+      * 2.2.1 If the human operator believes that a victim may have been found, firefighters plan and execute a rescue mission.
+      * 2.2.2 If the human operator rejects the candidate sighting, the UAV continues its currently assigned route.
 
 ## Resources Used
 
