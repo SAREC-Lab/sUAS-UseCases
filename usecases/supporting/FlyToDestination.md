@@ -78,4 +78,4 @@ The UAV has been assigned a set of destination coordinates and has received flig
       * 4.3.1 The UAV determines that it has sufficient power to complete the entire mission and the use case continues with steps 7-11.
 	  * 4.3.2 The UAV determines that it lacks sufficient power to complete the entire mission and Exception Use-Case #2 is executed.
 
-   
+[Return to use case list](../../README.md)
