@@ -18,8 +18,8 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | UC3           |Item Delivery         |    DeLive, Cardiac Science | [ItemDelivery.md](usecases/main/ItemDelivery.md)
 | UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/main/AccidentSurveillance.md)
 | UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/main/StructuralFire.md)
-| UC6           | Water Sampling                  |    Environmental Scientists | [WaterSampling.md](usecases/main/WaterSampling.md)
-| UC7           | Air Sampling                    |    Environmental Scientists | [AirSampling.md](usecases/main/AirSampling.md)
+| UC6           | Environmental Sampling  (air & water)               |    Environmental Scientists | [WaterSampling.md](usecases/main/WaterSampling.md)
+
 
 *Supporting Use Cases*
 
