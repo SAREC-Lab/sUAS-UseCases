@@ -1,8 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** Victim_Confirmation
-
-**ID** : SPLC-1005
+## Use Case:  Victim_Confirmation
 
 **Description**
 
@@ -50,35 +46,22 @@ The UAV detects a possible victim using its onboard image detection.
 5. The Drone Commander confirms that a victim has been found.
 6. DroneResponse sends a victim\_found confirmation message to a UAV.
 
-## Specific Exceptions
+## Exceptions
 
-1. **In steps 4 and 5 (Victim Refuted)**:
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
-   * 1.1 The drone commander refutes that the sighting is of a victim.
-   * 1.2 Drone Response sends a victim\_NOT\_found message to the UAV.
-   * 1.3 End scenario.
+2. In steps 4 and 5 the user refutes the victim sighting
+   * 2.1 The drone commander refutes that the sighting is of a victim.
+   * 2.2 Drone Response sends a victim\_NOT\_found message to the UAV.
 
-2. **In steps 4 and 5 (Additional Imagery Requested):**
+3. In steps 4 and 5 the user is unable to confirm or refute the sighting.
 
-   * 2.1 The drone commander is uncertain whether the imagery is of a victim and **requests\_additional\_imagery** **[SPLCXXX]**
+   * 3.1 The drone commander is uncertain whether the imagery is of a victim and requests additional imagery.
+   * 3.2 The UAV autonomously flies around the location of the victim sighting and collects additional imagery.
+   * 3.2 The operator either confirms the victim has been found (resume from step 5) or refutes the sighting in which case the UAV continues its previous search plan.
 
-   * 2.2 The drone commander either confirms the victim has been found (go to Step 5) or refutes the sighting (go to Step 1b)
+4. In steps 2 and steps 6, no acknowledgement is received from the operator within a specified time period.
 
-3. **In step 2 (No acknowledgement received)**:
+   * 4.1 The UAV attempts to resend the alert and to route the alert and associated images through other participating drones.
 
-   * 3.1 The drone does not receive an acknowledgement from DroneResponse with a specified time. It attempts to resend the alert and to route the alert and associated images through other participating drones.
-
-4. **In step 6 (No confirmation received)**:
-
-   * 4.1 After a prespecified time period, the drone does not receive either a confirmation, refutation, or request for additional imagery from the human operator and continues in active tracking mode whilst transmitting updated information.
-
-## General Exceptions
-
-1. **At any time** , communication is lost between the Ground Control Station and a UAV.
-
-   * See **Lost Drone-to-GCS Communication** (SPLC-EX-001)
-
-2. At any time, a malfunction error is raised by a UAV in flight.
-   * See **Drone-in-flight Malfunction Alert** (SPC-EX-XXXX)
-
-3. At all times, every UAV in flight scans its surroundings for obstacles to avoid. See **Collision\_Avoidance (SPLC-EX-XXXX)**
+[Return to use case list](../../README.md)
