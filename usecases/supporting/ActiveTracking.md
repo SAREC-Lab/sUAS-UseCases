@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** Active Tracking
+## Use Case: Active Tracking
 
 **ID** : SPLC-1004
 
@@ -33,27 +31,29 @@ Success end condition
 The UAV remains within near vision-range of the victim and streams video imagery to Emergency Responders
 
 Failure end condition:
- UAV fails to actively track the victim
+
+UAV fails to actively track the victim
 
 **Trigger**
 
-Either the UAV has raised a victim\_alert or is assuming the currently assigned tracking task of another UAV.
+The UAV is assigned or assumed the task of tracking a person
 
 ## Main Success Scenario
 
 1. The UAV positions itself in tracking\_position i.e., in the near vicinity of the victim but not directly overhead.
-2. The UAV uses onboard image detection to continually mark the victim in the image stream.
-3. The UAV&#39;s onboard computer continually calculates the GPS coordinates of the victim and the victim&#39;s direction and distance from the UAV.
-4. The UAV&#39;s onboard computer continually calculates the desired position of the UAV to maintain a tracking\_position.
-5. The UAV&#39;s onboard computer continually adjusts the position of the UAV in order to maintain the tracking position.
-6. Steps 2-5 are repeated until the UAV receives a stop\_tracking command.
+2. The UAV uses [image capture and analysis](ImageCaptureAndAnalysis.md) to continually tag the victim in the image stream.
+3. Based on the UAV's position (heading, pitch, roll, yaw) onboard tracker continually calculates the relative position of the victim with respect to the UAV.
+4. The onboard tracker generates appropriate velocity vectors to fly towards the victim, without flying directly over the victim and maintaining victim_separation_distance and always flying at an altitude greater than minimum_altitude.
+5. The velocity vector is sent to the UAV's autopilot and executed to enable the UAV to track the victim.
+6. Steps 2-5 are repeated until the UAV receives a [stop_tracking] command.
 
 ## Exceptions
 
-1. **At any time** , communication is lost between the Ground Control Station and a UAV.
-   *See **Lost Drone-to-GCS Communication** (SPLC-EX-001)
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
-1. At any time, a malfunction error is raised by a UAV in flight.
-   * See **Drone-in-flight Malfunction Alert** (SPC-EX-XXXX)
+2. In step 2, if the UAV loses track of the victim, it attempts to re-tag the victim by changing altitude and performing a localized search.
 
-2. At any time, the UAV scans its surroundings for obstacles to avoid. See **Collision\_Avoidance (SPLC-EX-XXXX)**
+3. At any time if the onboard vision fails, the UAV raises an alert.
+
+4. If the UAV's battery level goes below a safe level, the UAV raises an alert and requests a replacement UAV to assume the tracking task.
+
