@@ -49,3 +49,5 @@ The UAV receives a command to collect and analyze imagery
 ## Exceptions
 
 1. All [general exceptions](../../README.md#GeneralExceptions) apply.
+
+2. At anytime that the camera's battery supply is depleted, the UAV raises an alert.
