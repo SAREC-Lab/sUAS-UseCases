@@ -1,6 +1,4 @@
-(Needs fixing)
-
-## Use Case: Initiate Area Search
+## Use Case: Generate Flight Routes for Area Coverage
 
 **ID** : SPLC-1001
 
