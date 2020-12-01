@@ -1,4 +1,4 @@
-## Use Case: Water Sampling and Analysis
+## Use Case: Environmental Sampling and Analysis
 
 **Description**
 
