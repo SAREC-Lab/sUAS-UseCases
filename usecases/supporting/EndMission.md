@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** End mission
+## Use Case: End mission
 
 **Description**
 
@@ -62,3 +60,6 @@ Failure end condition:
    * 3.2 All UAVs without assigned home coordinates are assigned new in-air temporary coordinates
    * 3.3 UAVs with in-air home coordinates follow steps 3-5 until the in-air coordinates are reached and then hover in place
    * 3.4 The RPIC manually controls the landing of any UAV with in-air home coordinates.
+
+
+[Return to use case list](../../README.md)
