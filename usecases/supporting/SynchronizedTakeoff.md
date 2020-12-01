@@ -1,6 +1,4 @@
-**DroneResponse Use Cases**
-
-**Use Case:** Synchronized Takeoff
+## Use Case: Synchronized Takeoff
 
 **Description**
 
@@ -49,20 +47,23 @@ The UAVs receive the start mission command.
 4. Each UAV then descends or ascends to the designated altitude of its first waypoint and awaits confirmation that all other UAVs have reached their designated altitudes.
 
 ## Exceptions
-1. There is insufficient flying altitude to create safe separation between lanes for the number of UAVs involved in the synchronized takeoff.
-   * 1.1 One of the altitude lanes is reserved.
-   * 1.2 UAVs are divided into take-off groups
-   * 1.3 Steps 1-3 are repeated for each group of UAVs with the constraint that the reserved altitude band is not used.
-   * 1.4 When a UAV reaches the latitute and longitude of its targeted starting waypoings it descends to the reserved altitude and awaits further instructions.
-   * 1.5 Once all groups have been processed and all UAVs are positioned at the reserved altitude at their longitude and latitude, Step 4 is executed.
-   
-2. One or more UAVs fail to take-off
-   * 2.1 Any UAVs that fail to takeoff are ignored during all subsequent synchronizations.
-   
-3. One UAV flies outside its designated flightpath
-   * 3.1 The monitoring system detects the violation and raises an alarm
-   * 3.2 DroneResponse issues a hover-in-place command to the rogue UAV
-   * 3.3 All UAVs activate high-alert collision avoidance tactics
-   * 3.4 The RPIC decides whether to abort the entire mission by sending a global hover_in_place command
-   * 3.5 If the mission is aborted, the RPIC issue RTL commands or manually assumes control over each UAV one-by-one.
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
+2. There is insufficient flying altitude to create safe separation between lanes for the number of UAVs involved in the synchronized takeoff.
+   * 2.1 One of the altitude lanes is reserved.
+   * 2.2 UAVs are divided into take-off groups
+   * 2.3 Steps 1-3 are repeated for each group of UAVs with the constraint that the reserved altitude band is not used.
+   * 2.4 When a UAV reaches the latitute and longitude of its targeted starting waypoings it descends to the reserved altitude and awaits further instructions.
+   * 2.5 Once all groups have been processed and all UAVs are positioned at the reserved altitude at their longitude and latitude, Step 4 is executed.
+   
+3. One or more UAVs fail to take-off
+   * 3.1 Any UAVs that fail to takeoff are ignored during all subsequent synchronizations.
+   
+4. One UAV flies outside its designated flightpath during synchronized takeoff
+   * 4.1 The monitoring system detects the violation and raises an alarm
+   * 4.2 DroneResponse issues a hover-in-place command to the rogue UAV
+   * 4.3 All UAVs activate high-alert collision avoidance tactics
+   * 4.4 The RPIC decides whether to abort the entire mission by sending a global hover_in_place command
+   * 4.5 If the mission is aborted, the RPIC issue RTL commands or manually assumes control over each UAV one-by-one.
+
+[Return to use case list](../../README.md)
