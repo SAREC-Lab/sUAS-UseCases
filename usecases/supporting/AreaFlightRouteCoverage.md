@@ -1,7 +1,5 @@
 ## Use Case: Generate Flight Routes for Area Coverage
 
-**ID** : SPLC-1001
-
 **Description**
 
 Define search area and allocate routes to UAV(s)
