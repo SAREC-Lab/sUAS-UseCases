@@ -41,7 +41,9 @@ The Drone Commander activates the search.
 ## Main Success Scenario
 
 1. UAVs are placed at their launch positions.
+
    &#x1F538; Prelaunch safety checklist is completed by RPIC for each UAV and results logged.
+   
    &#x1F538; UAV spacing is checked prior to launch and alerts are raised if separation is inadequate.
 2. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
 3. Emergency responders  [dynamically generate flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
