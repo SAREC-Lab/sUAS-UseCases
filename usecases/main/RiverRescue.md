@@ -2,7 +2,7 @@
 
 **Description**
 
-Multiple UAVs dispatched to search for victim in river  (&#x1F538;):
+Multiple UAVs dispatched to search for victim in river :
 
 **Primary Actor**
 
