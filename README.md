@@ -1,5 +1,4 @@
 # THIS BRANCH IS FOR TESTING SOME IDEAS ONLY
-<span style="color:blue">some *blue* text</span>.
 
 # Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
 
