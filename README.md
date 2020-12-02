@@ -1,3 +1,5 @@
+# THIS BRANCH IS FOR TESTING SOME IDEAS ONLY
+
 # Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
 
 If you would like to use these use-cases we ask you to reference our paper: <br><br>
