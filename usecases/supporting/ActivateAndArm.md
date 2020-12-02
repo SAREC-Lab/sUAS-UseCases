@@ -43,7 +43,7 @@ An arming command is issued
 1. The RPIC deactivates the UAV's safety switch.
 2. DroneResponse issues an arming command.
 3. The UAV executes all prearming tests.  
-   * (&#x1F538; Arming checks fail to include checks for RTL altitude and GeoFence)
+   * (&#x1F538; Prearming tests are insufficient and don't check for human errors such as incorrect RTL altitude and missing GeoFence)
 4. The UAV passes prearming tests.
 5. The UAV arms.
 6. The UAV's status is set to MISSION mode (PX4=MISSION, Ardupilot=GUIDED/STABILIZED)
