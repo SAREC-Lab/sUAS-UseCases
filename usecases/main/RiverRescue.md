@@ -40,20 +40,21 @@ The Drone Commander activates the search.
 
 ## Main Success Scenario
 
-1. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
-2. Emergency responders  [dynamically generate flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
-3. The DroneResponse commander issues a command to start the mission.
-4. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md).
-5. The UAVs fly their assigned flight routes whilst performing [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md).
-6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
-7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
-8. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
-9. DroneResponse requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
-10. The UAV receives confirmation from the human operator that the victim sighting is valid.
-11. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system.
-12. A UAV tasked with delivering a flotation device  [performs item delivery](ItemDelivery.md)
-12. Human responders arrive at the scene.
-13. The Drone Commander [ends mission](supporting/EndMission.md).
+1. UAVs are placed in their launch positions.
+2. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
+3. Emergency responders  [dynamically generate flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
+4. The DroneResponse commander issues a command to start the mission.
+5. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md).
+6. The UAVs fly their assigned flight routes whilst performing [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md).
+7. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
+8. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
+9. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
+10. DroneResponse requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
+11. The UAV receives confirmation from the human operator that the victim sighting is valid.
+12. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system.
+13. A UAV tasked with delivering a flotation device  [performs item delivery](ItemDelivery.md)
+14. Human responders arrive at the scene.
+15. The Drone Commander [ends mission](supporting/EndMission.md).
 
 ## Exceptions
 
@@ -66,10 +67,10 @@ The Drone Commander activates the search.
    * 2.4 The back-up operator reviews the streamed imagery
    * 2.5 The back-up operator confirms that the sighting is not a victim.
 
-3. In step 10 the human operator refutes the validity of the sighting.
+3. In step 11 the human operator refutes the validity of the sighting.
    * 3.1 The UAV resumes its previous search activity in Step 5
    
-4. In step 8, the UAV does not have permission to start automatic tracking when it detects a candidate victim 
+4. In step 9, the UAV does not have permission to start automatic tracking when it detects a candidate victim 
    * 4.1 The UAV continues its search as described in step 5 without switching to tracking mode.
    * 4.2 If the human operator confirms the victim sighting, the original UAV immediately attempt to relocate the victim and start tracking.
    
