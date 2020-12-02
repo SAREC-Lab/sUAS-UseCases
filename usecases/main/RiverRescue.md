@@ -2,7 +2,7 @@
 
 **Description**
 
-Multiple UAVs dispatched to search for victim in river  <span style="color:blue">some *blue* text</span>.
+Multiple UAVs dispatched to search for victim in river  (&#x1F538;):
 
 **Primary Actor**
 
