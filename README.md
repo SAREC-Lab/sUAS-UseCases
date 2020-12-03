@@ -4,7 +4,7 @@ The following hazards have been derived from a systematic study of publications 
 
 | Hazard Group | Description |Link to Hazard Information |
 |:--|:--| :--|
-|Prohibited airspace| Hazards related to flight authorization and prohibited airspace|prohibited-airspace.md |
+|Prohibited airspace| Hazards related to flight authorization and prohibited airspace|[prohibited-airspace.md](prohibited-airspace.md)|
 |Separation distance|
 |Communication|
 |Hardware/Sensors|
