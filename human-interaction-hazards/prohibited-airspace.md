@@ -4,9 +4,9 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 [![](figures/airspace.png)](#)
 
-Quick Links: [GX1]([Link](GX1)) [GX2]() [GX3]() [GX4]()
+Quick Links: [GX1](#GX1) [GX2]() [GX3]() [GX4]()
 
-## <a name="GX1"></a>GX1: Operator is unaware of prohibited airspace and plans illegal flight routes
+## <a name="GX1">GX1: Operator is unaware of prohibited airspace and plans illegal flight routes</a>
 
 There are numerous accounts of remote pilots either deliberately or accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
 
