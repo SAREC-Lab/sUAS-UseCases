@@ -6,7 +6,7 @@ One of the most common causes of accidents with sUAS is caused by loss-of-signal
 
 Quick Links: [CX1](#CX1) [CX2](#CX2) [CX3](#CX3) [CX4](#CX4) [CX5](#CX5) [home](../README.md)
 
-## <a name="CX1">CX1: The human operator is unable to send directives to the UAV</a>
+## <a name="CX1">CX1: The human operator is unable to send directives to the UAV using the software-based system.</a>
 
 
 | Hazard addressed | Context | Solution |
@@ -15,7 +15,7 @@ Quick Links: [CX1](#CX1) [CX2](#CX2) [CX3](#CX3) [CX4](#CX4) [CX5](#CX5) [home](
 |UX1-2|A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
 
 
-## <a name="CX2">CX2: The human operator is unable to receive status data from the UAVs</a>
+## <a name="CX2">CX2: The human operator is unable to receive status data from the UAVs using the software-based system.</a>
 
 Due to loss of signal no data is transmitted from the UAV.
 | Hazard addressed | Context| Solution |
