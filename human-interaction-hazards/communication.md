@@ -1,6 +1,6 @@
 ## Hazard Tree: Communication (or will be soon!)
 
-One of the most common causes of accidents with sUAS is caused by loss-of-signal preventing the RPIC from sending commands to the sUAS or receiving status updates.
+One of the most common causes of accidents with sUAS is caused by loss-of-signal preventing the RPIC from sending commands to the sUAS or receiving status updates. RPICs communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn) or through use of a computer system (e.g., MissionPlanner, QGroundControl, or custom built software) operating over an alternate communication technique or frequency.  Hazard mitigations are dependent upon the operating context -- specifically whether redundant communication paths exist, and whether the loss of signal is caused by a fault on the UAV or a communication failure. 
 
 [![](figures/communication.png)](#)
 
@@ -8,12 +8,14 @@ Quick Links: [UX1](#UX1) [UX2](#UX2) [UX3](#UX3) [UX4](#UX4) [UX5](#UX5) [home](
 
 ## <a name="GX1">CX1: The human operator is unable to communicate with the UAV via the hand-held controller</a>
 
-RPICs can communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the sUAS is controlled by a computer software system, the hand-held controller provides a backup system for taking manual control when problems occur.
+One way RPICs communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the sUAS is controlled by a computer software system, the hand-held controller provides a backup system for taking manual control when problems occur.
 
-| Hazard addressed | Solution |
-|:--|:--|
-|UX1-1|When communication is lost, the operator needs to immediately understand the risks associated with the uncontrollable UAV. This includes knowing the geofence location and all failsafe configurations. When a RPIC is flying with support of a computer system, this information needs to have previously been saved and retrievable even though signal has been lost to the sUAS.|
-|UX1-2|When the only means of control is the hand-held device with no local storage, the RPIC needs to have a clear mental model of the UAVs geofence and failsafe mechanisms prior to flight. |
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|UX1-1|Hand-held controller is the only remote control mechanism.|The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
+
+When communication is lost, the operator needs to immediately understand the risks associated with the uncontrollable UAV. This includes knowing the geofence location and all failsafe configurations. When a RPIC is flying with support of a computer system, this information needs to have previously been saved and retrievable even though signal has been lost to the sUAS.|
+|UX1-2||When the only means of control is the hand-held device with no local storage, the RPIC needs to have a clear mental model of the UAVs geofence and failsafe mechanisms prior to flight. |
 
 ## <a name="GX2">GX2: Operator ignores prohibited airspace warnings and flies into prohibited airspace</a>
 
