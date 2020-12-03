@@ -4,7 +4,7 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 [![](figures/airspace.png)](#)
 
-Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3]() [GX4]()
+Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) 
 
 ## <a name="GX1">GX1: Operator is unaware of prohibited airspace and plans illegal flight routes</a>
 
@@ -32,3 +32,14 @@ Many prohibited flight areas will not appear on the map as a result of retrievin
 |GX3-1|If a geofence is not activated for the current location (region and altitude) then a warning will be generated|
 |GX3-2|When the UAV is connected to the system, its geofence is retrieved and shown on the map until dismissed by the RPIC|
 |GX3-3|If a flight plan would cause the UAV to fly outside the geofence, then a warning will be generated|
+|GX3-4|If the RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to set the geofences of all or several UAVs at the same time.
+
+## <a name="GX4">GX4: Operator sets the geofence failsafe parameters incorrectly, and the UAV flies beyond the geofence boundary</a>
+
+When a UAV approaches the geofence its onboard failsafe mechanisms will activate.  These typically are either LAND or RTL. The operator must ensure that failsafe mechanisms are configured correctly.
+
+| Hazard addressed | Solution |
+|:--|:--|
+|GX4-1|When the geofence is displayed, the default failsafe mechanisms will also be displayed on the screen.  These include actions (LAND, RTL) and distance from the geofence at which the mechanisms will be activated.
+|GX3-2|If the RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to configure  geofence failsafe mechanismas for all or several UAVs at the same time.
+
