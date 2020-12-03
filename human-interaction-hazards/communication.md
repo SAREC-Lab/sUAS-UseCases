@@ -1,4 +1,4 @@
-## Hazard Tree: Prohibited Airspace
+## Hazard Tree: Communication (or will be soon!)
 
 UAV flights must be in compliance with government and local ordinances and regulations. In the USA all commercial pilots must seek authorization for flights in controlled airspace.
 
