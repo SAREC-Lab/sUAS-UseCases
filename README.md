@@ -6,7 +6,7 @@ The following hazards have been derived from a systematic study of publications 
 |:--|:--| :--|
 |Prohibited airspace| Hazards related to flight authorization and prohibited airspace|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|
 |Separation distance|
-|Communication|
+|Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)
 |Hardware/Sensors|
 |Weather related|
 |Pilot|
