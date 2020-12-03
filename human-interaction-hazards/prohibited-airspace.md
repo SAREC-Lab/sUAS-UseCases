@@ -22,3 +22,13 @@ There are also accounts of RPICs deliberately flying in prohibited airspace.
 |:--|:--|
 |GX2-1|When a flight path is planned into prohibited airspace, the flight will be blocked until the RPIC acknowledge the warning and issues an override |
 |GX2-2|All overrides issued by the RPIC are logged in a persistent transaction file|
+
+## <a name="GX3">GX3: Operator fails to establish appropriate geofence prior to flight</a>
+
+Many prohibited flight areas will not appear on the map as a result of retrieving LANNC data.  For example, in the USA, RPIC are not permitted to fly their UAVs over people which includes flying over traffic.  Furthermore, incursions into prohibited airspace can be caused by signal loss and onboard mechanical failures resulting in fly-away events. Several of these problems can be prevented by establishing a geofence; however, many current UAV flight systems do not require geofences and RPICs may fail to check this.
+
+| Hazard addressed | Solution |
+|:--|:--|
+|GX3-1|If a geofence is not activated for the current location (region and altitude) then a warning will be generated|
+|GX3-2|When the UAV is connected to the system, its geofence is retrieved and shown on the map until dismissed by the RPIC|
+|GX3-3|If a flight plan would cause the UAV to fly outside the geofence, then a warning will be generated|
