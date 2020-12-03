@@ -40,3 +40,8 @@ The operator may observe that communication has failed, or perceive it to have f
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |CX4-1|Coming soon||
+
+## <a name="CX5">CX5: Doesn't seem like a good one!!!!</a>
+
+Needs clarification.
+
