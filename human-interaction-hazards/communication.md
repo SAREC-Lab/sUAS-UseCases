@@ -13,9 +13,8 @@ One way RPICs communicate with their sUAS by sending commands through a hand-hel
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |UX1-1|Hand-held controller is the only remote control mechanism.|The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
+|UX1-2|Redundant controllers exist (i.e., hand-held + computer system) and the operator is using the hand-held device because communication from the computer has also failed | As in the previous example, the RPICs needs situational awareness of onboard mitigations (e.g., geofence location and configurations, failsafe mechanisms). This information should be cached in the ground-based computer immediately following initial configuration so that it can be displayed upon request when signal is lost. 
 
-When communication is lost, the operator needs to immediately understand the risks associated with the uncontrollable UAV. This includes knowing the geofence location and all failsafe configurations. When a RPIC is flying with support of a computer system, this information needs to have previously been saved and retrievable even though signal has been lost to the sUAS.|
-|UX1-2||When the only means of control is the hand-held device with no local storage, the RPIC needs to have a clear mental model of the UAVs geofence and failsafe mechanisms prior to flight. |
 
 ## <a name="GX2">GX2: Operator ignores prohibited airspace warnings and flies into prohibited airspace</a>
 
