@@ -6,4 +6,4 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 ** Hazard Tree **
 
-![prohibited-airspace](prohibited-airspace.md)
+![prohibited-airspace](figures/airspace.png)
