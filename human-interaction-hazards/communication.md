@@ -1,19 +1,19 @@
 ## Hazard Tree: Communication (or will be soon!)
 
-UAV flights must be in compliance with government and local ordinances and regulations. In the USA all commercial pilots must seek authorization for flights in controlled airspace.
+One of the most common causes of accidents with sUAS is caused by loss-of-signal preventing the RPIC from sending commands to the sUAS or receiving status updates.
 
 [![](figures/communication.png)](#)
 
-Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [GX5](#GX5) [home](../README.md)
+Quick Links: [UX1](#UX1) [UX2](#UX2) [UX3](#UX3) [UX4](#UX4) [UX5](#UX5) [home](../README.md)
 
-## <a name="GX1">GX1: Operator is unaware of prohibited airspace and plans illegal flight routes</a>
+## <a name="GX1">CX1: The human operator is unable to communicate with the UAV via the hand-held controller</a>
 
-There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
+RPICs can communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the sUAS is controlled by a computer software system, the hand-held controller provides a backup system for taking manual control when problems occur.
 
 | Hazard addressed | Solution |
 |:--|:--|
-|GX1-1|LANNC data, including all prohibited airspace in the vicinity must be retrieved and displayed clearly on the map |
-|GX1-2|Warnings must be issued if any flight plan creates an incursion into prohibited airspace |
+|UX1-1|When communication is lost, the operator needs to immediately understand the risks associated with the uncontrollable UAV. This includes knowing the geofence location and all failsafe configurations. When a RPIC is flying with support of a computer system, this information needs to have previously been saved and retrievable even though signal has been lost to the sUAS.|
+|UX1-2|When the only means of control is the hand-held device with no local storage, the RPIC needs to have a clear mental model of the UAVs geofence and failsafe mechanisms prior to flight. |
 
 ## <a name="GX2">GX2: Operator ignores prohibited airspace warnings and flies into prohibited airspace</a>
 
