@@ -33,4 +33,10 @@ One way RPICs communicate with their sUAS by sending commands through a hand-hel
 |CX3-2|Redundant controllers exist (i.e., hand-held + computer system) and the operator is using the hand-held device because communication from the computer has also failed | As in the previous example, the RPICs needs situational awareness of onboard mitigations (e.g., geofence location and configurations, failsafe mechanisms). This information should be cached in the ground-based computer immediately following initial configuration so that it can be retrieved upon request|
 |CX3-3|Same context as UX1-2|The UI must provide the capability to display the cached geofence, failsafe mechanisms, and their configurations upon demand|
 
+## <a name="CX4">CX4: The human operator lacks understanding of the nature of the communication problem</a>
 
+The operator may observe that communication has failed, or perceive it to have failed, without understanding the nature of the problem (e.g., malicious jamming attack, interference, loss of LTE connection). Inorder for the RPIC to respond correctly to the situation, they need to be able to quickly diagnose the problem.
+
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|CX4-1|Coming soon||
