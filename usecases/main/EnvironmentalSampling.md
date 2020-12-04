@@ -7,6 +7,7 @@ UAVs collect and analyze water samples from an open body of water
 **Primary Actor**
 
 Environmental Scientist
+
 RPIC
 
 **Supporting Actors**
@@ -20,15 +21,15 @@ Environmentalists, farmers, public
 **Pre-Conditions**
 
 - DroneResponse is running
-- Multiple UAVs are equipped with water sampling mechanisms (and onboard analytics capabilities if needed)
+- Multiple UAVs are equipped with water sampling mechanisms (and onboard analytics capabilities if required)
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The samples are collected successfully from the targeted coordinates
 
-Failure end condition:
+_Failure end condition:_
 
 UAVs fail to collect and/or analyze water samples
 
@@ -43,11 +44,11 @@ The UAV operator activates the water sampling mission
 3. DroneResponse requests and receives [flight authorization](../supporting/FlightAuthorization.md)
 3. The operator issues a command to start the mission.
 4. UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
-5. The UAVs fly their assigned routes and [collect and analyze samples](../supporting/CollectAndAnalyzeSamples.md) at their assigned collection points.
-6. When each UAV has completed its collection assignment it returns home.
+5. The UAVs fly their assigned routes and [collect and analyze samples](../supporting/CollectAndAnalyzeSample.md) at their assigned collection points.
+6. When a UAV has completed its collection assignment it returns home.
 7. The operator removes samples and replaces and/or replenishes onboard sampling supplies.
 8. Steps 4-7 are completed until all needed samples have been collected.
-9. The Drone Commander [ends mission](supporting/EndMission.md).
+9. The Drone Commander [ends mission](../supporting/EndMission.md).
 
 ## Exceptions
 
