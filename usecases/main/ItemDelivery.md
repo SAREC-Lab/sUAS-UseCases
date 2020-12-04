@@ -6,7 +6,8 @@ UAV(s) are dispatched to deliver an item to a target location.
 
 **Primary Actor**
 
-Mission commander
+Mission Commander
+
 Dispatcher 
 
 **Supporting Actors**
@@ -25,11 +26,11 @@ Recipient of the delivered item e.g., victim in a river receiving a flotation de
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The item is successfully delivered to the intended target
 
-Failure end condition:
+_Failure end condition:_
 
 The UAV fails to reach the target coordinates
 The UAV reaches the target coordinates but drops the item incorrectly (e.g., on top of a victim, in an unreachable location)
@@ -60,8 +61,8 @@ The UAV receives a command to deliver an item
 
 ## Resources Used
 
-**1.** [**https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/)
+1. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004/)
 
-**2.** [**https://www.semanticscholar.org/paper/Use-of-Drone-Technology-for-Delivery-of-Medical-Mesar-Lessig/00f87bee4f44e8985486801f1ef124e3da31d444**](https://www.semanticscholar.org/paper/Use-of-Drone-Technology-for-Delivery-of-Medical-Mesar-Lessig/00f87bee4f44e8985486801f1ef124e3da31d444)
+2. [https://www.semanticscholar.org/paper/Use-of-Drone-Technology-for-Delivery-of-Medical-Mesar-Lessig/00f87bee4f44e8985486801f1ef124e3da31d444](https://www.semanticscholar.org/paper/Use-of-Drone-Technology-for-Delivery-of-Medical-Mesar-Lessig/00f87bee4f44e8985486801f1ef124e3da31d444)
 
 [Return to use case list](../../README.md) 
