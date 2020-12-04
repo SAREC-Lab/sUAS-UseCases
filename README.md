@@ -24,6 +24,7 @@ For each identified human-sUAS interaction point, we explore four specific types
 |Pilot| Hazards related to piloting the sUAS |[pilot.md](human-interaction-hazards/pilot.md)
 |Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)
 |Mission Awareness|Hazards associated with general mission awareness| [situationalawareness.md](human-interaction-hazards/situationalawareness.md)
+|UAV autonomy | Hazards associated with human-drone interactions in the presence of sUAS autonomy | [autonomy.md](human-interaction-hazards/autonomy.md)
 
 
 
