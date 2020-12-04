@@ -43,17 +43,17 @@ The human and UAV must closely interact to perform these tasks safely.
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|FX3-1|
-|FX3-2|
-|FX3-3|
+|FX4-1|
+|FX4-2|
+|FX4-3|
 
-## <a name="FX5">FX6: The operator plans intersecting flight routes for multiple sUAS</a> <sub><sup>:one:</sup></sub>
+## <a name="FX5">FX5: The operator plans intersecting flight routes for multiple sUAS</a> <sub><sup>:one:</sup></sub>
 
 The operator needs to be able to plan intersecting flight routes without concern for collisions.  
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|FX4-1|
+|FX5-1|
 
 ## <a name="FX6">FX6: The operator manually configures the same RTL altitudes for multiple UAVs</a> <sub><sup>:one:</sup></sub>
 
@@ -62,5 +62,5 @@ When flying multiple UAVs, they need to be assigned unique RTL altitudes in case
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|FX5-1|
+|FX6-1|
 
