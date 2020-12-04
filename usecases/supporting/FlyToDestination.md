@@ -55,7 +55,7 @@ The UAV has been assigned a set of destination coordinates and has received flig
 
 1. DroneResponse decomposes the entire flight path into a series of `flight_legs`, each one with its own target waypoint.
 2. DroneResponse establishes an initial altitude of the flight `[starting_altitude]` and assigns it as the starting altitude of each individual leg.
-3. DroneResponse checks the starting flight_leg to ensure that it does not pass through any prohibited airspace whilst maintaining its `[starting_altitude]`.
+3. DroneResponse checks the starting `flight_leg` to ensure that it does not pass through any prohibited airspace whilst maintaining its `[starting_altitude]`.
 4. DroneResponse a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains `[minimum_terrain_separation]` whilst maintaining the `[starting_altitude]` of the current leg.
 5. Steps 3-4 are repeated for each `flight_leg`. 
 6. Given the flight plan, the UAV checks that it has sufficient battery power to reach its destination.  It determines that it has sufficient power to continue.
@@ -67,7 +67,7 @@ The UAV has been assigned a set of destination coordinates and has received flig
 
 ## Exceptions
 
-1. All ubiquitous exceptions are handled.
+1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
 2. In step 6, the UAV determines that it lacks sufficient battery power to complete the mission.
    * 2.1 The UAV notifies the human operator and awaits further instructions.
