@@ -61,7 +61,7 @@ The UAV receives a command to deliver an item
 
 ## Resources Used
 
-1. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004</a>
+1. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004" target="_new">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5815004</a>
 2. <a href="https://www.semanticscholar.org/paper/Use-of-Drone-Technology-for-Delivery-of-Medical-Mesar-Lessig/00f87bee4f44e8985486801f1ef124e3da31d444" target="_blank">https://www.semanticscholar.org/paper/Use-of-Drone-Technology-for-Delivery-of-Medical-Mesar-Lessig/00f87bee4f44e8985486801f1ef124e3da31d444</a>
 
 [Return to use case list](../../README.md) 
