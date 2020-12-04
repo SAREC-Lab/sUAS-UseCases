@@ -9,7 +9,7 @@ Quick Links: [PU1](#PU1) [PU2](#PU2) [PU3](#PU3) [PU4](#PU4) [PU5](#PU5) [(All h
 
 <br>:construction: Add cross references.
 
-## <a name="PU1">PU1: RPIC fails to perform flight-readiness checks and/or to fix problems (e.g., dangling cables, low battery)</a> <sub><sup>:one:</sup></sub> <sub><sup>:one:</sup></sub>
+## <a name="PU1">PU1: RPIC fails to perform flight-readiness checks and/or to fix problems (e.g., dangling cables, low battery)</a> <sub><sup>:one:</sup></sub>
 
 
 
