@@ -9,7 +9,7 @@ Quick Links: [RX1](#RX1) [RX2](#RX2) [RX3](#RX3) [RX4](#RX4) [RX5](#RX5) [(All h
 
 <br>:construction: Image needs updating.
 
-## <a name="RX1">RX1: The RPIC accidentally deploys the parachute</a> <sub><sup>:one:</sup></sub> <sub><sup>:one:</sup></sub>
+## <a name="RX1">RX1: The RPIC accidentally deploys the parachute</a> <sub><sup>:one:</sup></sub> 
 
 
 
