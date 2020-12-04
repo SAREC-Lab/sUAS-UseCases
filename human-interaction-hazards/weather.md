@@ -7,6 +7,8 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 Quick Links: [WX1](#WX1) [WX2](#WX2) [WX3](#WX3) [WX4](#WX4) [WX5](#WX5) [(All hazards)](../README.md)<br>
 :one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
 
+<br>:construction: Image needs updating.
+
 ## <a name="WX1">WX1: User launches UAVs in inclement weather</a> <sub><sup>:one:</sup></sub> <sub><sup>:two:</sup></sub>
 
 
