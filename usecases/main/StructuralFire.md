@@ -15,25 +15,28 @@ Semi-autonomous UAV
 **Stakeholders and Interests**
 
 Fire department engaged in fire fighting
+
 FAA concerned with flight regulations
+
 General public
 
 **Pre-Conditions**
 
 - DroneResponse is running
 - Multiple UAVs are equipped with cameras
-- A victim is in the river
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The UAV creates and maintains a heatmap of the entire building
+
 All UAVs return to launch without damage at the end of the incident
 
-Failure end condition:
+_Failure end condition:_
 
 A UAV collides with the building or ground
+
 The UAVs fail to provide an accurate heatmap of the building 
 
 
@@ -51,7 +54,7 @@ The Drone Commander activates the fire support mission.
 6. Each UAV performs [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md) using thermal imagery.
 7. Imagery from each UAV is continuously streamed and aggregated to create a current heatmap of the building.
 8. Steps 4-7 are repeated throughout the fire event
-9. The Incident Commander [ends mission](supporting/EndMission.md) once the fire has been controlled.
+9. The Incident Commander [ends mission](../supporting/EndMission.md) once the fire has been controlled.
 
 ## Exceptions
 
