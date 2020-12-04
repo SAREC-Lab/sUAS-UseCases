@@ -9,19 +9,18 @@ Special thanks to the South Bend Fire Fighters for all of their input.
 
 Please note: The import and inter-linking of these uses cases is in progress.
 
-*Main Use Cases*
+### Main Use Cases
 
 | Use Case      | Description                 | Contrib. Stakeholders              | Main Use Case  |
 | ------------- |-------------                    | -----                              |            -----|    
-| UC1           | River Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/main/RiverRescue.md ) 
-| UC2           |Ice Rescue                       |   n/a |[IceRescue.md](usecases/main/IceRescue.md ) 
-| UC3           |Item Delivery         |    DeLive, Cardiac Science | [ItemDelivery.md](usecases/main/ItemDelivery.md)
-| UC4           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/main/AccidentSurveillance.md)
-| UC5           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/main/StructuralFire.md)
-| UC6           | Environmental Sampling  (air & water)               |    Environmental Scientists | [EnvironmentalSampling.md](usecases/main/EnvironmentalSampling.md)
+| UC1           | River and Ice Search & Rescue           | South Bend Firefighters |[RiverRescue.md](usecases/main/RiverRescue.md ) 
+| UC2           |Item Delivery         |    DeLive, Cardiac Science | [ItemDelivery.md](usecases/main/ItemDelivery.md)
+| UC3           |Traffic Accidents                |    South Bend Firefighters | [AccidentSurveillance.md](usecases/main/AccidentSurveillance.md)
+| UC4           | Structural Fires                |    South Bend Firefighters | [StructuralFire.md](usecases/main/StructuralFire.md)
+| UC5           | Environmental Sampling  (air & water)               |    Environmental Scientists | [EnvironmentalSampling.md](usecases/main/EnvironmentalSampling.md)
 
 
-*Supporting Use Cases*
+### Supporting Use Cases
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
@@ -38,8 +37,9 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | SC11          | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
 | SC12          | Victim Confirmation  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
 
+<a name="GeneralExceptions"> </a>
 
-*<a name="GeneralExceptions">General Exception Cases</a> apply across all other use cases*
+### General Exception Cases apply across all other use cases 
 
 | Use Case      | Description                  | Link  |
 | ------------- |-------------                    | -----     |
