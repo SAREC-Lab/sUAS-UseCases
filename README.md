@@ -4,7 +4,7 @@ The following hazards have been derived from a systematic study of publications 
 
 For each identified human-sUAS interaction point, we explore four specific types of hazards: 
 <br>:one: human initiated hazards (e.g., the pilot flies whilst inebriated, ignores regulations, and/or behaves in a reckless manner)
-<br>:two: loss of situational awareness including lack of information and/or comprehension about the state of current/intended mission (e.g., inaccurate information about the health or location of a sUAS or not understanding why a sUAS behaves in a certain way),
+<br>:two: loss of situational awareness including lack of information and/or comprehension about the state of current/intended mission 
 <br>:three: lack of empowerment to intervene in the situation (e.g., inability to override an autonomous decision made by a sUAS)
 <br>:four: the impact of system failures on human operators.  We then propose specific mitigations.
 
