@@ -10,7 +10,7 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../
 
 There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
 
-| Hazard addressed Solution |
+| Hazard addressed | Solution |
 |:--|:--|
 |GX1-1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map |
 |GX1-2|Warnings must be issued if any flight plan creates an incursion into prohibited airspace |
