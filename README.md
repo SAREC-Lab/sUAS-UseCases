@@ -27,7 +27,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | ------------- |-------------                    | -----     |
 | SC1           | Activate and Arm | [ActivateAndArm.md](usecases/supporting/ActivateAndArm.md)|
 | SC2           | Active Tracking  | [ActiveTracking.md](usecases/supporting/ActiveTracking.md)|
-| SC3           | Area Flight Route Coverage | [AreaFlightCoverage.md](usecases/supporting/AreaFlightRouteCoverage.md)|
+| SC3           | Area Flight Route Coverage | [AreaFlightRouteCoverage.md](usecases/supporting/AreaFlightRouteCoverage.md)|
 | SC4           | Collect and Analyze Sample | [CollectAndAnalyseSample.md](usecases/supporting/CollectAndAnalyseSample.md)|
 | SC5           | End Mission  | [EndMission.md](usecases/supporting/EndMission.md)|
 | SC6           | Flight Authorization  | [FlightAuthorization.md](usecases/supporting/FlightAuthorization.md)|
