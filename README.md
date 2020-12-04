@@ -8,6 +8,8 @@ For each identified human-sUAS interaction point, we explore four specific types
 <br>:three: lack of empowerment to intervene in the situation (e.g., inability to override an autonomous decision made by a sUAS)
 <br>:four: the impact of system failures on human operators.  We then propose specific mitigations.
 
+# Hazard Groupings
+
 | Hazard Group | Description |Link to Hazard Information |
 |:--|:--| :--|
 |Prohibited airspace| Hazards related to flight authorization and prohibited airspace|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|
