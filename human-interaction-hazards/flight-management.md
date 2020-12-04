@@ -4,9 +4,11 @@ The RPIC is responsible for planning and executing flight routes.
 
 [![](figures/flight.png)](#)
 
-Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5) [(All hazards)](../README.md)
+Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5) [(All hazards)](../README.md)<br>
+:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene
 
-## <a name="FX1">FX1: The operator fails to load accurate and current map for flight route planning.</a>
+
+## <a name="FX1">FX1: The operator fails to load accurate and current map for flight route planning.</a> <sub><sup>:one:</sup></sub>
 
 
 | Hazard addressed | Context | Solution |
@@ -15,7 +17,7 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5) [(All h
 |FX1-2|
 
 
-## <a name="FX2">FX2: The operator launches UAVS from an area obstructd by trees, buildings, or people.</a>
+## <a name="FX2">FX2: The operator launches UAVS from an area obstructed by trees, buildings, or people.</a> <sub><sup>:one:</sup></sub>
 Launching an sUAS from an obstructed area introduces the risk of collisions during takeoff.
 
 | Hazard addressed | Context| Solution |
@@ -33,7 +35,7 @@ The human and UAV must closely interact to perform these tasks safely.
 |FX3-2|
 |FX3-3|
 
-## <a name="FX4">FX4: The operator plans intersecting flight routes for multiple sUAS</a>
+## <a name="FX4">FX4: The operator plans intersecting flight routes for multiple sUAS</a> <sub><sup>:two:</sup></sub>
 
 The operator needs to be able to plan intersecting flight routes without concern for collisions.  
 
@@ -41,9 +43,10 @@ The operator needs to be able to plan intersecting flight routes without concern
 |:--|:--|:--|
 |FX4-1|
 
-## <a name="FX5">FX5: The operator manually configures RTL altitudes for one or more UAVs</a>
+## <a name="FX5">FX5: The operator manually configures the same RTL altitudes for multiple UAVs</a> <sub><sup>:one:</sup></sub>
 
 When flying multiple UAVs, they need to be assigned unique RTL altitudes in case all undergo failsafe RTLs simultaneously.
+(Note: Need to update diagram)
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
