@@ -9,7 +9,7 @@ Quick Links: [SX1](#SX1) [SX2](#SX2) [SX3](#SX3) [SX4](#SX4) [SX5](#SX5) [(All h
 :one: =Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene
 
 ## <a name="SX1">SX1: The human operator is unable to control the UAV</a> 
-# :three:
+### :three:
 
 
 | Hazard addressed | Context | Solution |
