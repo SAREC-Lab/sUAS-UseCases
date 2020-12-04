@@ -1,12 +1,12 @@
 ## Hazard Tree: Hardware and Sensors
 
 Human technicians are responsible for setting up hardware (e.g., sensors, UAV), while the RPIC is responsible 
-for preflight inspections and for handling runtime faults as they occur. :1:  :d: :b:
+for preflight inspections and for handling runtime faults as they occur. 
 
 [![](figures/sensors.png)](#)
 
 Quick Links: [SX1](#SX1) [SX2](#SX2) [SX3](#SX3) [SX4](#SX4) [SX5](#SX5) [(All hazards)](../README.md)<br>
-Legend: :hi:=Human initiated error, SA=Loss of Situational awareness, LE=Lack of empowerment to intervene
+Legend: :one: =Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene
 
 ## <a name="SX1">SX1: The human operator is unable to control the UAV</a>
 
