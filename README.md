@@ -9,7 +9,7 @@ For each identified human-sUAS interaction point, we explore three specific type
 |Prohibited airspace| Hazards related to flight authorization and prohibited airspace|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|
 |Flight management| Hazards related to managing flights and avoiding collisions |[flight-management.md](human-interaction-hazards/flight-management.md)
 |Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)
-|Hardware/Sensors|
+|Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)
 |Weather related|
 |Pilot|
 |Preflight Configuration|
