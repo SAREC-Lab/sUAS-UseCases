@@ -5,7 +5,10 @@
 Define a coverage area and allocate routes to UAV(s)
 
 **Invoked by**
-[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md)
+
+| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |:------: |
+| x | x |   |   |  |   x |
 
 **Primary Actor**
 
@@ -24,11 +27,11 @@ Semi-autonomous UAV
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 Search routes planned and allocated to UAVs for an efficient search.
 
-Failure end condition:
+_Failure end condition:_
 
  Ineffective search routes provide low coverage or inefficient search
 
@@ -41,9 +44,9 @@ User selects the option to mark a region and generate routes dynamically
 1. A user selects the feature to mark a region on the currently displayed map.
 2. The user marks a polygon shape on the map.
 3. DroneResponse analyzes the shape and size of the drawn polygon for feasibility of generating routes and the polygon is accepted as viable for route generation.
-4. The user specifies the number of UAVs (N) that will participate in the mission.
-5. DroneResponse dynamically generates an efficent set of N flight routes that optimize coverage of the marked area whilst minimizing flight times.
-6. DroneResponse assigns the flight times to N available UAVs.
+4. The user specifies the number of UAVs `N` that will participate in the mission.
+5. DroneResponse dynamically generates an efficent set of `N` flight routes that optimize coverage of the marked area whilst minimizing flight times.
+6. DroneResponse assigns the flight routes to  `N` available UAVs.
 7. The use case ends once flight routes have been generated and assigned.
 
 ## Exceptions
@@ -58,12 +61,12 @@ User selects the option to mark a region and generate routes dynamically
    * 3.1 If the polygon has insufficient width or height it is rejected.
    * 3.2 If the polygon includes unsupportable indentations or appendages these will be ignored during the flight route generation and an alert will be raised.
 
-4. In step 4, there are less than N UAVs available for assignment to the designated flight plans. Either
+4. In step 4, there are less than `N` UAVs available for assignment to the designated flight plans. Either
    * 4.1 The user reduces the number of designated UAVs to a number for which viable UAVs are available
    * 4.2 or a technician activates and arms additional UAVs for inclusion in the mission.
    
 5. In step 5, instead of optimizing for area coverage, the algorithm optimizes the routes for a sampling mission
-   * 5.1 The user specifies the number of samples (S) to be collected by each UAV
-   * 5.2 The algorithm optimizes the flight paths such that S sampling locations are distributed as evenly as possible over the marked area, locations are clustered into N flight paths, and each UAV's flight path is optimized to reduce power consumption.
+   * 5.1 The user specifies the number of samples `S` to be collected by each UAV
+   * 5.2 The algorithm optimizes the flight paths such that `S` sampling locations are distributed as evenly as possible over the marked area, locations are clustered into `N` flight paths, and each UAV's flight path is optimized to reduce power consumption.
    
 [Return to use case list](../../README.md)
