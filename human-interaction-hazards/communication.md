@@ -4,7 +4,7 @@ One of the most common causes of accidents with sUAS is caused by loss-of-signal
 
 [![](figures/communication.png)](#)
 
-Quick Links: [CX1](#CX1) [CX2](#CX2) [CX3](#CX3) [CX4](#CX4) [CX5](#CX5) [home](../README.md)
+Quick Links: [CX1](#CX1) [CX2](#CX2) [CX3](#CX3) [CX4](#CX4) [CX5](#CX5) [(All hazards)](../README.md)
 
 ## <a name="CX1">CX1: The human operator is unable to send directives to the UAV using the software-based system.</a>
 
