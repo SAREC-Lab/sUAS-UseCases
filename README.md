@@ -1,6 +1,10 @@
 # Hazard Identification and Mitigation for Human-Drone Interactions
 
-The following hazards have been derived from a systematic study of publications reporting safety analyses techniques applied to the domain of small Unmanned Aerial Vehicles. We have organized them into trees of related hazards. Our focus here is on exploring human-sUAS interaction hazards. 
+The following hazards have been derived from a systematic study of publications reporting safety analyses techniques applied to the domain of small Unmanned Aerial Vehicles. 
+
+### Hazard Types
+
+We have organized them into trees of related hazards. Our focus here is on exploring human-sUAS interaction hazards. 
 
 For each identified human-sUAS interaction point, we explore four specific types of hazards: 
 <br>:one: human initiated hazards (e.g., the pilot flies whilst inebriated, ignores regulations, and/or behaves in a reckless manner)
