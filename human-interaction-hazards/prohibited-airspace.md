@@ -30,7 +30,7 @@ Many prohibited flight areas will not appear on the map as a result of retrievin
 | Hazard addressed | Solution |
 |:--|:--|
 |GX3-1|When a geofence is not activated for the current location (region and altitude) a warning shall be generated|
-|GX3-2|After the UAV is connected to the system, the system retrieves the UAVs existing geofence data, and visibly displays it on the map until dismissed by the RPIC|
+|GX3-2|As soon as the UAV is connected to the system, the UAV's existing geofence data shall be retrieved and visibly displayed on the map until dismissed by the RPIC|
 |GX3-3|When a planned flight extends outside the geofence a warning will be generated|
 |GX3-4|Where an RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to set the geofences of all or several UAVs at the same time.
 
