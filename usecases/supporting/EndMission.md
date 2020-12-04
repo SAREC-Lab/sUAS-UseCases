@@ -56,7 +56,7 @@ One or more UAVs fail to return to a safe landing base
    * Steps 2-6 are executed as specified.
 
 2. In step 1, whilst a UAV is returning to base, the mission-commander assigns it a new task.
-   * 2.1 The `END_MISSION command` is cancelled for this UAV.
+   * 2.1 The `END_MISSION` command is cancelled for this UAV.
    * 2.2 The UAV commences its new mission.
    
 3. In step 2, multiple UAVs have been assigned the same home coordinates.
