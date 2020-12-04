@@ -26,11 +26,11 @@ Semi-autonomous UAV
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The victim is found by a UAV and actively tracked until a first responder takes over the rescue operation
 
-Failure end condition:
+_Failure end condition:_
 
 The victim is not found or the victim is found but not actively tracked.
 
@@ -45,13 +45,13 @@ The Drone Commander activates the search.
 3. The DroneResponse commander issues a command to start the mission.
 4. UAVs assigned the searching task [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 5. The UAVs [perform the search](../supporting/PerformSearch.md)
-6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold and raises a [victim_detection] event.
+6. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold a [victim_detection] event is raised.
 7. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
 8. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
-9. DroneResponse requests [victim confirmation](supporting/VictimConfirmation.md) from the human operator.
+9. DroneResponse requests [victim confirmation](../supporting/VictimConfirmation.md) from the human operator.
 10. The UAV receives confirmation from the human operator that the victim sighting is valid.
 11. Human responders arrive at the scene with their own flotation devices. They attempt a rescue.
-12. The Drone Commander [ends mission](supporting/EndMission.md).
+12. The Drone Commander [ends mission](../supporting/EndMission.md).
 
 
 ## Exceptions
