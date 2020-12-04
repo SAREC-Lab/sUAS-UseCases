@@ -23,7 +23,7 @@ For each identified human-sUAS interaction point, we explore four specific types
 |Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)
 |Pilot| Hazards related to piloting the sUAS |[pilot.md](human-interaction-hazards/pilot.md)
 |Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)
-|Mission Awareness|Hazards associated with general mission awareness| [situationalawareness.md]|(human-interaction-hazards/situationalawareness.md)
+|Mission Awareness|Hazards associated with general mission awareness| [situationalawareness.md](human-interaction-hazards/situationalawareness.md)
 
 
 
