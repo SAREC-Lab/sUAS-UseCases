@@ -41,5 +41,5 @@ When a UAV approaches the geofence its onboard failsafe mechanisms will activate
 | Hazard addressed | Solution |
 |:--|:--|
 |GX4-1|When the geofence is displayed, the default failsafe mechanisms will also be displayed on the screen.  These include actions (LAND, RTL) and distance from the geofence at which the mechanisms will be activated.
-|GX3-2|If the RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to configure  geofence failsafe mechanismas for all or several UAVs at the same time.
+|GX4-2|If the RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to configure  geofence failsafe mechanismas for all or several UAVs at the same time.
 
