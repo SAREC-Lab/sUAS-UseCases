@@ -10,7 +10,7 @@ For each identified human-sUAS interaction point, we explore three specific type
 |Flight management| Hazards related to managing flights and avoiding collisions |[flight-management.md](human-interaction-hazards/flight-management.md)
 |Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)
 |Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)
-|Weather related|
+|Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)
 |Pilot|
 |Preflight Configuration|
 |Situational Awareness|

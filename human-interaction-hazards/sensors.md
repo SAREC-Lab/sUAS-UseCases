@@ -6,7 +6,7 @@ for preflight inspections and for handling runtime faults as they occur.
 [![](figures/sensors.png)](#)
 
 Quick Links: [SX1](#SX1) [SX2](#SX2) [SX3](#SX3) [SX4](#SX4) [SX5](#SX5) [(All hazards)](../README.md)<br>
-:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene
+:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
 
 ## <a name="SX1">SX1: The human operator is unable to control the UAV</a> <sub><sup>:three:</sup></sub>
 
