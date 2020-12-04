@@ -53,11 +53,11 @@ The UAV has been assigned a set of destination coordinates and has received flig
 
 ## Main Success Scenario
 
-1. DroneResponse decomposes the entire flight path into a series of flight_legs, each one with its own target waypoint.
-2. DroneResponse establishes an initial altitude of the flight [starting_altitude] and assigns it as the starting altitude of each individual leg.
-3. DroneResponse checks the starting flight_leg to ensure that it does not pass through any prohibited airspace whilst maintaining its [starting_altitude].
-4. DroneResponse a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains [minimum_terrain_separation] whilst maintaining the [starting_altitude] of the current leg.
-5. Steps 3-4 are repeated for each flight_leg. 
+1. DroneResponse decomposes the entire flight path into a series of `flight_legs`, each one with its own target waypoint.
+2. DroneResponse establishes an initial altitude of the flight `[starting_altitude]` and assigns it as the starting altitude of each individual leg.
+3. DroneResponse checks the starting flight_leg to ensure that it does not pass through any prohibited airspace whilst maintaining its `[starting_altitude]`.
+4. DroneResponse a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains `[minimum_terrain_separation]` whilst maintaining the `[starting_altitude]` of the current leg.
+5. Steps 3-4 are repeated for each `flight_leg`. 
 6. Given the flight plan, the UAV checks that it has sufficient battery power to reach its destination.  It determines that it has sufficient power to continue.
 7. The UAV ascends or descends to the target altitude of the current flight leg.
 8. The UAV flies to the destination waypoint of the current flight leg.
@@ -74,10 +74,10 @@ The UAV has been assigned a set of destination coordinates and has received flig
 
 3. In steps 2 or 3 it is determined that the UAV will pass through prohibited airspace.
    * 3.1 An alternate flight path is planned around the prohibited airspace and/or at a new altitude
-   * 3.2 If necessary, the flight path is divided into a series of waypoints representing multiple flight_legs
+   * 3.2 If necessary, the flight path is divided into a series of waypoints representing multiple `flight_legs`
    * 3.3 Steps 2 and 3 are repeated until a viable flight path is found.
       * 3.3.1 If no viable flight path can be found the operator is notified and the flight is cancelled.
-	  * 3.3.1 If a viable flight path is found, then original series of flight_legs is updated with the modified legs
+	  * 3.3.1 If a viable flight path is found, then original series of `flight_legs` is updated with the modified legs
 
 4. In step 6, has been assigned a task that requires additional battery power (e.g., return to home coordinates, survey the landscape). 
    * 4.1 The UAV estimates power requirements for completing the entire task.
