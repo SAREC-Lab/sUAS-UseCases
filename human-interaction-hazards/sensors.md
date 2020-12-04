@@ -6,7 +6,7 @@ for preflight inspections and for handling runtime faults as they occur.
 [![](figures/sensors.png)](#)
 
 Quick Links: [SX1](#SX1) [SX2](#SX2) [SX3](#SX3) [SX4](#SX4) [SX5](#SX5) [(All hazards)](../README.md)<br>
-Legend: HI=Human initiated error, SA=Loss of Situational awareness, LE=Lack of empowerment to intervene
+Legend: :hi:=Human initiated error, SA=Loss of Situational awareness, LE=Lack of empowerment to intervene
 
 ## <a name="SX1">SX1: The human operator is unable to control the UAV</a>
 
