@@ -18,7 +18,7 @@ Quick Links: [SX1](#SX1) [SX2](#SX2) [SX3](#SX3) [SX4](#SX4) [SX5](#SX5) [(All h
 |SX1-2|
 
 
-## <a name="SX2">SX2: The human operator lacks system support for handling geolocation failures</a> <sub>:three:</sub>
+## <a name="SX2">SX2: The human operator lacks system support for handling geolocation failures</a> <small>:three:</small>
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
