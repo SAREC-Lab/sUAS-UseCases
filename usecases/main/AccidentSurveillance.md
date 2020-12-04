@@ -8,9 +8,15 @@ One or more UAVs are dispatched to a traffic accident scene in order to provide 
 
 UAV&#39;s
 
+Drone Commander
+
 **Supporting Actors**
 
-Firefighters, Police, Medical crews
+Firefighters
+
+Police
+
+Medical crews
 
 **Stakeholders and Interests**
 
@@ -24,13 +30,14 @@ Having specific information about a car accident (how many cars are involved, wh
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The accident is precisely located, the scene is described using onboard vision, and directions are generated for emergency responders
 
-Failure end condition:
+_Failure end condition:_
 
 An accident is not found even though it has occurred
+
 The accident site is not streamed to operators
 
 **Trigger**
@@ -48,8 +55,8 @@ A 911 call operator receives a call reporting an accident
 8. A human operator inspects the video and confirms that the accident site has been correctly identified. 
 9. The precise GPS coordinate of the accident and the surroundings of the road are sent to the emergency responders.
 10. DroneResponse generates a route to the correct location, ensuring arrival on the correct side of the highway.
-11. The UAVs continue [onboard vision and detection](../supporting/OnboardVisionAndDetection.md) to infer details of the scene  ( i.e number of cars, presence of fire, victims on the ground, toxic material leakage).
-12. Specific information gathered by UAV's is processed and classified into specific emergency categories and sent to related emergency services. (Traffic information sent to the police, accident structure information sent to the firefighters, human related information sent to medical staff).
+11. The UAVs continue [onboard vision and detection](../supporting/OnboardVisionAndDetection.md) to infer details of the scene  ( i.e., number of cars, presence of fire, victims on the ground, toxic material leakage).
+12. Specific information gathered by UAV's is processed and classified into specific emergency categories and sent to related emergency services. (Traffic information sent to the police, accident structure information sent to the fire fighters, human related information sent to medical staff).
 13. Emergency responders arrive on the scene.
 14. The Drone Commander [ends the mission](../supporting/EndMission.md)
 
