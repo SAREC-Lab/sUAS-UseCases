@@ -8,7 +8,6 @@ Quick Links: [CX1](#CX1) [CX2](#CX2) [CX3](#CX3) [CX4](#CX4) [CX5](#CX5) [(All h
 
 ## <a name="CX1">CX1: The human operator is unable to send directives to the UAV using the software-based system.</a>
 
-
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |CX1-1|Computer Software controller is the only remote control mechanism.|The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
