@@ -45,7 +45,7 @@ The Drone Commander activates the search.
 ## Main Success Scenario
 
 1. UAVs are placed in their launch positions.
-2. UAVs are [activated and armed](../supporting/ActivateAndArm.md)
+2. UAVs are [activated and armed](../supporting/ActivateAndArm.md).
 3. Emergency responders  [dynamically generate flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
 4. The DroneResponse commander issues a command to start the mission.
 5. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md).
@@ -62,7 +62,7 @@ The Drone Commander activates the search.
 
 ## Alternative Steps 
 
-1. In step 11, in case of an ice rescue scenario, the UAV does not deliver the flotation device but remains in tracking mode
+1. In step 11, in case of an ice rescue scenario, the UAV does not deliver the flotation device but remains in tracking mode.
    * 1.1 Human responders arrive at the scene with their own flotation devices. They attempt a rescue.
 
 
@@ -70,28 +70,28 @@ The Drone Commander activates the search.
 
 1. All [general exceptions](../../README.md#GeneralExceptions) apply, except for those with [in_air] preconditions.
 
-2. In step 7, the UAV detects a possible victim at a confidence level below [victim_detected] threshold but above the lowest [ignore_level]
-   * 2.1 The UAV raises a notification including saved imagery
-   * 2.2 DroneResponse saves the GPS coordinates of the sighting
+2. In step 7, the UAV detects a possible victim at a confidence level below [victim_detected] threshold but above the lowest [ignore_level].
+   * 2.1 The UAV raises a notification including saved imagery.
+   * 2.2 DroneResponse saves the GPS coordinates of the sighting.
    * 2.3 The UAV continues its currently assigned route.
-   * 2.4 The back-up operator reviews the streamed imagery
+   * 2.4 The back-up operator reviews the streamed imagery.
    * 2.5 The back-up operator confirms that the sighting is not a victim.
 
 3. In step 11 the human operator refutes the validity of the sighting.
-   * 3.1 The UAV resumes its previous search activity in Step 5
+   * 3.1 The UAV resumes its previous search activity in Step 5.
    
-4. In step 9, the UAV does not have permission to start automatic tracking when it detects a candidate victim 
+4. In step 9, the UAV does not have permission to start automatic tracking when it detects a candidate victim.
    * 4.1 The UAV continues its search as described in step 5 without switching to tracking mode.
    * 4.2 If the human operator confirms the victim sighting, the original UAV immediately attempt to relocate the victim and start tracking.
    
-5. At any time after a victim has been detected 
-   * 5.1 The human operator reassigns a new UAV to perform the tracking task
-   * 5.2 The current UAV waits to be assigned a new task (e.g., rejoin the search, return home)
+5. At any time after a victim has been detected.
+   * 5.1 The human operator reassigns a new UAV to perform the tracking task.
+   * 5.2 The current UAV waits to be assigned a new task (e.g., rejoin the search, return home).
 
 
 ## Resources Used
 
 1. Ankit Agrawal, Sophia Abraham, Benjamin Burger, Chichi Christine, Luke Fraser, John Hoeksema, Sara Hwang, Elizabeth Travnik, Shreya Kumar, Walter Scheirer, Jane Cleland-Huang, Michael Vierhauser, Ryan Bauer, Steve Cox: The Next Generation of Human-Drone Partnerships: Co-Designing an Emergency Response System, CHI 2020.
-2. Jane Cleland-Huang, Michael Vierhauser: Discovering, Analyzing, and Managing Safety Stories in Agile Projects. RE 2018: 262-273
+2. Jane Cleland-Huang, Michael Vierhauser: Discovering, Analyzing, and Managing Safety Stories in Agile Projects. RE 2018: 262-273.
 
 [Return to use case list](../../README.md) 
