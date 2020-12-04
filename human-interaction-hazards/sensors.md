@@ -12,7 +12,7 @@ Legend: HI=Human initiated error, SA=Loss of Situational awareness, LE=Lack of e
 
 
 | Hazard addressed | Context | HI| SA | LE| Solution |
-|:--|:--||||:--|
+|:--|:--|---|---|---|:--|
 |SX1-1|
 |SX1-2|
 
