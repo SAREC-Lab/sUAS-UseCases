@@ -4,7 +4,7 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 [![](figures/airspace.png)](#)
 
-Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [List of Hazards](../README.md)
+Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../README.md)
 
 ## <a name="GX1">GX1: Operator is unaware of prohibited airspace and plans illegal flight routes</a>
 
