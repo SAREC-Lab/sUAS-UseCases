@@ -3,6 +3,8 @@
 
 **Description**
 
+A UAV actively tracks a victim
+
 **Invoked by**
 
 
@@ -10,7 +12,7 @@
 | :------: | :--------: | :--------: | :------: |:------: |:------: |
 | x | x |  |  | |  |
 
-A UAV actively tracks a victim
+
 
 **Rationale**
 During search and rescue, once a victim is detected, the UAV must hover over the victim and track if the victim is moving.
