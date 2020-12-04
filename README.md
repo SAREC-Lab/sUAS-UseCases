@@ -2,7 +2,7 @@
 
 If you would like to use these use-cases we ask you to reference our paper: <br><br>
 **Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Speybroeck, Michael Vierhauser:
-``Requirements-driven configuration of emergency response missions with small aerial vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12**
+``Requirements-Driven Configuration of Emergency Response Missions with Small Aerial Vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12**
 ([bib available here](SPLC2020.txt))
 
 Special thanks to the South Bend Fire Fighters for all of their input.
