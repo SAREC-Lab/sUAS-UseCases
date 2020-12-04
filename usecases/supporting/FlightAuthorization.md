@@ -6,7 +6,9 @@ Request flight authorization
 
 **Invoked by**
 
-[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md), [AccidentSurveillance](../main/AccidentSurveillance.md), [AirSampling](../main/AirSampling.md), [WaterSampling](../main/WaterSampling.md), [DefibrillatorDelivery](../main/DefibrillatorDelivery.md), [StructuralFire](../main/StructuralFire.md)
+| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |:------: |
+| x | x | x | x | x|  x |
 
 **Primary Actor**
 
@@ -24,22 +26,23 @@ Semi-autonomous UAV
 
 **Pre-Conditions**
 
-- Authorization service is available
-- Flight routes and region is known
+Authorization service is available
+
+Flight routes and region are known
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
-- UAV is authorized to fly or authorization is denied for a valid reason
+UAV is authorized to fly or authorization is denied for a valid reason
 
-Failure end condition:
+_Failure end condition:_
 
-- UAV flies without authorization or flies outside of authorized limits
+UAV flies without authorization or flies outside of authorized limits
 
 **Trigger**
 
-- Flight routes are planned for current or future mission
+Flight routes are planned for current or future mission
 
 
 ## Main Success Scenario
@@ -60,17 +63,17 @@ Failure end condition:
    
 2. In step 2, the RPIC deems weather conditions are unsafe for flight and the mission is aborted.
    
-3. In step 3, flight authorization is requested for an invalid flight plan e.g., (i) nighttime flight (without a waiver), (ii)flying in permanently or temporarily prohibited airspace
+3. In step 3, flight authorization is requested for an invalid flight plan e.g., (i) nighttime flight (without a waiver), (ii) flying in permanently or temporarily prohibited airspace
    * 3.2 Flight authorization is denied.
    * 3.3 The RPIC either aborts the mission or replans a valid mission and resubmits a new flight plan.
    
-4. In steps 3 or 4, Airmap fails to respond.
+4. In steps 3 or 4, AirMap fails to respond.
    * 4.1 Steps 2 and 3 are repeated at one minute periods until a response is received or three attempts have been made.
       * 4.1.1 In step 2.1 if no response is received the RPIC manually calls the local Air Traffic Control tower to seek flying permission.
 	  * 4.1.2 If permission is received verbally, then the RPIC records this note in the DroneResponse system and the flight proceeds as authorized.
 	  * 4.1.3 If permission is not granted by ATC or AirMap, then the flight is aborted.
 
-5. In steps 3-5 the RPIC has a waiver to fly without prior authorization typically due to an emergency response authorization.
+5. In steps 3-5 the RPIC has a waiver to fly without prior authorization, typically due to an emergency response authorization.
    * 5.1 Steps 3-6 are executed in parallel to launching the mission.
    
 [Return to use case list](../../README.md)
