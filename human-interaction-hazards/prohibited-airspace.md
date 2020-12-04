@@ -10,9 +10,9 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../
 
 There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
 
-| Hazard addressed | Solution |
+| Hazard addressed Solution |
 |:--|:--|
-|GX1-1|LANNC data, including all prohibited airspace in the vicinity must be retrieved and displayed clearly on the map |
+|GX1-1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map |
 |GX1-2|Warnings must be issued if any flight plan creates an incursion into prohibited airspace |
 
 ## <a name="GX2">GX2: Operator ignores prohibited airspace warnings and flies into prohibited airspace</a>
@@ -31,8 +31,8 @@ Many prohibited flight areas will not appear on the map as a result of retrievin
 |:--|:--|
 |GX3-1|When a geofence is not activated for the current location (region and altitude) a warning shall be generated|
 |GX3-2|After the UAV is connected to the system, the system retrieves the UAVs existing geofence data, and visibly displays it on the map until dismissed by the RPIC|
-|GX3-3|If a flight plan would cause the UAV to fly outside the geofence, then a warning will be generated|
-|GX3-4|If the RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to set the geofences of all or several UAVs at the same time.
+|GX3-3|When a planned flight extends outside the geofence a warning will be generated|
+|GX3-4|Where an RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to set the geofences of all or several UAVs at the same time.
 
 ## <a name="GX4">GX4: Operator sets the geofence failsafe parameters incorrectly, and the UAV flies beyond the geofence boundary</a>
 
