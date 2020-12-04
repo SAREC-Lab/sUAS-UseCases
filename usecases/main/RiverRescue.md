@@ -63,7 +63,7 @@ The Drone Commander activates the search.
 ## Alternative Steps 
 
 1. In step 11, in case of an ice rescue scenario, the UAV does not deliver the flotation device but remains in tracking mode
-  * 1.1 Human responders arrive at the scene with their own flotation devices. They attempt a rescue.
+   * 1.1 Human responders arrive at the scene with their own flotation devices. They attempt a rescue.
 
 
 ## Exceptions
