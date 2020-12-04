@@ -25,18 +25,20 @@ General public
 
 **Pre-Conditions**
 
-- UAV has been prepped for flight with batteries, propellers etc and is airworthy
+- UAV has been prepped for flight with batteries, propellers, etc. and is airworthy
 - UAV has been placed at its launching location
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 - The UAV passes arming checks and is armed for flight
 
-Failure end condition:
-- The UAV takes off without adequate arming checks
-- The UAV fails to arm
+_Failure end condition:_ 
+
+The UAV takes off without adequate arming checks
+
+The UAV fails to arm
 
 **Trigger**
 
@@ -65,7 +67,7 @@ An arming command is issued
    * 3.2 The RPIC reactivates the UAV's safety switch.
    * 3.3 A technician attempts to fix the root cause of the prearming failure (e.g., recalibrating the UAV)
       * 3.3.1 If the technician fixes the problem, the use case restarts from Step 1.
-      * 3.3.2 If the technicia fails to fix the problem, the UAV is removed from service.
+      * 3.3.2 If the technician fails to fix the problem, the UAV is removed from service.
 
 [Return to use case list](../../README.md) 
 
