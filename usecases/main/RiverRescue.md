@@ -1,16 +1,20 @@
 ## Use Case: River Search and Rescue 
 
+**ID**
+
+UC-1
+
 **Description**
 
-Multiple UAVs dispatched to search for victim in river
+Multiple UAVs dispatched to search for victim in river or finding the victim under the ice.
 
 **Primary Actor**
 
-Drone Commander
+- Drone Commander
 
 **Supporting Actors**
 
-Semi-autonomous UAV
+- Semi-autonomous UAV
 
 **Stakeholders and Interests**
 
@@ -46,7 +50,7 @@ The Drone Commander activates the search.
 4. The DroneResponse commander issues a command to start the mission.
 5. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md).
 6. The UAVs fly their assigned flight routes whilst performing [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md).
-7. When a potential victim is detected by a UAV at a confidence level about [victim_detected] threshold a [victim_detection] event is raised.
+7. When a potential victim is detected by a UAV at a confidence level about `[victim_detected]` threshold a `[victim_detection]` event is raised.
 8. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
 9. The UAV immediately switches to [active tracking](../supporting/ActiveTracking.md) mode.
 10. DroneResponse requests [victim confirmation](../supporting/VictimConfirmation.md) from the human operator.
@@ -55,6 +59,12 @@ The Drone Commander activates the search.
 13. A UAV tasked with delivering a flotation device  [performs item delivery](ItemDelivery.md)
 14. Human responders arrive at the scene.
 15. The Drone Commander [ends mission](../supporting/EndMission.md).
+
+## Alternative Steps 
+
+1. In step 11 in case of an ice rescue scenario the UAV does not deliver the flotation device but remains in tracking mode
+  * 1.1 Human responders arrive at the scene with their own flotation devices. They attempt a rescue.
+
 
 ## Exceptions
 
@@ -75,8 +85,8 @@ The Drone Commander activates the search.
    * 4.2 If the human operator confirms the victim sighting, the original UAV immediately attempt to relocate the victim and start tracking.
    
 5. At any time after a victim has been detected 
-   * 4.2 The human operator reassigns a new UAV to perform the tracking task
-   * 4.3 The current UAV waits to be assigned a new task (e.g., rejoin the search, return home)
+   * 5.1 The human operator reassigns a new UAV to perform the tracking task
+   * 5.2 The current UAV waits to be assigned a new task (e.g., rejoin the search, return home)
 
 
 ## Resources Used
