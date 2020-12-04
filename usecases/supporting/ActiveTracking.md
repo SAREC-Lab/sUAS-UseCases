@@ -1,8 +1,14 @@
 ## Use Case: Active Tracking
 
-**ID** : SPLC-1004
 
 **Description**
+
+**Invoked by**
+
+
+| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |:------: |
+| x | x |  |  | |  |
 
 A UAV actively tracks a victim
 
@@ -26,11 +32,11 @@ Mission Commander
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The UAV remains within near vision-range of the victim and streams video imagery to Emergency Responders
 
-Failure end condition:
+_Failure end condition:_
 
 UAV fails to actively track the victim
 
@@ -42,10 +48,10 @@ The UAV is assigned or assumed the task of tracking a person
 
 1. The UAV positions itself in tracking\_position i.e., in the near vicinity of the victim but not directly overhead.
 2. The UAV uses [image capture and analysis](ImageCaptureAndAnalysis.md) to continually tag the victim in the image stream.
-3. Based on the UAV's position (heading, pitch, roll, yaw) onboard tracker continually calculates the relative position of the victim with respect to the UAV.
-4. The onboard tracker generates appropriate velocity vectors to fly towards the victim, without flying directly over the victim and maintaining victim_separation_distance and always flying at an altitude greater than minimum_altitude.
+3. Based on the UAV's position (pitch, roll, yaw) onboard tracker continually calculates the relative position of the victim with respect to the UAV.
+4. The onboard tracker generates appropriate velocity vectors to fly towards the victim, without flying directly over the victim and maintaining `victim_separation_distance` and always flying at an altitude greater than `minimum_altitude`.
 5. The velocity vector is sent to the UAV's autopilot and executed to enable the UAV to track the victim.
-6. Steps 2-5 are repeated until the UAV receives a [stop_tracking] command.
+6. Steps 2-5 are repeated until the UAV receives a `[stop_tracking]` command.
 
 ## Exceptions
 
