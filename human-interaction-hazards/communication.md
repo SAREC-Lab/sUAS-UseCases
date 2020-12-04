@@ -12,8 +12,8 @@ Legend: HI=Human initiated error, SA=Loss of Situational awareness, LE=Lack of e
 
 | Hazard addressed | Context | HI| SA | LE| Solution |
 |:--|:--|---|---|---|:--|
-|CX1-1|||||Computer Software controller is the only remote control mechanism.|The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
-|CX1-2|||||A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
+|CX1-1|Computer Software controller is the only remote control mechanism.||||The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
+|CX1-2|A hand-held redundant controller is available ||||The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
 
 
 ## <a name="CX2">CX2: The human operator is unable to receive status data from the UAVs using the software-based system.</a>
