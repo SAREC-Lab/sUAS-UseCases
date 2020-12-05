@@ -1,22 +1,30 @@
 ## Use Case:  Victim_Confirmation
 
+**ID**
+
+SC12
+
 **Description**
 
 UAV requests and receives victim confirmation or refutation from a human operator
 
 **Invoked by**
-[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md)
+
+
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x |   |   |   |  |
 
 **Rationale**
 The UAV has identified a victim at some degree of confidence and seeks confirmation from a human operator.
 
 **Primary Actor**
 
-Semi-Autonomous UAV
+- Semi-Autonomous UAV
 
 **Supporting Actors**
 
-Human Operator
+- Human Operator
 
 **Stakeholders and Interests**
 
@@ -26,11 +34,12 @@ Human Operator
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 A human operator correctly confirms or refutes the sighting of the victim.
 
-Failure end condition:
+_Failure end condition:_
+
  A human operator either fails to respond to the request for confirmation or incorrectly confirms or refutes the sighting of the victim.
 
 **Trigger**
@@ -39,12 +48,12 @@ The UAV detects a possible victim using its onboard image detection.
 
 ## Main Success Scenario
 
-1. The drone generates a victim\_found alert which is transmitted to DroneResponse.
+1. The drone generates a `[victim_found]` alert which is transmitted to DroneResponse.
 2. DroneResponse acknowledges receipt of the alert via a message to the UAV
-3. DroneResponse raises the victim\_found alert on the UI for inspection by a human operator.
+3. DroneResponse raises the `[victim_found]` alert on the UI for inspection by a human operator.
 4. The Drone Commander inspects the video stream.
 5. The Drone Commander confirms that a victim has been found.
-6. DroneResponse sends a victim\_found confirmation message to a UAV.
+6. DroneResponse sends a `[victim_found]` confirmation message to a UAV.
 
 ## Exceptions
 
@@ -52,7 +61,7 @@ The UAV detects a possible victim using its onboard image detection.
 
 2. In steps 4 and 5 the user refutes the victim sighting
    * 2.1 The drone commander refutes that the sighting is of a victim.
-   * 2.2 Drone Response sends a victim\_NOT\_found message to the UAV.
+   * 2.2 Drone Response sends a `[victim_NOT_found]` message to the UAV.
 
 3. In steps 4 and 5 the user is unable to confirm or refute the sighting.
 
