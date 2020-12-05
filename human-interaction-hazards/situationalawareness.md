@@ -7,19 +7,15 @@ Something about situational awareness demons.
 Quick Links: [AX1](#AX1) [AX2](#AX2) [AX3](#AX3) [AX4](#AX4) [AX5](#AX5) [(All hazards)](../README.md)<br>
 :one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
 
-<br>:construction: Fix diagram (too wide).  Move AX14 to flight management.  Create a new hazard tree on Autonomy (from end of paper)
-
 ## <a name="AX1">AX1: Operator is unable to handle multiple alerts simultaneously.</a> <sub><sup>:one:</sup></sub> <sub><sup>:one:</sup></sub>
-
-
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|AX1-1|Context here|Requirement here|
-|AX1-2|
+|AX1-1|Multiple sUAS in flight|Alerts must be prioritized according to severity|
+|AX1-2|Multiple sUAS in flight|When system-wide failures occur the operator can freeze the entire mission so that all sUAS are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual sUAS.|
 
 
-## <a name="AX2">AX2: Opertor is overwhelmed by status information for multiple UAVs.</a> <sub><sup>:one:</sup></sub>
+## <a name="AX2">AX2: Operator is overwhelmed by status information for multiple UAVs.</a> <sub><sup>:one:</sup></sub>
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
