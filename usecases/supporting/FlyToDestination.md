@@ -6,11 +6,11 @@ A UAV is tasked with flying to a remote specific set of coordinates.
 
 **Invoked by**
 
-| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
-| :------: | :--------: | :--------: | :------: |:------: |:------: |
-|   |   | x |   |  |    |
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+|   | x |  |  |  |
 
-**Constraints **
+**Constraints**
 
 The FAA requires a specific waiver to fly beyond visual line of sight (BVLOS), and UAVs must been stringent requirements. Without the BVLOS waiver, 
 this use case is limited to flights within line of sight.  This use case differs from the basic flight to a waypoint that would be part of a local area search.
@@ -18,11 +18,11 @@ For example, we use it in conjunction with item delivery.  We write basic requir
 
 **Primary Actor**
 
-Semi-Autonomous UAV
+- Semi-Autonomous UAV
 
 **Supporting Actors**
 
-Air Traffic Control
+- Air Traffic Control
 
 **Stakeholders and Interests**
 
@@ -31,11 +31,11 @@ Air Traffic Control
 
 **Pre-Conditions**
 
-The UAV is in the air 
+- The UAV is in the air 
 
-The UAV has been assigned target coordinates as its final destination
+- The UAV has been assigned target coordinates as its final destination
 
-The UAV has received [flight authorization](FlightAuthorization.md) to fly to its destination
+- The UAV has received [flight authorization](FlightAuthorization.md) to fly to its destination
 
 **Post Conditions**
 
