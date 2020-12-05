@@ -49,7 +49,7 @@ The UAVs receive the start mission command.
 
 ## Main Success Scenario
 
-1. DroneResponse assigns each UAV an altitude between 20 feet and the maximum allowed altitude of the current flight area. Each altitude is separated by `_minimum\_separation\_distance_` from all other UAVs.
+1. DroneResponse assigns each UAV an altitude between 20 feet and the maximum allowed altitude of the current flight area. Each altitude is separated by `_minimum_separation_distance_` from all other UAVs.
 2. Each UAV takes off to its prescribed altitude and waits for all other UAVs to reach their altitudes.
 3. Each UAV flies at its unique altitude to the longitude and latitude coordinates of its first waypoints. It waits for confirmation that all other UAVs have reached their designated coordinates.
 4. Each UAV then descends or ascends to the designated altitude of its first waypoint and awaits confirmation that all other UAVs have reached their designated altitudes.
