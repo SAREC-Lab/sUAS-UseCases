@@ -1,5 +1,9 @@
 ## Use Case: Activate and Arm
 
+**ID**
+
+SC1
+
 **Description**
 
 The UAV is prepped for flight, activated by turning 'safety' off, and finally armed.
@@ -7,21 +11,21 @@ The UAV is prepped for flight, activated by turning 'safety' off, and finally ar
 **Invoked by**
 
 
-| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
-| :------: | :--------: | :--------: | :------: |:------: |:------: |
-| x | x | x | x | x|  x |
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x | x | x | x | x|
 
 **Primary Actor**
 
-RPIC
+- RPIC
 
 **Supporting Actors**
 
-Technicians
+-  Technicians
 
 **Stakeholders and Interests**
 
-General public
+-  General public
 
 **Pre-Conditions**
 
