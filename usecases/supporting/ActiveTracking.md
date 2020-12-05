@@ -1,5 +1,9 @@
 ## Use Case: Active Tracking
 
+**ID**
+
+SC2
+
 
 **Description**
 
@@ -8,9 +12,10 @@ A UAV actively tracks a victim
 **Invoked by**
 
 
-| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
-| :------: | :--------: | :--------: | :------: |:------: |:------: |
-| x | x |  |  | |  |
+
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x |   |   |   |   |
 
 
 
@@ -20,11 +25,11 @@ During search and rescue, once a victim is detected, the UAV must hover over the
 
 **Primary Actor**
 
-Semi-Autonomous UAV
+- Semi-Autonomous UAV
 
 **Supporting Actors**
 
-Mission Commander
+- Mission Commander
 
 **Stakeholders and Interests**
 
