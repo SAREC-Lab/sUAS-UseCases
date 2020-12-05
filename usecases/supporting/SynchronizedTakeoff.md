@@ -1,23 +1,31 @@
 ## Use Case: Synchronized Takeoff
 
+**ID**
+
+SC11
+
+
 **Description**
 
 A cohort of UAVs takeoff and fly to initial waypoints using coordinated flight paths
 
 **Invoked by**
 
-[IceRescue](../main/IceRescue.md), [RiverRescue](../main/RiverRescue.md), [AccidentSurveillance](../main/AccidentSurveillance.md), [AirSampling](../main/AirSampling.md), [WaterSampling](../main/WaterSampling.md), [DefibrillatorDelivery](../main/DefibrillatorDelivery.md), [StructuralFire](../main/StructuralFire.md)
+
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x | x | x | x | x|
 
 **Rationale**
 Synchronized takeoff is needed so that UAVs don&#39;t collide when they take off and potentially cross paths on their way to their initial waypoints.
 
 **Primary Actor**
 
-Semi-Autonomous UAV
+- Semi-Autonomous UAV
 
 **Supporting Actors**
 
-Mission Commander
+- Drone Commander
 
 **Stakeholders and Interests**
 
@@ -28,11 +36,11 @@ Mission Commander
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 Each UAV reaches its initial waypoint without collision
 
-Failure end condition:
+_Failure end condition:_
  Collision occurs at takeoff or during flight to initial waypoints
 
 **Trigger**
@@ -41,7 +49,7 @@ The UAVs receive the start mission command.
 
 ## Main Success Scenario
 
-1. Dronology assigns each UAV an altitude between 20 feet and the maximum allowed altitude of the current flight area. Each altitude is separated by _minimum\_separation\_distance_ from all other UAVs.
+1. DroneResponse assigns each UAV an altitude between 20 feet and the maximum allowed altitude of the current flight area. Each altitude is separated by `_minimum\_separation\_distance_` from all other UAVs.
 2. Each UAV takes off to its prescribed altitude and waits for all other UAVs to reach their altitudes.
 3. Each UAV flies at its unique altitude to the longitude and latitude coordinates of its first waypoints. It waits for confirmation that all other UAVs have reached their designated coordinates.
 4. Each UAV then descends or ascends to the designated altitude of its first waypoint and awaits confirmation that all other UAVs have reached their designated altitudes.
