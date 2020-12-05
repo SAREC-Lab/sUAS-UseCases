@@ -1,22 +1,26 @@
 ## Use Case: Provide surveillance and information about a traffic accident
 
+**ID**
+
+UC3
+
 **Description**
 
 One or more UAVs are dispatched to a traffic accident scene in order to provide information to the emergency responders.
 
 **Primary Actor**
 
-UAV&#39;s
+* UAV&#39;s
 
-Drone Commander
+* Drone Commander
 
 **Supporting Actors**
 
-Firefighters
+* Firefighters
 
-Police
+* Police
 
-Medical crews
+* Medical crews
 
 **Stakeholders and Interests**
 
@@ -68,10 +72,10 @@ A 911 call operator receives a call reporting an accident
    * 2.1 An alert is raised that the accident can't be located
    * 2.2 DroneResponse displays images from the camera of each drone
    * 2.3 The operator checks the images
-      * 2.4.1 If the operator identifies the accident they mark it manually on the map and the UAVs stream video for the marked region.  The use case continues with step 9.
-      * 2.4.2 If the operator cannot identify the accident, then the use case continues with step 14. 
+      * 2.3.1 If the operator identifies the accident they mark it manually on the map and the UAVs stream video for the marked region.  The use case continues with step 9.
+      * 2.3.2 If the operator cannot identify the accident, then the use case continues with step 14. 
 
-3. In step 8, the UAV detects a possible accident site at a confidence level below victim\_detected threshold but above the lowest ignore level.
+3. In step 8, the UAV detects a possible accident site at a confidence level below `victim\_detected` threshold but above the lowest ignore level.
    * 3.1 The UAV logs the alert including saved imagery
    * 3.2 DroneResponse saves the GPS coordinates of the sighting
    * 3.3 The UAV continues to scan the location of the accident. 
