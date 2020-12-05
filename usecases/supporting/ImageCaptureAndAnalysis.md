@@ -33,7 +33,7 @@ UAV collects imagery using an onboard camera and analyzes that imagery in real-t
 
 **Post Conditions**
 
-_Success end condition: 
+_Success end condition:_
 
 UAV detects and annotates objects of interest within the region of interest at high degrees of accuracy [metric needed]
 
