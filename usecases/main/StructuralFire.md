@@ -1,24 +1,28 @@
 ## Use Case: Structural fire fighting
 
+**ID **
+
+UC4
+
 **Description**
 
 Multiple UAVs dispatched to analyze the structure for fire fighting
 
 **Primary Actor**
 
-Drone Commander
+- Drone Commander
 
 **Supporting Actors**
 
-Semi-autonomous UAV
+- Semi-autonomous UAV
 
 **Stakeholders and Interests**
 
-Fire department engaged in fire fighting
+- Fire department engaged in fire fighting
 
-FAA concerned with flight regulations
+- FAA concerned with flight regulations
 
-General public
+-General public
 
 **Pre-Conditions**
 
