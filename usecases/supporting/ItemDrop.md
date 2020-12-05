@@ -1,17 +1,27 @@
 ## Use Case:  Item drop
 
+**ID**
+
+SC9
+
 **Description**
 
 A UAV delivers an item such as a flotation device or defibrillator
 
+**Invoked by**
+
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+|   | x |   |   |  |
+
 
 **Primary Actor**
 
-Semi-Autonomous UAV
+- Semi-Autonomous UAV
 
 **Supporting Actors**
 
-Mission Commander
+- Mission Commander
 
 **Stakeholders and Interests**
 
@@ -26,11 +36,11 @@ Mission Commander
 
 **Post Conditions**
 
-Success end condition
+_Success end condition:_
 
 The UAV successfully delivers the item to the assigned location.
 
-Failure end condition:
+_Failure end condition:_
 
 The UAV fails to deliver the device to the assigned location, drops it in an incorrect position or onto a person
 
