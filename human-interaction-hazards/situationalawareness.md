@@ -2,7 +2,7 @@
 
 Intro goes here.
 
-[![](figures/situationalawareness.png)](#)
+[![](figures/situationalawareness.svg)](#)
 
 Quick Links: [AX1](#AX1) [AX2](#AX2) [AX3](#AX3) [AX4](#AX4) [AX5](#AX5) [(All hazards)](../README.md)<br>
 :one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
