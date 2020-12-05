@@ -7,7 +7,7 @@ Intro goes here.
 Quick Links: [AX1](#AX1) [AX2](#AX2) [AX3](#AX3) [AX4](#AX4) [AX5](#AX5) [(All hazards)](../README.md)<br>
 :one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
 
-<br>:construction: Notes: Move AX14 to operations.  Create a new one on Autonomy.
+<br>:construction: Fix diagram (too wide).  Move AX14 to flight management.  Create a new hazard tree on Autonomy (from end of paper)
 
 ## <a name="AX1">AX1: UI introduces attentional tunneling</a> <sub><sup>:one:</sup></sub> <sub><sup>:one:</sup></sub>
 
