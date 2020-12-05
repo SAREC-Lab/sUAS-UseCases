@@ -5,7 +5,8 @@ UAV flights must be in compliance with government and local ordinances and regul
 [![](figures/airspace.png)](#)
 
 Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../README.md)<br>
-:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene
+
+![](icons/h.png) = Human initiated error, ![](icons/s.png) =Loss of Situational awareness, ![](icons/e.png) = Lack of empowerment to intervene
 
 ## <a name="GX1">GX1: Operator is unaware of prohibited airspace and plans illegal flight routes</a> <sub><sup>:two:</sup></sub>
 
