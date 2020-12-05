@@ -1,14 +1,18 @@
 ## Use Case: Environmental Sampling and Analysis
 
+**ID**
+
+UC5
+
 **Description**
 
 UAVs collect and analyze water samples from an open body of water
 
 **Primary Actor**
 
-Environmental Scientist
+- Environmental Scientist
 
-RPIC
+-  RPIC
 
 **Supporting Actors**
 
@@ -16,7 +20,9 @@ RPIC
 
 **Stakeholders and Interests**
 
-Environmentalists, farmers, public
+- Environmentalists
+- Farmers
+- General public
 
 **Pre-Conditions**
 
@@ -44,7 +50,7 @@ The UAV operator activates the water sampling mission
 3. DroneResponse requests and receives [flight authorization](../supporting/FlightAuthorization.md)
 3. The operator issues a command to start the mission.
 4. UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
-5. The UAVs fly their assigned routes and [collect and analyze samples](../supporting/CollectAndAnalyzeSample.md) at their assigned collection points.
+5. The UAVs fly their assigned routes and [collect and analyze samples](../supporting/CollectAndAnalyseSample.md) at their assigned collection points.
 6. When a UAV has completed its collection assignment it returns home.
 7. The operator removes samples and replaces and/or replenishes onboard sampling supplies.
 8. Steps 4-7 are completed until all needed samples have been collected.
