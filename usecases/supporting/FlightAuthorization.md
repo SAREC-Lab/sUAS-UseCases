@@ -1,22 +1,26 @@
 ## Use Case: Flight authorization from Aviation Regulators
 
+**ID**
+
+SC6
+
 **Description**
 
 Request flight authorization
 
 **Invoked by**
 
-| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
-| :------: | :--------: | :--------: | :------: |:------: |:------: |
-| x | x | x | x | x|  x |
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x | x | x | x | x|
 
 **Primary Actor**
 
-RPIC
+- RPIC
 
 **Supporting Actors**
 
-Semi-autonomous UAV
+- Semi-autonomous UAV
 
 **Stakeholders and Interests**
 
@@ -26,9 +30,9 @@ Semi-autonomous UAV
 
 **Pre-Conditions**
 
-Authorization service is available
+- Authorization service is available
 
-Flight routes and region are known
+- Flight routes and region are known
 
 **Post Conditions**
 
@@ -64,8 +68,8 @@ Flight routes are planned for current or future mission
 2. In step 2, the RPIC deems weather conditions are unsafe for flight and the mission is aborted.
    
 3. In step 3, flight authorization is requested for an invalid flight plan e.g., (i) nighttime flight (without a waiver), (ii) flying in permanently or temporarily prohibited airspace
-   * 3.2 Flight authorization is denied.
-   * 3.3 The RPIC either aborts the mission or replans a valid mission and resubmits a new flight plan.
+   * 3.1 Flight authorization is denied.
+   * 3.2 The RPIC either aborts the mission or replans a valid mission and resubmits a new flight plan.
    
 4. In steps 3 or 4, AirMap fails to respond.
    * 4.1 Steps 2 and 3 are repeated at one minute periods until a response is received or three attempts have been made.
