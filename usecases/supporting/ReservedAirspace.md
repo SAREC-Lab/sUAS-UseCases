@@ -66,7 +66,7 @@ The UAV needs to fly to a waypoint or needs some space to perform an action.
    * 2.3 ATC denies the request for airspace and attaches both the list of other reservations and the list of restricted airspaces.
    * 2.4 The UAV analyzes the attached lists and selects an alternative action among:
       * 2.4.0 If the action is impossible because of restricted airspace
-         * 2.3.0.1 TBD
+         * 2.4.0.1 TBD
       * 2.4.1 If the next action is to fly to a waypoint, and the UAV determines that meaningful progress is possible then
          * 2.3.1.1 The UAV picks a new waypoint that moves it closer to the target.
          * 2.3.1.2 The use case continues at step 1.
