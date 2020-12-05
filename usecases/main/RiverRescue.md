@@ -2,7 +2,7 @@
 
 **ID**
 
-UC-1
+UC1
 
 **Description**
 
