@@ -1,6 +1,6 @@
 ## Use Case: Structural fire fighting
 
-**ID **
+**ID**
 
 UC4
 
@@ -22,7 +22,7 @@ Multiple UAVs dispatched to analyze the structure for fire fighting
 
 - FAA concerned with flight regulations
 
--General public
+- General public
 
 **Pre-Conditions**
 
@@ -64,7 +64,7 @@ The Drone Commander activates the fire support mission.
 
 1. All [general exceptions](../../README.md#GeneralExceptions) apply.
 
-2. In step 6, the UAV detects a possible victim at a confidence level below [victim_detected] threshold but above the lowest [ignore_level]
+2. In step 6, the UAV detects a possible victim at a confidence level below `[victim_detected]` threshold but above the lowest `[ignore_level]`
    * 2.1 The UAV raises an alert and requests [victim_confirmation](../supporting/VictimConfirmation.md) from the human operator.
    * 2.2 The UAV continues to stream imagery
    * 2.2 The human operator inspects the video stream
