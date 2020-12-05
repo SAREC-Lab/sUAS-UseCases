@@ -1,30 +1,35 @@
 ## Use Case: End mission
 
+**ID**
+
+SC5
+
 **Description**
 
 Recall UAV(s) back to their home-bases
 
 **Invoked by**
 
-| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
-| :------: | :--------: | :--------: | :------: |:------: |:------: |
-| x | x | x | x | x|  x |
+
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x | x | x | x | x|
 
 **Primary Actor**
 
-Drone Commander
+- Drone Commander
 
 **Supporting Actors**
 
-Semi-autonomous UAV
+-  Semi-autonomous UAV
 
 **Stakeholders and Interests**
 
 **Pre-Conditions**
 
-UAVs active and registered with DroneResponse
+- UAVs active and registered with DroneResponse
 
-DroneResponse is active
+- DroneResponse is active
 
 **Post Conditions**
 
