@@ -20,9 +20,9 @@ Quick Links: [AX1](#AX1) [AX2](#AX2) [AX3](#AX3) [AX4](#AX4) [AX5](#AX5) [(All h
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|AX2-1|Multiple human engagers | One operator is designated as the sUAS safety officer with primary responsibility for overseeing safe use of the sUAS |
-|AX2-2|Multiple human engagers | The UI provides a screen dedicated to sUAS command and control |
-|AX2-3|Multiple sUAS| Runtime monitors constantly check for safety violations and raise alerts when such violations occur|
+|AX2-1|Multiple human engagers | One operator is designated as the sUAS safety officer with primary responsibility for overseeing safe use of the sUAS. |
+|AX2-2|Multiple human engagers | The UI provides a screen dedicated to sUAS command and control. |
+|AX2-3|Multiple sUAS| System runtime monitoring constantly checks for safety violations and raises alerts when such violations occur.|
 
 
 ## <a name="AX3">AX3: Operator focuses on the mission and fails to manage UAV safety.</a> <sub><sup>:one:</sup></sub>
