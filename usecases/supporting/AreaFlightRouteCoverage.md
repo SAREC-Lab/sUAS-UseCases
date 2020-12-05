@@ -1,22 +1,27 @@
 ## Use Case: Generate Flight Routes for Area Coverage
 
+**ID**
+
+SC3
+
+
 **Description**
 
 Define a coverage area and allocate routes to UAV(s)
 
 **Invoked by**
 
-| [RiverRescue](../main/RiverRescue.md) | [IceRescue](../main/IceRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
-| :------: | :--------: | :--------: | :------: |:------: |:------: |
-| x | x |   |   |  |   x |
+| [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
+| :------: | :--------: | :--------: | :------: |:------: |
+| x |   |   |   | x|
 
 **Primary Actor**
 
-Drone Commander
+- Drone Commander
 
 **Supporting Actors**
 
-Semi-autonomous UAV
+- Semi-autonomous UAV
 
 **Stakeholders and Interests**
 
@@ -49,6 +54,12 @@ User selects the option to mark a region and generate routes dynamically
 6. DroneResponse assigns the flight routes to  `N` available UAVs.
 7. The use case ends once flight routes have been generated and assigned.
 
+## Alternative Steps
+
+1. In step 5, instead of optimizing for area coverage, the algorithm optimizes the routes for a sampling mission
+   * 1.1 The user specifies the number of samples `S` to be collected by each UAV
+   * 1.2 The algorithm optimizes the flight paths such that `S` sampling locations are distributed as evenly as possible over the marked area, locations are clustered into `N` flight paths, and each UAV's flight path is optimized to reduce power consumption.
+
 ## Exceptions
 
 1. All [general exceptions](../../README.md#GeneralExceptions) apply.
@@ -65,8 +76,6 @@ User selects the option to mark a region and generate routes dynamically
    * 4.1 The user reduces the number of designated UAVs to a number for which viable UAVs are available
    * 4.2 or a technician activates and arms additional UAVs for inclusion in the mission.
    
-5. In step 5, instead of optimizing for area coverage, the algorithm optimizes the routes for a sampling mission
-   * 5.1 The user specifies the number of samples `S` to be collected by each UAV
-   * 5.2 The algorithm optimizes the flight paths such that `S` sampling locations are distributed as evenly as possible over the marked area, locations are clustered into `N` flight paths, and each UAV's flight path is optimized to reduce power consumption.
+
    
 [Return to use case list](../../README.md)
