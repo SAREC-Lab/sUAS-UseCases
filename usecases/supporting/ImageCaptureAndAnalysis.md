@@ -14,6 +14,8 @@ UAV collects imagery using an onboard camera and analyzes that imagery in real-t
 | :------: | :--------: | :--------: | :------: |:------: |
 | x |  x |   | x |  |
 
+[item drop](ItemDrop.md)
+
 **Primary Actor**
 
 - Semi-Autonomous UAV
