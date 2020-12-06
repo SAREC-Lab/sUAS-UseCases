@@ -46,10 +46,10 @@ The Drone Commander activates the search.
 
 1. UAVs are placed in their launch positions.
 2. UAVs are [activated and armed](../supporting/ActivateAndArm.md).
-3. Emergency responders  [dynamically generate flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
+3. Emergency responders initiate the [dynamic generation of flight routes for the targeted area](../supporting/AreaFlightRouteCoverage.md).
 4. The DroneResponse commander issues a command to start the mission.
 5. The UAVs tasked with search [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md).
-6. The UAVs [lease airspace](../supporting/LeaseAirspace.md] and fly their assigned flight routes.
+6. The UAVs [lease airspace](../supporting/LeaseAirspace.md) and fly their assigned flight routes.
 7. While flying their assigned routes, the UAVs perform [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md).
 8. When a potential victim is detected by a UAV at a confidence level about `[victim_detected]` threshold a `[victim_detection]` event is raised.
 9. DroneResponse forwards the event to all UIs registered to receive victim_detection alerts.
