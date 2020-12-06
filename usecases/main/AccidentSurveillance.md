@@ -55,7 +55,7 @@ A 911 call operator receives a call reporting an accident
 3. The DroneResponse commander issues a command to start the mission.
 5. The UAV(s) perform a [synchronized takeoff](../supporting/SynchronizedTakeoff.md).
 6. The UAVs fly to the location of the accident.
-7. The UAVs reach the target area and use [onboard vision and detection](../supporting/OnboardVisionAndDetection.md) to pinpoint the accident site and stream video.
+7. The UAVs reach the target area and use [onboard vision and detection](../supporting/ImageCaptureAndAnalysis.md) to pinpoint the accident site and stream video.
 8. A human operator inspects the video and confirms that the accident site has been correctly identified. 
 9. The precise GPS coordinate of the accident and the surroundings of the road are sent to the emergency responders.
 10. DroneResponse generates a route to the correct location, ensuring arrival on the correct side of the highway.
