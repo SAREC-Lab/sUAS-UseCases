@@ -14,7 +14,7 @@ All UAVs must receive airspace authorization prior to commencing flight to a way
 | [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
 | :------: | :--------: | :--------: | :------: |:------: |
 |  x | x  | x  | x  |x  |
-|  Also indirectly from [Synchronized Takeoff](SynchronizedTakeoff.md)<br>[End Mission](EndMission.md) | Also indirectly <br>from Synchronized Takeoff | Also indirectly <br>from Synchronized Takeoff<br>End Mission  | Also indirectly <br>from Synchronized Takeoff<br>End Mission  |Also indirectly <br>from Synchronized Takeoff<br>End Mission  |
+|  Also indirectly from [Synchronized Takeoff](SynchronizedTakeoff.md)<br>[End Mission](EndMission.md) | Only indirectly from [Synchronized Takeoff](SynchronizedTakeoff.md)<br>[Fly To Destination](FlyToDestination.md) | Also indirectly from [Synchronized Takeoff](SynchronizedTakeoff.md)<br>[End Mission](EndMission.md) |Also indirectly from [Synchronized Takeoff](SynchronizedTakeoff.md)<br>[End Mission](EndMission.md)|Also indirectly from [Synchronized Takeoff](SynchronizedTakeoff.md)<br>[End Mission](EndMission.md) |
 
 **Primary Actor**
 
