@@ -50,7 +50,7 @@ The UAV reaches the GPS coordinates of the first sample collection waypoint
 
 2. The UAV positions itself to collect a water sample.
    * 2.1 The UAV uses its onboard vision capabilities to find an unobstructed route (e.g., free of tree branches) to the water.
-   * 2.2 The UAV begins its descent whilst using [image capture and analysis](ImageCaptureAndAnalysis) and altitude sensors to position itself correctly above the water.
+   * 2.2 The UAV begins its descent whilst using [image capture and analysis](ImageCaptureAndAnalysis.md) and altitude sensors to position itself correctly above the water.
    
 3. The UAV activates its onboard collection device and collects a water sample.
    * 3.1 The UAV lowers its collection apparatus (typically a rubber hose, powered by a pump).
