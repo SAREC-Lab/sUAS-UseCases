@@ -7,7 +7,7 @@ The following hazards have been derived from a systematic study of publications 
 We have organized them into trees of related hazards. Our focus here is on exploring human-sUAS interaction hazards. 
 
 For each identified human-sUAS interaction point, we explore four specific types of hazards: 
-<br>![](<sub>human-interaction-hazards/icons/h.png</sub>) human initiated hazards (e.g., the pilot flies whilst inebriated, ignores regulations, and/or behaves in a reckless manner)
+<br>![](human-interaction-hazards/icons/h.png) human initiated hazards (e.g., the pilot flies whilst inebriated, ignores regulations, and/or behaves in a reckless manner)
 <br> ![](human-interaction-hazards/icons/s.png) loss of situational awareness including lack of information and/or comprehension about the state of current/intended mission 
 <br> ![](human-interaction-hazards/icons/e.png) lack of empowerment to intervene in the situation (e.g., inability to override an autonomous decision made by a sUAS)
 <br>![](human-interaction-hazards/icons/o.png) the impact of system failures on human operators.  We then propose specific mitigations.
