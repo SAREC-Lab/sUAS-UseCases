@@ -55,20 +55,22 @@ One or more UAVs fail to return to a safe landing base
 5. When the UAV receives clearance for the next leg of its return flight it flies to the target waypoint.
 6. Steps 4-5 are repeated until the UAV returns to its launch coordinates and lands safely.
 
-## Exceptions
+## Alternative Steps 
 
-1. Step 1 is replaced by an alternate trigger in which the mission commander manually ends the mission and recalls all UAVs back to their base.
+1. Step 1 the mission commander decides to end the mission before the intended tasks are completed and recalls all UAVs back to their base.
    * Steps 2-6 are executed as specified.
 
 2. In step 1, whilst a UAV is returning to base, the mission-commander assigns it a new task.
    * 2.1 The `END_MISSION` command is cancelled for this UAV.
    * 2.2 The UAV commences its new mission.
-   
-3. In step 2, multiple UAVs have been assigned the same home coordinates.
-   * 3.1 For any group of UAVs with home coordinates that violate `minimum_separation_distance`, the system removes the home coordinates for all except one of them.
-   * 3.2 All UAVs without assigned home coordinates are assigned new in-air temporary coordinates
-   * 3.3 UAVs with in-air home coordinates follow steps 3-5 until the in-air coordinates are reached and then hover in place
-   * 3.4 The RPIC manually controls the landing of any UAV with in-air home coordinates.
+
+## Exceptions
+
+1. In step 2, multiple UAVs have been assigned the same home coordinates.
+   * 1.1 For any group of UAVs with home coordinates that violate `minimum_separation_distance`, the system removes the home coordinates for all except one of them.
+   * 1.2 All UAVs without assigned home coordinates are assigned new in-air temporary coordinates
+   * 1.3 UAVs with in-air home coordinates follow steps 3-5 until the in-air coordinates are reached and then hover in place
+   * 1.4 The RPIC manually controls the landing of any UAV with in-air home coordinates.
 
 
 [Return to use case list](../../README.md)
