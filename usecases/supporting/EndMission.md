@@ -51,7 +51,7 @@ One or more UAVs fail to return to a safe landing base
 1. The mission is completed and UAVs are recalled home.
 2. The system checks that all recalled UAVs have unique home coordinates.
 3. UAVs each plan their own routes back to their unique home coordinates.
-4. Each UAV requests airspace clearance for the next leg of its planned route and awaits clearance.
+4. Each UAV [lease airspace](../supporting/LeaseAirspace.md) for the next leg of its planned route and awaits clearance.
 5. When the UAV receives clearance for the next leg of its return flight it flies to the target waypoint.
 6. Steps 4-5 are repeated until the UAV returns to its launch coordinates and lands safely.
 
