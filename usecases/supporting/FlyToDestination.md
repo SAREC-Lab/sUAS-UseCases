@@ -61,14 +61,15 @@ The UAV has been assigned a set of destination coordinates and has received flig
 1. DroneResponse decomposes the entire flight path into a series of `flight_legs`, each one with its own target waypoint.
 2. DroneResponse establishes an initial altitude of the flight `[starting_altitude]` and assigns it as the starting altitude of each individual leg.
 3. DroneResponse checks the starting `flight_leg` to ensure that it does not pass through any prohibited airspace whilst maintaining its `[starting_altitude]`.
-4. DroneResponse a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains `[minimum_terrain_separation]` whilst maintaining the `[starting_altitude]` of the current leg.
+4. DroneResponse uses a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains `[minimum_terrain_separation]` whilst maintaining the `[starting_altitude]` of the current leg.
 5. Steps 3-4 are repeated for each `flight_leg`. 
-6. Given the flight plan, the UAV checks that it has sufficient battery power to reach its destination.  It determines that it has sufficient power to continue.
-7. The UAV ascends or descends to the target altitude of the current flight leg.
-8. The UAV flies to the destination waypoint of the current flight leg.
-9. The UAV reports its arrival at the flight leg's destination waypoint.
-10. Steps 6-8 are repeated until the UAV reaches its final destination.
-11. The use cases finishes when the UAV assumes the task assigned for it to do at its final destination.
+6. Given the flight plan, the UAV checks that it has sufficient battery power to reach its destination and determines that it has sufficient power to continue.
+7. The UAV [leases airspace](../supporting/LeaseAirspace.md] for the current flight leg.
+8. The UAV ascends or descends to the target altitude of the current flight leg.
+9. The UAV flies to the destination waypoint of the current flight leg.
+10. The UAV reports its arrival at the flight leg's destination waypoint.
+11. Steps 6-8 are repeated until the UAV reaches its final destination.
+12. The use cases finishes when the UAV assumes the task assigned for it to do at its final destination.
 
 ## Exceptions
 
@@ -90,5 +91,12 @@ The UAV has been assigned a set of destination coordinates and has received flig
    * 4.3 The UAV estimates total battery requirements required and determines whether it can complete the entire mission.
       * 4.3.1 The UAV determines that it has sufficient power to complete the entire mission and the use case continues with steps 7-11.
 	  * 4.3.2 The UAV determines that it lacks sufficient power to complete the entire mission and Exception Use-Case #2 is executed.
+
+5. In step 7, the UAV is unable to lease the requested airspace after several attempts.
+   * 5.1 The UAV notifies the operator that it was unable to lease airspace for the planned flight.
+   * 5.2 The operator decides how to respond and either:
+      * 5.2.1 Replans the route and the use case continues at step 7.
+      * 5.2.2 Cancels the mission
+ 
 
 [Return to use case list](../../README.md)
