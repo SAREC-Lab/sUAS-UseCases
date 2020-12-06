@@ -56,16 +56,13 @@ One or more UAVs fail to return to a safe landing base
 6. Steps 4-5 are repeated until the UAV returns to its launch coordinates and lands safely.
 
 ## Alternative Steps 
-
 1. Step 1 the mission commander decides to end the mission before the intended tasks are completed and recalls all UAVs back to their base.
    * Steps 2-6 are executed as specified.
-
 2. In step 1, whilst a UAV is returning to base, the mission-commander assigns it a new task.
    * 2.1 The `END_MISSION` command is cancelled for this UAV.
    * 2.2 The UAV commences its new mission.
 
 ## Exceptions
-
 1. In step 2, multiple UAVs have been assigned the same home coordinates.
    * 1.1 For any group of UAVs with home coordinates that violate `minimum_separation_distance`, the system removes the home coordinates for all except one of them.
    * 1.2 All UAVs without assigned home coordinates are assigned new in-air temporary coordinates
