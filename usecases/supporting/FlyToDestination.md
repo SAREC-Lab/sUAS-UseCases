@@ -64,7 +64,7 @@ The UAV has been assigned a set of destination coordinates and has received flig
 4. DroneResponse uses a terrain map to check the altitude of the flight_leg's terrain to ensure that the UAV maintains `[minimum_terrain_separation]` whilst maintaining the `[starting_altitude]` of the current leg.
 5. Steps 3-4 are repeated for each `flight_leg`. 
 6. Given the flight plan, the UAV checks that it has sufficient battery power to reach its destination and determines that it has sufficient power to continue.
-7. The UAV [leases airspace](../supporting/LeaseAirspace.md] for the current flight leg.
+7. The UAV [leases airspace](../supporting/LeaseAirspace.md) for the current flight leg.
 8. The UAV ascends or descends to the target altitude of the current flight leg.
 9. The UAV flies to the destination waypoint of the current flight leg.
 10. The UAV reports its arrival at the flight leg's destination waypoint.
