@@ -50,9 +50,10 @@ The UAVs receive the start mission command.
 ## Main Success Scenario
 
 1. DroneResponse assigns each UAV an altitude between 20 feet and the maximum allowed altitude of the current flight area. Each altitude is separated by `_minimum_separation_distance_` from all other UAVs.
-2. Each UAV takes off to its prescribed altitude and waits for all other UAVs to reach their altitudes.
-3. Each UAV flies at its unique altitude to the longitude and latitude coordinates of its first waypoints. It waits for confirmation that all other UAVs have reached their designated coordinates.
-4. Each UAV then descends or ascends to the designated altitude of its first waypoint and awaits confirmation that all other UAVs have reached their designated altitudes.
+2. Each UAV [leases airspace](LeaseAirspace.md) for its designated route.
+3. Each UAV takes off to its prescribed altitude and waits for all other UAVs to reach their altitudes.
+4. Each UAV flies at its unique altitude to the longitude and latitude coordinates of its first waypoints. It waits for confirmation that all other UAVs have reached their designated coordinates.
+5. Each UAV then descends or ascends to the designated altitude of its first waypoint and awaits confirmation that all other UAVs have reached their designated altitudes.
 
 ## Exceptions
 1. All [general exceptions](../../README.md#GeneralExceptions) apply.
@@ -77,5 +78,7 @@ The UAVs receive the start mission command.
 5. In steps 1-4 only one UAV is involved in the synchronized takeoff.
    * 5.1 The UAV is assigned the takeoff altitude of its first target waypoint.
    * 5.2 No synchronization is required with other UAVs.
+   
+6. In step 2 the UAV is unable to lease airspace for all legs of the synchronized takeoff. It leases airspace for the first leg and then leases additional airspace incrementally until all legs of the synchronized takeoff are completed.
 
 [Return to use case list](../../README.md)
