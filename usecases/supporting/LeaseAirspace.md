@@ -1,4 +1,4 @@
-## Use Case: Leasing Airspace for Planned Flight Path
+## Use Case: Lease Airspace for Planned Flight Path
 
 **ID**
 
@@ -13,7 +13,8 @@ All UAVs must receive airspace authorization prior to commencing flight to a way
 
 | [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
 | :------: | :--------: | :--------: | :------: |:------: |
-|   |   |   |   |  |
+|  x | x  | x  | x  |x  |
+|  Also indirectly <br>from Synchronized Takeoff<br>End Mission | Also indirectly <br>from Synchronized Takeoff | Also indirectly <br>from Synchronized Takeoff<br>End Mission  | Also indirectly <br>from Synchronized Takeoff<br>End Mission  |Also indirectly <br>from Synchronized Takeoff<br>End Mission  |
 
 **Primary Actor**
 
