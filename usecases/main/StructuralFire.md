@@ -55,10 +55,11 @@ The Drone Commander activates the fire support mission.
 3. The UAVs [perform synchronized takeoff](../supporting/SynchronizedTakeoff.md)
 4. The UAVs use their onboard vision to create an initial mapping of the building.
 5. The UAVs plan optimized and coordinated surveillance flights around the building.
-6. Each UAV performs [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md) using thermal imagery.
-7. Imagery from each UAV is continuously streamed and aggregated to create a current heatmap of the building.
-8. Steps 4-7 are repeated throughout the fire event
-9. The Incident Commander [ends mission](../supporting/EndMission.md) once the fire has been controlled.
+6. Prior to each leg of the surveillance flight, each UAV [lease airspaces](../supporting/LeaseAirspace.md) the necessary airspace.
+7. Each UAV performs [image capture and analysis](../supporting/ImageCaptureAndAnalysis.md) using thermal imagery.
+8. Imagery from each UAV is continuously streamed and aggregated to create a current heatmap of the building.
+9. Steps 4-7 are repeated throughout the fire event
+10. The Incident Commander [ends mission](../supporting/EndMission.md) once the fire has been controlled.
 
 ## Exceptions
 
