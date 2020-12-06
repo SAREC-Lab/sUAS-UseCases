@@ -12,7 +12,7 @@ UAV collects imagery using an onboard camera and analyzes that imagery in real-t
 
 | [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
 | :------: | :--------: | :--------: | :------: |:------: |
-| x |   |   | x |  |
+| x |  x |   | x |  |
 
 **Primary Actor**
 
