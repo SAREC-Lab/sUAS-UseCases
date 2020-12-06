@@ -1,4 +1,4 @@
-## Hazard Tree: Hardware and Sensors
+## Hazard Tree: Weather 
 
 sUAS can only be flown in certain weather conditions with sufficient visibility and cloud cover above a minimum altitude.
 
