@@ -33,7 +33,7 @@ Please note: The import and inter-linking of these uses cases is in progress.
 | SC7           | Fly to destination |[FlyToDestination.md](usecases/supporting/FlyToDestination.md)|
 | SC8           | Image Capture and Analysis  | [ImageCaptureAndAnalysis.md](usecases/supporting/ImageCaptureAndAnalysis.md)|
 | SC9           | Item Drop |[ItemDrop.md](usecases/supporting/ItemDrop.md)|
-| SC10          | Reserved Airspace |[ReservedAirspace.md](usecases/supporting/ReservedAirspace.md)|
+| SC10          | Lease Airspace |[LeaseAirspace.md](usecases/supporting/LeaseAirspace.md)|
 | SC11          | Synchronized Takeoff  | [SynchronizedTakeoff.md](usecases/supporting/SynchronizedTakeoff.md)|
 | SC12          | Victim Confirmation  | [VictimConfirmation.md](usecases/supporting/VictimConfirmation.md)|
 
