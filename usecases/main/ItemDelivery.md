@@ -53,7 +53,7 @@ The UAV receives a command to deliver an item
 4. The DroneResponse commander issues a command to start the delivery mission.
 5. The UAV [performs synchronized takeoff](../supporting/SynchronizedTakeoff.md).
 6. The UAV [flies to the target destination](../supporting/FlyToDestination.md).
-7. The UAV [delivers the item](../supporting/ItemDrop.md).
+7. The UAV [drops the item](../supporting/ItemDrop.md).
 8. The UAV returns home. 
 
 ## Alternative Steps 
