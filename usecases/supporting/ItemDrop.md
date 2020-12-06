@@ -53,7 +53,7 @@ The UAV receives a command to deliver the item
 1. The UAV takes-off and flies to the designated delivery coordinates
 2. The UAV starts streaming video
 3. The video is displayed in the UI for a human operator
-4. The UAV uses onboard vision to determine a safe drop point appropriate for the task at hand
+4. The UAV uses [onboard vision and analysis](OnboardVisionAndAnalysis.md) to determine a safe drop point appropriate for the task at hand
 5. The UAV positions itself at the targeted drop point
 6. The UAV requests permission from the human operator to drop the item
 7. The human operator gives permission for the drop
