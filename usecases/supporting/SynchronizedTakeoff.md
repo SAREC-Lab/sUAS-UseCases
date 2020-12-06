@@ -79,6 +79,6 @@ The UAVs receive the start mission command.
    * 5.1 The UAV is assigned the takeoff altitude of its first target waypoint.
    * 5.2 No synchronization is required with other UAVs.
    
-6. In step 2 the UAV is unable to lease airspace for all legs of the synchronized takeoff. It leases airspace for the first leg and then leases additional airspace incrementally until all legs of the synchronized takeoff are completed.
+6. In step 2 the UAV is unable to lease airspace for all legs of the synchronized takeoff. It therefore [leases airspace](LeaseAirspace.md) incrementally.
 
 [Return to use case list](../../README.md)
