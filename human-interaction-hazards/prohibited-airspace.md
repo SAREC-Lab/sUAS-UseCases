@@ -2,7 +2,7 @@
 
 UAV flights must be in compliance with government and local ordinances and regulations. In the USA all commercial pilots must seek authorization for flights in controlled airspace.
 
-[![](figures/airspace.png)](#)
+[![](figures/regulatory-compliance.svg)](#)
 
 Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../README.md)<br>
 
