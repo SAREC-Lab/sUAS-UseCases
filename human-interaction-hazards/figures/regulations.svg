@@ -181,7 +181,7 @@
 <polygon fill="#b3cde3" stroke="black" points="0,-150.5 0,-216.5 91,-216.5 91,-150.5 0,-150.5"/>
 <text text-anchor="start" x="29.5" y="-209.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="0,-205.5 91,-205.5 "/>
-<text text-anchor="start" x="6.5" y="-197.5" font-family="Times New Roman,serif" font-size="10.00">GX2: The system is</text>
+<text text-anchor="start" x="6.5" y="-197.5" font-family="Times New Roman,serif" font-size="10.00">GX1: The system is</text>
 <text text-anchor="start" x="9" y="-186.5" font-family="Times New Roman,serif" font-size="10.00">unable to connect</text>
 <text text-anchor="start" x="1" y="-175.5" font-family="Times New Roman,serif" font-size="10.00">to the LANNC system</text>
 <text text-anchor="start" x="10.5" y="-164.5" font-family="Times New Roman,serif" font-size="10.00">but the RPIC flies</text>
@@ -197,7 +197,7 @@
 <polygon fill="#b3cde3" stroke="black" points="105,-150.5 105,-216.5 210,-216.5 210,-150.5 105,-150.5"/>
 <text text-anchor="start" x="141.5" y="-209.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="105,-205.5 210,-205.5 "/>
-<text text-anchor="start" x="106" y="-197.5" font-family="Times New Roman,serif" font-size="10.00">GX1: The LANNC system</text>
+<text text-anchor="start" x="106" y="-197.5" font-family="Times New Roman,serif" font-size="10.00">GX2: The LANNC system</text>
 <text text-anchor="start" x="128.5" y="-186.5" font-family="Times New Roman,serif" font-size="10.00">explicitly does</text>
 <text text-anchor="start" x="123.5" y="-175.5" font-family="Times New Roman,serif" font-size="10.00">not authorize the</text>
 <text text-anchor="start" x="120" y="-164.5" font-family="Times New Roman,serif" font-size="10.00">flight but the RPIC</text>
