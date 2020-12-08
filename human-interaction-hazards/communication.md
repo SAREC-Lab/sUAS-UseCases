@@ -35,7 +35,7 @@ Due to loss of signal no data is transmitted from the UAV.
 |CX1-1|Computer Software controller is the only remote control mechanism.|The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
 |CX1-2|A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
 
-## <a name="CX4">CX4: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging.</a> <sub><sup>:two:</sup></sub>
+## <a name="CX4">CX4: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging.</a> <sub>![](icons/e-icon.PNG)</sub>
 
 When in-air communication infrastructure fails the operator may need to communicate directly with each individual UAV
 
