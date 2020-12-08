@@ -50,7 +50,7 @@
 <polygon fill="#ccebc5" stroke="black" points="29,-0.5 29,-66.5 120,-66.5 120,-0.5 29,-0.5"/>
 <text text-anchor="start" x="58.5" y="-59.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="29,-55.5 120,-55.5 "/>
-<text text-anchor="start" x="38.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">CX4 The operator</text>
+<text text-anchor="start" x="38.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">CX2 The operator</text>
 <text text-anchor="start" x="35.5" y="-36.5" font-family="Times New Roman,serif" font-size="10.00">is unable to receive</text>
 <text text-anchor="start" x="42" y="-25.5" font-family="Times New Roman,serif" font-size="10.00">status data from</text>
 <text text-anchor="start" x="34" y="-14.5" font-family="Times New Roman,serif" font-size="10.00">the UAVs and loses</text>
@@ -66,7 +66,7 @@
 <polygon fill="#ffffcc" stroke="black" points="134,-0.5 134,-66.5 213,-66.5 213,-0.5 134,-0.5"/>
 <text text-anchor="start" x="157.5" y="-59.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="134,-55.5 213,-55.5 "/>
-<text text-anchor="start" x="137.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">CX5 The operator</text>
+<text text-anchor="start" x="137.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">CX3 The operator</text>
 <text text-anchor="start" x="139" y="-36.5" font-family="Times New Roman,serif" font-size="10.00">is unable to send</text>
 <text text-anchor="start" x="135" y="-25.5" font-family="Times New Roman,serif" font-size="10.00">directives to UAVs</text>
 <text text-anchor="start" x="141.5" y="-14.5" font-family="Times New Roman,serif" font-size="10.00">and loses direct</text>
@@ -111,7 +111,7 @@
 <polygon fill="#ccebc5" stroke="black" points="280,-139.5 280,-194.5 383,-194.5 383,-139.5 280,-139.5"/>
 <text text-anchor="start" x="315.5" y="-187.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="280,-183.5 383,-183.5 "/>
-<text text-anchor="start" x="281" y="-175.5" font-family="Times New Roman,serif" font-size="10.00">CX1 The human operator</text>
+<text text-anchor="start" x="281" y="-175.5" font-family="Times New Roman,serif" font-size="10.00">CX5 The human operator</text>
 <text text-anchor="start" x="292.5" y="-164.5" font-family="Times New Roman,serif" font-size="10.00">doesn&#39;t understand</text>
 <text text-anchor="start" x="299.5" y="-153.5" font-family="Times New Roman,serif" font-size="10.00">the cause of the</text>
 <text text-anchor="start" x="282.5" y="-142.5" font-family="Times New Roman,serif" font-size="10.00">communication problem.</text>
@@ -126,7 +126,7 @@
 <polygon fill="#ffffcc" stroke="black" points="0,-75.5 0,-130.5 103,-130.5 103,-75.5 0,-75.5"/>
 <text text-anchor="start" x="35.5" y="-123.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="0,-119.5 103,-119.5 "/>
-<text text-anchor="start" x="1" y="-111.5" font-family="Times New Roman,serif" font-size="10.00">CX2 The human operator</text>
+<text text-anchor="start" x="1" y="-111.5" font-family="Times New Roman,serif" font-size="10.00">CX1 The human operator</text>
 <text text-anchor="start" x="12.5" y="-100.5" font-family="Times New Roman,serif" font-size="10.00">is unable to control</text>
 <text text-anchor="start" x="13.5" y="-89.5" font-family="Times New Roman,serif" font-size="10.00">the UAV using the</text>
 <text text-anchor="start" x="9.5" y="-78.5" font-family="Times New Roman,serif" font-size="10.00">hand&#45;held controller.</text>
@@ -152,7 +152,7 @@
 <polygon fill="#ffffcc" stroke="black" points="227.5,-0.5 227.5,-66.5 333.5,-66.5 333.5,-0.5 227.5,-0.5"/>
 <text text-anchor="start" x="264.5" y="-59.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="227.5,-55.5 333.5,-55.5 "/>
-<text text-anchor="start" x="244.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">CX3 The operator</text>
+<text text-anchor="start" x="244.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">CX4 The operator</text>
 <text text-anchor="start" x="228.5" y="-36.5" font-family="Times New Roman,serif" font-size="10.00">cannot rely on forwarding</text>
 <text text-anchor="start" x="235.5" y="-25.5" font-family="Times New Roman,serif" font-size="10.00">of messages to remote</text>
 <text text-anchor="start" x="232" y="-14.5" font-family="Times New Roman,serif" font-size="10.00">UAVs via UAV&#45;to&#45;UAV</text>
