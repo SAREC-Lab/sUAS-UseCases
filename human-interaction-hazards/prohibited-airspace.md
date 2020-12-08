@@ -8,8 +8,16 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../
 
 <sub>![](icons/h.png)</sub> = Human initiated error, <sub>![](icons/s.png)</sub> =Loss of Situational awareness, <sub>![](icons/e.png)</sub> = Lack of empowerment to intervene
 
-## GX1-GX4: I think we should list these together.  It is really "just don't do it!!"
+## GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver"
+For these hazards we provide general mitigations.
+| Hazard addressed | Solution |
+|:--|:--|
+|GX3-1|Provide a reminder with required acknowledgement to fly responsibly in compliance with FAA regulations on the start up screen.|
+|GX3-2|Provide a link to a page listing FAA regulations as part of each application. |
+|GX3-3|Store Part 107 certification numbers in the system for frequent commercial RPICs. |
+|GX3-4|Create a flight file that logs meta-data for each flight including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
+## GX1: The operator recklessly disregards FAA flying regulations without a Part 107 waiver"
 There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
 
 | Hazard addressed | Solution |

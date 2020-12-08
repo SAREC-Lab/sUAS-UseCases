@@ -86,7 +86,7 @@
 <text text-anchor="start" x="367" y="-89.5" font-family="Times New Roman,serif" font-size="10.00">flight route into</text>
 <text text-anchor="start" x="360" y="-78.5" font-family="Times New Roman,serif" font-size="10.00">prohibited airspace</text>
 </g>
-<!-- HX12&#45;&gt;HX10 -->
+<!-- HX12&#45;&gt;HX10 --> 
 <g id="edge12" class="edge"><title>HX12&#45;&gt;HX10</title>
 <path fill="none" stroke="black" d="M376.537,-156.655C378.79,-151.819 381.169,-146.71 383.498,-141.71"/>
 <polygon fill="black" stroke="black" points="374.859,-156.114 374.334,-161.385 378.032,-157.592 374.859,-156.114"/>
