@@ -1,6 +1,6 @@
 ## Hazard Tree: Regulatory compliance
 
-UAV flights must be in compliance with government and local ordinances and regulations. In the USA all commercial pilots must seek authorization for flights in controlled airspace.
+UAV flights must be in compliance with government and local ordinances and regulations. In the USA all commercial pilots must seek authorization for flights in controlled airspace. Activities such as logging or sharing data with the NASA infrastructure all serve to support compliance and safety, but exhibit clear tradeoffs against privacy. 
 
 [![](figures/regulations.svg)](#)
 
@@ -38,4 +38,10 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX7-1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map |
 |GX7-2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace |
 |GX7-3|Situational awareness demons related to information overload and misplaced salience must be addressed through principled design and user evaluations |
+
+## GX8: Operator ignores warnings about prohibited airspace
+| Hazard addressed | Solution |
+|:--|:--|
+|GX8-1|Incursions into prohibited airspace must be logged|
+
 
