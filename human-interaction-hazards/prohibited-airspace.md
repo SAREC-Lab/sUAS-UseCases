@@ -8,22 +8,23 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
-## GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway" <sub>![](icons/h-icon.PNG)</sub>
+## GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway <sub>![](icons/h-icon.PNG)</sub>
 All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  However, flight authorization may have been obtained in advance, acquired directly from ATC at a local airport, or requested immediately prior to the flight. 
 | Hazard addressed | Solution |
 |:--|:--|
 |GX1-1|When the system is unable to connect to the LANNCs prior to a flight, a warning message must be prominently displayed on the screen.| 
-|GX1-2|If authorization has been received prior to the flight or the RPIC is operating under a waiver, the RPIC overrides the warning and the override is logged. |
+|GX1-2|If authorization has been received prior to the flight or the RPIC is operating under a waiver, the warning is disabled when the RPIC specifies that they are flying under prior authorization. |
+|GX1-3||GX1-2|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
 
-## GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway"
-All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  However, flight authorization may have been obtained in advance, acquired directly from ATC at a local airport, or requested immediately prior to the flight. 
+## GX2: Flight authorizations is denied by the LAANC system, but the RPIC flies anyway <sub>![](icons/h-icon.PNG)</sub>
+All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  When flight authorization is denied, the RPIC may modify the request and resubmit. 
 | Hazard addressed | Solution |
 |:--|:--|
-|GX1-1|When the system is unable to connect to the LANNCs prior to a flight, a warning message must be prominently displayed on the screen.| 
-|GX1-2|If authorization has been received prior to the flight or the RPIC is operating under a waiver, the RPIC overrides the warning and the override is logged. |
+|GX2-1|When flight authorization is denied a warning message must be prominently displayed on the screen.| 
+|GX2-2|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
 
-## GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver"
-For these hazards we provide general mitigations.
+## GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver" <sub>![](icons/h-icon.PNG)</sub>
+All of these hazards relate to reckless behavior as defined by Part 107 regulations. 
 | Hazard addressed | Solution |
 |:--|:--|
 |GX3-1|Provide a reminder with required acknowledgement to fly responsibly in compliance with FAA regulations on the start up screen.|
@@ -31,38 +32,11 @@ For these hazards we provide general mitigations.
 |GX3-3|Store Part 107 certification numbers in the system for frequent commercial RPICs. |
 |GX3-4|Create a flight file that logs meta-data for each flight including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
-
-
+## GX7: Operator is unaware of prohibited airspace and plans illegal flight routes <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Solution |
 |:--|:--|
 |GX1-1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map |
-|GX1-2|Warnings must be issued if any flight plan creates an incursion into prohibited airspace |
+|GX1-2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace |
 
-## <a name="GX2">GX2: Operator ignores prohibited airspace warnings and flies into prohibited airspace</a> <sub><sup>:one:</sup></sub>
 
-There are also accounts of RPICs deliberately flying in prohibited airspace. 
-| Hazard addressed | Solution |
-|:--|:--|
-|GX2-1|When a flight path is planned into prohibited airspace, the flight will be blocked until the RPIC acknowledge the warning and issues an override |
-|GX2-2|All overrides issued by the RPIC are logged in a persistent transaction file|
-
-## <a name="GX3">GX3: Operator fails to establish appropriate geofence prior to flight</a> <sub><sup>:one:</sup></sub>
-
-Many prohibited flight areas will not appear on the map as a result of retrieving LANNC data.  For example, in the USA, RPIC are not permitted to fly their UAVs over people which includes flying over traffic.  Furthermore, incursions into prohibited airspace can be caused by signal loss and onboard mechanical failures resulting in fly-away events. Several of these problems can be prevented by establishing a geofence; however, many current UAV flight systems do not require geofences and RPICs may fail to check this.
-
-| Hazard addressed | Solution |
-|:--|:--|
-|GX3-1|When a geofence is not activated for the current location (region and altitude) a warning shall be generated|
-|GX3-2|As soon as the UAV is connected to the system, the UAV's existing geofence data shall be retrieved and visibly displayed on the map until dismissed by the RPIC|
-|GX3-3|When a planned flight extends outside the geofence a warning will be generated|
-|GX3-4|Where an RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to set the geofences of all or several UAVs at the same time.
-
-## <a name="GX4">GX4: Operator sets the geofence failsafe parameters incorrectly, and the UAV flies beyond the geofence boundary</a> <sub><sup>:one:</sup></sub>
-
-When a UAV approaches the geofence its onboard failsafe mechanisms will activate.  These typically are either LAND or RTL. The operator must ensure that failsafe mechanisms are configured correctly.
-
-| Hazard addressed | Solution |
-|:--|:--|
-|GX4-1|When the geofence is displayed, the default failsafe mechanisms will also be displayed on the screen.  These include actions (LAND, RTL) and distance from the geofence at which the mechanisms will be activated.
-|GX4-2|Where the RPIC is coordinating multiple UAVs (either with a part 107 waiver or in conjunction with multiple RPIC operators), then the system must allow the RPIC to configure  geofence failsafe mechanisms for multiple UAVs simultaneously.
 
