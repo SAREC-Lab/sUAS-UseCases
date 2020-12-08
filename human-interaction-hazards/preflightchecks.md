@@ -2,10 +2,10 @@
 
 Intro goes here.
 
-[![](figures/preflightchecks.png)](#)
+[![](figures/preflightchecks.svg)](#)
 
 Quick Links: [PU1](#PU1) [PU2](#PU2) [PU3](#PU3) [PU4](#PU4) [PU5](#PU5) [(All hazards)](../README.md)<br>
-:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
+<sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
 <br>:construction: Add cross references.
 
