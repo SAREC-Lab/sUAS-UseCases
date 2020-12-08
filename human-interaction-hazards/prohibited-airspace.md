@@ -14,7 +14,7 @@ All RPICs flying in controlled airspace must receive flight authorization from t
 |:--|:--|
 |GX1-1|When the system is unable to connect to the LANNCs prior to a flight, a warning message must be prominently displayed on the screen.| 
 |GX1-2|If authorization has been received prior to the flight or the RPIC is operating under a waiver, the warning is disabled when the RPIC specifies that they are flying under prior authorization. |
-|GX1-3||GX1-2|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
+|GX1-3|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
 
 ## <a name="GX2"> GX2: Flight authorizations is denied by the LAANC system, but the RPIC flies anyway <sub>![](icons/h-icon.PNG)</sub>
 All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  When flight authorization is denied, the RPIC may modify the request and resubmit. 
