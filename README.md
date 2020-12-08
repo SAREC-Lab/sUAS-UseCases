@@ -15,7 +15,7 @@ For each identified human-sUAS interaction point, we explore four specific types
 
 | Hazard Group | Description |Link to Hazard Information |
 |:--|:--| :--|
-|Prohibited airspace| Hazards related to flight authorization and prohibited airspace|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|
+|Regulatory Compliance| Hazards related to flight authorization and other regulations|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|
 |Flight management| Hazards related to managing flight routes |[flight-management.md](human-interaction-hazards/flight-management.md)
 |Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)
 |Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)
