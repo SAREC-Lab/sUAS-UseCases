@@ -39,7 +39,7 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX7-2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace |
 |GX7-3|Situational awareness demons related to information overload and misplaced salience must be addressed through principled design and user evaluations |
 
-## <a name="GX8"> GX8: Operator ignores warnings about prohibited airspace
+## <a name="GX8"> GX8: Operator ignores warnings about prohibited airspace <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Solution |
 |:--|:--|
 |GX8-1|Incursions into prohibited airspace must be logged|
