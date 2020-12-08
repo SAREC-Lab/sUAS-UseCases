@@ -8,6 +8,20 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
+## GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway" <sub>![](icons/h-icon.PNG)</sub>
+All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  However, flight authorization may have been obtained in advance, acquired directly from ATC at a local airport, or requested immediately prior to the flight. 
+| Hazard addressed | Solution |
+|:--|:--|
+|GX1-1|When the system is unable to connect to the LANNCs prior to a flight, a warning message must be prominently displayed on the screen.| 
+|GX1-2|If authorization has been received prior to the flight or the RPIC is operating under a waiver, the RPIC overrides the warning and the override is logged. |
+
+## GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway"
+All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  However, flight authorization may have been obtained in advance, acquired directly from ATC at a local airport, or requested immediately prior to the flight. 
+| Hazard addressed | Solution |
+|:--|:--|
+|GX1-1|When the system is unable to connect to the LANNCs prior to a flight, a warning message must be prominently displayed on the screen.| 
+|GX1-2|If authorization has been received prior to the flight or the RPIC is operating under a waiver, the RPIC overrides the warning and the override is logged. |
+
 ## GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver"
 For these hazards we provide general mitigations.
 | Hazard addressed | Solution |
@@ -17,8 +31,7 @@ For these hazards we provide general mitigations.
 |GX3-3|Store Part 107 certification numbers in the system for frequent commercial RPICs. |
 |GX3-4|Create a flight file that logs meta-data for each flight including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
-## GX1: The operator recklessly disregards FAA flying regulations without a Part 107 waiver"
-There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
+
 
 | Hazard addressed | Solution |
 |:--|:--|
