@@ -8,7 +8,7 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../
 
 <sub>![](icons/h.png)</sub> = Human initiated error, <sub>![](icons/s.png)</sub> =Loss of Situational awareness, <sub>![](icons/e.png)</sub> = Lack of empowerment to intervene
 
-## <a name="GX1-GX4">I think we should list these together.  It is really "just don't do it!!"</a> <sub><sup>:two:</sup></sub>
+## GX1-GX4: I think we should list these together.  It is really "just don't do it!!"
 
 There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
 
