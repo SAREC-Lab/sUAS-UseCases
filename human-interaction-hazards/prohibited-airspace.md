@@ -32,11 +32,10 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX3-3|Store Part 107 certification numbers in the system for frequent commercial RPICs. |
 |GX3-4|Create a flight file that logs meta-data for each flight including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
-## GX7: Operator is unaware of prohibited airspace and plans illegal flight routes <sub>![](icons/s-icon.PNG)</sub>
+## GX7: Operator is unaware of prohibited airspace and plans and/or executes illegal flight routes <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Solution |
 |:--|:--|
-|GX1-1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map |
-|GX1-2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace |
-
-
+|GX7-1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map |
+|GX7-2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace |
+|GX7-3|Situational awareness demons related to information overload and misplaced salience must be addressed through principled design and user evaluations |
 
