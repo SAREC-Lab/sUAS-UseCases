@@ -37,19 +37,19 @@
 </g>
 <!-- UX27 -->
 <g id="node20" class="node"><title>UX27</title>
-<polygon fill="#b3cde3" stroke="black" points="351.5,-289.5 351.5,-355.5 447.5,-355.5 447.5,-289.5 351.5,-289.5"/>
-<text text-anchor="start" x="383.5" y="-348.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
-<polyline fill="none" stroke="black" points="351.5,-344.5 447.5,-344.5 "/>
-<text text-anchor="start" x="360" y="-336.5" font-family="Times New Roman,serif" font-size="10.00">GX12: The operator</text>
-<text text-anchor="start" x="357" y="-325.5" font-family="Times New Roman,serif" font-size="10.00">recklessly disregards</text>
-<text text-anchor="start" x="352.5" y="-314.5" font-family="Times New Roman,serif" font-size="10.00">FAA flying regulations</text>
-<text text-anchor="start" x="363.5" y="-303.5" font-family="Times New Roman,serif" font-size="10.00">without a Part 107</text>
-<text text-anchor="start" x="386" y="-292.5" font-family="Times New Roman,serif" font-size="10.00">waiver</text>
+<polygon fill="#b3cde3" stroke="black" points="350.5,-289.5 350.5,-355.5 446.5,-355.5 446.5,-289.5 350.5,-289.5"/>
+<text text-anchor="start" x="382.5" y="-348.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
+<polyline fill="none" stroke="black" points="350.5,-344.5 446.5,-344.5 "/>
+<text text-anchor="start" x="361.5" y="-336.5" font-family="Times New Roman,serif" font-size="10.00">GX1: The operator</text>
+<text text-anchor="start" x="356" y="-325.5" font-family="Times New Roman,serif" font-size="10.00">recklessly disregards</text>
+<text text-anchor="start" x="351.5" y="-314.5" font-family="Times New Roman,serif" font-size="10.00">FAA flying regulations</text>
+<text text-anchor="start" x="362.5" y="-303.5" font-family="Times New Roman,serif" font-size="10.00">without a Part 107</text>
+<text text-anchor="start" x="385" y="-292.5" font-family="Times New Roman,serif" font-size="10.00">waiver</text>
 </g>
 <!-- HX1&#45;&gt;UX27 -->
 <g id="edge6" class="edge"><title>HX1&#45;&gt;UX27</title>
-<path fill="none" stroke="black" d="M339.97,-364.497C344.265,-361.539 348.618,-358.541 352.914,-355.583"/>
-<polygon fill="black" stroke="black" points="338.824,-363.161 335.699,-367.439 340.809,-366.044 338.824,-363.161"/>
+<path fill="none" stroke="black" d="M339.736,-364.355C343.891,-361.466 348.099,-358.54 352.254,-355.652"/>
+<polygon fill="black" stroke="black" points="338.709,-362.938 335.603,-367.229 340.707,-365.811 338.709,-362.938"/>
 </g>
 <!-- HX12 -->
 <g id="node2" class="node"><title>HX12</title>
@@ -96,7 +96,7 @@
 <polygon fill="#b3cde3" stroke="black" points="442.5,-92 442.5,-125 534.5,-125 534.5,-92 442.5,-92"/>
 <text text-anchor="start" x="472.5" y="-118" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="442.5,-114 534.5,-114 "/>
-<text text-anchor="start" x="443.5" y="-106" font-family="Times New Roman,serif" font-size="10.00">GX4: Operator ignores</text>
+<text text-anchor="start" x="443.5" y="-106" font-family="Times New Roman,serif" font-size="10.00">GX6: Operator ignores</text>
 <text text-anchor="start" x="458" y="-95" font-family="Times New Roman,serif" font-size="10.00">flight warnings</text>
 </g>
 <!-- HX12&#45;&gt;UX21 -->
@@ -166,7 +166,7 @@
 <polygon fill="#ccebc5" stroke="black" points="235.5,-6 235.5,-61 325.5,-61 325.5,-6 235.5,-6"/>
 <text text-anchor="start" x="264.5" y="-54" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="235.5,-50 325.5,-50 "/>
-<text text-anchor="start" x="245" y="-42" font-family="Times New Roman,serif" font-size="10.00">GX13: Operator is</text>
+<text text-anchor="start" x="247" y="-42" font-family="Times New Roman,serif" font-size="10.00">GX5: Operator is</text>
 <text text-anchor="start" x="236.5" y="-31" font-family="Times New Roman,serif" font-size="10.00">unaware of prohibited</text>
 <text text-anchor="start" x="243" y="-20" font-family="Times New Roman,serif" font-size="10.00">airspace and plans</text>
 <text text-anchor="start" x="243" y="-9" font-family="Times New Roman,serif" font-size="10.00">illegal flight routes</text>
@@ -229,28 +229,28 @@
 </g>
 <!-- UX26 -->
 <g id="node10" class="node"><title>UX26</title>
-<polygon fill="#b3cde3" stroke="black" points="299,-225.5 299,-280.5 398,-280.5 398,-225.5 299,-225.5"/>
-<text text-anchor="start" x="332.5" y="-273.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
-<polyline fill="none" stroke="black" points="299,-269.5 398,-269.5 "/>
-<text text-anchor="start" x="300" y="-261.5" font-family="Times New Roman,serif" font-size="10.00">GX10: Operator releases</text>
-<text text-anchor="start" x="301" y="-250.5" font-family="Times New Roman,serif" font-size="10.00">the UAV from a moving</text>
-<text text-anchor="start" x="304.5" y="-239.5" font-family="Times New Roman,serif" font-size="10.00">vehicle in a populated</text>
-<text text-anchor="start" x="340" y="-228.5" font-family="Times New Roman,serif" font-size="10.00">area</text>
+<polygon fill="#b3cde3" stroke="black" points="299,-225.5 299,-280.5 396,-280.5 396,-225.5 299,-225.5"/>
+<text text-anchor="start" x="331.5" y="-273.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
+<polyline fill="none" stroke="black" points="299,-269.5 396,-269.5 "/>
+<text text-anchor="start" x="301.5" y="-261.5" font-family="Times New Roman,serif" font-size="10.00">GX2: Operator releases</text>
+<text text-anchor="start" x="300" y="-250.5" font-family="Times New Roman,serif" font-size="10.00">the UAV from a moving</text>
+<text text-anchor="start" x="303.5" y="-239.5" font-family="Times New Roman,serif" font-size="10.00">vehicle in a populated</text>
+<text text-anchor="start" x="339" y="-228.5" font-family="Times New Roman,serif" font-size="10.00">area</text>
 </g>
 <!-- UX25 -->
 <g id="node11" class="node"><title>UX25</title>
-<polygon fill="#b3cde3" stroke="black" points="412.5,-236.5 412.5,-269.5 490.5,-269.5 490.5,-236.5 412.5,-236.5"/>
-<text text-anchor="start" x="435.5" y="-262.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
-<polyline fill="none" stroke="black" points="412.5,-258.5 490.5,-258.5 "/>
-<text text-anchor="start" x="413.5" y="-250.5" font-family="Times New Roman,serif" font-size="10.00">GX9: Operator flies</text>
-<text text-anchor="start" x="427.5" y="-239.5" font-family="Times New Roman,serif" font-size="10.00">over people</text>
+<polygon fill="#b3cde3" stroke="black" points="410.5,-236.5 410.5,-269.5 488.5,-269.5 488.5,-236.5 410.5,-236.5"/>
+<text text-anchor="start" x="433.5" y="-262.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
+<polyline fill="none" stroke="black" points="410.5,-258.5 488.5,-258.5 "/>
+<text text-anchor="start" x="411.5" y="-250.5" font-family="Times New Roman,serif" font-size="10.00">GX3: Operator flies</text>
+<text text-anchor="start" x="425.5" y="-239.5" font-family="Times New Roman,serif" font-size="10.00">over people</text>
 </g>
 <!-- UX24 -->
 <g id="node13" class="node"><title>UX24</title>
 <polygon fill="#b3cde3" stroke="black" points="551.5,-0.5 551.5,-66.5 643.5,-66.5 643.5,-0.5 551.5,-0.5"/>
 <text text-anchor="start" x="581.5" y="-59.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="551.5,-55.5 643.5,-55.5 "/>
-<text text-anchor="start" x="552.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">GX7: Operator ignores</text>
+<text text-anchor="start" x="552.5" y="-47.5" font-family="Times New Roman,serif" font-size="10.00">GX9: Operator ignores</text>
 <text text-anchor="start" x="559" y="-36.5" font-family="Times New Roman,serif" font-size="10.00">failed authorization</text>
 <text text-anchor="start" x="561" y="-25.5" font-family="Times New Roman,serif" font-size="10.00">warnings and flies</text>
 <text text-anchor="start" x="567" y="-14.5" font-family="Times New Roman,serif" font-size="10.00">in non daylight</text>
@@ -261,7 +261,7 @@
 <polygon fill="#b3cde3" stroke="black" points="339.5,-11.5 339.5,-55.5 431.5,-55.5 431.5,-11.5 339.5,-11.5"/>
 <text text-anchor="start" x="369.5" y="-48.5" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="339.5,-44.5 431.5,-44.5 "/>
-<text text-anchor="start" x="340.5" y="-36.5" font-family="Times New Roman,serif" font-size="10.00">GX6: Operator ignores</text>
+<text text-anchor="start" x="340.5" y="-36.5" font-family="Times New Roman,serif" font-size="10.00">GX7: Operator ignores</text>
 <text text-anchor="start" x="349" y="-25.5" font-family="Times New Roman,serif" font-size="10.00">warnings and flies</text>
 <text text-anchor="start" x="342" y="-14.5" font-family="Times New Roman,serif" font-size="10.00">in prohibited airspace</text>
 </g>
@@ -270,7 +270,7 @@
 <polygon fill="#b3cde3" stroke="black" points="445.5,-6 445.5,-61 537.5,-61 537.5,-6 445.5,-6"/>
 <text text-anchor="start" x="475.5" y="-54" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
 <polyline fill="none" stroke="black" points="445.5,-50 537.5,-50 "/>
-<text text-anchor="start" x="446.5" y="-42" font-family="Times New Roman,serif" font-size="10.00">GX5: Operator ignores</text>
+<text text-anchor="start" x="446.5" y="-42" font-family="Times New Roman,serif" font-size="10.00">GX8: Operator ignores</text>
 <text text-anchor="start" x="453" y="-31" font-family="Times New Roman,serif" font-size="10.00">failed authorization</text>
 <text text-anchor="start" x="455" y="-20" font-family="Times New Roman,serif" font-size="10.00">warnings and flies</text>
 <text text-anchor="start" x="448.5" y="-9" font-family="Times New Roman,serif" font-size="10.00">without authorization</text>
@@ -292,27 +292,27 @@
 </g>
 <!-- UX28 -->
 <g id="node19" class="node"><title>UX28</title>
-<polygon fill="#b3cde3" stroke="black" points="505,-231 505,-275 604,-275 604,-231 505,-231"/>
-<text text-anchor="start" x="538.5" y="-268" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
-<polyline fill="none" stroke="black" points="505,-264 604,-264 "/>
-<text text-anchor="start" x="506" y="-256" font-family="Times New Roman,serif" font-size="10.00">GX12: A single operator</text>
-<text text-anchor="start" x="520" y="-245" font-family="Times New Roman,serif" font-size="10.00">operates multiple</text>
-<text text-anchor="start" x="542" y="-234" font-family="Times New Roman,serif" font-size="10.00">UAVs</text>
+<polygon fill="#b3cde3" stroke="black" points="502.5,-231 502.5,-275 596.5,-275 596.5,-231 502.5,-231"/>
+<text text-anchor="start" x="533.5" y="-268" font-family="Times New Roman,serif" font-weight="bold" font-size="10.00">Hazard </text>
+<polyline fill="none" stroke="black" points="502.5,-264 596.5,-264 "/>
+<text text-anchor="start" x="503.5" y="-256" font-family="Times New Roman,serif" font-size="10.00">GX4: A single operator</text>
+<text text-anchor="start" x="515" y="-245" font-family="Times New Roman,serif" font-size="10.00">operates multiple</text>
+<text text-anchor="start" x="537" y="-234" font-family="Times New Roman,serif" font-size="10.00">UAVs</text>
 </g>
 <!-- UX27&#45;&gt;UX26 -->
 <g id="edge8" class="edge"><title>UX27&#45;&gt;UX26</title>
-<path fill="none" stroke="black" d="M372.163,-285.319C371.02,-283.806 369.881,-282.299 368.757,-280.811"/>
-<polygon fill="black" stroke="black" points="370.784,-286.397 375.195,-289.332 373.577,-284.287 370.784,-286.397"/>
+<path fill="none" stroke="black" d="M371.163,-285.319C370.02,-283.806 368.881,-282.299 367.757,-280.811"/>
+<polygon fill="black" stroke="black" points="369.784,-286.397 374.195,-289.332 372.577,-284.287 369.784,-286.397"/>
 </g>
 <!-- UX27&#45;&gt;UX25 -->
 <g id="edge7" class="edge"><title>UX27&#45;&gt;UX25</title>
-<path fill="none" stroke="black" d="M427.471,-285.192C431.633,-279.789 435.728,-274.473 439.325,-269.804"/>
-<polygon fill="black" stroke="black" points="425.947,-284.303 424.282,-289.332 428.719,-286.439 425.947,-284.303"/>
+<path fill="none" stroke="black" d="M425.933,-285.192C430.015,-279.789 434.031,-274.473 437.559,-269.804"/>
+<polygon fill="black" stroke="black" points="424.423,-284.287 422.805,-289.332 427.216,-286.397 424.423,-284.287"/>
 </g>
 <!-- UX27&#45;&gt;UX28 -->
 <g id="edge9" class="edge"><title>UX27&#45;&gt;UX28</title>
-<path fill="none" stroke="black" d="M452.475,-300.179C467.124,-294.128 482.983,-287.433 497.5,-281 501.805,-279.092 506.272,-277.064 510.724,-275.009"/>
-<polygon fill="black" stroke="black" points="451.514,-298.683 447.557,-302.205 452.847,-301.919 451.514,-298.683"/>
+<path fill="none" stroke="black" d="M451.466,-300.152C465.839,-294.151 481.339,-287.487 495.5,-281 499.598,-279.123 503.842,-277.115 508.069,-275.072"/>
+<polygon fill="black" stroke="black" points="450.582,-298.624 446.638,-302.16 451.927,-301.855 450.582,-298.624"/>
 </g>
 </g>
 </svg>
