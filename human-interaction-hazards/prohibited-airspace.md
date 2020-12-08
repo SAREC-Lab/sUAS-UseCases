@@ -1,16 +1,14 @@
-## Hazard Tree: Prohibited Airspace
+## Hazard Tree: Regulatory compliance
 
 UAV flights must be in compliance with government and local ordinances and regulations. In the USA all commercial pilots must seek authorization for flights in controlled airspace.
 
 [![](figures/regulatory-compliance.svg)](#)
 
-:construction: JCH: Will fix IDs.  MV: Will fix icons below to match the colors.
-
 Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../README.md)<br>
 
 <sub>![](icons/h.png)</sub> = Human initiated error, <sub>![](icons/s.png)</sub> =Loss of Situational awareness, <sub>![](icons/e.png)</sub> = Lack of empowerment to intervene
 
-## <a name="GX1">GX1: Operator is unaware of prohibited airspace and plans illegal flight routes</a> <sub><sup>:two:</sup></sub>
+## GX1-GX4: I think we should list these together.  It is really "just don't do it!!"
 
 There are numerous accounts of remote pilots either accidentally flying their UAVs into prohibited airspace.  This is particularly common around airports.
 
