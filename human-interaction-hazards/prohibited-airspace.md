@@ -6,7 +6,7 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX4](#GX4) [(All Hazards)](../README.md)<br>
 
-<sub>![](icons/h.png)</sub> = Human initiated error, <sub>![](icons/s.png)</sub> =Loss of Situational awareness, <sub>![](icons/e.png)</sub> = Lack of empowerment to intervene
+<sub>![](icons/h-icon.PNG width=200)</sub> = Human initiated error, <sub>![](icons/s.png)</sub> =Loss of Situational awareness, <sub>![](icons/e.png)</sub> = Lack of empowerment to intervene
 
 ## GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver"
 For these hazards we provide general mitigations.
