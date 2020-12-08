@@ -3,10 +3,11 @@
 One of the most common causes of accidents with sUAS is caused by loss-of-signal preventing the RPIC from sending commands to the sUAS or receiving status updates. RPICs communicate with their sUAS by sending commands through a __hand-held-controller__ (i.e., throttle, forward, backward, sideways, turn) or through use of a computer system (e.g., MissionPlanner, QGroundControl, or custom built software) operating over an alternate communication technique or frequency.  Hazard mitigations are dependent upon the operating context -- specifically whether redundant communication paths exist, and whether the loss of signal is caused by a fault on the UAV or a communication failure. 
 
 
-[![](figures/communication.png)](#)
+[![](figures/communication.svg)](#)
 
 Quick Links: [CX1](#CX1) [CX2](#CX2) [CX3](#CX3) [CX4](#CX4) [CX5](#CX5) [(All hazards)](../README.md)<br>
-:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: = system failure
+
+<sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
 
 ## <a name="CX1">CX1: The human operator is unable to send directives to the UAV using the software-based system.</a> <sub><sup>:four:</sup></sub>
