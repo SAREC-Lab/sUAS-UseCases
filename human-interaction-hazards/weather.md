@@ -42,7 +42,7 @@ See WX1
 ## WX7: Operator flies UAV despite unsafe weather conditions. <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX7-1|Prelaunch| Warnings shall be issued if weather conditions preclude legal flights |
+|WX7-1|Prelaunch| The METAR weather report (or equivalent in non USA jurisdictions) shall be retrieve and analyzed. Warnings shall be issued if weather conditions preclude legal flights |
 |WX7-2|Prelaunch| If the RPIC decides to fly despite the weather-related warning, they must log an override in the system with a justification. |
 
 ## WX8: Operator flies UAV(s) with less than 3 statutory miles of visibility (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
