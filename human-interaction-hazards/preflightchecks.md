@@ -73,7 +73,13 @@ When a system involves multiple coordinated UAVs then it is important to maintai
 |PX11-1|prelaunch|The system shall provide a check-list of preflight checks and the RPIC shall confirm the list for each UAV and for the mission as a whole|
 |PX11-2|multi-UAV|When multiple UAVs are involved in the mission, the RPIC in charge of the flights shall verbally ascertain that all supporting RPICs and/or visual observers understand and acknowledge their roles in the mission.
 
-## PX13: It is difficult for the user to check and configure multiple UAVs simultaneously. <sub>![](icons/e-icon.PNG)</sub>
+## PX12: It is difficult for the user to check and configure multiple UAVs simultaneously. <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX12-1|Multi-UAVs|All preflight checks and warnings must support a multiple-UAV environment without the need for the RPIC to configure each UAV separately (unless desired)|
+
+## PX13: If the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV could respond dramatically (e.g., plunging to the ground).
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|PX13-1|Multi-UAVs, handheld controllers as backup|Preflight checklist must include checking the positions of all switches on the handheld device.|
+
