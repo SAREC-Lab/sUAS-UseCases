@@ -20,42 +20,47 @@ When a system involves multiple coordinated UAVs then it is important to maintai
 ## PX2: Operator places UAVs in location with insufficient clearance prior to launch <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX2-1|prelaunch|Operator is trained to check for obstruction|
 
 ## PX3: The operator is unable to rectify the camera failure during flight. <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX3-1-|Camera onboard|The UI should enable the user to perform basic diagnostics and to activate (or reactivate) the camera remotely.|
 
 ## PX4: The operator does not realize that a camera failure has occurred (e.g., due to servicing multiple UAVs for which only a subset of camera feeds are visible) <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX4-1|Camera onboard|The operator should be able to view the camera feed from all UAVs with cameras onboard prior to launch.|
+|PX4-2|Camera onboard|The system should perform a diagnostic test to make sure that the camera cap has been removed prior to launch (e.g., using onboard vision to detect cap errors).|
 
 ## PX5: The system does not provide appropriate information regarding the geofence, so the operator is unable to determine whether it has been set correctly or not <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX5-1||If the operator chooses to fly without a geofence in place, they must log their decision and rationale for foregoing the geofence.
+|PX5-2||When requested, the system shall visually display a UAV's geofence on the map.
+|PX5-3|Multi-UAVs|Where multiple UAVs are present, when requested by the user, the system shall visually display the outer boundary of the union of all UAVs' geofences. This increases awareness of the entire region in which UAVs are expected to fly.
+|PX5-4||When requested, the system shall display all geofence-related failsafe configurations and highlight exception cases (e.g., a UAV with unexpected configurations)
 
 ## PX6: User is unaware that the system is not configured correctly <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX6-1||An alert shall be raised if a UAV is missing a geofence with legal altitude limits, an area greater than __minimum_area__ and less than __maximum_area__, and whose boundaries are outside the current position of the UAV|
+|PX6-2|Multi-UAVs|When requested, the system shall display all geofence-related failsafe configurations and highlight exception cases (e.g., a UAV with unexpected configurations)
 
 ## PX7: User is unaware that failsafe and other flight actions are configured incorrectly (e.g., RTL actions) <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX7-1|preflight|The system shall store default failsafe configurations for *all* and *individual* UAVs. An alert shall be displayed if any UAV is configured differently from their default values. (Note: failsafe configurations can be set using multiple 3rd party packages, and should be checked prior to flight).
 
 ## PX8: User is unaware that critical arming  checks are disabled e.g., satellite connections, accelerometer health)] <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX8-1|preflight|The system shall store a list of default arming checks to be applied to all UAVs by type (e.g., PX4, Ardupilot). An alert shall be displayed if any UAV's internal configuration has overridden the expected arming checks.  (Note: The list of arming checks, and their internal configurations can be set using multiple 3rd party packages, and should be automatically checked prior to flight by the system).
 
 ## PX9: User has configured autopilot in an unsafe way (e.g., setting minimum number of satelite fixes required to 1, or setting the RTL altitude illegally high or dangerously low) <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX9-1-|preflight|Requirement here|
 
 ## PX10: User has disabled critical arming checks prior to launch (e.g., deactivating the GPS fix during indoor maintenance) <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
