@@ -78,7 +78,7 @@ When a system involves multiple coordinated UAVs then it is important to maintai
 |:--|:--|:--|
 |PX12-1|Multi-UAVs|All preflight checks and warnings must support a multiple-UAV environment without the need for the RPIC to configure each UAV separately (unless desired)|
 
-## PX13: If the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV could respond dramatically (e.g., plunging to the ground).
+## PX13: If the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV could respond dramatically (e.g., plunging to the ground). <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |PX13-1|Multi-UAVs, handheld controllers as backup|Preflight checklist must include checking the positions of all switches on the handheld device.|
