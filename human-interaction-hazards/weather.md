@@ -11,45 +11,43 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 ## WX1: Operator is unaware of the manufacturer's operating guidelines for a UAV. <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+|WX1-1|Prelaunch|When requested by the operator, the system shall display operating guidelines including upper and lower temperatures and maximum wind velocity in which the UAV can fly|
+|WX1-2|Prelaunch|Prior to flight, the system shall compare the operating guidelines of each UAV against the retrieved METAR report, make a determination of its ability to fly in the current and projected conditions, and inform the user if the flight should be cancelled or postponed due to weather conditions. |
+|WX-3|Prelaunch| Warnings shall be issued if weather conditions will require any UAV to operator outside their safe operating guidelines. |
+|WX-4|Prelaunch| If the RPIC decides to fly despite the weather-related warning, they must log an override in the system with a justification. |
 
 ## WX2: Operator flies UAV(s) in temperatures outside the manufacturer's operating guidelines. <sub>![](icons/h-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
-|:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+See WX1
 
 ## WX3: Operator flies UAV(s) in wind conditions that are outside the manufacturer's operating guidelines. <sub>![](icons/h-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
-|:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+See WX1
 
 ## WX4: The RPIC does not properly assess local weather conditions prior to flight using either the METAR report, local wind sensors, or common sense. <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+|WX4-1|Prelaunch|When adverse weather conditions are detected through the METAR or other available services or sensors, an adverse weather indicator shall be displayed on the screen even if all UAVs are capable of flying in those conditions.|
+|WX4-2|Prelaunch|When requested by the user, a full weather condition report will be displayed.|
 
 ## WX5: Operator is unaware that the UAV is flying in adverse weather due to localized or layered weather conditions. <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+|WX5-1|In-flight|Onboard analytics shall detect adverse wind conditions through analyzing stability and motor strain of the UAV|
+|WX5-2|In-flight|The system shall raise an alert when adverse weather conditions are detected through onboard analytics|
 
 ## WX6: Operator observes that the UAV is struggling to fly in high winds or other adverse weather conditions but is unable to control the UAV to land it safely. <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+|WX6-1|In-flight, Adverse Weather|The system shall recommend remediations to the operator according to the severity of the weather (e.g., LAND, RTL, Change altitude), and shall act upon the operator's decision. |
 
 ## WX7: Operator flies UAV despite unsafe weather conditions. <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+|WX7-1|Prelaunch| Warnings shall be issued if weather conditions preclude legal flights |
+|WX7-2|Prelaunch| If the RPIC decides to fly despite the weather-related warning, they must log an override in the system with a justification. |
 
 ## WX8: Operator flies UAV(s) with less than 3 statutory miles of visibility (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
-|:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+See WX7
 
 ## WX9: Operator flies UAV(s) with low cloud cover (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
-|:--|:--|:--|
-|WX1-11|Context here|Requirement here|
+See WX7
 
