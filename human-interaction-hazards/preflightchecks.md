@@ -9,9 +9,13 @@ Intro goes here.
 <br>:construction: Need to add mitigations.
 
 ## PX1: Operator places UAVs too close to each other prior to launch <sub>![](icons/h-icon.PNG)</sub>
+When a system involves multiple coordinated UAVs then it is important to maintain minimum separation distance. This includes the launch phase of the mission.
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |PX1-1|Multi-UAVs|RPIC receives training |
+|PX1-2|Multi-UAVs|The system checks the coordinates of all UAVs on the ground and raises an alert if any of them are located less than minimum separation distance.|
+|PX1-3|Multi-UAVs|Where the system is not capable of managing collision avoidance during launch (e.g., through choreographed takeoff), then the operator should reposition the UAVs and/or carefully manage the launch and subsequent RTL. 
+|PX1-4|Multi-UAVs|If multiple UAVs are in RTL mode at the same time (even if in-air collisions are managed) then the system will check for minimum separation distance between their home coordinates and recommend remediations (e.g., staggering their return, modifying home coordinates)
 
 ## UX2: Operator places UAVs in location with insufficient clearance prior to launch <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
