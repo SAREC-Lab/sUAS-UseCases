@@ -54,29 +54,32 @@ When a system involves multiple coordinated UAVs then it is important to maintai
 ## PX8: User is unaware that critical arming  checks are disabled e.g., satellite connections, accelerometer health)] <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|PX8-1|preflight|The system shall store a list of default arming checks to be applied to all UAVs by type (e.g., PX4, Ardupilot). An alert shall be displayed if any UAV's internal configuration has overridden the expected arming checks.  (Note: The list of arming checks, and their internal configurations can be set using multiple 3rd party packages, and should be automatically checked prior to flight by the system).
+|PX8-1|preflight|The system shall store a list of default arming checks to be applied to all UAVs by type (e.g., PX4, Ardupilot). An alert shall be displayed if any UAV's internal configuration differs from the expected arming checks.  (Note: The list of arming checks, and their internal configurations can be set using multiple 3rd party packages, and should be automatically checked prior to flight by the system).
 
 ## PX9: User has configured autopilot in an unsafe way (e.g., setting minimum number of satelite fixes required to 1, or setting the RTL altitude illegally high or dangerously low) <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|PX9-1-|preflight|Requirement here|
+|PX9-1|preflight|The system shall store a list of default global configurations to be applied to all UAVs by type (e.g., PX4, Ardupilot). An alert shall be displayed if any UAV's internal configuration differs from its expected global configurations. (Note: The list of arming checks, and their internal configurations can be set using multiple 3rd party packages, and should be automatically checked prior to flight by the system).
 
-## PX10: User has disabled critical arming checks prior to launch (e.g., deactivating the GPS fix during indoor maintenance) <sub>![](icons/h-icon.PNG)</sub>
+## PX10: Operator attaches overly heavy or insecured payload to UAV <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX9-1|payload|When payload is attached the RPIC must inspect the UAV and its payload to ensure that it is valid and within acceptable payload limits as specified by the manufacturer|
+|PX9-2|payload|Onboard analytics will monitor the UAV for behavior suggesting payload shifts or that the UAV is struggling to carry the payload|
 
-## PX11: Operator attaches overly heavy or insecured payload to UAV <sub>![](icons/h-icon.PNG)</sub>
+## PX11: Operator fails to perform flight-readiness check and/or fix problems (e.g., dangling cables, low battery) <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX11-1|prelaunch|The system shall provide a check-list of preflight checks and the RPIC shall confirm the list for each UAV and for the mission as a whole|
+|PX11-2|multi-UAV|When multiple UAVs are involved in the mission, the RPIC in charge of the flights shall verbally ascertain that all supporting RPICs and/or visual observers understand and acknowledge their roles in the mission.
 
-## PX12: Operator fails to perform flight-readiness check and/or fix problems (e.g., dangling cables, low battery) <sub>![](icons/h-icon.PNG)</sub>
+## PX12: It is difficult for the user to check and configure multiple UAVs simultaneously. <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX12-1|Multi-UAVs|All preflight checks and warnings must support a multiple-UAV environment without the need for the RPIC to configure each UAV separately (unless desired)|
 
-## PX13: It is difficult for the user to check and configure multiple UAVs simultaneously. <sub>![](icons/e-icon.PNG)</sub>
+## PX13: If the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV could respond dramatically (e.g., plunging to the ground). <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-|Context here|Requirement here|
+|PX13-1|Multi-UAVs, handheld controllers as backup|Preflight checklist must include checking the positions of all switches on the handheld device.|
+
