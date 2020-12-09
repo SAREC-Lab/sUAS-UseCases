@@ -22,8 +22,8 @@ For each identified human-sUAS interaction point, we explore four specific types
 |Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)|:construction:|
 |Pilot| Hazards related to piloting the sUAS |[pilot.md](human-interaction-hazards/pilot.md)||
 |Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)|:construction:|
-|Mission Awareness|Hazards associated with general mission awareness| [situationalawareness.md](human-interaction-hazards/situationalawareness.md)||
-|UAV autonomy | Hazards associated with human-drone interactions in the presence of sUAS autonomy | [autonomy.md](human-interaction-hazards/autonomy.md)||
+|Mission Awareness|Hazards associated with general mission awareness| [situationalawareness.md](human-interaction-hazards/situationalawareness.md)|Will be merged|
+|UAV autonomy | Hazards associated with human-drone interactions in the presence of sUAS autonomy | [autonomy.md](human-interaction-hazards/autonomy.md)|Wil be merged|
 
 
 
