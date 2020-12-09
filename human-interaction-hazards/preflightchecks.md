@@ -6,7 +6,7 @@ Intro goes here.
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene  <br>[(Return to list of hazard trees)](../README.md)<br>
 
-<br>:construction: Need to update requirements to match new graph
+<br>:construction: Need to add mitigations.
 
 ## UX1: Operator places UAVs too close to each other prior to launch <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
