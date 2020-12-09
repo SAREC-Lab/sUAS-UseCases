@@ -1,5 +1,7 @@
 ## Hazard Tree: Preflight Checks
 
+Many accidents are caused by problems in preflight checks. For example, (1) turning off the GPS Fix arming check whilst running indoor maintenance tests, and forgetting to reset the check, or (2) setting the RTL altitude above the legal limit. Many prearming checks could be automated through the software, while others require consistent preflight checks, and could be supported by checklists and best practices.
+
 [![](figures/preflightchecks.png)](#)
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene  <br>[(Return to list of hazard trees)](../README.md)<br>
