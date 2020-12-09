@@ -8,10 +8,10 @@ Intro goes here.
 
 <br>:construction: Need to add mitigations.
 
-## UX1: Operator places UAVs too close to each other prior to launch <sub>![](icons/h-icon.PNG)</sub>
+## PX1: Operator places UAVs too close to each other prior to launch <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|UX1-11|Context here|Requirement here|
+|PX1-1|Multi-UAVs|RPIC receives training |
 
 ## UX2: Operator places UAVs in location with insufficient clearance prior to launch <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
