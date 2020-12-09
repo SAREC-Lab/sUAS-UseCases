@@ -4,57 +4,52 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 
 [![](figures/weather.png)](#)
 
-Quick Links: [WX1](#WX1) [WX2](#WX2) [WX3](#WX3) [WX4](#WX4) [WX5](#WX5) [(All hazards)](../README.md)<br>
-:one:=Human initiated error, :two: =Loss of Situational awareness, :three: =Lack of empowerment to intervene, :four: =System Failure
+<sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene  <br>[(Return to list of hazard trees)](../README.md)<br>
 
-<br>:construction: Image needs updating.
+<br>:construction: Need to add mitigations.
 
-## <a name="WX1">WX1: User launches UAVs in inclement weather</a> <sub><sup>:one:</sup></sub> <sub><sup>:two:</sup></sub>
-
-
-
+## WX1: Operator is unaware of the manufacturer's operating guidelines for a UAV. <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX1-1|Context here|Requirement here|
-|WX1-2|
+|WX1-11|Context here|Requirement here|
 
-
-## <a name="WX2">WX2: User fails to retrieve weather information prior to flight</a> <sub><sup>:one:</sup></sub>
-
+## WX2: Operator flies UAV(s) in temperatures outside the manufacturer's operating guidelines. <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX2-1|
-|WX2-2|
+|WX1-11|Context here|Requirement here|
 
-## <a name="WX3">WX3: User is unaware that a remote UAV is flying in inclement weather</a> <sub><sup>:two:</sup></sub>
-
-| Hazard addressed | Context |Solution |
-|:--|:--|:--|
-|WX3-1|
-|WX3-2|
-|WX3-3|
-
-## <a name="WX4">WX4: User is not able to maintain line of sight due to inclement weather</a> <sub><sup>:one:</sup></sub> <sub><sup>:two:</sup></sub>
-
-
+## WX3: Operator flies UAV(s) in wind conditions that are outside the manufacturer's operating guidelines. <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX4-1|
+|WX1-11|Context here|Requirement here|
 
-## <a name="WX5">WX5: User launches a UAV after dusk without a waiver</a> <sub><sup>:one:</sup></sub>
-
+## WX4: The RPIC does not properly assess local weather conditions prior to flight using either the METAR report, local wind sensors, or common sense. <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX5-1|
+|WX1-11|Context here|Requirement here|
 
-## <a name="WX6">WX6: A preplanned flight does not complete until after dusk</a> <sub><sup>:one:</sup></sub> <sub><sup>:two:</sup></sub>
-
+## WX5: Operator is unaware that the UAV is flying in adverse weather due to localized or layered weather conditions. <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX6-1|
+|WX1-11|Context here|Requirement here|
 
-## <a name="WX7">WX7: User loses control of the UAV due to inclement weather conditions</a> <sub><sup>:three:</sup></sub>
-
+## WX6: Operator observes that the UAV is struggling to fly in high winds or other adverse weather conditions but is unable to control the UAV to land it safely. <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|WX6-1|
+|WX1-11|Context here|Requirement here|
+
+## WX7: Operator flies UAV despite unsafe weather conditions. <sub>![](icons/h-icon.PNG)</sub>
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|WX1-11|Context here|Requirement here|
+
+## WX8: Operator flies UAV(s) with less than 3 statutory miles of visibility (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|WX1-11|Context here|Requirement here|
+
+## WX9: Operator flies UAV(s) with low cloud cover (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|WX1-11|Context here|Requirement here|
+
