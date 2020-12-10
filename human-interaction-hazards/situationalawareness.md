@@ -7,13 +7,6 @@ Something about situational awareness demons.
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
 
-## <a name="AX1">AX1">: Operator is unable to handle multiple alerts simultaneously.</a> <sub><sup>">:one">:</sup></sub> <sub><sup>">:one">:</sup></sub>
-
-| Hazard addressed | Context | Solution |
-|">:--|">:--|">:--|
-|AX1-1|Multiple sUAS in flight|Alerts must be prioritized according to severity|
-|AX1-2|Multiple sUAS in flight|When system-wide failures occur the operator can freeze the entire mission so that all sUAS are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual sUAS.|
-
 ## <a name="SAX1">: The operator lacks full situational awareness of the mission
 
 | Hazard addressed | Context | Solution |
@@ -48,7 +41,9 @@ Something about situational awareness demons.
 
 | Hazard addressed | Context | Solution |
 |">:--|">:--|">:--|
-|SAX |Context |Solution|
+|SAX8-1|Multiple sUAS in flight|Alerts must be prioritized according to severity|
+|SAX8-2|Multiple sUAS in flight|When system-wide failures occur the operator can freeze the entire mission so that all sUAS are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual sUAS.|
+
 
 ## <a name="SAX9">: The operator is overwhelmed by status information for multiple UAVs
 
@@ -78,7 +73,9 @@ Something about situational awareness demons.
 
 | Hazard addressed | Context | Solution |
 |">:--|">:--|">:--|
-|SAX |Context |Solution|
+|SAX14-1|Multiple human engagers | One operator is designated as the sUAS safety officer with primary responsibility for overseeing safe use of the sUAS. |
+|SAX14-2|Multiple human engagers | The UI provides a screen dedicated to sUAS command and control. |
+|SAX14-3|Multiple sUAS| System runtime monitoring constantly checks for safety violations and raises alerts when such violations occur.|
 
 ## <a name="SAX15">: The operator fails to understand autonomous decisions
 
