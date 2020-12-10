@@ -28,6 +28,12 @@ Something about situational awareness demons.
 |SAX14-2|Multiple human engagers | The UI provides a screen dedicated to sUAS command and control. |
 |SAX14-3|Multiple sUAS| System runtime monitoring constantly checks for safety violations and raises alerts when such violations occur.|
 
+## <a name="SA12">SA12: The operator has an incorrect (errant) mental model of the current environment.</a>
+
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|SAX |Context |Solution|
+
 ## <a name="SA13">SA13: The operator does not understand important characteristics of the current environment and how they might impact the UAVs and/or the mission.</a>
 
 | Hazard addressed | Context | Solution |
@@ -35,6 +41,12 @@ Something about situational awareness demons.
 |SAX |Context |Solution|
 
 ## <a name="SA14">SA14: The operator lacks experience flying in current conditions </a>
+
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+|SAX |Context |Solution|
+
+## <a name="SA15">SAX15: The operator goes out of the loop due to UAV autonomy</a>
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
