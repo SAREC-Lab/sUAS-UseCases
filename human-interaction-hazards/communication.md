@@ -15,11 +15,11 @@ Quick Links: [CX1](#CX1) &nbsp;&nbsp; [CX2](#CX2) &nbsp;&nbsp; [CX3](#CX3) &nbsp
 
 One way RPICs communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the UAV is controlled by a software system, the hand-held controller provides a backup system for taking manual control when problems occur.
 
-| <img width=120/> | Context | Solution |
+| <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|CX3-S1|Hand-held controller is the only remote control mechanism.|The RPIC is unable to send commands to the UAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
-|CX3-S2|Redundant controllers exist (i.e., hand-held + software system) and the operator is using the hand-held device because communication from the software system has failed. |As in the previous example, the RPICs needs situational awareness of onboard mitigations (e.g., geofence location and configurations, failsafe mechanisms). This information should be cached in the ground-based computer immediately following initial configuration so that it can be retrieved upon request|
-|CX3-S3|Same context as CX1-S2|The UI must provide the capability to display the cached geofence, failsafe mechanisms, and their configurations upon demand|
+|CX1-S1|Hand-held controller is the only remote control mechanism.|The RPIC is unable to send commands to the UAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
+|CX1-S2|Redundant controllers exist (i.e., hand-held + software system) and the operator is using the hand-held device because communication from the software system has failed. |As in the previous example, the RPICs needs situational awareness of onboard mitigations (e.g., geofence location and configurations, failsafe mechanisms). This information should be cached in the ground-based computer immediately following initial configuration so that it can be retrieved upon request|
+|CX1-S3|Same context as CX1-S2|The UI must provide the capability to display the cached geofence, failsafe mechanisms, and their configurations upon demand|
 
 ## <sub>![](icons/s-icon.PNG)</sub> <a name="CX2">CX2: The human operator is unable to receive status data from the UAVs using the software-based system.</a>
 
