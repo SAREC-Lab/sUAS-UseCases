@@ -6,7 +6,7 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 
 [![](figures/weather.png)](#)
 
-<sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene  <br>[(Return to list of hazard trees)](../README.md)<br>
+<sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene  <br>
 
 *Quick Links:* [WX1](#WX1) &nbsp;&nbsp; [WX2](#WX2) &nbsp;&nbsp; [WX3](#WX3) &nbsp;&nbsp;  [WX4](#WX4) &nbsp;&nbsp; [WX5](#WX5) &nbsp;&nbsp; [WX6](#WX6) &nbsp;&nbsp; [WX7](#WX7)  &nbsp;&nbsp; [WX8](#WX8) &nbsp;&nbsp; &nbsp;&nbsp; [WX9](#WX9) &nbsp;&nbsp;   [(All Hazards)](../README.md)<br>
 
@@ -43,15 +43,15 @@ See WX1
 |:--|:--|:--|
 |WX6-S1|In-flight, Adverse Weather|The system shall recommend remediations to the operator according to the severity of the weather (e.g., LAND, RTL, Change altitude), and shall act upon the operator's decision. |
 
-## WX7: Operator flies UAV despite unsafe weather conditions. <sub>![](icons/h-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
+## <sub>![](icons/h-icon.PNG)</sub> <a name="WX7"/> WX7: Operator flies UAV despite unsafe weather conditions 
+| <img width=120/> | Context | Solution |
 |:--|:--|:--|
-|WX7-1|Prelaunch| The METAR weather report (or equivalent in non USA jurisdictions) shall be retrieve and analyzed. Warnings shall be issued if weather conditions preclude legal flights |
+|WX7-1|Prelaunch| The METAR weather report (or equivalent in non USA jurisdictions) shall be retrieved and analyzed. Warnings shall be issued if weather conditions preclude legal flights |
 |WX7-2|Prelaunch| If the RPIC decides to fly despite the weather-related warning, they must log an override in the system with a justification. |
 
-## WX8: Operator flies UAV(s) with less than 3 statutory miles of visibility (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
+##  <sub>![](icons/h-icon.PNG)</sub>  <a name="WX8"/> WX8: Operator flies UAV(s) with less than 3 statutory miles of visibility (FAA Part 107)
 See WX7
 
-## WX9: Operator flies UAV(s) with low cloud cover (FAA Part 107) <sub>![](icons/h-icon.PNG)</sub>
+## <sub>![](icons/h-icon.PNG)</sub> <a name="WX9"/> WX9: Operator flies UAV(s) with low cloud cover (FAA Part 107) 
 See WX7
 
