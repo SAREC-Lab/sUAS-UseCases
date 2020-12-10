@@ -16,9 +16,9 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 |<img width=120/> | Context | Solution |
 |:--|:--|:--|
 |WX1-S1|Prelaunch|When requested by the RPIC, the system shall display operating guidelines including upper and lower temperatures and maximum wind velocity in which the UAV can fly|
-|WX1-2|Prelaunch|Prior to flight, the system shall compare the operating guidelines of each UAV against the retrieved METAR report, make a determination of its ability to fly in the current and projected conditions, and inform the user if the flight should be cancelled or postponed due to weather conditions. |
-|WX-3|Prelaunch| Warnings shall be issued if weather conditions will require any UAV to operator outside their safe operating guidelines. |
-|WX-4|Prelaunch| If the RPIC decides to fly despite the weather-related warning, they must log an override in the system with a justification. |
+|WX1-S2|Prelaunch|Prior to flight, the system shall compare the operating guidelines of each UAV against the retrieved METAR report, make a determination of its ability to fly in the current and projected conditions, and inform the user if the flight should be cancelled or postponed due to weather conditions. |
+|WX-S3|Prelaunch| Warnings shall be issued if weather conditions will require any UAV to operator outside their safe operating guidelines. |
+|WX-S4|Prelaunch| If the RPIC decides to fly despite the weather-related warning, they must log an override in the system with a justification. |
 
 ## <sub>![](icons/h-icon.PNG)</sub> <a name="WX2"/> WX2: Operator flies UAV(s) in temperatures outside the manufacturer's operating guidelines 
 See WX1
