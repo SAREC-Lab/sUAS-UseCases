@@ -31,28 +31,29 @@ Due to loss of signal no data is transmitted from the UAV.
 |CX2-S3|Same as CX2-S1|Information should be provided in the UI on how much time since the last contact with the UAV has elapsed. |
 |CX2-S4|Same as CX2-S1|Each loss of signal must be logged in the respective flight log (including time of occurence and duration of the signal loss). |
 
-## <a name="CX3">CX3: The human operator is unable to send directives to the UAV using the software-based system.</a> <sub>![](icons/e-icon.PNG)</sub>
+## <sub>![](icons/e-icon.PNG)</sub> <a name="CX3">CX3: The human operator is unable to send directives to the UAV using the software-based system</a> 
 
-| Hazard addressed | Context | Solution |
+| <img width=120/> | Context | Solution |
 |:--|:--|:--|
-|CX1-1|Computer Software controller is the only remote control mechanism.|The RPIC is unable to send commands to the sUAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
-|CX1-2|A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
+|CX3-S1|The software system is the only remote control mechanism.|The RPIC is unable to send commands to the UAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
+|CX3-S2|A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
 
-## <a name="CX4">CX4: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging.</a> <sub>![](icons/e-icon.PNG)</sub>
+##  <sub>![](icons/e-icon.PNG)</sub> <a name="CX4">CX4: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging</a>
 
 When in-air communication infrastructure fails the operator may need to communicate directly with each individual UAV
 
-| Hazard addressed | Context | Solution |
+| <img width=120/> | Context | Solution |
 |:--|:--|:--|
-|CX4-1|In-air communication infrastructure| A warning must be display notifying the operator that in-air messaging is offline.
+|CX4-S1|In-air communication infrastructure| A warning must be display notifying the operator that in-air messaging is offline.
+|CX4-S2|Same as CX4-S1|Loss loss of in-air messaging must be logged in the respective flight log (including time of occurence and duration of the communication loss).
 
-## <a name="CX5">CX5: The human operator lacks understanding of the nature of the communication problem</a> <sub>![](icons/s-icon.PNG)</sub>
+## <sub>![](icons/s-icon.PNG)</sub> <a name="CX5">CX5: The human operator lacks understanding of the nature of the communication problem</a> 
 
-The operator may observe that communication has failed, or perceive it to have failed, without understanding the nature of the problem (e.g., malicious jamming attack, interference, loss of LTE connection). Inorder for the RPIC to respond correctly to the situation, they need to be able to quickly diagnose the problem.
+The operator may observe that communication has failed, or perceive it to have failed, without understanding the nature of the problem (e.g., malicious jamming attack, interference, loss of LTE connection). In order for the RPIC to respond correctly to the situation, they need to be able to quickly diagnose the problem.
 
-| Hazard addressed | Context | Solution |
+| <img width=120/> | Context | Solution |
 |:--|:--|:--|
-|CX5-1|All|Runtime monitors shall constantly monitor the health of individual components, detect failures, and provide diagnostic reports to the user when individual parts of the system fail (e.g., GCS is connected but not receiving signals from Drone A.|
-|CX5-2|Multiple communication options | Where multiple communication technologies are available (e.g., LTE vs. telemetry vs. wifi), the system shall perform diagnostics, switch to the most reliable approach, and notify the user of the current state of communicaiton.|
+|CX5-S1|All|A dedicated runtime monitoring component shall constantly monitor the health of individual components, detect failures, and provide diagnostic reports to the user when individual parts of the system fail (e.g., GCS is connected but not receiving signals from UAV.|
+|CX5-S2|Multiple communication options | Where multiple communication technologies are available (e.g., LTE vs. telemetry vs. wifi), the system shall perform diagnostics, switch to the most reliable approach, and notify the user of the current state of communicaiton.|
 
 
