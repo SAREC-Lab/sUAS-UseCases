@@ -1,0 +1,45 @@
+h1 System hazard
+h2 SA5: Situational awareness demons have been introduced through the user interface design
+h3 SA6: UI Information presentation design flaws including the known Situational Awareness demons of requisite memory trap, misplaced salience, and information overload.
+h6 SA9: The mission becomes overly complex and continues over a period time resulting in the known Situational Awareness demons of Workload, Anxiety, Fatigue, and other Stressors (WAFOS) and Complexity Creep.
+
+u1 [x] SA1: The operator lacks full situational awareness of the mission
+u2 [x] SA2: The operator is unable to make future projections, hampering their decision-making ability
+u3 [x] SA4: The operator is unable to comprehend what is happening
+u4 [x] SA3: The operator is unaware of the system's status
+u7 [s] SA10: The operator becomes overwhelmed by the multi-tasking required to manage multiple UAVs safely and according to all regulations
+u8 [e] SA7: The operator is unable to handle multiple alerts simultaneously
+u9 [s] SA8: The operator is overwhelmed by status information for multiple UAVs
+u10 [s] SA17: The operator fails to recognize when a UAV is operating autonomously outside its safety envelope
+u11 [h] SA14: The operator lacks experience flying in current conditions
+u12 [h] SA18: The operator fails to supervise the UAVs due to excessive trust in autonomy  
+u13 [s] SA11: The operator focuses excessively on one aspect of the mission at the expense of other aspects (e.g., focuses on finding the victim but ignores safe UAV operation)
+u14 [s] SA16: The operator fails to understand autonomous decisions
+u15 [s] SA13: The operator does not understand important characteristics of the current environment and how they might impact the UAVs and/or the mission.
+u17 [s] SA15: The operator goes out of the loop due to UAV autonomy
+u18 [s] SA12: The operator has an incorrect (errant) mental model of the current environment and/or other mission conditions.
+
+map h1 u1
+map u1 u3
+map u1 u4
+map u3 h2
+map u4 h2
+map h2 u17
+map h2 h6
+map h2 u13
+map h2 h3
+map u17 u14
+map h2 u18
+
+map u1 u2
+map u2 h2
+
+map h6 u7
+map h3 u8
+map h3 u9
+
+map u14 u10
+map u18 u15
+map u18 u11
+map u17 u12
+

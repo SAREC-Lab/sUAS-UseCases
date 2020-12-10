@@ -1,0 +1,48 @@
+h1 System hazard
+h2 S1: Hardware failure 
+h3 S2: Sensor failure
+h4 S3: Navigation failure 
+h5 S9:Geolocation failure due to failure in proximity sensor, GPS hardware failure, or loss of satelite signal    
+h6 S8: UAV movement control failure (e.g., Failure in accelerometer gyroscope, or compass)    
+h7 S10: Mechanical failure and/or broken physical component (e.g., arm, wing, propellers)
+h8 S7: Power failure due to low battery or power connectors   
+h9 S14: The camera fails during flight
+h10 S14: Onboard compute or networking failure
+h11 S11: Transmitter or  receiver failure including wifi,  LTE, telemetry 
+h12 S12: Power module reports incorrect battery level
+h13 S13: Onboard  computer fails (inc.autopilot and companion computer)
+h14 S15: The UAV's emergency parachute is deployed accidentally during flight despite no emergency
+
+u1 [s] SX1: The camera that provides video stream and supports onboard vision is no longer available to the operator 
+u2 [s] SX2: The operator loses track of the UAV's geolocation
+u3 [e] SX3: The operator is unable to evaluate the severity of the problem and/or resolve the situation.
+u4 [e] SX4: The UAV hovers in the sky and is unresponsive to operator commands
+u5 [e] SX5: The UAV flies out of control and does not respond to operator commands
+u6 [s] SX6: The operator is not immediately aware that hardware has failed 
+u7 [e] SX7: The operator is unable to control the UAV.
+u8 [h] SX8: The operator accidentally deploys the UAV's emergency parachute during flight.
+
+map h1 h2 
+map h2 h3
+map h3 h4
+map h4 h5
+map h4 h6
+map h2 h7
+map h2 h8
+map h2 h10
+map h10 h11
+map h8 h12
+map h10 h13
+map h3 h9
+map h9 u1
+map h5 u2
+map h5 u3
+map h6 u3
+map h6 u7
+map h7 u7
+map h10 u7
+map u7 u4
+map u7 u5
+map h2 u6
+map h14 u8
+map h3 h14

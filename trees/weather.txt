@@ -1,0 +1,34 @@
+h1 System hazard
+h2 W1: Flying in inclement weather outside the safety envelope of the UAV and/or outside operating conditions allowed by regulatory bodies (e.g., FAA)
+h6 W4: The system fails to retrieve weather reports (e.g., METAR) that are needed to assess weather conditions prior to flight 
+h5 W3: The UAV is unable to fly in a stable way due to excessive winds or precipitation
+h7 W2: Weather conditions are not safe for flight.
+
+u9 [h] WX4: The RPIC does not properly assess local weather conditions prior to flight using either the METAR report, local wind sensors, or common sense.
+u1 [s] WX5: Operator is unaware that the UAV is flying in adverse weather due to localized or layered weather conditions
+u3 [h] WX3: Operator flies UAV(s) in wind conditions that are outside the manufacturer's operating guidelines.
+u4 [h] WX2: Operator flies UAV(s) in temperatures outside the manufacturer's operating guidelines.
+u5 [s] WX1: Operator is unaware of the manufacturer's operating guidelines for a UAV.
+u6 [h] WX8: Operator flies UAV(s) with less than 3 statutory miles of visibility (FAA Part 107)
+u8 [h] WX9: Operator flies UAV(s) with low cloud cover (FAA Part 107)
+u10 [h] WX7: Operator flies UAV despite unsafe weather conditions
+u11 [e] WX6: Operator observes that the UAV is struggling to fly in high winds or other adverse weather conditions but is unable to control the UAV to land it safely.
+
+map h1 h2
+map h2 h6
+map h6 u9
+map h2 h7
+map h7 u5
+map u5 u3
+map u5 u4
+map h7 h5 
+map h2 u10
+map u10 u6
+map u10 u8
+map h6 u1
+map h2 u11
+
+
+
+
+}

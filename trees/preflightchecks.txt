@@ -1,0 +1,46 @@
+h1 System hazard
+h2 P1: Physical Preflight UAV  setup misses important checks 
+h3 P2: UAVs are not placed correctly for launch
+h4 P3: UAV is not  flight-ready 
+h5 P6: UAV is not  configured correctly for flight
+h8 P7: The payload is too heavy or unbalanced
+h11 P4: Camera is not functioning correctly
+h12 P5: No geofence has been established
+
+
+map h1 h2
+map h2 h3
+map h2 h4
+map h4 h5
+map h4 h8
+map h4 h11
+map h5 h12
+
+
+u1 [h] PX2 Operator places UAVs in location with insufficient clearance prior to launch
+u2 [h] PX1 Operator places UAVs too close to each other prior to launch
+u3 [h] PX9 Operator attaches overly heavy or insecured payload to UAV
+u4 [h] PX10 Operator fails to perform flight-readiness check and/or fix problems (e.g., dangling cables, low battery)
+u6 [h] PX8 User has configured autopilot in an unsafe way (e.g., setting minimum number of satelite fixes required to 1, or setting the RTL altitude illegally high or dangerously low)
+u9 [s] PX4 The system does not provide appropriate information regarding the geofence, so the operator is unable to determine whether it has been set correctly or not
+u11 [e] PX11 It is difficult for the user to check and configure multiple UAVs simultaneously.
+u14 [s] PX5: User is unaware that the system is not configured correctly
+u12 [s] PX7: User is unaware that critical arming  checks are disabled e.g., satellite connections, accelerometer health)]
+u13 [s] PX6: User is unaware that failsafe and other flight actions are configured incorrectly (e.g., RTL actions)
+u16 [s] PX3: The operator does not realize that the camera isn't working (e.g., due to servicing multiple UAVs for which only a subset of camera feeds are visible)
+u17 [h] P12: The user sets switches on hand-held controller incorrectly (e.g., throttle, RTL, LAND)
+
+map h3 u1
+map h3 u2  
+map h5 u6 
+map h4 u4 
+map h11 u16
+map h5 u14
+map u14 u12
+map u14 u13
+map h8 u3
+map h12 u9
+map h2 u11
+map h4 u17
+
+}

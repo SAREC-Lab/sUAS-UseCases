@@ -1,0 +1,46 @@
+h1 G1:Failure to comply with Governmental Regulations in the jurisdiction of the flight
+h5 G2: UAV flies in controlled airspace without acquiring authorization
+h6 G3: System fails to acquire flight authorization via the LANNC system
+u12 [h] GX2: Flight authorizations is denied by the LAANC system, but the RPIC flies anyway
+u13 [h] GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway
+
+h7 G4: System fails to download the map of prohibited flight zones from the LANNC system
+
+h8 G5: The system fails to prevent flights into known prohibited airspace
+h9 G6: The system fails to warn the operator when they fly into prohibited airspace
+h10 G7: The system fails to warn the operator when they plan a flight route into prohibited airspace
+h12 G8: Warnings are inneffective or missing.
+h29 G9: The UAV has no active geofence | See preflight configuration
+
+u20 [s] GX7: Operator is unaware of prohibited airspace and plans illegal flight routes
+
+u21 [h] GX8: Operator ignores warnings about prohibited airspace
+u25 [h] GX5: Operator flies over people
+u26 [h] GX4: Operator releases the UAV from a moving vehicle in a populated area
+u27 [h] GX3: The operator recklessly disregards FAA flying regulations without a Part 107 waiver
+u28 [h] GX6: A single operator operates multiple UAVs
+
+map h8 h7
+map h1 h5
+map h5 h6
+map h6 u12
+map h6 u13
+map h1 u27
+map u27 u25
+map u27 u26
+map u27 u28
+
+map h5 h8
+map h8 h12
+
+map h12 h10
+map h12 h9
+map h5 h29
+
+
+map h7 u20
+map h9 u20
+map h10 u20
+map h12 u21
+
+}
