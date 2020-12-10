@@ -11,28 +11,28 @@ Many accidents are caused by problems in preflight checks. For example, (1) turn
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
-## <sub>![](icons/h-icon.PNG)</sub>  <a name="PX1"> PX1: Operator places UAVs too close to each other prior to launch 
+## <sub>![](icons/h-icon.PNG)</sub>  <a name="PX1"/> PX1: Operator places UAVs too close to each other prior to launch 
 When a system involves multiple coordinated UAVs then it is important to maintain minimum separation distance. This includes the launch phase of the mission.
 | <img width=120/>| Context | Solution |
 |:--|:--|:--|
-|PX1-S1|Multi-UAVs|RPIC receives training |
+|PX1-S1|Multi-UAVs|RPIC receives proper training to conduct mandatory preflight checks |
 |PX1-S2|Multi-UAVs|The system checks the coordinates of all UAVs on the ground and raises an alert if any of them are located less than minimum separation distance. |
 |PX1-S3|Multi-UAVs|Where the system is not capable of managing collision avoidance during launch (e.g., through choreographed takeoff), then the operator should reposition the UAVs and/or carefully manage the launch and subsequent RTL. 
 |PX1-S4|Multi-UAVs|If multiple UAVs are in RTL mode at the same time (even if in-air collisions are managed) then the system will check for minimum separation distance between their home coordinates and recommend remediations (e.g., staggering their return, modifying home coordinates)
 
-## PX2: Operator places UAVs in location with insufficient clearance prior to launch <sub>![](icons/h-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
+## <sub>![](icons/h-icon.PNG)</sub> <a name="PX2"/> PX2: Operator places UAVs in location with insufficient clearance prior to launch 
+|  <img width=120/> | Context | Solution |
 |:--|:--|:--|
 |PX2-1|prelaunch|Operator is trained to check for obstruction|
 
-## PX3: The operator does not realize that a camera failure has occurred (e.g., due to servicing multiple UAVs for which only a subset of camera feeds are visible) <sub>![](icons/s-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
+## <sub>![](icons/s-icon.PNG)</sub> <a name="PX3"/> PX3: The operator does not realize that a camera failure has occurred (e.g., due to servicing multiple UAVs for which only a subset of camera feeds are visible) 
+|  <img width=120/> | Context | Solution |
 |:--|:--|:--|
 |PX4-1|Camera onboard|The operator should be able to view the camera feed from all UAVs with cameras onboard prior to launch.|
 |PX4-2|Camera onboard|The system should perform a diagnostic test to make sure that the camera cap has been removed prior to launch (e.g., using onboard vision to detect cap errors).|
 
-## PX4: The system does not provide appropriate information regarding the geofence, so the operator is unable to determine whether it has been set correctly or not <sub>![](icons/s-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
+## <sub>![](icons/s-icon.PNG)</sub> <a name="PX4"/>  PX4: The system does not provide appropriate information regarding the geofence, so the operator is unable to determine whether it has been set correctly or not 
+|  <img width=120/> | Context | Solution |
 |:--|:--|:--|
 |PX5-1||If the operator chooses to fly without a geofence in place, they must log their decision and rationale for foregoing the geofence.
 |PX5-2||When requested, the system shall visually display a UAV's geofence on the map.
