@@ -1,4 +1,4 @@
-## Hazard Tree">: Mission awareness
+## Hazard Tree:  Mission awareness
 
 Something about situational awareness demons.
 
