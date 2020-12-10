@@ -17,14 +17,14 @@ For each identified human-sUAS interaction point, we explore four specific types
 |:--|:--| :--|:--|
 |Collisions| Hazards related to collisions between multiple UAVs and/or UAVs and other objects|[collisions.md](human-interaction-hazards/collisions.md)|:construction:|
 |Regulatory Compliance| Hazards related to flight authorization and other regulations|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|:heavy_check_mark:|
-|Flight management| Hazards related to managing flight routes |[flight-management.md](human-interaction-hazards/flight-management.md)||
+|Mission Planning| Hazards related to planning and managing flight routes |[flight-management.md](human-interaction-hazards/flight-management.md)||
 |Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)|:heavy_check_mark:||
 |Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)|:construction:|
 |Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)|:heavy_check_mark:||
 |Pilot| Hazards related to piloting the sUAS |[pilot.md](human-interaction-hazards/pilot.md)||
 |Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)|:heavy_check_mark:|
-|Mission Awareness|Hazards associated with general mission awareness| [situationalawareness.md](human-interaction-hazards/situationalawareness.md)|Will be merged|
-|UAV autonomy | Hazards associated with human-drone interactions in the presence of sUAS autonomy | [autonomy.md](human-interaction-hazards/autonomy.md)|Wil be merged|
+|Mission Awareness|Hazards associated with general situational awareness and operator empowerment during a mission| [situationalawareness.md](human-interaction-hazards/situationalawareness.md)||
+
 
 
 
