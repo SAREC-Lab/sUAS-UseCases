@@ -1,19 +1,24 @@
-## Hazard Tree: Preflight Checks
+# Hazard Tree: Preflight Checks
+
+**Description** 
 
 Many accidents are caused by problems in preflight checks. For example, (1) turning off the GPS Fix arming check whilst running indoor maintenance tests, and forgetting to reset the check, or (2) setting the RTL altitude above the legal limit. Many prearming checks could be automated through the software, while others require consistent preflight checks, and could be supported by checklists and best practices.
 
 [![](figures/preflightchecks.png)](#)
 
-<sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene  <br>[(Return to list of hazard trees)](../README.md)<br>
 
-## PX1: Operator places UAVs too close to each other prior to launch <sub>![](icons/h-icon.PNG)</sub>
+*Quick Links:* [PX1](#PX1) &nbsp;&nbsp; [PX2](#PX2) &nbsp;&nbsp; [PX3](#PX3) &nbsp;&nbsp; [PX4](#PX4) &nbsp;&nbsp; [PX5](#PX5) &nbsp;&nbsp; [PX6](#PX6) &nbsp;&nbsp; [PX7](#PX7)  &nbsp;&nbsp; [PX8](#PX8) &nbsp;&nbsp; [PX9](#PX9) &nbsp;&nbsp; [PX10](#PX10) &nbsp;&nbsp; [PX11](#PX11) &nbsp;&nbsp; [PX12](#PX12) &nbsp;&nbsp;   [(All Hazards)](../README.md)<br>
+
+<sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
+
+## <sub>![](icons/h-icon.PNG)</sub>  <a name="PX1"> PX1: Operator places UAVs too close to each other prior to launch 
 When a system involves multiple coordinated UAVs then it is important to maintain minimum separation distance. This includes the launch phase of the mission.
-| Hazard addressed | Context | Solution |
+| <img width=120/>| Context | Solution |
 |:--|:--|:--|
-|PX1-1|Multi-UAVs|RPIC receives training |
-|PX1-2|Multi-UAVs|The system checks the coordinates of all UAVs on the ground and raises an alert if any of them are located less than minimum separation distance. |
-|PX1-3|Multi-UAVs|Where the system is not capable of managing collision avoidance during launch (e.g., through choreographed takeoff), then the operator should reposition the UAVs and/or carefully manage the launch and subsequent RTL. 
-|PX1-4|Multi-UAVs|If multiple UAVs are in RTL mode at the same time (even if in-air collisions are managed) then the system will check for minimum separation distance between their home coordinates and recommend remediations (e.g., staggering their return, modifying home coordinates)
+|PX1-S1|Multi-UAVs|RPIC receives training |
+|PX1-S2|Multi-UAVs|The system checks the coordinates of all UAVs on the ground and raises an alert if any of them are located less than minimum separation distance. |
+|PX1-S3|Multi-UAVs|Where the system is not capable of managing collision avoidance during launch (e.g., through choreographed takeoff), then the operator should reposition the UAVs and/or carefully manage the launch and subsequent RTL. 
+|PX1-S4|Multi-UAVs|If multiple UAVs are in RTL mode at the same time (even if in-air collisions are managed) then the system will check for minimum separation distance between their home coordinates and recommend remediations (e.g., staggering their return, modifying home coordinates)
 
 ## PX2: Operator places UAVs in location with insufficient clearance prior to launch <sub>![](icons/h-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
