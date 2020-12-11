@@ -20,7 +20,7 @@ u26 [h] GX4: Operator releases the UAV from a moving vehicle in a populated area
 u27 [h] GX3: The operator recklessly disregards FAA flying regulations without a Part 107 waiver
 u28 [h] GX6: A single operator operates multiple UAVs
 
-u29[e] GX12: Automatically generate routes for a specific area do not take into account prohibitet airspace
+u29 [e] GX12: Routes are automatically generated for a specific area without considering prohibited airspace
 
 map h8 h7
 map h1 h5
