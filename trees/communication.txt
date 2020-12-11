@@ -21,9 +21,13 @@ u3 [e] CX4 The operator cannot rely on forwarding of messages to remote UAVs via
 u4 [s] CX2 The operator is unable to receive status data from the UAVs and loses situational awareness.
 u5 [e] CX3 The operator is unable to send directives to UAVs and loses direct control.
 
+u6 [h] The RCPIC accidentally deactivates/unpluggs the communication device such as a dongle or antenna
+
 map h4 u3
 map h3 u4
 map h3 u5
 map h5 u2
 map h2 u1
+
+map h3 u6
 }
