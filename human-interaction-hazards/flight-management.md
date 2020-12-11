@@ -1,5 +1,6 @@
 ## Hazard Tree: Mission Planning
 
-Not sure about this one.  We are missing the mission planning, but I don't think we found any specific human interaction faults about this in the lit study. But we have experienced some. e.g., Assigning wrong flight routes (far away).
-
-We could *imagine* some, but they aren't derived from any literature study.
+To provide a scope for identifying relevant hazards and their mitigations we briefly summarize a set of features needed to support mission planning in a multi-UAV environment.  Mission planning functionality should provide support for:
+   * Creating, storing, and retrieving flight routes defined as a set of waypoints (latitude, longitude, altitude).
+   * Automatically generating flight routes for N drones to provide coverage over a region of the map specified by the user. 
+   * Support for centralized and distributed goals and task allocations
