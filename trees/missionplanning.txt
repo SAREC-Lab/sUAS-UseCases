@@ -1,0 +1,20 @@
+h1 System hazard
+h2 M1: Mission planning is inadequate.
+h3 M2: The system lacks flexibility and scope to support critical missions.
+h4 M3: The system does not adequately monitor the progression and state of the mission.
+h5 M4: The system does not execute the mission as intended by operator.
+h6 M5: The runtime monitor displays the status of individual UAVs but does not depict the state of the overall mission.
+
+u1 [s] MX1: The operator loses track of mission progress (e.g., in a search and rescue operation, the operator cannot easily review which parts of an area have already been searched.)
+u2 [s] MX2: The operator is unaware that a problem has occurred in the execution of the mission.
+u3 [e] MX3: The operator is unable to add, modify, or remove mission goals during the mission's execution.
+
+map h1 h2
+map h2 h3
+map h2 h4
+map h2 h5
+map h4 h6
+map h4 u1
+map h6 u1
+map h5 u2
+map h3 u3
