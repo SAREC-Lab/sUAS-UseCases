@@ -1,4 +1,4 @@
-# Hazard Tree: Communication (not completed)
+# Hazard Tree: Communication
 
 **Description** 
 
