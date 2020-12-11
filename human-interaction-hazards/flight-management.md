@@ -1,4 +1,4 @@
-## Hazard Tree: Mission Planning
+## Hazard Tree: Mission Planning and execution
 
 Mission planning can be achieved in several different ways. To provide a scope for identifying relevant hazards and their mitigations we scope mission planning as follows:
    * Creating, storing, and retrieving flight routes defined as a set of waypoints (latitude, longitude, altitude).
