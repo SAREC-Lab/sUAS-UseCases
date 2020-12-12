@@ -10,7 +10,7 @@ Jane Cleland-Huang, Michael Vierhauser, Sean Bayley:
 
 Special thanks to the South Bend Fire Fighters for all of their input.
 
-Please note: The import and inter-linking of these uses cases is in progress.
+Feedback and suggestions are gratefully received via this github discussion forum.
 
 ### Main Use Cases
 
