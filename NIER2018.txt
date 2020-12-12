@@ -1,0 +1,10 @@
+@INPROCEEDINGS{8444851,
+  author={J. {Cleland-Huang} and M. {Vierhauser} and S. {Bayley}},
+  booktitle={2018 IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results (ICSE-NIER)}, 
+  title={Dronology: An Incubator for Cyber-Physical Systems Research}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={109-112},
+  doi={}
+}
