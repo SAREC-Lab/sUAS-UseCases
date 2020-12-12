@@ -13,14 +13,14 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-S1| In-Air | When falling below a minimum threshold altitude, the system shall automatically display a warning message, notifying the RPIC. |
-|FX1-S2| In-Air | When falling below a critical threshold altitude, the system shall notify the RPIC that it will automatically initiate an ascending procedure to the minimum safe altitude. The RPIC can override the ascending if the UAV should stay at the lower altitude. This override should be logged in the flight log. |
+|FX1-S1| In-Air, BVLOS | When falling below a minimum threshold altitude, the system shall automatically display a warning message, notifying the RPIC. |
+|FX1-S2| In-Air, BVLOS | When falling below a critical threshold altitude, the system shall notify the RPIC that it will automatically initiate an ascending procedure to the minimum safe altitude. The RPIC can override the ascending if the UAV should stay at the lower altitude. This override should be logged in the flight log. |
 
 ##  <sub>![](icons/e-icon.PNG)</sub> FX2: The operator has no means of overriding the onboard autonomy and/or cannot do so quickly enough in order to avoid a collision with the terrain
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-1|Context here| Mitigation here|
+|FX2-S1|In-Air, Potentially BVLOS| Mitigation here|
 
 ##  <sub>![](icons/s-icon.PNG)</sub> FX3: The operator is unaware that GPS accuracy is degraded and that UAVs are in danger of mid-air collisions.
 
