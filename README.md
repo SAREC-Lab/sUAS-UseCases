@@ -1,9 +1,13 @@
 # Use Cases for Emergency Response Missions with Small Unmanned Aerial Systems
 
-If you would like to use these use-cases we ask you to reference our paper: <br><br>
+If you would like to use these use-cases we ask you to reference our relevant papers: <br><br>
 **Jane Cleland-Huang, Ankit Agrawal, Md Nafee Al Islam, Eric Tsai, Maxime Van Speybroeck, Michael Vierhauser:
 ``Requirements-Driven Configuration of Emergency Response Missions with Small Aerial Vehicles''. Software Product Line Conference (SPLC) 2020: 26:1-26:12**
 ([bib available here](SPLC2020.txt))
+
+**Jane Cleland-Huang, Michael Vierhauser, Sean Bayley:
+"Dronology: An Incubator for Cyber-Physical Systems Research". In 2018 IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results (ICSE-NIER) (pp. 109-112). IEEE 
+([bib available here](NIER2018.txt))
 
 Special thanks to the South Bend Fire Fighters for all of their input.
 
