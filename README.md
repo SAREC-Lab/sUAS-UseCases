@@ -8,9 +8,7 @@ Jane Cleland-Huang, Michael Vierhauser, Sean Bayley:
 "Dronology: An Incubator for Cyber-Physical Systems Research". In 2018 IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results (ICSE-NIER) (pp. 109-112). IEEE 
 ([bib available here](NIER2018.txt))
 
-Special thanks to the South Bend Fire Fighters for all of their input.
-
-Feedback and suggestions are gratefully received via this github discussion forum.
+Special thanks to the South Bend Fire Fighters for all of their input. Feedback and suggestions are gratefully received via this github discussion forum.
 
 ### Main Use Cases
 
