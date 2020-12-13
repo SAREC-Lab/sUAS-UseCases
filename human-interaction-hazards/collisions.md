@@ -60,4 +60,4 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-1|Context here| Mitigation here|
+|FX8-S1|In-Air| Whenever manual control is assumed by the RPIC, all remaining waypoints shall be cancelled by the system immediately and the UAV should switch to hover in place. The RPIC shall receive training on how to identify the heading of a UAV by rotating the UAV clockwise and accelering periodically.|
