@@ -31,23 +31,24 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All
 |:--|:--|:--|
 |FX3-S1| In-Air | If the number of locked sattelites falls below a threshold, the system shall automatically display a warning message, notifying the RPIC. The position inaccuracy shall be displayed in the user interface, e.g. by displaying a circle around the UAV, showing its approx. estimated position.  |
 
-###  <sub>![](icons/h-icon.PNG)</sub> FX4: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration 
+###  <sub>![](icons/h-icon.PNG)</sub> FX4: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration |
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-1|Context here| Mitigation here|
+|FX4-S1|Preflight| See preflight configuration CROSS REF|
+|FX4-S2|In-Air, RTL | When a UAV switches to RTL, its RTL altitude is displayed in the status bar and a warning is issued if RTL altitudes conflict (i.e., lack minimum altitude separation) for multiple UAVs in RTL mode.|
 
 ###  <sub>![](icons/e-icon.PNG)</sub> FX5: The handover of control from the computerized system to a manual operator results in uncontrollable flight
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-1|Context here| Mitigation here|
+|FX5-S1|Preflight| The RPIC or designated safety officer checks all handheld controllers prior to flight to ensure that throttles and other switches are in neutral positions.|
 
 ###  <sub>![](icons/h-icon.PNG)</sub> FX6: When the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV responds dramatically (e.g., plunging to the ground). 
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-1|Context here| Mitigation here|
+|FX1-1|Context here| Duplicate???|
 
 ###  <sub>![](icons/s-icon.PNG)</sub> FX7: The operator is unaware that the switches are set incorrectly.
 
