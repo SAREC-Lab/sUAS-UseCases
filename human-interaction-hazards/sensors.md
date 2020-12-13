@@ -13,7 +13,7 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX7](#GX7) [GX8](#GX8)   [(All
 ## SX1: The camera that provides video stream and supports onboard vision is no longer available to the operator <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX1-1|Context here|Requirement here|
+|SX1-S1|Preflight|Requirement here|
 
 ## SX2: The operator loses track of the UAV's geolocation <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
@@ -28,12 +28,13 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX7](#GX7) [GX8](#GX8)   [(All
 ## SX4: The UAV hovers in the sky and is unresponsive to operator commands <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX1-1|Context here|Requirement here|
+|SX4-S1|In-Air|The position and expected behavior of the UAV shall be monitored continuously. If a UAV does not behave accoring to its last command (e.g., not moving when ordered to fly to a waypoint), the system shall display a warning message and suggest to re-send the previous command.|
+|SX4-S2|In-Air|In case of an unresponsive UAV the RPIC shall switch to the backup control (e.g. hand-held) and issue either an RTL command or a land in place command if the UAV can be landed safely at its corrent location. |
 
 ## SX5: The UAV flies out of control and does not respond to operator commands <sub>![](icons/es-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX1-1|Context here|Requirement here|
+|SX6-S1|In-Air|Requirement here|
 
 ## SX6: The operator is not immediately aware that hardware has failed <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
