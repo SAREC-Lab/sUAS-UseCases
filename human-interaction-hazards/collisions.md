@@ -48,7 +48,7 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-1|Context here| Duplicate???|
+|FX1-1|Context here| Duplicate???  Numbers are off and there is actually no FX5!!|
 
 ###  <sub>![](icons/s-icon.PNG)</sub> FX7: The operator is unaware that the switches are set incorrectly.
 
