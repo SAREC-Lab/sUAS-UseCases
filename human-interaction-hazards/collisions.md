@@ -4,7 +4,7 @@ Collisions must be avoided between multiple UAVs, UAVs and other objects, and UA
 
 [![](figures/collisions.png)](#)
 
-Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All Hazards)](../README.md)<br>
+Return to [(hazard list)](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
