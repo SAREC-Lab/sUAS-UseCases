@@ -1,22 +1,21 @@
 h1 System hazard
 h2 F1: A UAV flies dangerously close to another object or collides with it
 h3 F2: A UAV flies too close to ground-based objects (e.g., ground, trees, buildings, people)
-h4 F3: Minimum separation distance and/or __time-to-impact__ threshold is violated between airborne UAVs
+h11 F3: The UAV crashes into the terrain or another object right after an operator manually assumes control of the system from the computerized system.
+h4 F4: Minimum separation distance and/or __time-to-impact__ threshold is violated between airborne UAVs
 h5 F5: The UAV does not have an accurate terrain map and/or accurate geolocation and is therefore not able to determine the correct altitude to fly at
-h7 F7: The UAV incorrectly adjusts its altitude to compensate for changes in terrain based on incorrect knowledge and/or faulty path finding algorithms.
-h8 F8: GPS accuracy is unexpectedly degraded
+h7 F6: The UAV incorrectly adjusts its altitude to compensate for changes in terrain based on incorrect knowledge and/or faulty path finding algorithms.
+h8 F7: GPS accuracy is unexpectedly degraded
 h9 F9: RTK (real time kinetics) service is underperforming
-h10 F10: The system is unaware that GPS accuracy has degraded and that the minimum separation distance should be increased.
-h11 F11: The UAV crashes into the terrain or another object right after an operator manually assumes control of the system from the computerized system.
+h10 F8: The system is unaware that GPS accuracy has degraded and that the minimum separation distance should be increased.
 
 u1 [s] FX1: The operator is unaware that the UAV is flying too close to the terrain
 u2 [e] FX2: The operator has no means of overriding the onboard autonomy and/or cannot do so quickly enough in order to avoid a collision with the terrain
-u3 [s] FX3: The operator is unaware that GPS accuracy is degraded and that UAVs are in danger of mid-air collisions.
-u4 [h] FX4: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration 
-u5 [e] FX5: The handover of control from the computerized system to a manual operator results in uncontrollable flight
-u5 [h] FX6: When the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV responds dramatically (e.g., plunging to the ground). 
-u6 [s] FX7: The operator is unaware that the switches are set incorrectly.
-u7 [s] FX8: When the operator assumes manual control of the UAV, they do not know how the UAV is oriented (i.e., which direction the UAV is facing) and find it difficult to immediately control the UAV.
+u3 [s] FX6: The operator is unaware that GPS accuracy is degraded and that UAVs are in danger of mid-air collisions.
+u4 [h] FX7: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration 
+u5 [h] FX3: When the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV responds dramatically (e.g., plunging to the ground). 
+u6 [s] FX4: The operator is unaware that the switches are set incorrectly.
+u7 [s] FX5: When the operator assumes manual control of the UAV, they do not know how the UAV is oriented (i.e., which direction the UAV is facing) and find it difficult to immediately control the UAV.
 
 map h1 h2
 map h2 h3
@@ -30,7 +29,6 @@ map h2 h11
 
 map h5 u1
 map h7 u1
-map h5 u2
 map h7 u2
 map h10 u3
 map h4 u4
