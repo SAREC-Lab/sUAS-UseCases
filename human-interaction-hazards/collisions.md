@@ -14,8 +14,8 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX1-S1| In-Air, BVLOS | When falling below a minimum threshold altitude, the system shall automatically display a warning message, notifying the RPIC. |
-|FX1-S2| In-Air, BVLOS | When falling below a critical threshold altitude, the system shall notify the RPIC that it will automatically initiate an ascent procedure to the minimum safe altitude. |
+|FX1-S1| In-Air, BVLOS | When a UAV is flying below a minimum threshold altitude, the system shall automatically display a warning message, notifying the RPIC. |
+|FX1-S2| In-Air, BVLOS, Autonomy | When a UAV is flying below a critical threshold altitude and the system autonomously adjusts the flying altitude, the system shall notify the RPIC that it will automatically increase its altitude to maintain a minimum distance from the terrain. |
 
 ###  <sub>![](icons/e-icon.PNG)</sub> FX2: The operator has no means of overriding the onboard autonomy and/or cannot do so quickly enough in order to avoid a collision with the terrain
 
