@@ -10,20 +10,22 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX7](#GX7) [GX8](#GX8)   [(All
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
 
-## SX1: The camera that provides video stream and supports onboard vision is no longer available to the operator <sub>![](icons/e-icon.PNG)</sub>
+## SX1: The camera that provides video stream and supports onboard vision becomes unavailable to the operator when they need it to support the mission<sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX1-S1|Preflight|Requirement here|
+|SX1-S1|Inflight|The system supports a remote camera reset function|
+|SX1-S2|Multi-UAV,Inflight|The system allows the operator to request a replacement UAV by recalling the UAV with the non-functioning camera and replacing it with another UAV (airborne or on the ground) with a functioning camera)|
+
 
 ## SX2: The operator loses track of the UAV's geolocation <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX1-1|Context here|Requirement here|
+|SX2-S2|Inflight|On onboard companion computer provides camera diagnostic capabilities and reports any detected errors and their severity to the operator|
 
 ## SX3: The operator is unable to evaluate the severity of the problem and/or resolve the situation. <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX1-1|Context here|Requirement here|
+|SX3-S1|Inflight|On onboard companion computer provides camera diagnostic capabilities and reports any detected errors and their severity to the operator|
 
 ## SX4: The UAV hovers in the sky and is unresponsive to operator commands <sub>![](icons/e-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
