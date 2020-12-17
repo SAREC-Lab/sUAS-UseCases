@@ -56,3 +56,20 @@ The operator may observe that communication has failed, or perceive it to have f
 |CX5-S2|Multiple communication options | Where multiple communication technologies are available (e.g., LTE vs. telemetry vs. wifi), the system shall perform diagnostics, switch to the most reliable approach, and notify the user of the current state of communicaiton.|
 
 
+## <sub>![](icons/e-icon.PNG)</sub> <a name="CX6">CX6: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
+
+
+| <img width=120/> | Context | Solution |
+|:--|:--|:--|
+|CX6-S1|All||
+
+
+## <sub>![](icons/e-icon.PNG)</sub> <a name="CX6">CX7: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
+
+
+| <img width=120/> | Context | Solution |
+|:--|:--|:--|
+|CX6-S1|All||
+
+
+
