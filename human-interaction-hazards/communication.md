@@ -69,7 +69,7 @@ The operator may observe that communication has failed, or perceive it to have f
 
 | <img width=120/> | Context | Solution |
 |:--|:--|:--|
-|CX6-S1|In-Air|If a communication loss between the software system and the UAV is detected, the sytem shall immediately notify the RPIC and display a warning message and instructions on how to activate the backup (hand-held) controller.
+|CX7-S1|In-Air|If a communication loss between the software system and the UAV is detected, the sytem shall immediately notify the RPIC and display a warning message and instructions on how to activate the backup (hand-held) controller.
 
 
 
