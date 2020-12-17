@@ -6,7 +6,7 @@ One of the most common causes of accidents with sUAS is caused by loss-of-signal
 
 [![](figures/communication.png)](#)
 
-Return to [(Hazard List)](../README.md)<br>
+Return to [Hazard List](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
