@@ -5,6 +5,8 @@ for preflight inspections and for handling runtime faults as they occur.
 
 [![](figures/sensors.png)](#)
 
+:construction: Fix figure and ordering.
+
 Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX7](#GX7) [GX8](#GX8)   [(All Hazards)](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
