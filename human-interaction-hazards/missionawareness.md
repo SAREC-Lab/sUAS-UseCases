@@ -1,6 +1,6 @@
 ## Hazard Tree:  Mission awareness
 
-[![](figures/missionawareness.png)(#)
+[![](figures/missionawareness.png)](#)
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
