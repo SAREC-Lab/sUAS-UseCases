@@ -4,7 +4,7 @@ Collisions must be avoided between multiple UAVs, UAVs and other objects, and UA
 
 [![](figures/collisions.png)](#)
 
-Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All Hazards)](../README.md)<br>
+Return to [(hazard list)](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
@@ -25,39 +25,36 @@ Quick Links: [FX1](#FX1) [FX2](#FX2) [FX3](#FX3) [FX4](#FX4) [FX5](#FX5)   [(All
 |FX2-S2|In-Air, Potentially BVLOS| The operator has the ability to override autonomous decisions to the fullest extent possible (e.g., return to the pre-decision altitude)|
 |FX2-S3|In-Air, Potentially BVLOS| When requested by the user, the UAV must provide a comprehensible explanation of its autonomous decisions|
 
-###  <sub>![](icons/s-icon.PNG)</sub> FX3: The operator is unaware that GPS accuracy is degraded and that UAVs are in danger of mid-air collisions.
+###  <sub>![](icons/h-icon.PNG)</sub> FX3: When the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV responds dramatically (e.g., plunging to the ground). 
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX3-S1| In-Air | If the number of locked sattelites falls below a threshold, the system shall automatically display a warning message, notifying the RPIC. The position inaccuracy shall be displayed in the user interface, e.g. by displaying a circle around the UAV, showing its approx. estimated position.  |
+|FX3-1|Context here| Duplicate???  Numbers are off and there is actually no FX5!!|
 
-###  <sub>![](icons/h-icon.PNG)</sub> FX4: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration |
-
-| <img width=150/> | Context | Solution |
-|:--|:--|:--|
-|FX4-S1|Preflight| See preflight configuration CROSS REF|
-|FX4-S2|In-Air, RTL | When a UAV switches to RTL, its RTL altitude is displayed in the status bar and a warning is issued if RTL altitudes conflict (i.e., lack minimum altitude separation) for multiple UAVs in RTL mode.|
-
-###  <sub>![](icons/e-icon.PNG)</sub> FX5: The handover of control from the computerized system to a manual operator results in uncontrollable flight
+###  <sub>![](icons/s-icon.PNG)</sub> FX4: The operator is unaware that the switches are set incorrectly.
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX5-S1|Preflight| The RPIC or designated safety officer checks all handheld controllers prior to flight to ensure that throttles and other switches are in neutral positions.|
+|FX4-S1|Preflight| Training and respective preflight checks shall be introduced that check switch positions before the UAV can arm and take-off. |
 
-###  <sub>![](icons/h-icon.PNG)</sub> FX6: When the operator assumes manual control during the mission and switches (e.g., throttle) are set incorrectly, the UAV responds dramatically (e.g., plunging to the ground). 
-
-| <img width=150/> | Context | Solution |
-|:--|:--|:--|
-|FX1-1|Context here| Duplicate???  Numbers are off and there is actually no FX5!!|
-
-###  <sub>![](icons/s-icon.PNG)</sub> FX7: The operator is unaware that the switches are set incorrectly.
+###  <sub>![](icons/s-icon.PNG)</sub> FX5: When the operator assumes manual control of the UAV, they do not know how the UAV is oriented (i.e., which direction the UAV is facing) and find it difficult to immediately control the UAV.
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX7-S1|Preflight| Training and respective preflight checks shall be introduced that check switch positions before the UAV can arm and take-off. |
+|FX5-S1|In-Air| Whenever manual control is assumed by the RPIC, all remaining waypoints shall be cancelled by the system immediately and the UAV should switch to hover in place. The RPIC shall receive training on how to identify the heading of a UAV by rotating the UAV clockwise and accelering periodically.|
 
-###  <sub>![](icons/s-icon.PNG)</sub> FX8: When the operator assumes manual control of the UAV, they do not know how the UAV is oriented (i.e., which direction the UAV is facing) and find it difficult to immediately control the UAV.
+###  <sub>![](icons/s-icon.PNG)</sub> FX6: The operator is unaware that GPS accuracy is degraded and that UAVs are in danger of mid-air collisions.
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX8-S1|In-Air| Whenever manual control is assumed by the RPIC, all remaining waypoints shall be cancelled by the system immediately and the UAV should switch to hover in place. The RPIC shall receive training on how to identify the heading of a UAV by rotating the UAV clockwise and accelering periodically.|
+|FX6-S1| In-Air | If the number of locked sattelites falls below a threshold, the system shall automatically display a warning message, notifying the RPIC. The position inaccuracy shall be displayed in the user interface, e.g. by displaying a circle around the UAV, showing its approx. estimated position.  |
+
+###  <sub>![](icons/h-icon.PNG)</sub> FX7: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration |
+
+| <img width=150/> | Context | Solution |
+|:--|:--|:--|
+|FX7-S1|Preflight| See preflight configuration CROSS REF|
+|FX7-S2|In-Air, RTL | When a UAV switches to RTL, its RTL altitude is displayed in the status bar and a warning is issued if RTL altitudes conflict (i.e., lack minimum altitude separation) for multiple UAVs in RTL mode.|
+
+
+

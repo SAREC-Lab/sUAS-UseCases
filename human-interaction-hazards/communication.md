@@ -6,7 +6,7 @@ One of the most common causes of accidents with sUAS is caused by loss-of-signal
 
 [![](figures/communication.png)](#)
 
-Quick Links: [CX1](#CX1) &nbsp;&nbsp; [CX2](#CX2) &nbsp;&nbsp; [CX3](#CX3) &nbsp;&nbsp; [CX4](#CX4) &nbsp;&nbsp; [CX5](#CX5) &nbsp;&nbsp; [(All Hazards)](../README.md)<br>
+Return to [Hazard List](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
@@ -54,5 +54,22 @@ The operator may observe that communication has failed, or perceive it to have f
 |:--|:--|:--|
 |CX5-S1|All|A dedicated runtime monitoring component shall constantly monitor the health of individual components, detect failures, and provide diagnostic reports to the user when individual parts of the system fail (e.g., GCS is connected but not receiving signals from UAV.|
 |CX5-S2|Multiple communication options | Where multiple communication technologies are available (e.g., LTE vs. telemetry vs. wifi), the system shall perform diagnostics, switch to the most reliable approach, and notify the user of the current state of communicaiton.|
+
+
+## <sub>![](icons/e-icon.PNG)</sub> <a name="CX6">CX6: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
+
+
+| <img width=120/> | Context | Solution |
+|:--|:--|:--|
+|CX6-S1|All||
+
+
+## <sub>![](icons/h-icon.PNG)</sub> <a name="CX6">CX7: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
+
+
+| <img width=120/> | Context | Solution |
+|:--|:--|:--|
+|CX7-S1|In-Air|If a communication loss between the software system and the UAV is detected, the sytem shall immediately notify the RPIC and display a warning message and instructions on how to activate the backup (hand-held) controller.
+
 
 
