@@ -45,6 +45,14 @@ Due to loss of signal no data is transmitted from the UAV.
 |CX3-S1|The software system is the only remote control mechanism.|The RPIC is unable to send commands to the UAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
 |CX3-S2|A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
 
+## <sub>![](icons/h-icon.PNG)</sub> CX4: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
+
+| <img width=120/> | Context | Solution |
+|:--|:--|:--|
+|CX4-S1|In-Air|If a communication loss between the software system and the UAV is detected, the sytem shall immediately notify the RPIC and display a warning message and instructions on how to activate the backup (hand-held) controller.
+
+
+
 ##  <sub>![](icons/e-icon.PNG)</sub> <a name="CX4">CX4: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging</a>
 
 When in-air communication infrastructure fails the operator may need to communicate directly with each individual UAV
@@ -67,12 +75,7 @@ The operator may observe that communication has failed, or perceive it to have f
 
 
 
-## <sub>![](icons/h-icon.PNG)</sub> <a name="CX6">CX7: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
 
-
-| <img width=120/> | Context | Solution |
-|:--|:--|:--|
-|CX7-S1|In-Air|If a communication loss between the software system and the UAV is detected, the sytem shall immediately notify the RPIC and display a warning message and instructions on how to activate the backup (hand-held) controller.
 
 
 
