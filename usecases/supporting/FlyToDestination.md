@@ -99,4 +99,5 @@ The UAV has been assigned a set of destination coordinates and has received flig
       * 5.2.2 Cancels the mission
  
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
