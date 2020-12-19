@@ -86,4 +86,5 @@ A 911 call operator receives a call reporting an accident
 
 2. [https://www.ncbi.nlm.nih.gov/pubmed/32183069](https://www.ncbi.nlm.nih.gov/pubmed/32183069)
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
