@@ -2,7 +2,7 @@
 
 **Description**
 
-sUAS can only be flown in certain weather conditions with sufficient visibility and cloud cover above a minimum altitude.
+UAV can only be flown in certain weather conditions with sufficient visibility and cloud cover above a minimum altitude.
 
 [![](figures/weather.png)](#)
 
