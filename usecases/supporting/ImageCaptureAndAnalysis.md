@@ -64,4 +64,5 @@ The UAV receives a command to collect and analyze imagery
 2. At anytime that the camera's battery supply is depleted, the UAV raises an alert.
 
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
