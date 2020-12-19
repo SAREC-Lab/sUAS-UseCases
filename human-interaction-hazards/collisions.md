@@ -55,7 +55,7 @@ Return to [hazard list](../README.md)<br>
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
-|FX7-S1|Preflight| See [preflight configuration](https://github.com/SAREC-Lab/sUAS-UseCases/blob/human-interactions/human-interaction-hazards/preflightchecks.md)|
+|FX7-S1|Preflight| See [preflight configuration checks](https://github.com/SAREC-Lab/sUAS-UseCases/blob/human-interactions/human-interaction-hazards/preflightchecks.md)|
 |FX7-S2|In-Air, RTL | When a UAV switches to RTL, its RTL altitude is displayed in the status bar and a warning is issued if RTL altitudes conflict (i.e., lack minimum altitude separation) for multiple UAVs in RTL mode.|
 
 
