@@ -17,7 +17,7 @@ Return to [hazard list](../README.md)<br>
 ## Human-Drone Interaction Hazards 
 
 
-### <sub>![](icons/e-icon.PNG)</sub>  MX1: The operator is unable to add, modify, or remove mission goals during the mission's execution.
+### <sub>![](icons/e-icon.PNG)</sub>  MX1: The operator is unable to add, modify, or remove mission goals during the mission's execution
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |MX1-S1|Mission Execution|The system must empower the operator to manage the mission at runtime.|
@@ -26,14 +26,14 @@ Return to [hazard list](../README.md)<br>
 
 <br><br>
 
-### <sub>![](icons/s-icon.PNG)</sub>  MX2: The operator is unaware that a problem has occurred in the execution of the mission.
+### <sub>![](icons/s-icon.PNG)</sub>  MX2: The operator is unaware that a problem has occurred in the execution of the mission
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |MX2-S1|Mission Execution|If the UAVs are unable to complete a planned mission task, they must report their failure and any known causes.|
 
 <br><br>
 
-### <sub>![](icons/s-icon.PNG)</sub>  MX3: The operator loses track of mission progress (e.g., in a search and rescue operation, the operator cannot easily review which parts of an area have already been searched.)
+### <sub>![](icons/s-icon.PNG)</sub>  MX3: The operator loses track of mission progress (e.g., in a search and rescue operation, the operator cannot easily review which parts of an area have already been searched)
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |MX-3-S1|Mission Execution|The system must track and display the progress of the mission as it unfolds.|
