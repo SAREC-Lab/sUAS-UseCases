@@ -34,7 +34,7 @@ Return to [hazard list](../README.md)<br>
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
 |FX3-S1|Inflight, Control is being passed to manual flight controller| Handover must be iniated by the human who will manually fly the drone (e.g., through the pilot flipping a switch).  The system should not allow the software operator to automatically hand control to the operator as the operator might be unprepared to take control.  Coordination must occur between the two roles.|
-|FX3-S2|Inflight, Control is being passed to manual flight controller| The system must have an inbuilt failsafe to prevent the sUAS from flying directly into the ground. In the instance that the throttle is set downwards during a hand-over event, the UAV may descend rapidly but will stop and hover before reaching the ground.|
+|FX3-S2|Inflight, Control is being passed to manual flight controller| The system must have an inbuilt failsafe to prevent the UAV from flying directly into the ground. In the instance that the throttle is set downwards during a hand-over event, the UAV may descend rapidly but will stop and hover before reaching the ground.|
 
 <br><br>
 
