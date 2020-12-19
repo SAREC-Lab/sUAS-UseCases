@@ -59,7 +59,7 @@ The UAV is in flight and a low battery alarm, with the bettery level smaller tha
    
    
 2. The UAV detects a `[CRITICAL_BATTERY_THRESHOLD]`
-  * 2.1 The The failsafe mechanism is activated and the RTL autonomously returns home at its uniquely assigned RTL altitude.
+    * 2.1 The The failsafe mechanism is activated and the RTL autonomously returns home at its uniquely assigned RTL altitude.
    
 3. The RPIC maintains visual line of sight with the UAV and observes that it has transitioned to RTL state.
 
