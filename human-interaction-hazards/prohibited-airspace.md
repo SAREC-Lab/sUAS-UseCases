@@ -7,7 +7,7 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 [![](figures/regulations.svg)](#)
 
-*Quick Links:* [GX1](#GX1) &nbsp;&nbsp; [GX2](#GX2) &nbsp;&nbsp; [GX3](#GX3) &nbsp;&nbsp; [GX7](#GX7)  &nbsp;&nbsp; [GX8](#GX8) &nbsp;&nbsp;  [(All Hazards)](../README.md)<br>
+Return to [(hazard list)](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
