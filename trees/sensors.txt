@@ -12,7 +12,7 @@ h11 S5: Transmitter or  receiver failure including wifi,  LTE, telemetry
 h12 S8: Power module reports incorrect battery level
 h13 S6: Onboard  computer fails (inc.autopilot and companion computer)
 h14 S14: The UAV's emergency parachute is deployed accidentally during flight despite no emergency
-h15 s3: The operator is unable to control the UAV.
+h15 S3: The operator is unable to control the UAV.
 
 u2 [s] SX5: The operator loses track of the UAV's geolocation
 u3 [e] SX4: The operator is unable to evaluate the severity of the problem and/or resolve the situation.
