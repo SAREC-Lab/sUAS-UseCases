@@ -1,4 +1,4 @@
-## Use Case: Collect environmental sample
+## Use Case: Collect Environmental Sample
 
 **ID**
 
