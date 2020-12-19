@@ -67,7 +67,7 @@ The UAV detects a possible victim using its onboard image detection.
 
    * 3.1 The drone commander is uncertain whether the imagery is of a victim and requests additional imagery.
    * 3.2 The UAV autonomously flies around the location of the victim sighting and collects additional imagery.
-   * 3.2 The operator either confirms the victim has been found (resume from step 5) or refutes the sighting in which case the UAV continues its previous search plan.
+   * 3.3 The operator either confirms the victim has been found (resume from step 5) or refutes the sighting in which case the UAV continues its previous search plan.
 
 4. In steps 2 and steps 6, no acknowledgement is received from the operator within a specified time period.
 
