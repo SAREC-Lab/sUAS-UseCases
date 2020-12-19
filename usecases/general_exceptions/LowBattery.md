@@ -72,8 +72,8 @@ The UAV is in flight and a low battery alarm, with the bettery level smaller tha
 2. In step 1.3, the RPIC decides that the current task can not be continued by the UAV.
    * 2.1 The RPIC decides that the UAV can not complete its designated task during the mission and is relived from its task.
    * 2.2 The RPIC manually activates RTL for the UAV.
-   * 4.3 DroneResponse provdes an option to assign another UAV with the task.
-   * 4.4 The RPIC assigns a new UAV with the task and the mission continues.
+   * 2.3 DroneResponse provdes an option to assign another UAV with the task.
+   * 2.4 The RPIC assigns a new UAV with the task and the mission continues.
 
 
 3. In step 2, no failsafe mechanism has been established onboard the UAV.
