@@ -52,13 +52,13 @@ The UAV is in flight and a low battery alarm, with the bettery level smaller tha
 
 ## Main Scenario
 
-1. DroneResponse responds to the battery alarm `[LOW_BATTERY_THRESHOLD]`
+1. DroneResponse responds to the battery alarm
    * 1.1 The runtime monitoring system detects a low bettery event for a UAV
    * 1.2 The runtime monitoring system raises an alert
    * 1.3 The alert is displayed in the UI in order to notify the RPIC of the low battery warning for the UAV
    
    
-2. The UAV detects a `[CRITICAL_BATTERY_THRESHOLD]`
+2. The UAV detects a battery level bewlow `[CRITICAL_BATTERY_THRESHOLD]`
     * 2.1 The The failsafe mechanism is activated and the RTL autonomously returns home at its uniquely assigned RTL altitude.
    
 3. The RPIC maintains visual line of sight with the UAV and observes that it has transitioned to RTL state.
