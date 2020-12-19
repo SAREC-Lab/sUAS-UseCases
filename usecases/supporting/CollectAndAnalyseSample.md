@@ -69,7 +69,7 @@ The UAV reaches the GPS coordinates of the first sample collection waypoint
    * 2.1 The UAV performs onboard analysis of the sample.
    * 2.2 Targeted pollutants are identified in the sample.
       * 2.2.1 The UAV dynamically plans a new collection route (e.g., to collect additional samples from the local area).
-	  * 4.2.2 The use case resumes at Step 1 using the dynamically planned collection points instead of preplanned ones.
+	  * 2.2.2 The use case resumes at Step 1 using the dynamically planned collection points instead of preplanned ones.
    * 2.3 If no pollutants are identified in the sample, then the use case continues with Step 1 using the preplanned collection points.
 
 ## Exceptions
