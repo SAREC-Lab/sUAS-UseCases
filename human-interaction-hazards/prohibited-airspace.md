@@ -17,31 +17,31 @@ Return to [hazard list](../README.md)<br>
 ### <a name="GX1"> <sub>![](icons/h-icon.PNG)</sub> GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway 
   
 All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third-party application (e.g., AirMap). Flying in controlled airspace without authorization is reckless and illegal.  However, flight authorization may have been obtained in advance, acquired directly from ATC at a local airport, or requested immediately prior to the flight. 
-|<img width=120/>| Solution |
-|:--|:--|
-|GX1-S1|When the system is unable to connect to the LANNCs prior to a flight, a warning message should be prominently displayed on the screen.| 
-|GX1-S2|If authorization has been received prior to the flight, or the RPIC is operating under a waiver, the warning is disabled when the RPIC confirms that they are flying under prior authorization. |
-|GX1-S3|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
+|<img width=120/>|Context| Solution |
+|:--|:--|:--|
+|GX1-S1|Preflight|When the system is unable to connect to the LANNCs prior to a flight, a warning message should be prominently displayed on the screen.| 
+|GX1-S2|Preflight|If authorization has been received prior to the flight, or the RPIC is operating under a waiver, the warning is disabled when the RPIC confirms that they are flying under prior authorization. |
+|GX1-S3|Preflight|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
 
 <br><br>
 
 ### <a name="GX2"> <sub>![](icons/h-icon.PNG)</sub> GX2: Flight authorizations is denied by the LAANC system, but the RPIC flies anyway 
 All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  When flight authorization is denied, the RPIC may modify the request and resubmit. 
-| <img width=120/> | Solution |
-|:--|:--|
-|GX2-S1|When flight authorization is denied a warning message must be prominently displayed on the screen.| 
-|GX2-S2|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
+|<img width=120/>|Context| Solution |
+|:--|:--|:--|
+|GX2-S1|Preflight|When flight authorization is denied a warning message must be prominently displayed on the screen.| 
+|GX2-S2|Preflight|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
 
 <br><br>
 
 ### <a name="GX3"> <sub>![](icons/h-icon.PNG)</sub> GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver
 All of these hazards relate to reckless behavior as defined by Part 107 regulations
-|  <img width=120/> | Solution |
-|:--|:--|
-|GX3-S1|The system should provide an explicit reminder which requires acknowledgement to fly responsibly in compliance with FAA regulations on the start-up screen.|
-|GX3-S2|The system provides an external link to a page listing FAA regulations. |
-|GX3-S3|The system stores Part 107 certification numbers in the system for frequent commercial RPICs. |
-|GX3-S4|The system creates a dedicated log-file for each flight that logs meta-data including time of day, any infringements upon authorized airspace, and the RPIC of record. |
+|<img width=120/>|Context| Solution |
+|:--|:--|:--|
+|GX3-S1|System|The system should provide an explicit reminder which requires acknowledgement to fly responsibly in compliance with FAA regulations on the start-up screen.|
+|GX3-S2|System|The system provides an external link to a page listing FAA regulations. |
+|GX3-S3|System|The system stores Part 107 certification numbers in the system for frequent commercial RPICs. |
+|GX3-S4|System|The system creates a dedicated log-file for each flight that logs meta-data including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
 <br><br>
 
