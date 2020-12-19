@@ -15,7 +15,7 @@ map h6 h4
 map h5 h7
 map h5 h8
 
-u1 [s] CX5 The human operator doesn't understand the cause of the communication problem.
+u1 [s] CX7 The human operator doesn't understand the cause of the communication problem.
 u2 [e] CX2 The human operator is unable to control the UAV using the hand-held controller.
 u3 [e] CX6 The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging.
 u4 [s] CX3 The operator is unable to receive status data from the UAVs and loses situational awareness.
