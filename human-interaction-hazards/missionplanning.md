@@ -10,6 +10,8 @@ Mission planning can be achieved in several different ways. To provide a scope f
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
+Return to [hazard list](../README.md)<br>
+
 ## <sub>![](icons/e-icon.PNG)</sub>  MX1: The operator is unable to add, modify, or remove mission goals during the mission's execution.
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
