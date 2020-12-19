@@ -5,7 +5,6 @@ for preflight inspections and for handling runtime faults as they occur.
 
 [![](figures/sensors.png)](#)
 
-:construction: Fix figure and ordering.
 
 Return to [hazard list](../README.md)<br>
 
