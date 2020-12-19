@@ -11,8 +11,8 @@ Return to [hazard list](../README.md)<br>
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|AX-1|Multiple sUAS in flight|Alerts must be prioritized according to severity|
-|AX-2|Multiple sUAS in flight|When system-wide failures occur the operator can freeze the entire mission so that all sUAS are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual sUAS.|
+|AX1-S1|Multiple sUAS in flight|Alerts must be prioritized according to severity|
+|AX1-S2|Multiple sUAS in flight|When system-wide failures occur the operator can freeze the entire mission so that all sUAS are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual sUAS.|
 
 ## AX2: The operator is overwhelmed by status information for multiple UAVs.</a>
 
@@ -71,7 +71,7 @@ See AX5, AX6
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|AX11 |Active Mission |Establish constraints on the safe operating space of the UAV, monitor for violations of those constraints, and clearly warn the operator when the UAV is operating outside its safety envelope.|
+|AX10-S1 |Active Mission |Establish constraints on the safe operating space of the UAV, monitor for violations of those constraints, and clearly warn the operator when the UAV is operating outside its safety envelope.|
 
 ## AX11: The operator fails to supervise the UAVs due to excessive trust in autonomy  </a>
 
