@@ -36,7 +36,7 @@ The UAV is prepped for flight, activated by turning 'safety' off, and finally ar
 
 _Success end condition:_
 
-- The UAV passes arming checks and is armed for flight
+The UAV passes arming checks and is armed for flight
 
 _Failure end condition:_ 
 
