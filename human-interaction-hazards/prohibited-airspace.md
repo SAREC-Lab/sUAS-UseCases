@@ -12,7 +12,7 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 Return to [hazard list](../README.md)<br>
 
-## Human-Drone Interaction Hazards ## Human-Drone Interaction Hazards 
+## Human-Drone Interaction Hazards
 
 ### <a name="GX1"> <sub>![](icons/h-icon.PNG)</sub> GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway 
   
