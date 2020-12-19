@@ -31,6 +31,7 @@ Having specific information about a car accident (how many cars are involved, wh
 - DroneResponse system is active
 - Multiple UAVs are equipped with cameras and are placed on the ground and are activated
 - Approximate GPS coordinates of the accident are provided to DroneResponse
+- Each UAV have received [flight authorization](FlightAuthorization.md)
 
 **Post Conditions**
 
