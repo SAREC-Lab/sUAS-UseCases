@@ -1,4 +1,4 @@
-# Safety Project for Small Unmanned Aerial Systems
+# A Repository of Software Engineering Datasets for Small Unmanned Aerial Systems
 
 This repository hosts a number of datasets related to uses, safety assurance, and runtime monitoring Small Unmanned Aerial Systems (sUAS).
 
