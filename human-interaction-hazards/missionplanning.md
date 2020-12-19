@@ -1,4 +1,4 @@
-## Hazard Tree: Mission Planning and execution
+## Hazard Tree: Mission Planning and Execution
 
 **Description**
 
