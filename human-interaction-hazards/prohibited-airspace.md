@@ -10,7 +10,7 @@ UAV flights must be in compliance with government and local ordinances and regul
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
-Return to [hazard list](../README.md)<br>Return to [hazard list](../README.md)<br>
+Return to [hazard list](../README.md)<br>
 
 ## <a name="GX1"> <sub>![](icons/h-icon.PNG)</sub> GX1: The system is unable to connect to the LANNC system but the RPIC flies anyway 
   
