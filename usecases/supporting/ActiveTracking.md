@@ -71,5 +71,6 @@ The UAV is assigned or assumed the task of tracking a person
 
 4. If the UAV's battery level goes below a safe level, the UAV raises an alert and requests a replacement UAV to assume the tracking task.
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
 
