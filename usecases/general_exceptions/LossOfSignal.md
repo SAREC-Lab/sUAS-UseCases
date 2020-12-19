@@ -14,7 +14,7 @@ waypoint, execute failsafe mechanisms, and/or complete an entire mission autonom
 
 UAVs are operating in the USA with two available radio frequencies. 2.4Ghz is used for communication over the hand-held GCS (i.e., for manual control), while the 
 900Mhz frequency is used for computer-managed communication from DroneResponse to the UAV.  Actual frequencies differ in different countries and so we refer to these
-as [MANUAL_FREQUENCY] and [MISSION_FREQUENCY].
+as `[MANUAL_FREQUENCY]` and `[MISSION_FREQUENCY]`.
 
 **Primary Actor**
 
