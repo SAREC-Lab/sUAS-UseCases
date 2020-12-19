@@ -1,4 +1,4 @@
-## Use Case: End mission
+## Use Case: End Mission
 
 **ID**
 
