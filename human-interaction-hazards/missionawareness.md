@@ -6,7 +6,7 @@
 
 Return to [hazard list](../README.md)<br>
 
-## Human-Drone Interaction hazards 
+## Human-Drone Interaction Hazards 
 
 ### <sub>[![](icons/e-icon.PNG)](#)</sub> AX1: The operator is unable to handle multiple alerts simultaneously
 
