@@ -12,7 +12,7 @@ Return to [hazard list](../README.md)<br>
 
 ## Human-Drone Interaction Hazards 
 
-## <sub>![](icons/e-icon.PNG)</sub>CX1: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
+## <sub>![](icons/e-icon.PNG)</sub> CX1: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
 
 
 | <img width=120/> | Context | Solution |
