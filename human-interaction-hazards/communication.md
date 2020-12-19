@@ -2,7 +2,7 @@
 
 **Description** 
 
-One of the most common causes of accidents with sUAS is caused by loss-of-signal preventing the RPIC from sending commands to the sUAS or receiving status updates. RPICs communicate with their sUAS by sending commands through a __hand-held-controller__ (i.e., throttle, forward, backward, sideways, turn) or through use of a computer system (e.g., MissionPlanner, QGroundControl, or custom built software) operating over an alternate communication technique or frequency.  Hazard mitigations are dependent upon the operating context -- specifically whether redundant communication paths exist, and whether the loss of signal is caused by a fault on the UAV or a communication failure. 
+One of the most common causes of accidents with UAVs is caused by loss-of-signal preventing the RPIC from sending commands to the UAV or receiving status updates. RPICs communicate with their UAV by sending commands through a __hand-held-controller__ (i.e., throttle, forward, backward, sideways, turn) or through use of a computer system (e.g., MissionPlanner, QGroundControl, or custom built software) operating over an alternate communication technique or frequency.  Hazard mitigations are dependent upon the operating context -- specifically whether redundant communication paths exist, and whether the loss of signal is caused by a fault on the UAV or a communication failure. 
 
 [![](figures/communication.png)](#)
 
@@ -24,7 +24,7 @@ Return to [hazard list](../README.md)<br>
 
 ###  <sub>![](icons/e-icon.PNG)</sub> CX2: The human operator is unable to control the UAV using the hand-held controller</a> 
 
-One way RPICs communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the UAV is controlled by a software system, the hand-held controller provides a backup system for taking manual control when problems occur.
+One way RPICs communicate with their UAV by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the UAV is controlled by a software system, the hand-held controller provides a backup system for taking manual control when problems occur.
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
