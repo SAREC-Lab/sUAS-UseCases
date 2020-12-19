@@ -13,7 +13,7 @@ UAV requests and receives victim confirmation or refutation from a human operato
 
 | [River and Ice Rescue](../main/RiverRescue.md) | [Item Delivery](../main/ItemDelivery.md)| [AccidentSurveillance](../main/AccidentSurveillance.md) | [StructuralFire](../main/StructuralFire.md) | [EnvironmentalSampling](../main/EnvironmentalSampling.md) |
 | :------: | :--------: | :--------: | :------: |:------: |
-| x |   |   |   |  |
+| x |   |   | x  |  |
 
 **Rationale**
 The UAV has identified a victim at some degree of confidence and seeks confirmation from a human operator.
