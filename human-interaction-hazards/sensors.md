@@ -48,3 +48,9 @@ Return to [hazard list](../README.md)<br>
 |SX6-S2|Multi-UAV,Inflight|The system allows the operator to request a replacement UAV by recalling the UAV with the non-functioning camera and replacing it with another UAV (airborne or on the ground) with a functioning camera)|
 
 
+###  <sub>[![](icons/h-icon.PNG)](#)</sub> SX7: The operator accidientially deploys the parachute during flight
+| Hazard addressed | Context | Solution |
+|:--|:--|:--|
+
+
+
