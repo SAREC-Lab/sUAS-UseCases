@@ -68,9 +68,9 @@ The Drone Commander activates the fire support mission.
 2. In step 7, the UAV detects a possible victim at a confidence level below `[victim_detected]` threshold but above the lowest `[ignore_level]`
    * 2.1 The UAV raises an alert and requests [victim_confirmation](../supporting/VictimConfirmation.md) from the human operator.
    * 2.2 The UAV continues to stream imagery
-   * 2.2 The human operator inspects the video stream
-      * 2.2.1 If the human operator believes that a victim may have been found, firefighters plan and execute a rescue mission.
-      * 2.2.2 If the human operator rejects the candidate sighting, the UAV continues its currently assigned route.
+   * 2.3 The human operator inspects the video stream
+      * 2.3.1 If the human operator believes that a victim may have been found, firefighters plan and execute a rescue mission.
+      * 2.3.2 If the human operator rejects the candidate sighting, the UAV continues its currently assigned route.
 
 ## Resources Used
 
