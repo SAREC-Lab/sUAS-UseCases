@@ -46,24 +46,24 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 <br><br>
 
 ### <a name="GX7"> <sub>![](icons/s-icon.PNG)</sub> GX7: Operator is unaware of prohibited airspace and plans and/or executes illegal flight routes
-| <img width=120/>  | Solution |
-|:--|:--|
-|GX7-S1|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map. |
-|GX7-S2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace. |
-|GX7-S3|Before takeoff the RPIC must explicitly confirm the planned route and routes and confirmations are logged by the system. |
-|GX7-S4|Situational awareness demons related to information overload and misplaced salience must be addressed through principled design and user evaluations. |
+|<img width=120/>|Context| Solution |
+|:--|:--|:--|
+|GX7-S1|System|Data describing all prohibited airspace in the vicinity must be retrieved and displayed visually on the map. |
+|GX7-S2|Prelaunch|Warnings must be issued if any planned flight would create an incursion into prohibited airspace. |
+|GX7-S3|Prelaunch|Before takeoff the RPIC must explicitly confirm the planned route and routes and confirmations are logged by the system. |
+|GX7-S4|System|Situational awareness demons related to information overload and misplaced salience must be addressed through principled design and user evaluations. |
 
 <br><br>
 
 ### <a name="GX8"> <sub>![](icons/h-icon.PNG)</sub> GX8: Operator ignores warnings about prohibited airspace 
-| <img width=120/>  | Solution |
-|:--|:--|
-|GX8-S1|Incursions into prohibited airspace must be logged|
+|<img width=120/>|Context| Solution |
+|:--|:--|:--|
+|GX8-S1|System|Incursions into prohibited airspace must be logged|
 
 <br><br><br><br>
 
-### <sub>![](icons/e-icon.PNG)</sub> GX12: Routes are automatically generated for a specific area without prohibited airspace 
-| <img width=120/>  | Solution |
-|:--|:--|
-|||
+### <sub>![](icons/e-icon.PNG)</sub> GX12: Routes are automatically generated for a specific area without considering prohibited airspace 
+|<img width=120/>|Context| Solution |
+|:--|:--|:--|
+|GX9-S1|Pelaunch|Before assigning a route to a UAV, the system checks for each automatically generated route if the route intersects with a no-fly zone.   |
 
