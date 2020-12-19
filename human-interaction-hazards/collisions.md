@@ -51,7 +51,7 @@ Return to [hazard list](../README.md)<br>
 |:--|:--|:--|
 |FX6-S1| In-Air | If the number of locked sattelites falls below a threshold, the system shall automatically display a warning message, notifying the RPIC. The position inaccuracy shall be displayed in the user interface, e.g. by displaying a circle around the UAV, showing its approx. estimated position.  |
 
-###  <sub>![](icons/h-icon.PNG)</sub> FX7: The technician has assigned the same RTL altitude for multiple UAVs | See preflight configuration |
+###  <sub>![](icons/h-icon.PNG)</sub> FX7: The technician has assigned the same RTL altitude for multiple UAVs (See preflight configuration)
 
 | <img width=150/> | Context | Solution |
 |:--|:--|:--|
