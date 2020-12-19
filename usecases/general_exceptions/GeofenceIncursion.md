@@ -6,12 +6,13 @@ EC2
 
 **Description**
 
-A Geofence establishes a virtual boundary around a geographical location. Most sUAS provide 
+A Geofence establishes a virtual boundary around a geographical location. Most UAV provide 
 support for establishing a geofence based on GPS coordinates and maximum altitude.  Geofences can
 be established over rectangular, circular, or polygonic regions of a map.  If a UAV breaches its geofence
-then a failsafe mechanism will activate causing the UAV to RTL or LAND in place. In many cases, the
-UAV supports a measured response with at least two trigger points associated with [Approaching_Geofence] and
-[Geofence_Breach].
+then a failsafe mechanism will activate causing the UAV to RTL or LAND in place.
+
+In many cases, the UAV supports a measured response with at least two trigger points associated with`[APPROACHING_GEOFENCE]` and
+`[GEOFENCE_BREACH]`.
 
 
 **Assumptions**
@@ -34,36 +35,35 @@ The UAV supports geofencing and software is available for configuring the geofen
 
 **Pre-Conditions**
 
-- A [failsafe] action has been established prior to flight to automatically activate RTL 
-(Return to Launch) or [land in place] if the UAV breaches the geofence.
+- A failsafe action has been established prior to flight to automatically activate RTL 
+(Return to Launch) or land in place if the UAV breaches the geofence.
 - The UAV was launched from within the geofence
-- The Geofence has been established correctly around the intended flight path of the UAV.
+- The geofence has been established correctly around the intended flight path of the UAV.
 
 **Post Conditions**
 
 Success end condition
 
-Either:
-- The UAV does not fly outside of the geofence during its mission
+The UAV does not fly outside of the geofence during its mission
 
 Failure end condition:
 
-- The UAV flies outside the geofence.
+The UAV flies outside the geofence.
 
 **Trigger**
 
-The UAV is armed and a Geofence alert (i.e., either [Approaching_Geofence] or [Geofence_breach] occur.
+The UAV is armed and a geofence alert (i.e., either`[APPROACHING_GEOFENCE]` or `[GEOFENCE_BREACH]`) occur.
 
 ## Main Scenario
 
-1. DroneResponse responds to the `[APPROACHING_GEOFENCE]` battery alarm
+1. DroneResponse responds to the `[APPROACHING_GEOFENCE]` alarm
    * 1.1 The runtime monitoring system detects that the UAV is approaching the geofence
    * 1.2 The runtime monitoring system raises an alert
    * 1.3 The current flight route is cancelled
-   * 1.4 The alert is displayed in the UI in order to notify the RPIC of the low battery warning for the UAV
+   * 1.4 The alert is displayed in the UI in order to notify the RPIC of the geofence warning for the UAV
    * 1.5 The system either:
       * 1.5.1 Reroutes the UAV so that it avoids flying close to the geofence
-	  * 1.5.2 The operator intervenes and issues a new flight command to the UAV
+      * 1.5.2 The operator intervenes and issues a new flight command to the UAV
    
 2. The UAV detects a `[GEOFENCE_BREACH]`
     * 2.1 The The failsafe mechanism is activated according to the UAVs preconfiguration (e.g. RTL or land in place)
@@ -84,7 +84,7 @@ The UAV is armed and a Geofence alert (i.e., either [Approaching_Geofence] or [G
 
 
 3. In step 2, no failsafe mechanism has been established onboard the UAV.
-   * 3.1 The runtime monitoring system raises a geofence_breach alert.
+   * 3.1 The runtime monitoring system raises a `[GEOFENCE_BREACH]` alert.
    * 3.2 The RPIC immediately lands the UAV in place or manually activates RTL for the UAV.
 
    
