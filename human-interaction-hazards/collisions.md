@@ -6,7 +6,7 @@ Collisions must be avoided between multiple UAVs, UAVs and other objects, and UA
 
 Return to [hazard list](../README.md)<br>
 
-<sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
+<sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
 ## Human-Drone Interaction hazards 
 
