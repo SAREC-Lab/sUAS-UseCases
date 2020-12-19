@@ -2,10 +2,9 @@
 
 
 We are working on a project exploring safety-critical aspects, particularly hazards associated with the use of small unmanned aerial systems (sUAS)- especially hazards connected with human-drone interactions. 
-As a precursor to this study, we have developed a set of hazard trees that explore specific human-interaction hazards and their possible mitigations. 
+We have developed a set of hazard trees that explore specific human-interaction hazards and their possible mitigations. 
 Given your expertise with sUAS we would like to ask you to contribute to this open source resource which is available [here](README.md).  
 We plan to create a knowledge base that will be useful to sUAS system developers in the future.  All contributors will be fully acknowledged.
-
 
 
  For example, the following hazard tree examines the impact of communication failures upon the operator.  
@@ -25,7 +24,7 @@ For example the hazard CX2: “The operator is unable to receive status data fro
 (e.g., by creating an increasingly large 'circle' around the last known, or projected position of the sUAS.”
 
 We would invite you to provide feedback in two different ways.  
-First -- please take a look at the hazard trees [here](README.md) and then use the github [issues](https://github.com/SAREC-Lab/sUAS-UseCases/issues) or this [form](https://tinyurl.com/HumanDroneHazards) to offer comments and suggestions. 
+First -- please take a look at the hazard trees [here](README.md) and then use a github [issue](https://github.com/SAREC-Lab/sUAS-UseCases/issues) or [this form](https://tinyurl.com/HumanDroneHazards) to offer comments and suggestions. 
 
 Second -- we are eliciting human-drone interaction stories that include accounts of when “things went wrong”.  
 
@@ -37,4 +36,4 @@ If you have these kinds of ‘human-error’ stories, please share them through 
 
 We plan to publish them to the Github repository as a shared resource - and you will have the choice for your name to appear or for them to be posted anonymously.
 
-Please email Jane Cleland-Huang (JaneHuang@nd.edu) or Michael Vierhauser (michael.vierhauser@jku.at) 
+If you have any furhter questions please email Jane Cleland-Huang (JaneHuang@nd.edu) or Michael Vierhauser (michael.vierhauser@jku.at) 
