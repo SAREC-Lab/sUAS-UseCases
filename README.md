@@ -47,6 +47,6 @@ Special thanks to the South Bend Fire Fighters for all of their input. Feedback 
 |   EC1         | Loss of signal         | [LossOfSignal.md](usecases/general_exceptions/LossOfSignal.md) |
 |  EC2   | Geofence vicinity breach ||
 |  EC3   | Mechanical failure ||
-|  EC4   | Low Battery ||
+|  EC4   | Low Battery |[LowBattery.md](usecases/general_exceptions/LowBattery.md)|
 
 
