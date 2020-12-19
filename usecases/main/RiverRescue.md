@@ -27,6 +27,7 @@ Multiple UAVs dispatched to search for victim in river or finding the victim und
 - DroneResponse is running
 - Multiple UAVs are equipped with cameras
 - A victim is in the river
+- Each UAV have received [flight authorization](FlightAuthorization.md)
 
 **Post Conditions**
 
