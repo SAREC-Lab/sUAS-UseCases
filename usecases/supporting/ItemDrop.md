@@ -75,4 +75,5 @@ The UAV receives a command to deliver the item
    * 4.1 Suggests an alternate drop position
    * 4.2 or aborts the drop
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) )
