@@ -22,7 +22,7 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX7](#GX7) [GX8](#GX8)   [(All
 ## SX2: The operator loses track of the UAV's geolocation <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|SX2-S1|Inflight|??|
+|SX2-S1|Inflight|When the UAV's geolocation becomes uncertain due to loss of satellite or other detectable errors, current uncertainty of the UAV's position shall be depicted on the UI (e.g., through an ever enlarging circle representing the predicted location of the UAV).|
 
 ## SX3: The operator is unable to evaluate the severity of the problem and/or resolve the situation. <sub>![](icons/s-icon.PNG)</sub>
 | Hazard addressed | Context | Solution |
