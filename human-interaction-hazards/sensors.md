@@ -62,9 +62,12 @@ Return to [hazard list](../README.md)<br>
 
 <br><br>
 
-###  <sub>[![](icons/h-icon.PNG)](#)</sub> SX7: The operator accidientially deploys the parachute during flight
+###  <sub>[![](icons/h-icon.PNG)](#)</sub> SX7: The operator accidentally deploys the parachute during flight
 |  <img width=120/> | Context | Solution |
 |:--|:--|:--|
+|SX7-S1|Inflight, Parachute onboard|The parachute should be deployed automatically by the system when an imminent crash with the ground is detected|
+|SX7-S2|Inflight, Parachute onboard|Where the system provides a feature to allow the user to deploy the parachute, the UI should require the user to confirm their request|
+|SX7-S3|Inflight, Parachute onboard|Where the system requires the user to confirm their request for parachute deployment, the confirmation request should be prominent and allow the user to provide a fast response to match the emergency situation.|
 
 
 
