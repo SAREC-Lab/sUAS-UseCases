@@ -4,6 +4,8 @@
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> = Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
+Return to [hazard list](../README.md)<br>
+
 
 ## AX1: The operator is unable to handle multiple alerts simultaneously</a>
 
