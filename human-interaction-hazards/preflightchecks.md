@@ -41,10 +41,10 @@ When a system involves multiple coordinated UAVs then it is important to maintai
 ## <sub>![](icons/s-icon.PNG)</sub> <a name="PX4"/>  PX4: The system does not provide appropriate information regarding the geofence, so the operator is unable to determine whether it has been set correctly or not 
 |  <img width=120/> | Context | Solution |
 |:--|:--|:--|
-|PX5-S1||If the operator chooses to fly without a geofence in place, they must log their decision and rationale for foregoing the geofence.
-|PX5-S2||When requested, the system shall visually display a UAV's geofence on the map.
-|PX5-S3|Multi-UAVs|Where multiple UAVs are present, when requested by the user, the system shall visually display the outer boundary of the union of all UAVs' geofences. This increases awareness of the entire region in which UAVs are expected to fly.
-|PX5-S4||When requested, the system shall display all geofence-related failsafe configurations and highlight exception cases (e.g., a UAV with unexpected or overlapping/conflicting configurations).|
+|PX4-S1||If the operator chooses to fly without a geofence in place, they must log their decision and rationale for foregoing the geofence.
+|PX4-S2||When requested, the system shall visually display a UAV's geofence on the map.
+|PX4-S3|Multi-UAVs|Where multiple UAVs are present, when requested by the user, the system shall visually display the outer boundary of the union of all UAVs' geofences. This increases awareness of the entire region in which UAVs are expected to fly.
+|PX4-S4||When requested, the system shall display all geofence-related failsafe configurations and highlight exception cases (e.g., a UAV with unexpected or overlapping/conflicting configurations).|
 
 <br><br>
 
@@ -52,7 +52,7 @@ When a system involves multiple coordinated UAVs then it is important to maintai
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |PX5-S1|Preflight|The system shall raise an alert if a UAV is missing a geofence with legal altitude limits, an area greater than `minimum_area` and less than `maximum_area`, and whose boundaries are outside the current position of the UAV|
-|PX6-S2|Multi-UAVs|When requested, the system shall display all geofence-related failsafe configurations and highlight exception cases (e.g., a UAV with unexpected configurations).|
+|PX5-S2|Multi-UAVs|When requested, the system shall display all geofence-related failsafe configurations and highlight exception cases (e.g., a UAV with unexpected configurations).|
 
 <br><br>
 
