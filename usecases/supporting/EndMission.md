@@ -70,4 +70,5 @@ One or more UAVs fail to return to a safe landing base
    * 1.4 The RPIC manually controls the landing of any UAV with in-air home coordinates.
 
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
