@@ -73,4 +73,5 @@ The UAV detects a possible victim using its onboard image detection.
 
    * 4.1 The UAV attempts to resend the alert and to route the alert and associated images through other participating drones.
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
