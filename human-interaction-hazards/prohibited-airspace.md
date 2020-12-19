@@ -34,7 +34,7 @@ All RPICs flying in controlled airspace must receive flight authorization from t
 
 <br><br>
 
-### <a name="GX3"> <sub>![](icons/h-icon.PNG)</sub> GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver
+### <a name="GX3"> <sub>![](icons/h-icon.PNG)</sub> GX3: The operator recklessly disregards FAA flying regulations without a Part 107 waiver
 All of these hazards relate to reckless behavior as defined by Part 107 regulations
 |<img width=120/>|Context| Solution |
 |:--|:--|:--|
@@ -43,6 +43,12 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX3-S3|System|The system stores Part 107 certification numbers in the system for frequent commercial RPICs. |
 |GX3-S4|System|The system creates a dedicated log-file for each flight that logs meta-data including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
+### <sub>![](icons/h-icon.PNG)</sub> GX4: The operator releases the UAV from a moving vehicle in a populated area
+See GX3
+<br><br>
+
+### <sub>![](icons/h-icon.PNG)</sub> GX5: The operator flies over people without a regulatory waiver
+See GX3
 <br><br>
 
 ### <a name="GX7"> <sub>![](icons/s-icon.PNG)</sub> GX7: Operator is unaware of prohibited airspace and plans and/or executes illegal flight routes
