@@ -1,5 +1,8 @@
 ## Exception Case: Loss of Signal
 
+**ID**
+EC1
+
 **Description**
 
 Without an onboard pilot, there is a significant reliance on the command and control link, and a greater emphasis on the loss of functionality associated with lost of signal.
@@ -14,13 +17,13 @@ as [MANUAL_FREQUENCY] and [MISSION_FREQUENCY].
 
 **Primary Actor**
 
-Ground Control System
-RPIC
-Unmanned Aerial Vehicle
+- Ground Control System
+- RPIC
+- Unmanned Aerial Vehicle
 
 **Supporting Actors**
 
-Air Traffic Control
+- Air Traffic Control
 
 **Stakeholders and Interests**
 
@@ -58,9 +61,9 @@ Steps 1 and 2 occur simultaneously
    * 1.2 The failsafe mechanism is activated and the RTL autonomously returns home at its uniquely assigned RTL altitude.
 
 2. DroneResponse responds to the loss-of-signal
-   * 1.1 The runtime monitoring system detects a loss of signal event for a UAV
-   * 1.2 The runtime monitoring system raises an alert
-   * 1.3 The alert is displayed in the UI in order to notify the RPIC of the loss-of-signal event
+   * 2.1 The runtime monitoring system detects a loss of signal event for a UAV
+   * 2.2 The runtime monitoring system raises an alert
+   * 2.3 The alert is displayed in the UI in order to notify the RPIC of the loss-of-signal event
    
 3. The RPIC maintains visual line of sight with the UAV and observes that it has transitioned to RTL state.
 4. If necessary, the UAV suspends the remainder of the mission or manually moves other UAVs out of the way of the returning UAV.
