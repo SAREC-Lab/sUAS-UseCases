@@ -32,7 +32,7 @@ See WX1
 
 <br><br>
 
-## <sub>![](icons/h-icon.PNG)</sub> <a name="WX4"/> WX4: The RPIC does not properly assess local weather conditions prior to flight using either the METAR report, local wind sensors, or common sense 
+### <sub>![](icons/h-icon.PNG)</sub> <a name="WX4"/> WX4: The RPIC does not properly assess local weather conditions prior to flight using either the METAR report, local wind sensors, or common sense 
 | <img width=120/> | Context | Solution |
 |:--|:--|:--|
 |WX4-S1|Prelaunch|When adverse weather conditions are detected through the METAR or other available services or sensors, an adverse weather indicator shall be displayed on the screen even if all UAVs are capable of flying in those conditions.|
