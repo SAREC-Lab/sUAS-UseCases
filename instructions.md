@@ -24,9 +24,12 @@ For example the hazard CX2: “The operator is unable to receive status data fro
 (e.g., by creating an increasingly large 'circle' around the last known, or projected position of the sUAS.”
 
 We would invite you to provide feedback in two different ways.  
-First -- please take a look at the hazard trees [here](README.md) and then use a github [issue](https://github.com/SAREC-Lab/sUAS-UseCases/issues) or [this form](https://tinyurl.com/HumanDroneHazards) to offer comments and suggestions. 
 
-Second -- we are eliciting human-drone interaction stories that include accounts of when “things went wrong”.  
+### Comments and Feedback:
+Please take a look at the hazard trees [here](README.md) and then use a github [issue](https://github.com/SAREC-Lab/sUAS-UseCases/issues) or [this form](https://tinyurl.com/HumanDroneHazards) to offer comments and suggestions. 
+
+### Share your stories: 
+We are eliciting human-drone interaction stories that include accounts of when “things went wrong”.  
 
 For example in one of our stories, we were running maintenance in the lab and wanted the motors to spin.  
 So we disabled GPS related arming checks, but forgot about this and later when flying outside the sUAS took off without GPS arming checks. 
