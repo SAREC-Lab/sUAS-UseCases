@@ -9,7 +9,7 @@ We plan to create a knowledge base that will be useful to sUAS system developers
  For example, the following hazard tree examines the impact of communication failures upon the operator.  
  System level hazards are shown in gray while human-related hazards are shown in yellow, green, and blue.
 
-[![](figures/communication.png)](#)
+[![](human-interaction-hazards/figures/communication.png)](#)
 
 Green hazards depict loss of situational awareness, and represent
 hazards in which the operator doesn’t fully understand what the UAVs are doing or their current health etc.  
