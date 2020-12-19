@@ -1,6 +1,6 @@
 # Hazard Identification and Mitigation for Human-Drone Interactions
 
-The following hazards have been derived from a systematic study of publications reporting safety analyses techniques applied to the domain of small Unmanned Aerial Vehicles. They are supported by a [glossary of terms](glossary.md).
+The following hazards have been derived from a systematic study of publications reporting safety analyses techniques applied to the domain of small Unmanned Aerial Vehicles. They are supported by a [glossary of terms](glossary.md).  We are currently [eliciting feedback](feedback.md) on this hazard trees.
 
 ### Hazard Types
 
