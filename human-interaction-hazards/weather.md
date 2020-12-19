@@ -8,7 +8,7 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene  <br>
 
-*Quick Links:* [WX1](#WX1) &nbsp;&nbsp; [WX2](#WX2) &nbsp;&nbsp; [WX3](#WX3) &nbsp;&nbsp;  [WX4](#WX4) &nbsp;&nbsp; [WX5](#WX5) &nbsp;&nbsp; [WX6](#WX6) &nbsp;&nbsp; [WX7](#WX7)  &nbsp;&nbsp; [WX8](#WX8) &nbsp;&nbsp; &nbsp;&nbsp; [WX9](#WX9) &nbsp;&nbsp;   [(All Hazards)](../README.md)<br>
+Return to [hazard list](../README.md)<br>
 
 <br>:construction: Need to add mitigations.
 
