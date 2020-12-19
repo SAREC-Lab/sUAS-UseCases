@@ -2,7 +2,7 @@
 name: Suggested Change/Improvement
 about: Please provide some information about the proposed change
 title: ''
-labels: ''
+labels: improvement
 assignees: ''
 
 ---
@@ -11,7 +11,7 @@ assignees: ''
 Please provide some contact information.
 In case you prefer not to provide data publicly please send us an email, or use the google form.
 
-**Experience with sUAS:**
+**Experience with UAVs:**
  _e.g. certified pilot, manually flown UAVs, built software applications for UAVs, flow via 3rd party systems, etc._
 
 **Affected Hazard (Tree):** _e.g.  HG-1/FX1_
