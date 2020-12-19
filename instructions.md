@@ -1,7 +1,7 @@
 
 We are working on a project exploring safety-critical aspects, particularly hazards associated with the use of small unmanned aerial systems (sUAS)- especially hazards connected with human-drone interactions. 
 As a precursor to this study, we have developed a set of hazard trees that explore specific human-interaction hazards and their possible mitigations. 
-Given your expertise with sUAS we would like to ask you to contribute to this open source resource which is available on Github at XXXXXX.  
+Given your expertise with sUAS we would like to ask you to contribute to this open source resource which is available [here](README.md).  
 We plan to create a knowledge base that will be useful to sUAS system developers in the future.  All contributors will be fully acknowledged.
 
 
