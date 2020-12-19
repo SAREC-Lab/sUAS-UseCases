@@ -27,7 +27,6 @@ Recipient of the delivered item e.g., victim in a river receiving a flotation de
 - DroneResponse system is active
 - UAVs equipped with carry mechanism
 - UAVs are able to carry required payload
-- Each UAV have received [flight authorization](FlightAuthorization.md)
 
 **Post Conditions**
 
