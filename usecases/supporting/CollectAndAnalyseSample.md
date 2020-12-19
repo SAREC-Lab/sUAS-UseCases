@@ -82,4 +82,5 @@ The UAV reaches the GPS coordinates of the first sample collection waypoint
 
 
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
