@@ -61,3 +61,9 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX8-S1|Incursions into prohibited airspace must be logged|
 
 
+
+### <sub>![](icons/e-icon.PNG)</sub> GX12: Routes are automatically generated for a specific area without prohibited airspace 
+| <img width=120/>  | Solution |
+|:--|:--|
+
+
