@@ -19,16 +19,18 @@ We plan to create a knowledge base that will be useful to sUAS system developers
 - <sub>[![](human-interaction-hazards/icons/h-icon.PNG)](#) </sub> Finally, blue hazards represent mistakes (deliberate or accidental) that the operators might make.
 
 For each of these human-related hazards we have provided a preliminary list of potential mitigations.  
-For example the hazard CX2: “The operator is unable to receive status data from the sUAS’ and loses situational awareness” includes the mitigation that 
-“The The approximate position and the uncertainty of the sUAS current position on the map must be visually depicted
-(e.g., by creating an increasingly large 'circle' around the last known, or projected position of the sUAS.”
+For example the hazard CX2: _“The operator is unable to receive status data from the sUAS’ and loses situational awareness”_ includes the mitigation that 
+_“The The approximate position and the uncertainty of the sUAS current position on the map must be visually depicted
+(e.g., by creating an increasingly large 'circle' around the last known, or projected position of the sUAS.”_
 
+Please feel free to browse through the hazard trees and to provide feedback.
+If you do provide feedback please could you fill in this form so we know a little about your experience with sUAS.
 We would invite you to provide feedback in two different ways.  
 
-### Comments and Feedback:
+### 1) Comments and Feedback:
 Please take a look at the hazard trees [here](README.md) and then use a github [issue](https://github.com/SAREC-Lab/sUAS-UseCases/issues) or [this form](https://tinyurl.com/HumanDroneHazards) to offer comments and suggestions. 
 
-### Share your stories: 
+### 2) Share your stories: 
 We are eliciting human-drone interaction stories that include accounts of when “things went wrong”.  
 
 For example in one of our stories, we were running maintenance in the lab and wanted the motors to spin.  
