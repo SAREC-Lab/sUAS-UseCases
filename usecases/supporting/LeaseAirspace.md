@@ -82,4 +82,5 @@ The UAV needs to fly to a waypoint or needs some space to perform an action.
          * 2.4.5.1 The UAV waits for a random time interval (< 5 seconds) and repeats its request for airspace.
          * 2.4.5.2 The use case continues at step 3.
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
