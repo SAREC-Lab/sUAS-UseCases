@@ -1,6 +1,7 @@
 ## Exception Case: Loss of Signal
 
 **ID**
+
 EC1
 
 **Description**
