@@ -23,12 +23,16 @@ All RPICs flying in controlled airspace must receive flight authorization from t
 |GX1-S2|If authorization has been received prior to the flight, or the RPIC is operating under a waiver, the warning is disabled when the RPIC confirms that they are flying under prior authorization. |
 |GX1-S3|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
 
+<br><br>
+
 ### <a name="GX2"> <sub>![](icons/h-icon.PNG)</sub> GX2: Flight authorizations is denied by the LAANC system, but the RPIC flies anyway 
 All RPICs flying in controlled airspace must receive flight authorization from the LANNC system via a third party (e.g., AirMap).  Flying in controlled airspace without authorization is reckless and illegal.  When flight authorization is denied, the RPIC may modify the request and resubmit. 
 | <img width=120/> | Solution |
 |:--|:--|
 |GX2-S1|When flight authorization is denied a warning message must be prominently displayed on the screen.| 
 |GX2-S2|If the RPIC attempts to arm and takeoff without authorization the RPIC is required to explicitly acknowledge the warning, and this acknowledgement is logged.|
+
+<br><br>
 
 ### <a name="GX3"> <sub>![](icons/h-icon.PNG)</sub> GX3: (G4-G6) The operator recklessly disregards FAA flying regulations without a Part 107 waiver
 All of these hazards relate to reckless behavior as defined by Part 107 regulations
@@ -39,6 +43,8 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX3-S3|The system stores Part 107 certification numbers in the system for frequent commercial RPICs. |
 |GX3-S4|The system creates a dedicated log-file for each flight that logs meta-data including time of day, any infringements upon authorized airspace, and the RPIC of record. |
 
+<br><br>
+
 ### <a name="GX7"> <sub>![](icons/s-icon.PNG)</sub> GX7: Operator is unaware of prohibited airspace and plans and/or executes illegal flight routes
 | <img width=120/>  | Solution |
 |:--|:--|
@@ -46,6 +52,8 @@ All of these hazards relate to reckless behavior as defined by Part 107 regulati
 |GX7-S2|Warnings must be issued if any planned flight would create an incursion into prohibited airspace. |
 |GX7-S3|Before takeoff the RPIC must explicitly confirm the planned route and routes and confirmations are logged by the system. |
 |GX7-S4|Situational awareness demons related to information overload and misplaced salience must be addressed through principled design and user evaluations. |
+
+<br><br>
 
 ### <a name="GX8"> <sub>![](icons/h-icon.PNG)</sub> GX8: Operator ignores warnings about prohibited airspace 
 | <img width=120/>  | Solution |
