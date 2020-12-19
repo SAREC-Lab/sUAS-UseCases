@@ -14,6 +14,8 @@ Mission planning can be achieved in several different ways. To provide a scope f
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |MX1-S1|Mission Execution|The system must empower the operator to manage the mission at runtime.|
+|MX1-S2|Mission Execution|The operator can abort the entire mission at any time.|
+|MX1-S2|Mission Execution|The operator can change the mission goals at any time.|
 
 ## <sub>![](icons/s-icon.PNG)</sub>  MX2: The operator is unaware that a problem has occurred in the execution of the mission.
 | Hazard addressed | Context | Solution |
