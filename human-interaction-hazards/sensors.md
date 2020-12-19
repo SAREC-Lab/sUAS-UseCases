@@ -47,7 +47,4 @@ Quick Links: [GX1](#GX1) [GX2](#GX2) [GX3](#GX3) [GX7](#GX7) [GX8](#GX8)   [(All
 |:--|:--|:--|
 |SX6-S1|All|The runtime monitor shall continually check the health of critical hardware components and raise alerts when they fail.|
 
-## SX7: The operator is unable to control the UAV. <sub>![](icons/e-icon.PNG)</sub>
-| Hazard addressed | Context | Solution |
-|:--|:--|:--|
-|SX1-1|Context here|Seems like repeat of SX5. Check!|
+
