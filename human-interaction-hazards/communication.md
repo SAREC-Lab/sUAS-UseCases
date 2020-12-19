@@ -12,7 +12,7 @@ Return to [hazard list](../README.md)<br>
 
 ## Human-Drone Interaction Hazards 
 
-## <sub>![](icons/e-icon.PNG)</sub> CX1: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
+### <sub>![](icons/e-icon.PNG)</sub> CX1: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
 
 
 | <img width=120/> | Context | Solution |
@@ -22,7 +22,7 @@ Return to [hazard list](../README.md)<br>
 
 <br><br>
 
-##  <sub>![](icons/e-icon.PNG)</sub> CX2: The human operator is unable to control the UAV using the hand-held controller</a> 
+###  <sub>![](icons/e-icon.PNG)</sub> CX2: The human operator is unable to control the UAV using the hand-held controller</a> 
 
 One way RPICs communicate with their sUAS by sending commands through a hand-held controller (i.e., throttle, forward, backward, sideways, turn). In environments where the UAV is controlled by a software system, the hand-held controller provides a backup system for taking manual control when problems occur.
 
@@ -34,7 +34,7 @@ One way RPICs communicate with their sUAS by sending commands through a hand-hel
 
 <br><br>
 
-## <sub>![](icons/s-icon.PNG)</sub> CX3: The human operator is unable to receive status data from the UAVs using the software-based system.</a>
+### <sub>![](icons/s-icon.PNG)</sub> CX3: The human operator is unable to receive status data from the UAVs using the software-based system.</a>
 
 Due to loss of signal no data is transmitted from the UAV.
 | <img width=120/> | Context | Solution |
@@ -46,7 +46,7 @@ Due to loss of signal no data is transmitted from the UAV.
 
 <br><br>
 
-## <sub>![](icons/h-icon.PNG)</sub> CX4: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
+### <sub>![](icons/h-icon.PNG)</sub> CX4: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
 
 | <img width=120/> | Context | Solution |
 |:--|:--|:--|
@@ -54,7 +54,7 @@ Due to loss of signal no data is transmitted from the UAV.
 
 <br><br>
 
-## <sub>![](icons/e-icon.PNG)</sub> CX5: The human operator is unable to send directives to the UAV using the software-based system</a> 
+### <sub>![](icons/e-icon.PNG)</sub> CX5: The human operator is unable to send directives to the UAV using the software-based system</a> 
 
 | <img width=120/> | Context | Solution |
 |:--|:--|:--|
@@ -63,7 +63,7 @@ Due to loss of signal no data is transmitted from the UAV.
 
 <br><br>
 
-##  <sub>![](icons/e-icon.PNG)</sub> CX6: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging</a>
+###  <sub>![](icons/e-icon.PNG)</sub> CX6: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging</a>
 
 When in-air communication infrastructure fails the operator may need to communicate directly with each individual UAV
 
@@ -74,7 +74,7 @@ When in-air communication infrastructure fails the operator may need to communic
 
 <br><br>
 
-## <sub>![](icons/s-icon.PNG)</sub> CX7: The human operator doesn't understand the cause of the communication problem</a> 
+### <sub>![](icons/s-icon.PNG)</sub> CX7: The human operator doesn't understand the cause of the communication problem</a> 
 
 The operator may observe that communication has failed, or perceive it to have failed, without understanding the nature of the problem (e.g., malicious jamming attack, interference, loss of LTE connection). In order for the RPIC to respond correctly to the situation, they need to be able to quickly diagnose the problem.
 
