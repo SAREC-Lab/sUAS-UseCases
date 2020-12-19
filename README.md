@@ -19,7 +19,7 @@ For each identified human-sUAS interaction point, we explore four specific types
 |Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)|:heavy_check_mark:||
 |Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)|:heavy_check_mark:|
 |Mission Awareness|Hazards associated with general situational awareness and operator empowerment during a mission| [missionawareness.md](human-interaction-hazards/missionawareness.md)|:heavy_check_mark:|
-|Mission Planning| Hazards related to planning and managing flight routes |[flight-management.md](human-interaction-hazards/flight-management.md)|??|
+|Mission Planning| Hazards related to planning and managing flight routes |[missionplanning.md](human-interaction-hazards/missionplanning.md)|:heavy_check_mark:|
 |Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)|:heavy_check_mark:|
 |Regulatory Compliance| Hazards related to flight authorization and other regulations|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|:heavy_check_mark:|
 |Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)|:heavy_check_mark:||
