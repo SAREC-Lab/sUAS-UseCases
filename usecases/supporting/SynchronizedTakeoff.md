@@ -81,4 +81,5 @@ The UAVs receive the start mission command.
    
 6. In step 2 the UAV is unable to lease airspace for all legs of the synchronized takeoff. It therefore [leases airspace](LeaseAirspace.md) incrementally.
 
-[Return to use case list](../../README.md)
+<br><br>
+[Return to use case list](../../README.md) 
