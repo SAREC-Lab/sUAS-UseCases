@@ -12,8 +12,8 @@ Return to [hazard list](../README.md)<br>
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|AX1-S1|Multiple sUAS in flight|Alerts must be prioritized according to severity|
-|AX1-S2|Multiple sUAS in flight|When system-wide failures occur the operator can freeze the entire mission so that all sUAS are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual sUAS.|
+|AX1-S1|Multiple UAVs in flight|Alerts must be prioritized according to severity|
+|AX1-S2|Multiple UAVs in flight|When system-wide failures occur the operator can freeze the entire mission so that all UAVs are commanded to hover in place. This gives the RPIC time to plan recovery strategies and/or to manually issue RTL or LAND commands to individual UAVs.|
 
 <br><br>
 
@@ -38,9 +38,9 @@ Return to [hazard list](../README.md)<br>
 
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
-|AX4-S1|Multiple human engagers | One operator is designated as the sUAS safety officer with primary responsibility for overseeing safe use of the sUAS. |
-|AX4-S2|Multiple human engagers | The UI provides a screen dedicated to sUAS command and control. |
-|AX4-S3|Multiple sUAS| System runtime monitoring constantly checks for safety violations and raises alerts when such violations occur.|
+|AX4-S1|Multiple human engagers | One operator is designated as the UAV safety officer with primary responsibility for overseeing safe use of the UAV. |
+|AX4-S2|Multiple human engagers | The UI provides a screen dedicated to UAV command and control. |
+|AX4-S3|Multiple UAVs| System runtime monitoring constantly checks for safety violations and raises alerts when such violations occur.|
 
 <br><br>
 
