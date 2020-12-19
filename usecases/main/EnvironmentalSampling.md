@@ -65,4 +65,5 @@ The UAV operator activates the water sampling mission
 1. [https://www.sciencedirect.com/science/article/pii/S0048969719312446](https://www.sciencedirect.com/science/article/pii/S0048969719312446)
 2. [https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21591](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21591)
 
+<br><br>
 [Return to use case list](../../README.md) 
