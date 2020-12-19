@@ -10,8 +10,6 @@ sUAS can only be flown in certain weather conditions with sufficient visibility 
 
 Return to [hazard list](../README.md)<br>
 
-<br>:construction: Need to add mitigations.
-
 ## <sub>![](icons/s-icon.PNG)</sub> <a name="WX1"/> WX1: Operator is unaware of the manufacturer's operating guidelines for a UAV 
 |<img width=120/> | Context | Solution |
 |:--|:--|:--|
