@@ -1,10 +1,10 @@
 h1 System hazard
 h2 C1: Communication failure  e.g., GCS failure  Loss of wireless signal Jammed communication |xref: W1
-h3 C2: Communication failure between ground  and UAVs 
-h4 C3: Communication failure between UAVs
-h5 C4: Hand-held controller, which serves as a backup solution for controlling the UAV fails and is unable to send commands to the UAV.
-h7 C6: Hand-held controller fails while the software-based GCS is still functioning.
-h8 C7  Hand-held controller fails at the same time as the software-based GCS meaning that there is no means of controlling the UAV.
+h3 C6: Communication failure between ground  and UAVs 
+h4 C7: Communication failure between UAVs
+h5 C2: Hand-held controller, which serves as a backup solution for controlling the UAV fails and is unable to send commands to the UAV.
+h7 C3: Hand-held controller fails while the software-based GCS is still functioning.
+h8 C4  Hand-held controller fails at the same time as the software-based GCS meaning that there is no means of controlling the UAV.
 h6 C5: Software-based GCS control system fails and is unable to process and/or send commands to UAVs
 
 map h1 h2
@@ -16,12 +16,12 @@ map h5 h7
 map h5 h8
 
 u1 [s] CX5 The human operator doesn't understand the cause of the communication problem.
-u2 [e] CX1 The human operator is unable to control the UAV using the hand-held controller.
-u3 [e] CX4 The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging.
-u4 [s] CX2 The operator is unable to receive status data from the UAVs and loses situational awareness.
-u5 [e] CX3 The operator is unable to send directives to UAVs and loses direct control.
-u7 [e] CX6 The operator is notified that the hand-held controller has failed but is unable to fix the problem during flight.
-u6 [h] CX7 The RCPIC accidentally deactivates or unplugs the communication device such as a dongle or antenna causing loss of communication.
+u2 [e] CX2 The human operator is unable to control the UAV using the hand-held controller.
+u3 [e] CX6 The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging.
+u4 [s] CX3 The operator is unable to receive status data from the UAVs and loses situational awareness.
+u5 [e] CX5 The operator is unable to send directives to UAVs and loses direct control.
+u7 [e] CX1 The operator is notified that the hand-held controller has failed but is unable to fix the problem during flight.
+u6 [h] CX4 The RCPIC accidentally deactivates or unplugs the communication device such as a dongle or antenna causing loss of communication.
 
 map h4 u3
 map h3 u4
