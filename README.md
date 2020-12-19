@@ -15,14 +15,14 @@ For each identified human-sUAS interaction point, we explore four specific types
 
 | Hazard Group | Description |Link to Hazard Information ||
 |:--|:--| :--|:--|
-|Collisions| Hazards related to collisions between multiple UAVs and/or UAVs and other objects|[collisions.md](human-interaction-hazards/collisions.md)|:heavy_check_mark:|
-|Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)|:heavy_check_mark:||
-|Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)|:heavy_check_mark:|
-|Mission Awareness|Hazards associated with general situational awareness and operator empowerment during a mission| [missionawareness.md](human-interaction-hazards/missionawareness.md)|:heavy_check_mark:|
-|Mission Planning| Hazards related to planning and managing flight routes |[missionplanning.md](human-interaction-hazards/missionplanning.md)|:heavy_check_mark:|
-|Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)|:heavy_check_mark:|
-|Regulatory Compliance| Hazards related to flight authorization and other regulations|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|:heavy_check_mark:|
-|Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)|:heavy_check_mark:||
+|HG1 - Collisions| Hazards related to collisions between multiple UAVs and/or UAVs and other objects|[collisions.md](human-interaction-hazards/collisions.md)|:heavy_check_mark:|
+|HG2 - Communication| Loss of communication with the UAV |[communication.md](human-interaction-hazards/communication.md)|:heavy_check_mark:||
+|HG3 - Hardware/Sensors| Hardware and sensors |[sensors.md](human-interaction-hazards/sensors.md)|:heavy_check_mark:|
+|HG4 - Mission Awareness|Hazards associated with general situational awareness and operator empowerment during a mission| [missionawareness.md](human-interaction-hazards/missionawareness.md)|:heavy_check_mark:|
+|HG5 - Mission Planning| Hazards related to planning and managing flight routes |[missionplanning.md](human-interaction-hazards/missionplanning.md)|:heavy_check_mark:|
+|HG6 - Preflight Configuration|Prelaunch hazards|[preflightchecks.md](human-interaction-hazards/preflightchecks.md)|:heavy_check_mark:|
+|HG7 - Regulatory Compliance| Hazards related to flight authorization and other regulations|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|:heavy_check_mark:|
+|HG8 - Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)|:heavy_check_mark:||
 
 
 
