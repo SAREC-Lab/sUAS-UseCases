@@ -13,8 +13,7 @@ Return to [hazard list](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human initiated error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of empowerment to intervene
 
-### <sub>[![](human-interaction-hazards/icons/e-icon.PNG)](#) </sub> SX1: The UAV hovers in the sky and is unresponsive to operator commands
-  
+###  <sub>[![](icons/e-icon.PNG)]()</sub> SX1: The UAV hovers in the sky and is unresponsive to operator commands
 | Hazard addressed | Context | Solution |
 |:--|:--|:--|
 |SX1-S1|In-Air|The position and expected behavior of the UAV shall be monitored continuously. If a UAV does not behave accoring to its last command (e.g., not moving when ordered to fly to a waypoint), the system shall display a warning message and suggest to re-send the previous command.|
