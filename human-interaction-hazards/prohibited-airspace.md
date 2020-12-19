@@ -1,4 +1,4 @@
-# Hazard Tree: Regulatory compliance
+# Hazard Tree: Regulatory Compliance
 
 **Description** 
 
