@@ -10,6 +10,8 @@ Return to [hazard list](../README.md)<br>
 
 <sub>![](icons/h-icon.PNG)</sub> = Human Initiated Error, <sub>![](icons/s-icon.PNG)</sub> =Loss of Situational Awareness, <sub>![](icons/e-icon.PNG)</sub> = Lack of Empowerment to Intervene
 
+## Human-Drone Interaction Hazards 
+
 ## <sub>![](icons/e-icon.PNG)</sub>CX1: The operator is notified that the hand-held controller has failed, but is unable to fix the problem during flight</a> 
 
 
@@ -17,6 +19,8 @@ Return to [hazard list](../README.md)<br>
 |:--|:--|:--|
 |CX1-S1|In flight, Hand-held controller is serves as backup|When the hand-held controller, serving as a backup controller fails, the operator will utilize the software-based ground control station to issue either an RTL or a LAND command for the UAV.|
 |CX1-S2|In flight, Hand-held controller serves as backup| Where the UAV is performing a critical irreplaceable task (e.g., tracking a victim), the operator may decide to dispatch a replacement UAV before recalling the one with the non-functioning hand-held controller.|
+
+<br><br>
 
 ##  <sub>![](icons/e-icon.PNG)</sub> CX2: The human operator is unable to control the UAV using the hand-held controller</a> 
 
@@ -28,6 +32,8 @@ One way RPICs communicate with their sUAS by sending commands through a hand-hel
 |CX2-S2|Redundant controllers exist (i.e., hand-held + software system) and the operator is using the hand-held device because communication from the software system has failed. |As in the previous example, the RPICs needs situational awareness of onboard mitigations (e.g., geofence location and configurations, failsafe mechanisms). This information should be cached in the ground-based computer immediately following initial configuration so that it can be retrieved upon request|
 |CX2-S3|Same context as CX1-S2|The UI must provide the capability to display the cached geofence, failsafe mechanisms, and their configurations upon demand|
 
+<br><br>
+
 ## <sub>![](icons/s-icon.PNG)</sub> CX3: The human operator is unable to receive status data from the UAVs using the software-based system.</a>
 
 Due to loss of signal no data is transmitted from the UAV.
@@ -38,11 +44,15 @@ Due to loss of signal no data is transmitted from the UAV.
 |CX3-S3|Same as CX2-S1|Information should be provided in the UI on how much time since the last contact with the UAV has elapsed. |
 |CX3-S4|Same as CX2-S1|Each loss of signal must be logged in the respective flight log (including time of occurence and duration of the signal loss). |
 
+<br><br>
+
 ## <sub>![](icons/h-icon.PNG)</sub> CX4: The RPIC accidentially deactivates the communication device (dongle or antenna)</a> 
 
 | <img width=120/> | Context | Solution |
 |:--|:--|:--|
 |CX4-S1|In-Air|If a communication loss between the software system and the UAV is detected, the sytem shall immediately notify the RPIC and display a warning message and instructions on how to activate the backup (hand-held) controller.
+
+<br><br>
 
 ## <sub>![](icons/e-icon.PNG)</sub> CX5: The human operator is unable to send directives to the UAV using the software-based system</a> 
 
@@ -50,6 +60,8 @@ Due to loss of signal no data is transmitted from the UAV.
 |:--|:--|:--|
 |CX5-S1|The software system is the only remote control mechanism.|The RPIC is unable to send commands to the UAV. They need to be aware of onboard mitigations (geofence, failsafe), consider the operating environment (urban vs. rural area, controlled airspace etc), so that they can make an informed decision about whether to immediately report the fly-away event. 
 |CX5-S2|A hand-held redundant controller is available |The system reports loss of signal and the human operator attempts to take over manual control using the hand-held controller|
+
+<br><br>
 
 ##  <sub>![](icons/e-icon.PNG)</sub> CX6: The operator cannot rely on forwarding of messages to remote UAVs via UAV-to-UAV messaging</a>
 
@@ -59,6 +71,8 @@ When in-air communication infrastructure fails the operator may need to communic
 |:--|:--|:--|
 |CX6-S1|In-air communication infrastructure| A warning must be display notifying the operator that in-air messaging is offline.
 |CX6-S2|Same as CX4-S1|Loss loss of in-air messaging must be logged in the respective flight log (including time of occurence and duration of the communication loss).
+
+<br><br>
 
 ## <sub>![](icons/s-icon.PNG)</sub> CX7: The human operator doesn't understand the cause of the communication problem</a> 
 
