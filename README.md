@@ -2,6 +2,12 @@
 
 The following hazards have been derived from a systematic study of publications reporting safety analyses techniques applied to the domain of small Unmanned Aerial Vehicles. They are supported by a [glossary of terms](glossary.md).  We are currently [eliciting feedback](feedback.md) on this hazard trees.
 
+For a detailed description of the process and the different Hazard Catetories please see our paper [Hazard Analysis for Human-on-the-LoopInteractions in sUAS Systems](FSE_2021_HumanInteractionPoints_AcceptedVersion.pdf) at the 29th ACM Joint European Software Engineering Conference and Symposium on the
+Foundations of Software Engineering
+
+
+
+
 ### Hazard Types
 
 We have organized them into trees of related hazards. Our focus here is on exploring human-drone interaction hazards. Usage suggestions can be found [here](usage.md).
