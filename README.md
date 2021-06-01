@@ -8,7 +8,7 @@ Foundations of Software Engineering
 
 If you would like to use these Hazard Trees we ask you to reference our paper:
 
-Michael Vierhauser, Md Nafee Al Islam, Ankit Agrawal, Jane Cleland-Huang,and James Mason. 2021. Hazard Analysis for Human-on-the-Loop Inter-actions in sUAS Systems. InProceedings of the 29th ACM Joint EuropeanSoftware Engineering Conference and Symposium on the Foundations of Soft-ware Engineering (ESEC/FSE ’21), August 23–27, 2021, Athens, Greece.ACM,New York, NY, USA, 12 pages. https://doi.org/10.1145/3468264.3468534
+Michael Vierhauser, Md Nafee Al Islam, Ankit Agrawal, Jane Cleland-Huang,and James Mason. *Hazard Analysis for Human-on-the-Loop Inter-actions in sUAS Systems.* In Proceedings of the 29th ACM Joint EuropeanSoftware Engineering Conference and Symposium on the Foundations of Soft-ware Engineering (ESEC/FSE ’21). ACM,New York, NY, USA, 12 pages. https://doi.org/10.1145/3468264.3468534
 
 
 ### Hazard Types
