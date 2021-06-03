@@ -33,6 +33,17 @@ For each identified human-drone interaction point, we explore four specific type
 |HG7 - Regulatory Compliance| Hazards related to flight authorization and other regulations|[prohibited-airspace.md](human-interaction-hazards/prohibited-airspace.md)|:heavy_check_mark:|
 |HG8 - Weather related| Weather related hazards |[weather.md](human-interaction-hazards/weather.md)|:heavy_check_mark:||
 
+
+### Dataset
+
+We provide a hierarchical structured Hazard Tree for each of the groups as described above.
+In addition to the graphical representation, we provide a textual representation of all trees as a dataset. Text files can be found in the folder [trees](/trees).
+The dataset contains the same information as shown in the hazard trees on GitHub and information is encoded as follows:
+
+System hazards are marked with the prefix ``h`` (e.g., h1) and user-interaction hazards are named according to their group (e.g. ``wx1`` for a user-interaction hazard in the hazard group weather), and are taged with the hazard type (e.g., ``[h]`` for human initiaed error).
+The hierarchy is established via the map tag (e.g., ``map h1 h2`` means that ``h2`` is a child hazard of ``h1``)
+
+
 [Return to Dataset overview](https://github.com/SAREC-Lab/sUAS-UseCases/blob/master/README.md)
 
 
