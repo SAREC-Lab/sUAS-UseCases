@@ -8,4 +8,4 @@ Datasets include:
 |--|--|-------------                    |--                              |-- |  
 | DS1          | Released | Use cases for sUAS missions | https://github.com/SAREC-Lab/sUAS-UseCases/blob/SPLC-2020/README.md | [SPLC 2020](../SPLC-2020/SPLC2020.txt)|
 | DS2          | Released | Human interaction safety analysis and hazards | https://github.com/SAREC-Lab/sUAS-UseCases/blob/FSE2021-HumanInteractionHazards/README.md| FSE 2021|
-| AWPX4HX-2023  |In progress. Planned Dec. 15, 2023  | Annotated, all season flight logs and environmental data collected from Hexacopters running PX4 | link to repo | Link to referencerable paper|
+| AWPX4HX-2023  |In progress. Planned Dec. 15, 2023  | Annotated, all season flight logs and environmental data collected from Hexacopters running PX4 | https://github.com/SAREC-Lab/AWPX4HX-2023/blob/main/README.md | Link to AVIATION paper.|
