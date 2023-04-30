@@ -1,4 +1,4 @@
-# Software Engineering Datasets for Small Unmanned Aerial Systems
+# Datasets for Small Unmanned Aerial Systems
 
 This repository hosts a number of datasets related to use-cases, safety assurance, and runtime monitoring Small Unmanned Aerial Systems (sUAS).
 
