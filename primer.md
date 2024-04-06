@@ -21,4 +21,4 @@ Complexity arises when multiple environmental assumptions interact, as in the ca
 
 ### Managing Environmentally Complex Requirements
 
-The interplay between functional requirements, assumptions, and runtime monitors can create a complex specification, analysis, and validation landscape...
+The interplay between functional requirements, assumptions, and runtime monitors can create a complex specification, analysis, and validation landscape. We define "environmentally complex" requirements as those contextualized by their environment and influenced by multiple interrelated assumptions.
