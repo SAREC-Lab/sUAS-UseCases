@@ -1,9 +1,9 @@
-# Introduction
+# Environmental Assumptions
 
 Cyber-Physical Systems (CPS) depend heavily on their surrounding environment, including software components, regulations, user interactions, and devices like sensors. It's crucial for developers to document their assumptions about the operating environment. Not doing so can lead to system failures, as highlighted by numerous accident reports. An example is the 1993 Airbus incident, where the plane failed to brake due to a false assumption about its airborne status.
 
 
-## Environmental Assumptions
+## Examples from an infant incubator
 
 We illustrate the use of environmental assumption through an example based upon an infant incubator.
 
