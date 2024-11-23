@@ -1,6 +1,6 @@
 # CanaryTree Monitoring Framework
 
-![CanaryTree Diagram](CanaryTree.png)
+<img src="CanaryTree.png" alt="CanaryTree Diagram" width="600">
 ---
 
 ## L1: Canary
