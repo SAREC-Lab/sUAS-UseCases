@@ -1,0 +1,243 @@
+# CanaryTree Monitoring Framework
+
+---
+
+## L1: Canary
+
+##### The Canary node continually runs in the background to detect either vibration or attitude-related anomalies. Together, these two types of anomalies are early indicators of other commonly occurring anomalies. They therefore serve as an early-warning canary, resulting in the triggering of next-level anomalies.
+
+### Vibration
+##### Vibration anomalies serve as early indicators of mechanical or structural issues. Excessive vibration can stem from propeller imbalances, motor issues, or loose components, which may degrade sensor accuracy, particularly in IMUs (Inertial Measurement Units). These degraded measurements can cause cascading failures in state estimation, navigation, and control systems.
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `VIBE.{VibeX, VibeY, VibeZ}`<br>Values > 30 ms²                       |
+| **PX4**      | `sensor_accel`<br>Std dev > 30 ms²                                     |
+
+- **Parent Links**: None (Root Node)
+- **Child Links**: L2_EKF, L2_Interference, L2_RCOutput
+
+---
+
+### Attitude
+##### Attitude anomalies highlight discrepancies between the drone's actual orientation and its desired orientation, often caused by external disturbances, faulty sensors, or control system errors. Significant divergence in roll, pitch, or yaw can lead to instability or loss of control. 
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `ATT.{Roll, Pitch, Yaw}`, `ATT.Des{Roll, Pitch, Yaw}`<br>Divergence > 10° |
+| **PX4**      | `vehicle_attitude`, `vehicle_attitude_setpoint`<br>Divergence > 10°     |
+
+- **Parent Links**: None (Root Node)
+- **Child Links**: L2_EKF, L2_Interference, L2_RCOutput
+
+---
+
+## L2: EKF
+##### The Extended Kalman Filter (EKF) contains numerous attributes that serve as intermediate indicators of other problems. It is typically not itself the source of a problem but rather highlights anomalies in state estimation, such as sensor inconsistencies or environmental influences. This node therefore serves as an intermediate node that triggers child detectors without directly diagnosing problems.
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `EKF3.{IP, IV, IM}`<br>`EKF4.{SP, SV, SM, SH, SVT}`<br>`EKF3.IP, IV` outside [-1,1]<br>`EKF4` outside [-0.5, 0.5] |
+| **PX4**      | `estimator_innovations[:]`<br>Innovations outside [-1,1]               |
+
+- **Parent Links**: L1_Canary
+- **Child Links**: L3_Pressure, L3_Compass, L3_GPS
+
+---
+
+## L2: Interference
+##### Compass interference on drones typically occurs when the onboard magnetometer (commonly referred to as the compass) is affected by electromagnetic fields (EMFs) or magnetic sources in the vicinity of the drone. This interference can lead to incorrect heading readings, causing navigation and control issues.
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `CTUN.ThO`, `MAG.{MagX, MagY, MagZ}`<br>`MAG-ThO corr > 50%`          |
+| **PX4**      | `sensor_mag.{x, y, z}`, `actuator_control[3]`<br>`Corr > 50%`         |
+
+- **Parent Links**: L1_Canary
+- **Child Links**: L3_Compass, L3_GPS
+
+---
+
+## L2: RC Output
+##### RC output errors indicate extreme compensations by the flight controller, such as PWM channels reaching their limits. These errors often result from mechanical issues like motor or propeller failures, control system instability, or environmental disturbances such as strong winds. Detecting RC output anomalies early helps prevent escalating instability or complete loss of control in the drone's operation.
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `RCOU.{C1:C6}`<br>Channels reach min/max PWM                         |
+| **PX4**      | `actuator_outputs[0:5]`<br>Outputs reach min/max PWM                  |
+
+- **Parent Links**: L1_Canary
+- **Child Links**: L3_GPS, L3_LM, L3_Alt, L3_Power, L3_CTUN
+
+---
+
+## L3: Barometric pressure
+##### The Pressure node monitors the barometric sensor, which provides critical altitude data for the drone's stability and navigation. Alerts are triggered by sudden pressure changes, discrepancies between barometric and GPS altitude, or sensor health flags (e.g., BARO_HEALTH in ArduPilot or BARO_FAIL in PX4). Anomalies in barometric pressure can disrupt altitude estimation, directly impacting the EKF and overall flight stability.
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L2_EKF
+- **Child Links**: None
+
+---
+
+## L3: Compass
+### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L2_EKF, L2_Interference
+- **Child Links**: None
+
+---
+
+## L3: GPS
+### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `GPS.{NSats, HDop}`<br>NSats < 12 or HDop > 1.2                      |
+| **PX4**      | `vehicle_gps_position.{satellites_used, hdop, vdop, noise, jamming}`<br>Satellites < 12 or hdop > 1.2<br>vdop > 2 or noise > 120<br>jamming > 40 |
+
+- **Parent Links**: L2_EKF, L2_Interference, L2_RCOutput
+- **Child Links**: L4_LP, L4_Nav, L4_Gyro, L4_Command, L4_DM
+
+---
+
+## L3: LM
+### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L2_RCOutput
+- **Child Links**: None
+
+---
+
+## L3: Altitude
+### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L2_RCOutput
+- **Child Links**: L4_Command, L4_DM
+
+---
+
+## L3: Power
+### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** | `BAT.{Curr, Volt}`<br>Slope < -0.05                                   |
+| **PX4**      | `battery_status.{voltage_v, current_a}`<br>Slope < -0.05              |
+
+- **Parent Links**: L2_RCOutput
+- **Child Links**: L4_Tuning
+
+---
+
+## L3: CTUN
+### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L2_RCOutput
+- **Child Links**: L4_Tuning
+
+---
+
+## L4: Leaf Nodes
+### LP
+#### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L3_GPS
+- **Child Links**: None
+
+### Nav
+#### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L3_GPS
+- **Child Links**: None
+
+### Gyro
+#### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L3_GPS
+- **Child Links**: None
+
+### Command
+##### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L3_GPS, L3_Altitude
+- **Child Links**: None
+
+### DM
+#### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L3_GPS, L3_Altitude
+- **Child Links**: None
+
+### Tuning
+#### Description
+TBD
+
+| **Platform** | **Rules for Triggering Alert**                                         |
+|--------------|------------------------------------------------------------------------|
+| **ArduPilot** |                                                                        |
+| **PX4**      |                                                                        |
+
+- **Parent Links**: L3_Power, L3_CTUN
+- **Child Links**: None
+
