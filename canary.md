@@ -1,4 +1,6 @@
-# CanaryTree Monitoring Framework
+# Hierarchical Anomaly Detection in small Uncrewed Aerial Systems using a Metaphoric Canary
+
+##### Canaries in this framework act as early-warning indicators for potential drone anomalies, much like their historical use in coal mines to detect harmful gases. They monitor key parameters such as vibration, attitude, and other critical subsystems that can cascade into larger failures if left unchecked. By detecting deviations in these parameters, the system can trigger targeted diagnostics, helping to identify underlying issues like mechanical faults, sensor errors, or environmental disturbances.
 
 <img src="CanaryTree.png" alt="CanaryTree Diagram" width="600">
 ---
