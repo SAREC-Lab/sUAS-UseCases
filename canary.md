@@ -3,11 +3,10 @@
 ##### Canaries in this framework act as early-warning indicators for potential drone anomalies, much like their historical use in coal mines to detect harmful gases. They monitor key parameters such as vibration, attitude, and other critical subsystems that can cascade into larger failures if left unchecked. By detecting deviations in these parameters, the system can trigger targeted diagnostics, helping to identify underlying issues like mechanical faults, sensor errors, or environmental disturbances.
 
 <img src="CanaryTree.png" alt="CanaryTree Diagram" width="600">
----
 
-## L1: Canary
+## L1: Steady State Canary Nodes
 
-##### The Canary node continually runs in the background to detect either vibration or attitude-related anomalies. Together, these two types of anomalies are early indicators of other commonly occurring anomalies. They therefore serve as an early-warning canary, resulting in the triggering of next-level anomalies.
+##### The pink colored canary nodes continually run in the background to detect either vibration or attitude-related anomalies. Together, these two types of anomalies are early indicators of other commonly occurring anomalies. They therefore serve as an early-warning canary, resulting in the triggering of next-level anomalies.
 
 ### Vibration
 ##### Vibration anomalies serve as early indicators of mechanical or structural issues. Excessive vibration can stem from propeller imbalances, motor issues, or loose components, which may degrade sensor accuracy, particularly in IMUs (Inertial Measurement Units). These degraded measurements can cause cascading failures in state estimation, navigation, and control systems.
