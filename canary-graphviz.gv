@@ -1,0 +1,39 @@
+digraph CanaryTree {
+    node [shape=rect, style=filled, fontname="Helvetica", fontsize=16, fillcolor="#F0F8FF", color="black", fixedsize=false, height=0.2]; // Default pale blue-gray fill
+    edge [fontname="Helvetica", fontsize=14, arrowsize=0.6, color="gray"];  // Reduced arrowhead size and gray color
+    ranksep=.4
+    nodesep=.3
+
+    // Nodes
+    L0_Steady [label="Steady State",style="dashed"]
+    L1_Vibration [label="Vibration", fillcolor="#F7C6C7"];  // Warm coral
+    L1_Attitude [label="Attitude", fillcolor="#F7C6C7"];  // Warm coral
+    L2_EKF [label="EKF"];
+    L2_Interference [label="Interference"];
+    L2_RCOutput [label="RC Output"];
+    L3_Pressure [label="Barometric\nPressure"];
+    L3_Compass [label="Compass"];
+    L3_GPS [label="GPS"];
+    L3_LM [label="LM"];
+    L3_Alt [label="Altitude"];
+    L3_Power [label="Power"];
+    L3_CTUN [label="CTUN"];
+    L4_LP [label="Local\nPositioning"];
+    L4_Nav [label="Navigation"];
+    L4_Gyro [label="Gyro"];
+    L4_Command [label="Command"];
+    L4_DM [label="DM"];
+    L4_Tuning [label="Tuning"];
+
+    // Connections
+    L0_Steady -> {L1_Vibration, L1_Attitude} [style="dashed"]
+    L1_Vibration -> {L2_EKF, L2_Interference, L2_RCOutput}
+    L1_Attitude -> {L2_EKF, L2_Interference, L2_RCOutput}
+    L2_EKF -> {L3_Pressure, L3_Compass, L3_GPS}
+    L2_Interference -> {L3_Compass, L3_GPS}
+    L2_RCOutput -> {L3_GPS, L3_LM, L3_Alt, L3_Power, L3_CTUN}
+    L3_GPS -> {L4_LP, L4_Nav, L4_Gyro, L4_Command, L4_DM}
+    L3_Alt -> {L4_Command, L4_DM}
+    L3_Power -> L4_Tuning
+    L3_CTUN -> L4_Tuning
+}
