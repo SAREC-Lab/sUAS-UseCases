@@ -85,8 +85,7 @@ TBD
 ---
 
 ## L3: Compass
-### Description
-TBD
+##### The Compass node monitors the magnetometer, which provides critical heading information. Anomalies may arise from magnetic interference, sensor malfunctions, or calibration issues, potentially leading to incorrect navigation or instability. These errors can propagate to higher-level navigation and control systems.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -99,8 +98,7 @@ TBD
 ---
 
 ## L3: GPS
-### Description
-TBD
+##### The GPS node monitors satellite-based positioning data essential for navigation. Anomalies include low satellite count, high horizontal or vertical dilution of precision (HDOP/VDOP), or signal noise and jamming. These errors can affect position accuracy and timing, compromising overall flight stability.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -113,9 +111,7 @@ TBD
 ---
 
 ## L3: LM
-### Description
-TBD
-
+##### WHAT IS THIS?
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
 | **ArduPilot** |                                                                        |
@@ -127,8 +123,7 @@ TBD
 ---
 
 ## L3: Altitude
-### Description
-TBD
+##### The Altitude node monitors the drone's altitude estimates derived from barometric pressure, GPS, and other sensors. Anomalies can result from sensor drift, environmental factors, or sensor disagreements, leading to flight instability or failure to maintain desired altitude.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -141,8 +136,7 @@ TBD
 ---
 
 ## L3: Power
-### Description
-TBD
+##### The Power node monitors the drone's electrical system, including battery voltage and current. Rapid drops in voltage or abnormal power consumption can indicate battery issues, wiring faults, or overdrawn loads, potentially leading to sudden power loss or flight termination.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -155,8 +149,7 @@ TBD
 ---
 
 ## L3: CTUN
-### Description
-TBD
+##### The CTUN node monitors control tuning parameters and feedback. Anomalies in this node may indicate instability in the drone’s control loops or mismatched control responses, which could affect flight stability and precision.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -169,9 +162,8 @@ TBD
 ---
 
 ## L4: Leaf Nodes
-### LP
-#### Description
-TBD
+### Local Positioning
+##### The LP node monitors the drone's local position estimates, which are essential for navigation and obstacle avoidance. Errors in local positioning can lead to misalignment with the planned trajectory or collisions.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -181,9 +173,8 @@ TBD
 - **Parent Links**: L3_GPS
 - **Child Links**: None
 
-### Nav
-#### Description
-TBD
+### Navigation
+##### The Navigation node monitors navigation commands and feedback to ensure adherence to the planned mission path. Anomalies may indicate control system issues or unexpected environmental influences affecting navigation.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -194,8 +185,7 @@ TBD
 - **Child Links**: None
 
 ### Gyro
-#### Description
-TBD
+##### The Gyro node monitors gyroscopic data critical for angular velocity measurements and drone stabilization. Anomalies in gyro readings can lead to incorrect attitude estimates, resulting in instability.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -206,8 +196,7 @@ TBD
 - **Child Links**: None
 
 ### Command
-##### Description
-TBD
+##### The Command node monitors mission-critical commands such as takeoff, land, or waypoint navigation. Errors in command execution can indicate systemic failures or conflicts in higher-level mission planning.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -218,8 +207,7 @@ TBD
 - **Child Links**: None
 
 ### DM
-#### Description
-TBD
+##### WHAT IS THIS?
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
@@ -230,8 +218,7 @@ TBD
 - **Child Links**: None
 
 ### Tuning
-#### Description
-TBD
+##### The Tuning node monitors the parameters related to drone control tuning. Anomalies may indicate issues with mismatched gains or control feedback loops, leading to oscillations or erratic behavior.
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
