@@ -1,5 +1,6 @@
 # CanaryTree Monitoring Framework
 
+![CanaryTree Diagram](CanaryTree.png)
 ---
 
 ## L1: Canary
