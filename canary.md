@@ -209,8 +209,8 @@ TBD
 - **Parent Links**: L3_GPS, L3_Altitude
 - **Child Links**: None
 
-### DM
-##### WHAT IS THIS?
+### Distance Measure
+##### Unexpected or erroneous deviations in measurements related to distances during UAV operations. These anomalies can stem from a variety of causes and are critical to detect and manage to maintain safe and reliable UAV performance
 
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
