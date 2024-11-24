@@ -112,8 +112,9 @@ TBD
 
 ---
 
-## L3: LM
-##### WHAT IS THIS?
+## L3: Linear Motion
+##### The Linear Motion node monitors the drone's acceleration and velocity along its primary axes. Anomalies in linear motion may indicate external forces, mechanical faults, or inconsistencies in sensor readings, which can affect the drone's stability and trajectory.
+
 | **Platform** | **Rules for Triggering Alert**                                         |
 |--------------|------------------------------------------------------------------------|
 | **ArduPilot** |                                                                        |
