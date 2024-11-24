@@ -14,7 +14,7 @@ digraph CanaryTree {
     L3_Pressure [label="Barometric\nPressure"];
     L3_Compass [label="Compass"];
     L3_GPS [label="GPS"];
-    L3_LM [label="LM"];
+    L3_LM [label="Linear\nMotion"];
     L3_Alt [label="Altitude"];
     L3_Power [label="Power"];
     L3_CTUN [label="CTUN"];
@@ -22,7 +22,7 @@ digraph CanaryTree {
     L4_Nav [label="Navigation"];
     L4_Gyro [label="Gyro"];
     L4_Command [label="Command"];
-    L4_DM [label="DM"];
+    L4_DM [label="Distance\nMeasure"];
     L4_Tuning [label="Tuning"];
 
     // Connections
