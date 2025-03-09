@@ -76,10 +76,10 @@ TBD
 ## L3: Barometric pressure
 ##### The Pressure node monitors the barometric sensor, which provides critical altitude data for the drone's stability and navigation. Alerts are triggered by sudden pressure changes, discrepancies between barometric and GPS altitude, or sensor health flags (e.g., BARO_HEALTH in ArduPilot or BARO_FAIL in PX4). Anomalies in barometric pressure can disrupt altitude estimation, directly impacting the EKF and overall flight stability.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                         |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `BARO.Press`                                                                       |
+| **PX4**      | `sensor_baro.pressure`                                                                       |
 
 - **Parent Links**: L2_EKF
 - **Child Links**: None
@@ -89,10 +89,10 @@ TBD
 ## L3: Compass
 ##### The Compass node monitors the magnetometer, which provides critical heading information. Anomalies may arise from magnetic interference, sensor malfunctions, or calibration issues, potentially leading to incorrect navigation or instability. These errors can propagate to higher-level navigation and control systems.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                        |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `MAG.{MagX, MagY, MagZ, OfsX, OfsY, OfsZ}`                                                                       |
+| **PX4**      |  `sensor_mag.{x, y, z}`                                                                       |
 
 - **Parent Links**: L2_EKF, L2_Interference
 - **Child Links**: None
@@ -115,10 +115,10 @@ TBD
 ## L3: Linear Motion
 ##### The Linear Motion node monitors the drone's acceleration and velocity along its primary axes. Anomalies in linear motion may indicate external forces, mechanical faults, or inconsistencies in sensor readings, which can affect the drone's stability and trajectory.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                        |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `IMU.{AccX, AccY, AccZ}`, `PSC.{TV, V}`                                                                      |
+| **PX4**      | `vehicle_acceleration.xyz`, `position_setpoint.{vx, vy, vz}`                                                                        |
 
 - **Parent Links**: L2_RCOutput
 - **Child Links**: None
@@ -128,10 +128,11 @@ TBD
 ## L3: Altitude
 ##### The Altitude node monitors the drone's altitude estimates derived from barometric pressure, GPS, and other sensors. Anomalies can result from sensor drift, environmental factors, or sensor disagreements, leading to flight instability or failure to maintain desired altitude.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                        |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `BARO.Alt`, `CTUN.Alt`                                                                       |
+| **PX4**      |  `vehicle_gps_position.alt`, `vehicle_air_data.baro_alt_meter`
+                                                                    |
 
 - **Parent Links**: L2_RCOutput
 - **Child Links**: L4_Command, L4_DM
@@ -141,7 +142,7 @@ TBD
 ## L3: Power
 ##### The Power node monitors the drone's electrical system, including battery voltage and current. Rapid drops in voltage or abnormal power consumption can indicate battery issues, wiring faults, or overdrawn loads, potentially leading to sudden power loss or flight termination.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                         |
 |--------------|------------------------------------------------------------------------|
 | **ArduPilot** | `BAT.{Curr, Volt}`<br>Slope < -0.05                                   |
 | **PX4**      | `battery_status.{voltage_v, current_a}`<br>Slope < -0.05              |
@@ -154,10 +155,10 @@ TBD
 ## L3: CTUN
 ##### The CTUN node monitors control tuning parameters and feedback. Anomalies in this node may indicate instability in the drone’s control loops or mismatched control responses, which could affect flight stability and precision.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                       |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `CTUN.{ThO, Alt, DSAlt, SAlt, CRt}`                                                                       |
+| **PX4**      | `actuator_controls.control{:}, vehicle_local_position`                                                                       |
 
 - **Parent Links**: L2_RCOutput
 - **Child Links**: L4_Tuning
@@ -168,10 +169,10 @@ TBD
 ### Local Positioning
 ##### The LP node monitors the drone's local position estimates, which are essential for navigation and obstacle avoidance. Errors in local positioning can lead to misalignment with the planned trajectory or collisions.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                        |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** |  `PSCN.{DPN, PN, DVN, VN}`, `PSCE.{DPE, PE, DVE, VE}`, `PSCD.{DPD, PD, DVD, VD} `                                                                     |
+| **PX4**      | `vehicle_local_position.{x, y, z, vx, vy, vz}`, `vehicle_local_position_setpoint.{x, y, z, vx, vy, vz}`                                                                         |
 
 - **Parent Links**: L3_GPS
 - **Child Links**: None
@@ -179,10 +180,10 @@ TBD
 ### Navigation
 ##### The Navigation node monitors navigation commands and feedback to ensure adherence to the planned mission path. Anomalies may indicate control system issues or unexpected environmental influences affecting navigation.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                         |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** |  `NTUN.{Dist, VelX, DVelX, VelY, AltE} `                                                                     |
+| **PX4**      | `navigator_mission_item.{lat, lon, alt}`, `position_setpoint_triplet.current.{x, y, z, vx, vy, vz}`                                                                     |
 
 - **Parent Links**: L3_GPS
 - **Child Links**: None
@@ -190,10 +191,10 @@ TBD
 ### Gyro
 ##### The Gyro node monitors gyroscopic data critical for angular velocity measurements and drone stabilization. Anomalies in gyro readings can lead to incorrect attitude estimates, resulting in instability.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                           |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `IMU.{GyrX, GyrY, GyrZ}`                                                                       |
+| **PX4**      |  `sensor_gyro.{x, y, z}`                                                                      |
 
 - **Parent Links**: L3_GPS
 - **Child Links**: None
@@ -201,10 +202,10 @@ TBD
 ### Command
 ##### The Command node monitors mission-critical commands such as takeoff, land, or waypoint navigation. Errors in command execution can indicate systemic failures or conflicts in higher-level mission planning.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                         |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `CMD`                                                                        |
+| **PX4**      | `vehicle_command`                                                                       |
 
 - **Parent Links**: L3_GPS, L3_Altitude
 - **Child Links**: None
@@ -212,10 +213,10 @@ TBD
 ### Distance Measure
 ##### Unexpected or erroneous deviations in measurements related to distances during UAV operations. These anomalies can stem from a variety of causes and are critical to detect and manage to maintain safe and reliable UAV performance
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                         |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** | `NTUN. Dist`, `RFND.{Dist, Quality}`                                                                       |
+| **PX4**      | `distance_sensor.{signal_quality, min_distance, max_distance, current_distance, variance}` , `obstacle_distance.distances`                                                                      |
 
 - **Parent Links**: L3_GPS, L3_Altitude
 - **Child Links**: None
@@ -223,10 +224,10 @@ TBD
 ### Tuning
 ##### The Tuning node monitors the parameters related to drone control tuning. Anomalies may indicate issues with mismatched gains or control feedback loops, leading to oscillations or erratic behavior.
 
-| **Platform** | **Rules for Triggering Alert**                                         |
+| **Platform** | **Relevant Data Attributes**                                         |
 |--------------|------------------------------------------------------------------------|
-| **ArduPilot** |                                                                        |
-| **PX4**      |                                                                        |
+| **ArduPilot** |  `ATUN`, `ATDE`                                                                      |
+| **PX4**      |  `rate_ctrl_status.{rollspeed_integ, pitchspeed_integ, yawspeed_integ}`,`vehicle_rates_setpoint.{roll, pitch, yaw}`                                                                      |
 
 - **Parent Links**: L3_Power, L3_CTUN
 - **Child Links**: None
